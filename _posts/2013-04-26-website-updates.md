@@ -4,7 +4,7 @@ status: publish
 published: true
 title: website updates
 author: Alex Chubaty
-date:2013-04-26
+date: 2013-04-26
 ---
 
 I just transferred my hosting away from GoDaddy (good riddance!) and am now self-hosting this site on a [Raspberry Pi](http://www.raspberrypi.org).
