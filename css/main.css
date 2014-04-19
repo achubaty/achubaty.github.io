@@ -4,6 +4,8 @@
 /*
 /*****************************************************************************/
 
+@import  "http://fonts.googleapis.com/css?family=Inconsolata:400,700";
+
 /* Global Reset */
 * {
   margin: 0;
@@ -14,8 +16,8 @@ html, body { height: 100%; }
 
 body {
   background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
-  font-size: small;
+  font-family: 'Inconsolata', sans-serif;
+  font-size: 14px;
   text-align: center;
 }
 
@@ -25,8 +27,8 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
+a         { color: #ac1c1c; }
+a:hover   { color: #ac1c1c; }
 a:visited { color: #a0a; }
 
 /*****************************************************************************/
@@ -95,7 +97,7 @@ a:visited { color: #a0a; }
 }
 
 .footer {
-  font-size: 80%;
+  font-size: 85%;
   color: #666;
   border-top: 4px solid #eee;
   margin-top: 2em;
@@ -120,6 +122,34 @@ a:visited { color: #a0a; }
 .footer .rss img {
   border: 0;
 }
+
+/*****************************************************************************/
+/*
+/* Pages
+/*
+/*****************************************************************************/
+
+/* standard */
+.page pre {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .4em;
+}
+
+.page ul, .post ol {
+  margin-left: 1.35em;
+}
+
+.page code {
+  border: 1px solid #ddd;
+  background-color: #eef;
+  padding: 0 .2em;
+}
+
+.page pre code {
+  border: none;
+}
+
 
 /*****************************************************************************/
 /*
