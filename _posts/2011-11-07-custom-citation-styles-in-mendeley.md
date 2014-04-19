@@ -4,14 +4,7 @@ status: publish
 published: true
 title: Custom Citation Styles in Mendeley
 author: Alex Chubaty
-date: !binary |-
-  MjAxMS0xMS0wNyAxNjowMzozMSAtMDgwMA==
-date_gmt: !binary |-
-  MjAxMS0xMS0wOCAwMDowMzozMSAtMDgwMA==
-categories:
-- Mendeley
-tags: []
-comments: []
+date: 2011-11-07
 ---
 
 I'm an avid user of <a href="http://www.mendeley.com/">Mendeley</a> citation management software (CMS), and am pleased with the capabilities of this cross-platform, open-source, and *free* referencing tool. However, one limitation I've encountered is that it does not have very many citiation styles preinstalled, and although many additional formats are available to download through the Mendeley interface, it does not (yet) provide a built-in style editor to customize citiation styles.

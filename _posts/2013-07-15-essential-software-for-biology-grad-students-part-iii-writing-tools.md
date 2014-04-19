@@ -5,37 +5,7 @@ published: true
 title: ! "\uFEFF\uFEFFEssential software for biology grad students: Part III Writing
   Tools"
 author: Alex Chubaty
-date: !binary |-
-  MjAxMy0wNy0xNSAwNzoxMzo0NSAtMDcwMA==
-date_gmt: !binary |-
-  MjAxMy0wNy0xNSAxNDoxMzo0NSAtMDcwMA==
-categories:
-- LaTeX
-- Software
-- writing
-tags:
-- Markdown
-- Pandoc
-- MS Office
-- Libre Office
-- LaTeX
-comments:
-- id: 9
-  author: Beware the academic hipster (or, use what works for you) UPDATED | The Lab
-    and Field
-  author_email: ''
-  author_url: http://labandfield.wordpress.com/2013/08/08/beware-the-academic-hipster-or-use-what-works-for-you/
-  date: !binary |-
-    MjAxMy0xMS0xNiAwNzoxNDoxNSAtMDgwMA==
-  date_gmt: !binary |-
-    MjAxMy0xMS0xNiAxNToxNDoxNSAtMDgwMA==
-  content: ! '[&#8230;] Fast-forward a few years.  Now, everyone should be using markdown
-    in a plain text editor, doing statistics in R, uploading versions to github or
-    figshare, and managing citations with JabRef, BibTex or Mendeley.  Apparently,
-    Word, Excel, Endnote, and SPSS are things of the past.  Special sessions at the
-    2013 Ecological Society of America meeting seem to be the nail in the proverbial
-    coffin.  Some are even calling these new tools essential pieces of software for
-    students. [&#8230;]'
+date: 2013-07-15
 ---
 
 Whenever I used to sit down in front of the computer to write anything other than an email, I would immediately open Microsoft Word and start clacking away on the keyboard. When I switched operating systems (away from Windows) I began using Open Office Writer and even now I still use Libre Office Writer for some of my writing needs. Each of these word processors offer similar sets of tools and can effectively be used for a wide range of writing tasks, from letters to essays, yet I feel most people use Word not because it's always the best tool for the job, but because it's ubiquitous and familiar.

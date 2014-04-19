@@ -4,41 +4,7 @@ status: publish
 published: true
 title: Abbreviated Journal Names in Mendeley [updated]
 author: Alex Chubaty
-date: !binary |-
-  MjAxMi0wMi0wOSAxNjoxNDozNiAtMDgwMA==
-date_gmt: !binary |-
-  MjAxMi0wMi0xMCAwMDoxNDozNiAtMDgwMA==
-categories:
-- Mendeley
-tags: []
-comments:
-- id: 1
-  author: ARB
-  author_email: aurelie.boissezon@unige.ch
-  author_url: ''
-  date: !binary |-
-    MjAxMy0wNi0xOSAwNDoyMzowMCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMy0wNi0xOSAxMToyMzowMCAtMDcwMA==
-  content: ! "Hello!  thanks for this helpful article! But I have a problem whith
-    the command \"chmod\". The terminal give an error message: 'chmod\" is not recognized
-    as an internal or external command ... Do you know how to fix this problem? \n\nThanks!
-    \n\nARB"
-- id: 2
-  author: Alex Chubaty
-  author_email: alex.chubaty@gmail.com
-  author_url: http://alexchubaty.com/
-  date: !binary |-
-    MjAxMy0wNi0yMCAwMDozMDowMCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMy0wNi0yMCAwNzozMDowMCAtMDcwMA==
-  content: ! 'chmod is standard for unix/linux systems.
-
-    1) what operating system are you running? as mentioned in the post, these instructions
-    won''t work for windows.
-
-    2) if you are on a *nix machine, did you enter the command exactly as it appears
-    (e.g., no added characters, like quotes)?'
+date: 2012-02-09
 ---
 
 *UPDATE: I just posted [an update]({% post_url 2013-06-20-more-on-journal-abbreviations-in-mendeley %}). This feature is coming soon to Mendeley!*
@@ -86,7 +52,7 @@ To get this working yourself, follow the steps below:
 
     ```
     ./script.pl /path/to/masterlist.txt /path/to/bibfile1.bib [/path/to/bibfile2.bib ...]
-```
+    ```
 
 - Sit back and wait (it may take a while to run, especially with a large library!).
 - Open Mendeley back up, go to '*View*' --> '*Citation Style*' --> '*More Styles...*' and select a citation format that uses abbreviated journal names (e.g., Vancouver). You should now be able to generate bibliographies in Word and Open(Libre)Office documents with abbrev j names!*

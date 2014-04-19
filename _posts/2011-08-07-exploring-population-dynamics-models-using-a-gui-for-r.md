@@ -4,14 +4,7 @@ status: publish
 published: true
 title: Exploring Population Dynamics Models using a GUI for R
 author: Alex Chubaty
-date: !binary |-
-  MjAxMS0wOC0wNyAxNTo1ODo0NyAtMDcwMA==
-date_gmt: !binary |-
-  MjAxMS0wOC0wNyAyMjo1ODo0NyAtMDcwMA==
-categories:
-- R
-- population dynamics
-- teaching tools
+date: 2011-08-07
 ---
 
 ### Backstory

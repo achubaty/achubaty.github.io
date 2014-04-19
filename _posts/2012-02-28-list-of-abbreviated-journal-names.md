@@ -4,14 +4,7 @@ status: publish
 published: true
 title: list of abbreviated journal names
 author: Alex Chubaty
-date: !binary |-
-  MjAxMi0wMi0yOCAyMTowODoxMyAtMDgwMA==
-date_gmt: !binary |-
-  MjAxMi0wMi0yOSAwNTowODoxMyAtMDgwMA==
-categories:
-- Mendeley
-tags: []
-comments: []
+date: 2012-02-28
 ---
 
 As a followup to my [previous post]({% post_url 2012-02-09-abbreviated-journal-names-in-mendeley-updated%}), I wrote a script to generate the master list of journal names and their abbreviations from Web of Science.
@@ -22,8 +15,8 @@ At the bottom of the script is a list of my custom journal names and abbreviatio
 
 To run the script:
 
--save it to the *jabbrev* directory;
--open a terminal and type:
+- save it to the *jabbrev* directory;
+- open a terminal and type:
 
     ```
     cd path/to/jabbrev

@@ -5,14 +5,7 @@ published: true
 title: ! 'Essential software for biology grad students: Part II Backups and Version
   Control'
 author: Alex Chubaty
-date: !binary |-
-  MjAxMy0wNy0xMSAwOToxMzo1MiAtMDcwMA==
-date_gmt: !binary |-
-  MjAxMy0wNy0xMSAxNjoxMzo1MiAtMDcwMA==
-categories:
-- Software
-tags: []
-comments: []
+date: 2013-07-11
 ---
 
 ## Always. Back up. Your data.

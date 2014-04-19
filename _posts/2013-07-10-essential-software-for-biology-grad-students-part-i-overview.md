@@ -4,24 +4,7 @@ status: publish
 published: true
 title: ! 'Essential software for biology grad students: Part I Overview'
 author: Alex Chubaty
-date: !binary |-
-  MjAxMy0wNy0xMCAxODoyNToyNCAtMDcwMA==
-date_gmt: !binary |-
-  MjAxMy0wNy0xMSAwMToyNToyNCAtMDcwMA==
-categories:
-- Software
-tags: []
-comments:
-- id: 8
-  author: Erfan
-  author_email: erfanv@gmail.com
-  author_url: ''
-  date: !binary |-
-    MjAxMy0wNy0xMCAxOToyMDowMCAtMDcwMA==
-  date_gmt: !binary |-
-    MjAxMy0wNy0xMSAwMjoyMDowMCAtMDcwMA==
-  content: Sweave! Holy crap... I just read about it and already look forward to this.  Great
-    idea Alex.
+date: 2013-07-10
 ---
 
 When I started grad school, I had no idea at the time just how much I'd learn doing a PhD. I'm not just talking about the "big picture" stuff: how to do research, design and conduct experiments, analyze data, and synthesize information. I mean all of the day-to-day skills associated with academic writing, data entry, and organization.

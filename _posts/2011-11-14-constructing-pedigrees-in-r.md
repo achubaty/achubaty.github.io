@@ -4,15 +4,7 @@ status: publish
 published: true
 title: Constructing Pedigrees in R
 author: Alex Chubaty
-date: !binary |-
-  MjAxMS0xMS0xNCAxNjo0Mzo1OCAtMDgwMA==
-date_gmt: !binary |-
-  MjAxMS0xMS0xNSAwMDo0Mzo1OCAtMDgwMA==
-categories:
-- R
-- genetics
-tags: []
-comments: []
+date: 2011-11-14
 ---
 
 I was looking for a good way to draw pedigrees using software, without having to fuss drawing them "by hand" using a drawing program. Lo and behold, I came across a few different packages in R that allow me to do just that!
