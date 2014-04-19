@@ -27,15 +27,18 @@ h1 {
 }
 
 h2 {
-  font-size: 110%;
+  font-size: 115%;
+  margin-top: 10px;
 }
 
 h3 {
-  font-size: 100%;
+  font-size: 110%;
+  margin-top: 10px;
 }
 
 h4 {
-  font-size: 100%;
+  font-size: 105%;
+  margin-top: 5px;
 }
 
 h5 {
