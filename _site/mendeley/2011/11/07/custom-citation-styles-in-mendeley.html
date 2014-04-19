@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Custom Citation Styles in Mendeley</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+
+    <body>
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">Alex M. Chubaty</a></h1>
+             <a href='/' class="extra">Home</a>
+             <a href='/blog.html' class="extra">Blog</a>
+             <a href='/research.html' class="extra">Research</a>
+             <a href='/teaching.html' class="extra">Teaching</a>
+             <a href='/publications.html' class="extra">Publications</a>
+             <a href='/curriculum-vitae.html' class="extra">CV</a>
+             <a href='/links.html' class="extra">Links</a>
+          </div>
+
+          <h2>Custom Citation Styles in Mendeley</h2>
+<p class="meta">07 Nov 2011</p>
+
+<div class="post">
+<p>I&#39;m an avid user of <a href="http://www.mendeley.com/">Mendeley</a> citation management software (CMS), and am pleased with the capabilities of this cross-platform, open-source, and <em>free</em> referencing tool. However, one limitation I&#39;ve encountered is that it does not have very many citiation styles preinstalled, and although many additional formats are available to download through the Mendeley interface, it does not (yet) provide a built-in style editor to customize citiation styles.</p>
+
+<p>Fortunately, Mendeley uses <a href="http://citationstyles.org/">Citation Style Language v1.0</a> (CSL) which is also used by <a href="http://www.zotero.org/">Zotero</a> and other CMSs, so not only is it possible to find thousands more citiation styles (e.g., using the <a href="http://www.zotero.org/styles">Zotero Style Repository</a>), but it&#39;s also easy to create custom CSL files!</p>
+
+<p><a href="http://www.mendeley.com/blog/research-tutorials/howto-edit-citation-styles-for-use-in-mendeley/">This tutorial on the Mendeley blog</a> shows you the basics, although note that for Windows 7, the custom style directory is actually located at</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">C:\Users\&lt;USERNAME&gt;\AppData\Local\Mendeley Ltd\Mendeley Desktop\citationStyles-1.0
+</code></pre></div>
+<p>Using the Vancouver style as a template, I easily created a custom citation style for the Open Forest Science Journal, which required modifying a copy of the <em>vancouver.csl</em> file:</p>
+
+<p>To get the numbered citations in text to be displayed using square brackets &quot;[]&quot; rather than round brackets &quot;()&quot;, I changed line 120 from:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">&lt;layout prefix=&quot;(&quot; suffix=&quot;)&quot; delimiter=&quot;,&quot;&gt;
+</code></pre></div>
+<p>to</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">&lt;layout prefix=&quot;[&quot; suffix=&quot;]&quot; delimiter=&quot;,&quot;&gt;
+</code></pre></div>
+<p>Also, to get the square brackets to show up around the numbers in the bibliography I changed line 126 from:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">&lt;text variable=&quot;citation-number&quot; suffix=&quot;. &quot;/&gt;
+</code></pre></div>
+<p>to</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">&lt;text variable=&quot;citation-number&quot; prefix=&quot;[&quot; suffix=&quot;] &quot;/&gt;
+</code></pre></div>
+<p>That&#39;s it! Pretty simple stuff. You can download the modified file here: <a href="/uploads/2011/11/open-forest-science-journal.csl">open-forest-science-journal</a>.</p>
+
+</div>
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                <b>Alex M. Chubaty, PhD</b><br />
+                Postdoctoral Researcher
+              </p>
+
+              <p>
+                Pacific Forestry Centre<br />
+                506 Burnside Road W<br />
+                Victoria, BC  V8Z 1M5<br />
+              </p>
+            </div>
+            
+            <div class="contact">
+              <p>
+                &nbsp;<br />
+                &nbsp;<br />
+              </p>
+              
+              <p>
+                office phone: +1.250.298.2347<br />
+                email: <a href="mailto:achubaty@nrcan.gc.ca">achubaty@nrcan.gc.ca</a>
+              </p>
+            </div>
+            
+            <div class="contact">
+              <p>
+                &nbsp;<br />
+                &nbsp;<br />
+              </p>
+              
+              <p>
+                <a href="https://github.com/achubaty">github.com/achubaty</a><br />
+                <a href="https://twitter.com/alexchubaty">twitter.com/alexchubaty</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Abbreviated Journal Names in Mendeley [updated]</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+
+    <body>
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">Alex M. Chubaty</a></h1>
+             <a href='/' class="extra">Home</a>
+             <a href='/blog.html' class="extra">Blog</a>
+             <a href='/research.html' class="extra">Research</a>
+             <a href='/teaching.html' class="extra">Teaching</a>
+             <a href='/publications.html' class="extra">Publications</a>
+             <a href='/curriculum-vitae.html' class="extra">CV</a>
+             <a href='/links.html' class="extra">Links</a>
+          </div>
+
+          <h2>Abbreviated Journal Names in Mendeley [updated]</h2>
+<p class="meta">09 Feb 2012</p>
+
+<div class="post">
+<p><em>UPDATE: I just posted <a href="/mendeley/2013/06/20/more-on-journal-abbreviations-in-mendeley.html">an update</a>. This feature is coming soon to Mendeley!</em></p>
+
+<p>Several journals require abbreviated journal names, but as of yet Mendeley doesn&#39;t make this possible. Or so I thought. After coming across <a href="http://simply-p450s.blogspot.com/2012/01/journal-abbreviations-in-mendeley.html">this blog post</a> I decided to try to get this functionality working on my computers.</p>
+
+<p>To summarize, you can get Mendeley to read in a list of abbreviated journal names by:</p>
+
+<ul>
+<li>creating a folder inside the Mendeley data  directory called &#39;<em>journalAbbreviations</em>&#39;;</li>
+<li>placing a formatted text file named &#39;<em>default.txt</em>&#39; inside this directory. Each line of this text file needs to contain the full name of the journal, a tab character, and the abbreviated journal name.</li>
+</ul>
+
+<p>&quot;Easy&quot;, I thought. All I needed was to find a list of full journal names and their abbreviations for my field and make sure it was formatted correctly. Turns out the few lists I did find were incomplete: they didn&#39;t have all the journals I cite. I don&#39;t want to have to maintain a text file by hand, so I looked to a more &quot;automated&quot; approach, outlined below.</p>
+
+<p>I use both BibTeX and Mendeley for my references, and have setup Mendeley to automagically update and maintain my bibliography (<em>.bib</em>) files. This is key to obtaining a list of the journals I use - I extracted this info from the <em>.bib</em> files and compared this list of journals against the master list to get the abbreviations.</p>
+
+<p>First, <del>I obtained (by hand, sadly) a list of all the ISI journals indexed by Web of Science from <a href="http://images.webofknowledge.com/WOK46/help/WOS/A_abrvjt.html" target="_blank">this site</a>. I copy/pasted all the journals into a text file named &#39;<em>masterlist.txt</em>&#39;.</del> I wrote a script to generate a master list of all journal names and their abbreviations from Web of Science (<a href="/mendeley/2012/02/28/list-of-abbreviated-journal-names.html">see this post</a>). This file is pretty big, and not very helpful at that point. I don&#39;t need ALL of those journals, only the journals I cite from my Mendeley library.</p>
+
+<p>The Perl script I wrote (with Charlie and Filipe) does all of this and saves the list of journals used directly into the Mendeley data folder.</p>
+
+<p>To get this working yourself, follow the steps below:</p>
+
+<p><strong>NOTE:</strong> This was written for and tested on a machine running Ubuntu 11.10 64-bit with a default Mendeley installation (also tested and run on Ubuntu 12.04 and 12.10). IT WON&#39;T WORK ON WINDOWS OR A MAC WITHOUT SOME CHANGES TO THE PERL SCRIPT because the Mendeley directories are in different places on different operating systems. There may be some funny perl-related issues going between OSes too that I&#39;m not aware of.</p>
+
+<ul>
+<li>Download and save <a href="/uploads/2013/04/jabbrev.zip" target="_blank">jabbrev.zip</a> and unzip the directory &#39;<em>jabbrev</em>&#39;</li>
+<li><p>open a terminal (and keep it open) and type:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">cd path/to/jabbrev
+</code></pre></div></li>
+<li><p>In Mendeley go to &#39;<em>Tools</em>&#39; --&gt; &#39;<em>Options</em>&#39; and select the &#39;<em>BibTeX</em>&#39; tab.</p></li>
+<li><p>Check the box &#39;Enable BibTeX syncing&#39; and select either:
+&#39;<em>Create one BibTeX file for my whole library</em>&#39; or &#39;<em>Create one BibTeX file per collection</em>&#39;</p></li>
+<li><p>Set the path to where these BibTeX files will be saved (e.g., <code>~/Documents/Mendeley/bibliographies</code>).</p></li>
+<li><p>Click &#39;<em>Apply</em>&#39; and &#39;<em>OK</em>&#39;, wait for Mendeley to generate the files, then exit Mendeley.</p></li>
+<li><p>In a nautilus window, go to the bibliographies directory you just set up (e.g., <code>~/Documents/Mendeley/bibliographies</code>)</p></li>
+<li><p>Switch back to your open terminal window and allow the script to be executed by typing:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">chmod a+x script.pl
+</code></pre></div></li>
+<li><p>The script accepts a filepath for each of the masterlist and multiple bibtex files. Execute the script by typing:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">./script.pl /path/to/masterlist.txt /path/to/bibfile1.bib [/path/to/bibfile2.bib ...]
+</code></pre></div></li>
+<li><p>Sit back and wait (it may take a while to run, especially with a large library!).</p></li>
+<li><p>Open Mendeley back up, go to &#39;<em>View</em>&#39; --&gt; &#39;<em>Citation Style</em>&#39; --&gt; &#39;<em>More Styles...</em>&#39; and select a citation format that uses abbreviated journal names (e.g., Vancouver). You should now be able to generate bibliographies in Word and Open(Libre)Office documents with abbrev j names!*</p></li>
+</ul>
+
+<p>*note that the abbreviated names do NOT have periods.</p>
+
+<p><strong>EDIT:</strong> view the perl script at <a href="http://pastebin.com/2C7X8aGZ">http://pastebin.com/2C7X8aGZ</a> [updated 2013-02-27]. It&#39;s not perfect (yet) but it&#39;s mostly there. Suggestions welcome, especially how to deal with some of the funny cases.</p>
+
+</div>
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                <b>Alex M. Chubaty, PhD</b><br />
+                Postdoctoral Researcher
+              </p>
+
+              <p>
+                Pacific Forestry Centre<br />
+                506 Burnside Road W<br />
+                Victoria, BC  V8Z 1M5<br />
+              </p>
+            </div>
+            
+            <div class="contact">
+              <p>
+                &nbsp;<br />
+                &nbsp;<br />
+              </p>
+              
+              <p>
+                office phone: +1.250.298.2347<br />
+                email: <a href="mailto:achubaty@nrcan.gc.ca">achubaty@nrcan.gc.ca</a>
+              </p>
+            </div>
+            
+            <div class="contact">
+              <p>
+                &nbsp;<br />
+                &nbsp;<br />
+              </p>
+              
+              <p>
+                <a href="https://github.com/achubaty">github.com/achubaty</a><br />
+                <a href="https://twitter.com/alexchubaty">twitter.com/alexchubaty</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

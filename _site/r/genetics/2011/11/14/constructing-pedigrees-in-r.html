@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>Constructing Pedigrees in R</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+
+    <body>
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">Alex M. Chubaty</a></h1>
+             <a href='/' class="extra">Home</a>
+             <a href='/blog.html' class="extra">Blog</a>
+             <a href='/research.html' class="extra">Research</a>
+             <a href='/teaching.html' class="extra">Teaching</a>
+             <a href='/publications.html' class="extra">Publications</a>
+             <a href='/curriculum-vitae.html' class="extra">CV</a>
+             <a href='/links.html' class="extra">Links</a>
+          </div>
+
+          <h2>Constructing Pedigrees in R</h2>
+<p class="meta">14 Nov 2011</p>
+
+<div class="post">
+<p>I was looking for a good way to draw pedigrees using software, without having to fuss drawing them &quot;by hand&quot; using a drawing program. Lo and behold, I came across a few different packages in R that allow me to do just that!</p>
+
+<p><a href="/uploads/2013/04/pedigree.png"><img class="alignnone size-medium wp-image-60" alt="pedigree" src="/uploads/2013/04/pedigree-300x200.png" width="300" height="200" /></a></p>
+
+<p>Using the <code>kinship2</code> package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy. Factor VIII deficiency is a classic example of a sex-linked recessive trait, and myotonic dystrophy follows autosomal dominant inheritance. In this pedigree, I show the status of affected and unaffected indiviudals (not carriers), using the following bits of code in R.</p>
+
+<p>First, let&#39;s install (if needed) and load the <code>kinship2</code> package:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">if (!require(kinship2)) {install.packages(&quot;kinship2&quot;); library(kinship2)}
+</code></pre></div>
+<p>Now we need to code several variables which will correspond to all of the individuals in the pedigree. First, we need individual ID numbers:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">ids &lt;- 1:49 
+</code></pre></div>
+<p>Second, we need to identify the father and mother of each individual using the individual ID numbers above:</p>
+<div class="highlight"><pre><code class="r language-r" data-lang="r">dad <span class="o">&lt;-</span> c<span class="p">(</span><span class="m">41</span><span class="p">,</span><span class="m">41</span><span class="p">,</span><span class="m">41</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">41</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">43</span><span class="p">,</span><span class="m">4</span><span class="p">,</span><span class="m">6</span><span class="p">,</span><span class="m">6</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">9</span><span class="p">,</span><span class="m">9</span><span class="p">,</span><span class="m">9</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">11</span><span class="p">,</span><span class="m">11</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">15</span><span class="p">,</span>
+         <span class="m">15</span><span class="p">,</span><span class="m">19</span><span class="p">,</span><span class="m">45</span><span class="p">,</span><span class="m">45</span><span class="p">,</span><span class="m">45</span><span class="p">,</span><span class="m">45</span><span class="p">,</span><span class="m">45</span><span class="p">,</span><span class="m">45</span><span class="p">,</span><span class="m">45</span><span class="p">,</span><span class="m">47</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">29</span><span class="p">,</span><span class="m">29</span><span class="p">,</span><span class="m">29</span><span class="p">,</span><span class="m">29</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">31</span><span class="p">,</span><span class="m">31</span><span class="p">,</span><span class="m">31</span><span class="p">,</span><span class="m">36</span><span class="p">,</span>
+         <span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">37</span><span class="p">)</span>
+mom <span class="o">&lt;-</span> c<span class="p">(</span><span class="m">42</span><span class="p">,</span><span class="m">42</span><span class="p">,</span><span class="m">42</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">42</span><span class="p">,</span><span class="m">44</span><span class="p">,</span><span class="m">44</span><span class="p">,</span><span class="m">5</span><span class="p">,</span><span class="m">7</span><span class="p">,</span><span class="m">7</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">10</span><span class="p">,</span><span class="m">10</span><span class="p">,</span><span class="m">10</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">12</span><span class="p">,</span><span class="m">12</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">16</span><span class="p">,</span>
+         <span class="m">16</span><span class="p">,</span><span class="m">18</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">46</span><span class="p">,</span><span class="m">48</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">30</span><span class="p">,</span><span class="m">30</span><span class="p">,</span><span class="m">30</span><span class="p">,</span><span class="m">30</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">32</span><span class="p">,</span><span class="m">32</span><span class="p">,</span><span class="m">32</span><span class="p">,</span><span class="m">35</span><span class="p">,</span>
+         <span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">13</span><span class="p">)</span> 
+</code></pre></div>
+<p>Now we code the sex and status (0=alive, 1=dead) of each individual:</p>
+<div class="highlight"><pre><code class="r language-r" data-lang="r">sexes <span class="o">&lt;-</span> c<span class="p">(</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span>
+           <span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">2</span><span class="p">,</span><span class="m">3</span><span class="p">)</span>
+dead <span class="o">&lt;-</span> c<span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span>
+          <span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">)</span> 
+</code></pre></div>
+<p>Here is where we code the affected status of each individual (0=unaffected, 1=affected, NA=unknown). We need to bind these columns together in a matrix (you can have up to 4 traits; one per column):</p>
+<div class="highlight"><pre><code class="r language-r" data-lang="r">F8 <span class="o">&lt;-</span> c<span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span>
+        <span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">)</span>
+MD <span class="o">&lt;-</span> c<span class="p">(</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="m">1</span><span class="p">,</span>
+        <span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">1</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="m">0</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">,</span><span class="kc">NA</span><span class="p">)</span>
+affect <span class="o">&lt;-</span> as.matrix<span class="p">(</span>cbind<span class="p">(</span>F8<span class="p">,</span> MD<span class="p">))</span>
+</code></pre></div>
+<p>And now we create the pedigree object and plot it:</p>
+<div class="highlight"><pre><code class="r language-r" data-lang="r">family <span class="o">&lt;-</span> pedigree<span class="p">(</span>id<span class="o">=</span>ids<span class="p">,</span> dadid<span class="o">=</span>dad<span class="p">,</span> momid<span class="o">=</span>mom<span class="p">,</span>
+                   affected<span class="o">=</span>affect<span class="p">,</span> sex<span class="o">=</span>sexes<span class="p">,</span> status<span class="o">=</span>dead<span class="p">)</span>
+
+plot.pedigree<span class="p">(</span>family<span class="p">)</span>
+
+pedigree.legend<span class="p">(</span>family<span class="p">,</span> location<span class="o">=</span><span class="s">&quot;bottomright&quot;</span><span class="p">,</span>
+                labels<span class="o">=</span>list<span class="p">(</span><span class="s">&quot;Factor VIII\nDeficiency&quot;</span><span class="p">,</span> <span class="s">&quot;Myotonic\nDystrophy&quot;</span><span class="p">),</span>
+                cex<span class="o">=</span><span class="m">0.8</span><span class="p">,</span> radius<span class="o">=</span><span class="m">0.3</span><span class="p">)</span>
+</code></pre></div>
+<p>That&#39;s the basics! Of course, with a large pedigree I expect this becomes a bit unruly, but for smaller examples like this one it&#39;s relatively easy to put together.</p>
+
+</div>
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                <b>Alex M. Chubaty, PhD</b><br />
+                Postdoctoral Researcher
+              </p>
+
+              <p>
+                Pacific Forestry Centre<br />
+                506 Burnside Road W<br />
+                Victoria, BC  V8Z 1M5<br />
+              </p>
+            </div>
+            
+            <div class="contact">
+              <p>
+                &nbsp;<br />
+                &nbsp;<br />
+              </p>
+              
+              <p>
+                office phone: +1.250.298.2347<br />
+                email: <a href="mailto:achubaty@nrcan.gc.ca">achubaty@nrcan.gc.ca</a>
+              </p>
+            </div>
+            
+            <div class="contact">
+              <p>
+                &nbsp;<br />
+                &nbsp;<br />
+              </p>
+              
+              <p>
+                <a href="https://github.com/achubaty">github.com/achubaty</a><br />
+                <a href="https://twitter.com/alexchubaty">twitter.com/alexchubaty</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

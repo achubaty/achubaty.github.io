@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>enabling Libre/OpenOffice plugin for Mendeley 1.5</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+    </head>
+
+    <body>
+        <div class="site">
+          <div class="header">
+            <h1 class="title"><a href="/">Alex M. Chubaty</a></h1>
+             <a href='/' class="extra">Home</a>
+             <a href='/blog.html' class="extra">Blog</a>
+             <a href='/research.html' class="extra">Research</a>
+             <a href='/teaching.html' class="extra">Teaching</a>
+             <a href='/publications.html' class="extra">Publications</a>
+             <a href='/curriculum-vitae.html' class="extra">CV</a>
+             <a href='/links.html' class="extra">Links</a>
+          </div>
+
+          <h2>enabling Libre/OpenOffice plugin for Mendeley 1.5</h2>
+<p class="meta">13 Apr 2012</p>
+
+<div class="post">
+<p>I upgraded to using <a href="http://mendeley.com">Mendeley</a> v 1.5 (because previous versions don&#39;t work on Ubuntu 12.04 Precise) and I had problems installing the OpenOffice plugin. Normally this is easy: in Mendeley you select the <em>Tools</em> menu and go to <em>Install OpenOffice Plugin</em>. However, for whatever reason the software can&#39;t find the plugin, and I get this error:</p>
+<div class="highlight"><pre><code class="text language-text" data-lang="text">Mendeley couldn&#39;t locate unopkg in the default location. It should be in the &#39;program&#39; subdirectory of the path where OpenOffice is installed. Please press OK to locate it.
+</code></pre></div>
+<p>Fortunately, it was easy to find and install. I clicked <em>OK</em> and closed the file browser window that popped up. Then I opened a nautilus window (file browser), clicked the search button, selected my filesystem&#39;s root partiton (see image below) and searched for <code>.oxt</code>, which is the file extension used for OpenOffice and LibreOffice plugins. My search returned the pulgin for version 1.5 (plus some older versions I had previously installed).</p>
+
+<p>After right-clicking the plugin file and selecting <em>Open with LibreOffice</em> started the install, which I confirmed and voila!</p>
+
+</div>
+
+
+          <div class="footer">
+            <div class="contact">
+              <p>
+                <b>Alex M. Chubaty, PhD</b><br />
+                Postdoctoral Researcher
+              </p>
+
+              <p>
+                Pacific Forestry Centre<br />
+                506 Burnside Road W<br />
+                Victoria, BC  V8Z 1M5<br />
+              </p>
+            </div>
+            
+            <div class="contact">
+              <p>
+                &nbsp;<br />
+                &nbsp;<br />
+              </p>
+              
+              <p>
+                office phone: +1.250.298.2347<br />
+                email: <a href="mailto:achubaty@nrcan.gc.ca">achubaty@nrcan.gc.ca</a>
+              </p>
+            </div>
+            
+            <div class="contact">
+              <p>
+                &nbsp;<br />
+                &nbsp;<br />
+              </p>
+              
+              <p>
+                <a href="https://github.com/achubaty">github.com/achubaty</a><br />
+                <a href="https://twitter.com/alexchubaty">twitter.com/alexchubaty</a><br />
+              </p>
+            </div>
+          </div>
+        </div>
+    </body>
+</html>

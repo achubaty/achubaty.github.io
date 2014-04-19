@@ -1,0 +1,92 @@
+#!/usr/bin/perl
+use warnings;
+use strict;
+
+#############################################
+# downloads the lists of journal names and their 
+# abbreviations from the Web of Science database
+# and generates a master list containing all
+# of the journals listed.
+#
+# by Alex Chubaty (alex.chubaty@gmail.com)
+# [12 Feb 2012]
+#############################################
+package jParser;
+use base 'HTML::Parser';
+
+my @contents = "";
+
+my $flag = 0;
+
+sub start {
+	my ($self, $tag, $attr, $attrseq, $origtext) = @_;
+	if ($tag eq "dl") {
+		$flag = 1;
+	}
+}
+
+sub text {
+	my ($self, $text) = @_;
+	if ($flag) {
+		$text =~ s/&amp;/&/g;
+		$text =~ s/&/\\&/g;
+		push(@contents, $text);
+	}
+}
+
+sub end {
+	my ($self, $tag, $origtext) = @_;
+	if ($tag eq "dl") { $flag = 0; }
+}
+
+
+
+package main;
+use LWP::Simple;
+
+my $letter;
+my $url;
+
+my @jabbrev;
+my @jfull;
+my @letters = ("A".."Z");
+my @urls = ("http://images.webofknowledge.com/WOK46/help/WOS/0-9_abrvjt.html");
+
+foreach $letter (@letters) {
+	$url = "http://images.webofknowledge.com/WOK46/help/WOS/" . $letter . "_abrvjt.html";
+	push(@urls, $url);
+}
+
+foreach $url (@urls) {
+	my $html = get($url);
+	die "$0: get failed" unless defined $html;
+	
+	my $parser = new jParser;
+	$parser->parse($html);
+}
+
+open(OUTFILE, ">output.txt") || die "$!";
+print OUTFILE @contents, "\n";
+close(OUTFILE);
+
+open(INFILE, 'output.txt');
+undef $/;
+my $textfile = <INFILE>;
+close(INFILE);
+
+$textfile =~ s/\n\n/\n/g;
+$textfile =~ s/\n\t/\t/g;
+$textfile =~ s/\n\'92/\'92/;
+
+open(OUTFILE, ">masterlist.txt");
+print OUTFILE $textfile;
+
+# add custom journal entries
+print OUTFILE "THE AMERICAN NATURALIST\tAM NAT\n";
+print OUTFILE "THE CANADIAN ENTOMOLOGIST\tCAN ENTOMOL\n";
+print OUTFILE "TRENDS IN ECOLOGY AND EVOLUTION\tTRENDS ECOL EVOL\n";
+close(OUTFILE);
+
+unlink("output.txt");
+
+exit
