@@ -6,6 +6,7 @@ title: Research
 author: Alex Chubaty
 date: 2014-04-18
 ---
+
 ### Research Interests
 
 **Effects of individual differences on higher-level processes**

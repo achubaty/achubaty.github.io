@@ -2,3 +2,19 @@ name: Alex M. Chubaty
 markdown: redcarpet
 pygments: true
 
+domain: alexchubaty.com
+author: Alex M. Chubaty
+email: alex.chubaty@gmail.com
+
+google_analytics:
+   account: UA-34446208-1
+
+github:
+   username: achubaty
+
+disqus:
+   id: alexmchubaty
+
+twitter:
+   username: alexchubaty
+

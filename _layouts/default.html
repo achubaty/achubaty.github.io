@@ -1,9 +1,12 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <meta charset="utf-8">
+        <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+        {% if page.description %}
+        <meta name="description" content="{{ page.description }}" />
+        {% endif %}
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
@@ -11,6 +14,20 @@
 
         <!-- Custom CSS -->
         <link rel="stylesheet" href="/css/main.css">
+        
+        {% if site.google_analytics %}
+	    <!-- google analytics async -->
+	    <script type="text/javascript">
+	      var _gaq = _gaq || [];
+	      _gaq.push(['_setAccount', '{{ site.google_analytics.account }}']);
+	      _gaq.push(['_trackPageview']);
+	      (function() {
+	        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	      })();
+	    </script>
+	    {% endif %}
     </head>
 
     <body>
@@ -26,7 +43,10 @@
              <a href='/links.html' class="extra">Links</a>
           </div>
 
-          {{ content }}
+          <div id="body">
+          	 {% if page.title %}<h2>{{ page.title }}</h2>{% endif %}
+          	 {{ content }}
+          </div>
 
           <div class="footer">
             <div class="contact">
@@ -49,8 +69,8 @@
               </p>
               
               <p>
-                office phone: +1.250.298.2347<br />
-                email: <a href="mailto:achubaty@nrcan.gc.ca">achubaty@nrcan.gc.ca</a>
+                phone: +1.250.298.2347<br />
+                email: <a href="mailto:{{ site.email }}">{{ site.email }}</a>
               </p>
             </div>
             
@@ -61,8 +81,12 @@
               </p>
               
               <p>
-                <a href="https://github.com/achubaty">github.com/achubaty</a><br />
-                <a href="https://twitter.com/alexchubaty">twitter.com/alexchubaty</a><br />
+                {% if site.github %}
+                <a href="https://github.com/{{ site.github.username }}">github.com/{{ site.github.username }}</a><br />
+                {% endif %}
+                {% if site.twitter %}
+                <a href="https://twitter.com/{{ site.twitter.username }}">twitter.com/{{ site.twitter.username }}</a><br />
+                {% endif %}
               </p>
             </div>
           </div>
