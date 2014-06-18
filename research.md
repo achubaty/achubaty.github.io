@@ -11,7 +11,7 @@ date: 2014-04-18
 
 **Effects of individual differences on higher-level processes**
 
-Broadly, I am interested in understanding how individual variation, especially in physiological state (e.g., energy, age, egg load, etc.), affects population- and community-level processes. I consider how individuals make behavioural decisions (mechanisms) as well as their outcomes.
+Broadly, I am interested in understanding how individual variation, especially in physiological state (*e.g.*, energy, age), affects population- and community-level processes. I consider how individuals make behavioural decisions (*i.e.*, mechanisms) as well as their outcomes. In particular, my research focuses on habitat selection and dispersal.
 
 I use a combination of theoretical and experimental approaches, encompassing field and lab work together with mathematical modeling and analysis.
 
@@ -38,3 +38,5 @@ Working with Bernie Roitberg (SFU), Erin Udal (SFU), and Franz Simon (SFU), we a
 **Evolution of Omnivory in a Community Context**
 
 We developed an evolutionary simulation model to consider the feeding strategies (broadly classified as three feeding types: herbivores, omnivores, and carnivores) of a community of individuals and explore how the intrinsic properties of these foragers and extrinsic characteristics of their environment determine the prevalence of omnivores and other feeding types.
+
+> Chubaty, A.M.*, B.O. Ma*, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg (2014) On the evolution of omnivory in a community context. Ecology and Evolution 4(3):251-265. [ <a href="http://dx.doi.org/10.1002/ece3.923">DOI: 10.1002/ece3.923</a> ]
