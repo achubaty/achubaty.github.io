@@ -55,6 +55,11 @@ a         { color: #ac1c1c; }
 a:hover   { color: #ac1c1c; }
 a:visited { color: #a0a; }
 
+blockquote {
+    background-color: #e1e1e1;
+    padding: 10px;
+}
+
 /*****************************************************************************/
 /*
 /* Home
