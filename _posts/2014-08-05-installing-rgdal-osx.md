@@ -9,7 +9,7 @@ date: 2014-08-05
 
 This is actually really easy to do, but most of the google hits I came across were old (from 2010) or horribly complex (building `gdal` and `proj4` from source then building `rgdal` itself).
 
-First, this assumes you already have `homebrew` installed [^1]. If not, see [http://brew.sh/](http://brew.sh/) for the one-liner terminal install.
+First, this assumes you already have `homebrew` installed[^1]. If not, see [http://brew.sh/](http://brew.sh/) for the one-liner terminal install.
 
 Next, install `rgdal`:
 
