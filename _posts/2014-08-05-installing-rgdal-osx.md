@@ -25,4 +25,4 @@ install.packages("rgdal", type="source")
 
 That's it. Seriously easy.
 
-[1]: If you use `macports` the process is similarly simple. See [here](http://www.janosgyerik.com/installing-rgdal-in-r-on-os-x-mavericks/).
+[^1]: If you use `macports` the process is similarly simple. See [here](http://www.janosgyerik.com/installing-rgdal-in-r-on-os-x-mavericks/).
