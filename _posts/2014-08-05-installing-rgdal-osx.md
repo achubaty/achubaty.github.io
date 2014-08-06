@@ -17,7 +17,7 @@ Next, install `rgdal`:
 brew instal rgdal
 ```
 
-Then open `RStudio` () and install the package from source:
+Then open `RStudio` (for some reason it didn't work using R in the terminal...) and install the package from source:
 
 ```
 install.packages("rgdal", type="source")
