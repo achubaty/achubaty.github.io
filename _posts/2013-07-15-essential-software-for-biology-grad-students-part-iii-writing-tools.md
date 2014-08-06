@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: ! "\uFEFF\uFEFFEssential software for biology grad students: Part III Writing
+title: ! "Essential software for biology grad students: Part III Writing
   Tools"
 author: Alex Chubaty
 date: 2013-07-15
