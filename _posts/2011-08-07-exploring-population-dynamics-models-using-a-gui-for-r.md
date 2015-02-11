@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Exploring Population Dynamics Models using a GUI for R
+title: 'Exploring Population Dynamics Models using a GUI for R'
 author: Alex Chubaty
 date: 2011-08-07
 ---
@@ -31,7 +31,7 @@ This is still a work in progress, and I expect there to be minor bugs (mostly ae
 
 **R must be installed**
 
-- see <a href="http://cran.r-project.org/">http://cran.r-project.org/</a>
+- see [http://cran.r-project.org/](http://cran.r-project.org/)
 - the following packages are also required: `PBSmodelling`, `deSolve`, `scatterplot3d`
 
 \*OSX doesn't come with X11 and tcltk installed by default:
@@ -39,10 +39,10 @@ This is still a work in progress, and I expect there to be minor bugs (mostly ae
 1. install X11 (<a href="http://support.apple.com/kb/DL641">http://support.apple.com/kb/DL641</a>)
 1. install the update (<a href="http://support.apple.com/kb/DL304">http://support.apple.com/kb/DL304</a>)
 1. restart your computer
-1. install tcltk for R (<a href="http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg">http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg</a>)
+1. install tcltk for R ([http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg](http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg))
 1. open R and select package installer from the menu
 1. in the R package installer window, search "tcltk"
-1. this returns two results: tcktl2 and gWidgetstcltk
+1. this returns two results: `tcktl2` and `gWidgetstcltk`
 1. select both and be sure to check the "install dependencies" box.
 
 \*\* Ubuntu users may need to install tcl/tk:
@@ -51,8 +51,8 @@ This is still a work in progress, and I expect there to be minor bugs (mostly ae
 
 ### Getting Started
 
-1. download my <a title="population dynamics modelling gui code" href="/uploads/2011/08/models_GUI_2011-08-07.zip" target="_blank">population dynamics modelling gui code</a>, and unzip the contents
-1. open R from the models_GUI diectory
+1. download my [population dynamics modelling gui code](/uploads/2011/08/models_GUI_2011-08-07.zip), and unzip the contents
+1. open R from the models_GUI directory
 1. load the default workspace (`models_GUI/.Rdata`)
 1. press the up arrow key to recall previous commands saved in the workspace:
 
@@ -72,4 +72,4 @@ This is still a work in progress, and I expect there to be minor bugs (mostly ae
 
 ### Download
 
-Link: <a href="/uploads/2011/08/models_GUI_2011-08-07.zip" target="_blank">models_GUI_2011-08-07</a>
+Link: [models_GUI_2011-08-07](/uploads/2011/08/models_GUI_2011-08-07.zip)
