@@ -47,7 +47,8 @@ You just put your code `inside the backticks` or use blocks of code.
 # Blockquotes are just as easy
 > Look at me go!
 
-Check out [Markdown basics](http://daringfireball.net/projects/markdown/basics) to learn more.
+Check out [Markdown basics](http://daringfireball.net/projects/markdown/basics)
+to learn more.
 ```
 
 The markdown text above produces this:
