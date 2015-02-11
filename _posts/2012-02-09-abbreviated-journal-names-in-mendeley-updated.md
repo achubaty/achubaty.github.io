@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Abbreviated Journal Names in Mendeley [updated]
+title: 'Abbreviated Journal Names in Mendeley [updated]'
 author: Alex Chubaty
 date: 2012-02-09
 ---
@@ -29,7 +29,7 @@ To get this working yourself, follow the steps below:
 
 **NOTE:** This was written for and tested on a machine running Ubuntu 11.10 64-bit with a default Mendeley installation (also tested and run on Ubuntu 12.04 and 12.10). IT WON'T WORK ON WINDOWS OR A MAC WITHOUT SOME CHANGES TO THE PERL SCRIPT because the Mendeley directories are in different places on different operating systems. There may be some funny perl-related issues going between OSes too that I'm not aware of.
 
-- Download and save <a href="/uploads/2013/04/jabbrev.zip" target="_blank">jabbrev.zip</a> and unzip the directory '*jabbrev*'
+- Download and save [jabbrev.zip](/uploads/2013/04/jabbrev.zip) and unzip the directory '*jabbrev*'
 - open a terminal (and keep it open) and type:
 
     ```
@@ -59,5 +59,4 @@ To get this working yourself, follow the steps below:
 
 \*note that the abbreviated names do NOT have periods.
 
-**EDIT:** view the perl script at <a href="http://pastebin.com/2C7X8aGZ">http://pastebin.com/2C7X8aGZ</a> [updated 2013-02-27]. It's not perfect (yet) but it's mostly there. Suggestions welcome, especially how to deal with some of the funny cases.
-
+**EDIT:** view the perl script at [http://pastebin.com/2C7X8aGZ](http://pastebin.com/2C7X8aGZ) [updated 2013-02-27]. It's not perfect (yet) but it's mostly there. Suggestions welcome, especially how to deal with some of the funny cases.

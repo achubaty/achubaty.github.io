@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: more on journal abbreviations in Mendeley
+title: 'more on journal abbreviations in Mendeley'
 author: Alex Chubaty
 date: 2013-06-20
 ---
@@ -14,4 +14,3 @@ Some exciting info for anyone still struggling with getting abbreviated journal 
 > This is currently on our roadmap for Mendeley Desktop 1.10. Expected release date is the start of August.
 
 From the mockups and descriptions the good folks at Mendeley have provided it looks like they're doing a great job of addressing this shortcoming of their current product.
-

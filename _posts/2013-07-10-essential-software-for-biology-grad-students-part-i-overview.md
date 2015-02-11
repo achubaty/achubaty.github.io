@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: ! 'Essential software for biology grad students: Part I Overview'
+title: 'Essential software for biology grad students: Part I Overview'
 author: Alex Chubaty
 date: 2013-07-10
 ---
@@ -15,11 +15,10 @@ I'll try to keep my recommendations general, because I think they are applicable
 
 - [Part II]({% post_url 2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync %}) will cover some essential computing basics: automated backups, using online (cloud) storage, and version control;
 - [Part III]({% post_url 2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools %}) will deal with different writing tools including Microsoft Word, Libre Office Writer, Markdown, Pandoc, and LaTeX;
-- <strong>Part IV</strong> will discuss reference management and citation software options;
-- <strong>Part V</strong> will touch on using databases instead of spreadsheets;
-- <strong>Part VI</strong> will delve into statistics software and the majestic use of R for stats, graphics, and (if I have time) get into using Sweave with R and LaTeX;
-- <strong>Part VII</strong> will go into a little bit about programming and shell scripting;
-- and finally, <strong>Part VIII</strong> will wrap things all up.
+- **Part IV** will discuss reference management and citation software options;
+- **Part V** will touch on using databases instead of spreadsheets;
+- **Part VI** will delve into statistics software and the majestic use of R for stats, graphics, and (if I have time) get into using Sweave with R and LaTeX;
+- **Part VII** will go into a little bit about programming and shell scripting;
+- and finally, **Part VIII** will wrap things all up.
 
 So stay tuned! I'm still fleshing out my ideas on some of these topics, so as we go along I look forward to comments and suggestions.
-

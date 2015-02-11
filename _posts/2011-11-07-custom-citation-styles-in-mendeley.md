@@ -2,16 +2,16 @@
 layout: post
 status: publish
 published: true
-title: Custom Citation Styles in Mendeley
+title: 'Custom Citation Styles in Mendeley'
 author: Alex Chubaty
 date: 2011-11-07
 ---
 
 I'm an avid user of <a href="http://www.mendeley.com/">Mendeley</a> citation management software (CMS), and am pleased with the capabilities of this cross-platform, open-source, and *free* referencing tool. However, one limitation I've encountered is that it does not have very many citiation styles preinstalled, and although many additional formats are available to download through the Mendeley interface, it does not (yet) provide a built-in style editor to customize citiation styles.
 
-Fortunately, Mendeley uses <a href="http://citationstyles.org/">Citation Style Language v1.0</a> (CSL) which is also used by <a href="http://www.zotero.org/">Zotero</a> and other CMSs, so not only is it possible to find thousands more citiation styles (e.g., using the <a href="http://www.zotero.org/styles">Zotero Style Repository</a>), but it's also easy to create custom CSL files!
+Fortunately, Mendeley uses [Citation Style Language v1.0](http://citationstyles.org/) (CSL) which is also used by [Zotero](http://www.zotero.org/) and other CMSs, so not only is it possible to find thousands more citiation styles (e.g., using the [Zotero Style Repository](http://www.zotero.org/styles)), but it's also easy to create custom CSL files!
 
-<a href="http://www.mendeley.com/blog/research-tutorials/howto-edit-citation-styles-for-use-in-mendeley/">This tutorial on the Mendeley blog</a> shows you the basics, although note that for Windows 7, the custom style directory is actually located at
+[This tutorial on the Mendeley blog](http://www.mendeley.com/blog/research-tutorials/howto-edit-citation-styles-for-use-in-mendeley/) shows you the basics, although note that for Windows 7, the custom style directory is actually located at
 
 ```
 C:\Users\<USERNAME>\AppData\Local\Mendeley Ltd\Mendeley Desktop\citationStyles-1.0
@@ -43,4 +43,4 @@ to
 <text variable="citation-number" prefix="[" suffix="] "/>
 ```
 
-That's it! Pretty simple stuff. You can download the modified file here: <a href="/uploads/2011/11/open-forest-science-journal.csl">open-forest-science-journal</a>.
+That's it! Pretty simple stuff. You can download the modified file here: [open-forest-science-journal](/uploads/2011/11/open-forest-science-journal.csl).

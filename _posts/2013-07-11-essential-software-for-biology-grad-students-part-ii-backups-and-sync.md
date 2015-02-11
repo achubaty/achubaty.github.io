@@ -2,8 +2,7 @@
 layout: post
 status: publish
 published: true
-title: ! 'Essential software for biology grad students: Part II Backups and Version
-  Control'
+title: 'Essential software for biology grad students: Part II Backups and Version Control'
 author: Alex Chubaty
 date: 2013-07-11
 ---
@@ -59,4 +58,3 @@ Often when writing papers (or code), I trash or substantially rewrite something,
 This is where "real" version control software (VCS) comes in handy. Now, I'm new to the VCS game, having only started using <a href="https://github.com/">Git</a> this year, but already I can see its power and potential. If you're working with text files - be it a paper written in Markdown (maybe LaTeX), or chunks of code - you will want to use Git.
 
 This post has run rather long, so I won't be providing a "how to", but <a href="https://github.com/">GitHub</a> provides great help getting started. You don't *need* to use GitHub at all to use Git - you can keep everything local (in a Dropbox folder!) and still have access to all of your project files. Try it. Use it.
-

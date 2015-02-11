@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Constructing Pedigrees in R
+title: 'Constructing Pedigrees in R'
 author: Alex Chubaty
 date: 2011-11-14
 ---
@@ -22,7 +22,7 @@ if (!require(kinship2)) {install.packages("kinship2"); library(kinship2)}
 Now we need to code several variables which will correspond to all of the individuals in the pedigree. First, we need individual ID numbers:
 
 ```
-ids <- 1:49 
+ids <- 1:49
 ```
 
 Second, we need to identify the father and mother of each individual using the individual ID numbers above:
@@ -33,7 +33,7 @@ dad <- c(41,41,41,NA,NA,41,43,43,4,6,6,NA,9,9,9,NA,11,11,NA,15,
 		 NA,NA,NA,NA,NA,NA,NA,NA,37)
 mom <- c(42,42,42,NA,NA,42,44,44,5,7,7,NA,10,10,10,NA,12,12,NA,16,
 		 16,18,46,46,46,46,46,46,46,48,NA,30,30,30,30,NA,32,32,32,35,
-		 NA,NA,NA,NA,NA,NA,NA,NA,13) 
+		 NA,NA,NA,NA,NA,NA,NA,NA,13)
 ```
 
 Now we code the sex and status (0=alive, 1=dead) of each individual:
@@ -42,7 +42,7 @@ Now we code the sex and status (0=alive, 1=dead) of each individual:
 sexes <- c(1,1,1,1,2,1,2,2,1,2,1,2,2,1,1,2,1,2,1,1,1,1,2,2,2,1,1,1,1,
 		   2,1,2,1,1,2,1,1,1,2,2,1,2,1,2,1,2,1,2,3)
 dead <- c(0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,
-		  0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0) 
+		  0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0)
 ```
 
 Here is where we code the affected status of each individual (0=unaffected, 1=affected, NA=unknown). We need to bind these columns together in a matrix (you can have up to 4 traits; one per column):

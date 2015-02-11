@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: list of abbreviated journal names
+title: 'list of abbreviated journal names'
 author: Alex Chubaty
 date: 2012-02-28
 ---

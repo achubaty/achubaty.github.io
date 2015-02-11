@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: Finding Symbol Commands for LaTeX
+title: 'Finding Symbol Commands for LaTeX'
 author: Alex Chubaty
 date: 2012-01-28
 ---

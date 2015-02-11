@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: enabling Libre/OpenOffice plugin for Mendeley 1.5
+title: 'enabling Libre/OpenOffice plugin for Mendeley 1.5'
 author: Alex Chubaty
 date: 2012-04-13
 ---
@@ -16,4 +16,3 @@ I upgraded to using [Mendeley](http://mendeley.com) v 1.5 (because previous vers
 Fortunately, it was easy to find and install. I clicked *OK* and closed the file browser window that popped up. Then I opened a nautilus window (file browser), clicked the search button, selected my filesystem's root partiton (see image below) and searched for `.oxt`, which is the file extension used for OpenOffice and LibreOffice plugins. My search returned the pulgin for version 1.5 (plus some older versions I had previously installed).
 
 After right-clicking the plugin file and selecting *Open with LibreOffice* started the install, which I confirmed and voila!
-

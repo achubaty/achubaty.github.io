@@ -2,7 +2,7 @@
 layout: post
 status: publish
 published: true
-title: ! "Installing rgdal on OSX"
+title: 'Installing `rgdal` on OSX'
 author: Alex Chubaty
 date: 2014-08-05
 ---

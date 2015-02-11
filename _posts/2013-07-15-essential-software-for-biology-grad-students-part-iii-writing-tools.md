@@ -2,8 +2,7 @@
 layout: post
 status: publish
 published: true
-title: ! "Essential software for biology grad students: Part III Writing
-  Tools"
+title: 'Essential software for biology grad students: Part III Writing Tools'
 author: Alex Chubaty
 date: 2013-07-15
 ---
@@ -12,9 +11,9 @@ Whenever I used to sit down in front of the computer to write anything other tha
 
 There are plenty of limitations to using Word (and Writer), especially when it comes to 1) complex formatting (especially working with equations), 2) sharing documents and collaborating with others, 3) version control, and 4) converting to different file types.
 
-To overcome these limitations and to make writing easier, I want to share my favourite writing tools -- <a href="http://daringfireball.net/projects/markdown/">Markdown</a> and <a href="http://www.latex-project.org/">LaTeX</a>, which use plain-text file formats and can be easily converted to any other file type with <a href="http://johnmacfarlane.net/pandoc/">Pandoc</a>.
+To overcome these limitations and to make writing easier, I want to share my favourite writing tools -- [Markdown](http://daringfireball.net/projects/markdown/) and [LaTeX](http://www.latex-project.org/), which use plain-text file formats and can be easily converted to any other file type with [Pandoc](http://johnmacfarlane.net/pandoc/).
 
-The use of plain text format is important. <a href="http://alexchubaty.com/index.php/2013/07/essential-software-for-biology-grad-students-part-ii-backups-and-sync/">Version control software</a> like <a href="https://github.com/">Git</a> works perfectly with plain-text files, showing you which lines have changed between versions. However, this version differencing isn't possible using *binary* file formats like those used by Word (.doc and .docx). Additionally, you can open plain-text files on any computer without any special (proprietary!) software, so 10 years from now when you want to revisit an old document, you can do so without having to ensure you keep an old computer with old software around.
+The use of plain text format is important. [Version control software]({% post_url 2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync %}) like [Git](https://github.com/) works perfectly with plain-text files, showing you which lines have changed between versions. However, this version differencing isn't possible using *binary* file formats like those used by Word (.doc and .docx). Additionally, you can open plain-text files on any computer without any special (proprietary!) software, so 10 years from now when you want to revisit an old document, you can do so without having to ensure you keep an old computer with old software around.
 
 ### You shouldn't have to worry about formatting
 
@@ -63,14 +62,14 @@ Markdown is incredibly easy to learn, and will cover most of your writing needs,
 
 <a href="/uploads/2013/07/mpb-game-dpe.png"><img class="aligncenter  wp-image-232" title="a LaTeX equation" alt="a LaTeX equation" src="/uploads/2013/07/mpb-game-dpe-1024x231.png" width="625" height="140" /></a>
 
-To make your introduction to LaTeX easier, I recommend starting out using an editor like <a href="http://www.xm1math.net/texmaker/">Texmaker</a>, which is cross platform and come with a GUI to assist with inserting various document elements. If you will be using equations, you'll want to make sure you use the `amsmath` package. There are a lot of other great packages for latex which will help with everything from document formatting and layout, to citation formatting with bibtex, as well as <a href="http://texblog.org/2012/06/21/classic-coffee-stains-with-latex/">adding coffee stains to your pdf documents</a>. I also recommend checking out the <a href="http://tex.stackexchange.com/">TeX Stack Exchange</a> site to get Q&amp;A help with everything (La)TeX.
+To make your introduction to LaTeX easier, I recommend starting out using an editor like [Texmaker](http://www.xm1math.net/texmaker/), which is cross platform and come with a GUI to assist with inserting various document elements. If you will be using equations, you'll want to make sure you use the `amsmath` package. There are a lot of other great packages for latex which will help with everything from document formatting and layout, to citation formatting with bibtex, as well as [adding coffee stains to your pdf documents](http://texblog.org/2012/06/21/classic-coffee-stains-with-latex/). I also recommend checking out the [TeX Stack Exchange](http://tex.stackexchange.com/) site to get Q&A help with everything (La)TeX.
 
 Going further and using R+LaTeX+Sweave and you've got yourself a full-on powerhouse of reproducible, portable document publishing. Also remember, .tex files are simply a type of text file, so they work with version control software like Git.
 
 ### File conversion with Pandoc
 
-Lastly, I'll quickly mention that the best way to take your Markdown and LaTeX documents and convert them to almost any type of document file including (e.g., .tex, .html, .pdf, .doc, .odt) is using Pandoc. It's a simple command-line tool, and <a href="http://johnmacfarlane.net/pandoc/README.html">using it is incredibly straightforward</a>.
+Lastly, I'll quickly mention that the best way to take your Markdown and LaTeX documents and convert them to almost any type of document file including (e.g., .tex, .html, .pdf, .doc, .odt) is using Pandoc. It's a simple command-line tool, and [using it is incredibly straightforward](http://johnmacfarlane.net/pandoc/README.html).
 
 ### Use them everyday
 
-Like any new software, there is a bit of a learning curve, so the best way to get used to it is simply to use it. Using markdown for everyday notetaking or creating and maintaining your cv with markdown/LaTeX are great ways to gain familiarity with these tools. Start using them today. Start using them with your collaborators. You (and they) won't be disappointed.
+Like any new software, there is a bit of a learning curve, so the best way to get used to it is simply to use it. Using markdown for everyday note taking or creating and maintaining your cv with markdown/LaTeX are great ways to gain familiarity with these tools. Start using them today. Start using them with your collaborators. You (and they) won't be disappointed.
