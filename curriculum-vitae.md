@@ -120,6 +120,7 @@ date: 2014-04-18
 
 ### Recent Publications
 
+- **Chubaty, A.M.**, M. Hart., B.D. Roitberg (2014) To tree or not to tree: The role of energy limitation on host tree acceptance in a bark beetle. Evolutionary Ecology Research (in press).
 - **Chubaty, A.M.***, B.O. Ma*, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg (2014) On the evolution of omnivory in a community context. Ecology and Evolution 4:251-265.
 - Major, H.L. and **A.M. Chubaty** (2012) Estimating colony and breeding population size for nocturnal burrow-nesting seabirds. Marine Ecology Progress Series 454:83-90.
 - Jumean, Z., B.O. Ma, A.M. Chubaty, C.W. Ellenor, B.D. Roitberg, and G. Gries (2011) A theoretical approach to study the evolution of aggregation behavior by codling moth larvae. The Journal of Insect Behaviour 24(4):249-263.
