@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Curriculum Vitae
 author: Alex Chubaty
-date: 2014-04-18
+date: 2015-03-25
 ---
 
 ### Education
@@ -61,7 +61,7 @@ date: 2014-04-18
 
 - Simon Fraser University
   - BISC 888-1 [**Graduate Course**] Directed Readings: Data Wrangling and Visualization in R (Fall 2013)
-    - Topics covered: introduction to R and markdown; graphics in R (base plot and <code>ggplot</code>); data manipulation in R (<code>plyr</code> and <code>reshape</code>)
+    - Topics covered: introduction to R and markdown; graphics in R (base plot and `ggplot`); data manipulation in R (`plyr` and `reshape`)
   - BISC 100 Introduction to Biology (Oct 2010, Nov 2010)
     - Introduced students to cell metabolism and phenotype expression
   - BISC 204 Introduction to Ecology (Sept 2006, Nov 2006, Mar 2010, Nov 2011)
@@ -111,12 +111,12 @@ date: 2014-04-18
 
 ### Software Experience
 
-- Operating Systems: Windows, Mac OS X, Ubuntu Linux
+- Operating Systems: Windows, Mac OS X, Debian/Ubuntu Linux
 - Office productivity software: Microsoft Office (Word, Excel and PowerPoint), Open Office, LaTeX
 - Online Course Management Software: Blackboard, WebCT
 - Statistical Software: R
 - Coding languages: C, Mathematica, R
-- Web development: CSS, HTML, XHTML, Drupal, Wordpress, Open Journal Systems
+- Web development: CSS, HTML, XHTML, Drupal, Wordpress, Open Journal Systems, `shiny`
 
 ### Recent Publications
 
@@ -183,4 +183,3 @@ date: 2014-04-18
 - Webmaster, Professional Pest Management Association of British Columbia (2007-2010)
 - Judge, Calgary Youth Science Fair (2003, 2004)
 - Student Leader, "U of C 101" University of Calgary (2003, 2004)
-
