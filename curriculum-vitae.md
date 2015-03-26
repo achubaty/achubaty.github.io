@@ -167,6 +167,7 @@ date: 2015-03-25
 - Online Course Management Software: Blackboard, WebCT
 - Statistical Software: R
 - Coding languages: C, Mathematica, R
+- Distributed High Performance Computing: WestGrid, HTCondor
 - Version control systems: Git, GitHub
 - Web development: CSS, HTML, XHTML, Drupal, Wordpress, Open Journal Systems, `shiny`
 
@@ -180,7 +181,7 @@ date: 2015-03-25
 
 ### Recent Presentations
 
-- Hodson, C., S. Dhanani, A. Hoi, **A.M. Chubaty**, F. Simon. *Drosophila suzukii* in a *D. suzukii* world: Humidity decreases density dependent competition. Annual General Meeting of the Entomolgical Society of British Columbia, 1-2 Nov 2013
+- Hodson, C., S. Dhanani, A. Hoi, **A.M. Chubaty**, F. Simon. *Drosophila suzukii* in a *D. suzukii* world: Humidity decreases density dependent competition. Annual General Meeting of the Entomological Society of British Columbia, 1-2 Nov 2013
 - **Chubaty, A.M.**, B.O. Ma, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg. On the evolution of omnivory in a community context. 98th Annual Meeting of the Ecological Society of America, 4-9 Aug 2013.
 - Mladenovic, I., **A.M. Chubaty**, and A. Tirajoh. Enhancing Students' Understanding of Biological Concepts by Engaging Them in Research (poster). Symposium on Teaching and Learning: Embracing Change @ SFU, 15 May 2013.
 - **Chubaty, A.M.**, B.O. Ma, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg. On the evolution of omnivory in a community context. Canadian Society for Ecology and Evolution, 12-15 May 2013.
