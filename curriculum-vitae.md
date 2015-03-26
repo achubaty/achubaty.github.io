@@ -74,9 +74,10 @@ date: 2015-03-25
 
 **Simon Fraser University**
 
-- BISC 888-1 [**Graduate course**] Directed Readings: Data Wrangling and Visualization in R (Fall 2013)
+- BISC 888-1 Directed Readings: Data Wrangling and Visualization in R (Fall 2013)
 
-    - Topics covered: introduction to R and markdown; graphics in R (base plot and `ggplot`); data manipulation in R (`plyr` and `reshape`)
+    - **Graduate course**
+	- Topics covered: introduction to R and markdown; graphics in R (base plot and `ggplot`); data manipulation in R (`plyr` and `reshape`)
 
 - BISC 100 Introduction to Biology (Oct 2010, Nov 2010)
 
