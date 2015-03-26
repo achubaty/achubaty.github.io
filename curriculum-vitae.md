@@ -150,11 +150,24 @@ date: 2015-03-25
 
 ### Software Experience
 
+#### Software package development
+
+**Author**
+
+- `SpaDES`: Develop and run spatially explicit discrete event simulation models. [http://spades.predictiveecology.org/](http://spades.predictiveecology.org/)
+
+**Contributor**
+
+- `miniCRAN`: Create a mini version of CRAN containing only selected packages. [https://github.com/RevolutionAnalytics/miniCRAN](https://github.com/RevolutionAnalytics/miniCRAN)
+
+#### Other software experience
+
 - Operating Systems: Windows, Mac OS X, Debian/Ubuntu Linux
 - Office productivity software: Microsoft Office (Word, Excel and PowerPoint), Open Office, LaTeX
 - Online Course Management Software: Blackboard, WebCT
 - Statistical Software: R
 - Coding languages: C, Mathematica, R
+- Version control systems: Git, GitHub
 - Web development: CSS, HTML, XHTML, Drupal, Wordpress, Open Journal Systems, `shiny`
 
 ### Recent Publications
