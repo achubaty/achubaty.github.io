@@ -11,8 +11,8 @@ date: 2015-03-25
 
 **PhD, Biological Sciences** (2013) Simon Fraser University, Burnaby, BC
 
-- *Thesis*: "Individual host selection decisions and population-level responses in a time- and energy-limited forager, *Dendroctonus ponderosae* Hopkins"
-- *Supervisors*: Dr. Bernie Roitberg (SFU) & Dr. Chao Li (CFS)
+- Thesis: "Individual host selection decisions and population-level responses in a time- and energy-limited forager, *Dendroctonus ponderosae* Hopkins"
+- Supervisors: Dr. Bernie Roitberg (SFU) & Dr. Chao Li (CFS)
 - Research: developed models of mountain pine beetle individual behaviour and population dynamics; designed and executed experiments testing model predictions; collected field data to assist with model parameterization
 
 **BSc, Biological Sciences** (2005) University of Calgary, Calgary, AB
@@ -21,93 +21,131 @@ date: 2015-03-25
 
 ### Work Experience
 
-**Postdoctoral Researcher**
+#### Postdoctoral Researcher
 
-- Canadian Forest Service, Pacific Forestry Centre (Jan 2014 - present)
-  - Development of individual based models of mountain pine beetle dispersal on the landscape.
+- Canadian Forest Service — Pacific Forestry Centre (Jan 2014 - present)
 
-**Research Assistant**
+    - Development of individual based models of mountain pine beetle dispersal on the landscape.
+	- Development of spatial simulation software, `SpaDES` [http://spades.predictiveecology.org/](http://spades.predictiveecology.org/)
 
-- Simon Fraser University - Surrey Campus (Oct 2012 - May 2013)
-  - Developer and editor of an online journal publishing research essays by undergraduate students.
-  - Grant awarded by SFU Teaching and Learning Development Centre to Dr. Ivona Mladenovic.
+#### Research Assistant
 
-**Modeller**
+- Simon Fraser University — Surrey Campus (Oct 2012 - May 2013)
 
-- Canadian Forest Service (Jan 2007 - Mar 2007)
-  - Continued development of a model evaluating mountain pine beetle host-acceptance and aggregation
+    - Developer and editor of an online journal publishing research essays by undergraduate students.
+    - Grant awarded by SFU Teaching and Learning Development Centre to Dr. Ivona Mladenovic.
 
-**Lab Assistant**
+#### Modeller
 
-- Sikes Lab - University of Calgary (Nov 2004 - Aug 2005)
-  - Insect collection maintenance; miscellaneous lab work
-- Longair Lab - University of Calgary (Sept 2004 - Aug 2005)
-  - Sorting, identifying, pinning insect specimens
+- Canadian Forest Service — Northern Forestry Centre (Jan 2007 - Mar 2007)
+
+    - Continued development of a model evaluating mountain pine beetle host-acceptance and aggregation
+
+#### Lab Assistant
+
+**University of Calgary**
+
+- Sikes Lab (Nov 2004 - Aug 2005)
+
+    - Insect collection maintenance; miscellaneous lab work
+
+- Longair Lab (Sept 2004 - Aug 2005)
+
+    - Sorting, identifying, pinning insect specimens
 
 ### Teaching Experience
 
-**Sessional Instructor**
+#### Sessional Instructor
 
-- Simon Fraser University
-  - BISC 300 Evolution (Fall 2013)
+**Simon Fraser University**
+
+- BISC 300 Evolution (Fall 2013)
+
     - Taught lectures; marked assignments and exams
     - Topics covered include: adaption, speciation, origin of life, evolutionary trends over geological time, origin and evolution of modern humans
-  - BISC 407 Population Dynamics (Spring 2011)
+
+- BISC 407 Population Dynamics (Spring 2011)
+
     - Taught lecture and tutorial sessions; marked assignments and exams
     - Evaluated students' presentations of scientific papers and led discussions on population modelling topics
     - Topics covered include: lifetables, survivorship, population growth models, differential solvers, intraspecific competition, demographics, population matrices, interspecific competition, community structure, predation, parasitoid/host dynamics, metapopulation dynamics, infectious diseases
 
-**Guest Lecturer**
+#### Guest Lecturer
 
-- Simon Fraser University
-  - BISC 888-1 [**Graduate Course**] Directed Readings: Data Wrangling and Visualization in R (Fall 2013)
+**Simon Fraser University**
+
+- BISC 888-1 [**Graduate course**] Directed Readings: Data Wrangling and Visualization in R (Fall 2013)
+
     - Topics covered: introduction to R and markdown; graphics in R (base plot and `ggplot`); data manipulation in R (`plyr` and `reshape`)
-  - BISC 100 Introduction to Biology (Oct 2010, Nov 2010)
+
+- BISC 100 Introduction to Biology (Oct 2010, Nov 2010)
+
     - Introduced students to cell metabolism and phenotype expression
-  - BISC 204 Introduction to Ecology (Sept 2006, Nov 2006, Mar 2010, Nov 2011)
+
+- BISC 204 Introduction to Ecology (Sept 2006, Nov 2006, Mar 2010, Nov 2011)
+
     - Topics covered include: organism distribution and abundance and the theoretical and practical aspects of habitat selection in animals
     - Presented development of my models of individual behaviour and population dynamics in mountain pine beetle, and implications for landscape-level development
-  - BISC 410 Behavioural Ecology (Feb 2008)
+
+- BISC 410 Behavioural Ecology (Feb 2008)
+
     - Discussed theoretical and practical aspects of habitat selection in animals
 
-**Workshop Instructor**
+#### Workshop Instructor
 
 - Workshops in R:
-  - Introduction to R (BISC 838 Population Ecology, SFU) (Sept 2010, Sept 2012)
-  - Introduction to R (Climate Change and Community Structure – NSERC Strategic Grant, SFU) (Nov 2009)
-  - Introduction to R (Roitberg Lab Group, SFU) (Sept 2006)
 
-**Teaching Assistant**
+    - Introduction to R (BISC 838 Population Ecology, SFU) (Sept 2010, Sept 2012)
+    - Introduction to R (Climate Change and Community Structure – NSERC Strategic Grant, SFU) (Nov 2009)
+    - Introduction to R (Roitberg Lab Group, SFU) (Sept 2006)
 
-- Simon Fraser University
-  - BISC 100 Introduction to Biology - Distance Education (Fall 2011, Summer 2012)
+#### Teaching Assistant
+
+**Simon Fraser University**
+
+- BISC 100 Introduction to Biology - Distance Education (Fall 2011, Summer 2012)
+
     - Taught general biological principles including cell functions, genetics, evolution, behaviour, population and community dynamics
     - Ran online tutorial discussions and exam review sessions; assisted with management and instruction of labs; marked assignments and exams
-  - BISC 100 Introduction to Biology (Fall 2010, Spring 2012)
+
+- BISC 100 Introduction to Biology (Fall 2010, Spring 2012)
+    
     - Taught general biological principles including cell functions, genetics, evolution, behaviour, population and community dynamics
     - Designed and taught lessons for tutorial sessions; assisted with management and instruction of labs; marked assignments and exams
-  - BISC 102 Introductory Biology II (Spring 2006, Spring 2009)
+  
+- BISC 102 Introductory Biology II (Spring 2006, Spring 2009)
+
     - Taught general biological principles including genetics, diversity and evolution, behaviour, population and community dynamics
     - Designed and taught lessons for tutorial sessions; assisted with management and instruction of labs; marked assignments and exams
-  - BISC 471W Special Topics: Biology Before the Beagle (Fall 2008)
+	
+- BISC 471W Special Topics: Biology Before the Beagle (Fall 2008)
+ 
     - Examination of the history of biological thought, emphasizing the life and times of Charles Darwin
     - Exploration of popular and technical scientific writing styles; writing for all audiences; writing historical science essays
     - Designed and taught lessons for tutorial sessions; marked essay assignments
-  - BISC 410 Behavioural Ecology (Spring 2008)
+	
+- BISC 410 Behavioural Ecology (Spring 2008)
+  
     - Topics covered: foraging, predation, aggression, habitat selection, reproduction, parental care, social behaviour, conservation
     - Evaluated students' presentations of scientific papers and led discussions on behavioural and ecological topics; marked assignments and exams
-  - BISC 204 Introduction to Ecology (Fall 2006)
+	
+- BISC 204 Introduction to Ecology (Fall 2006)
+  
     - Topics covered: evolution, life history, behavioural ecology, population and community ecology
     - Evaluated students' presentations of scientific papers and led discussions on ecological topics; marked assignments and exams
-- University of Calgary
-  - BIOL 311 Introductory Genetics (Fall 2004)
+
+**University of Calgary**
+
+- BIOL 311 Introductory Genetics (Fall 2004)
+
     - Topics covered include: Mendelian inheritance, linkage, recombination, gene expression
     - Assisted with management and instruction of labs; marked assignments and exams
 
-**Co-op Report Grader**
+#### Co-op Report Grader
 
 - Simon Fraser University Co-op Program (Summer 2011, Fall 2011)
-- Read, evaluated, and provided feedback on work-term reports submitted by co-op students
+
+    - Read, evaluated, and provided feedback on work-term reports submitted by co-op students
 
 ### Software Experience
 
@@ -120,7 +158,7 @@ date: 2015-03-25
 
 ### Recent Publications
 
-- **Chubaty, A.M.**, M. Hart., B.D. Roitberg (*in press*) To tree or not to tree: The role of energy limitation on host tree acceptance in a bark beetle. Evolutionary Ecology Research.
+- **Chubaty, A.M.**, M. Hart, B.D. Roitberg (*in press*) To tree or not to tree: The role of energy limitation on host tree acceptance in a bark beetle. Evolutionary Ecology Research.
 - **Chubaty, A.M.**\*, B.O. Ma\*, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg (2014) On the evolution of omnivory in a community context. Ecology and Evolution 4:251-265.
 - Major, H.L. and **A.M. Chubaty** (2012) Estimating colony and breeding population size for nocturnal burrow-nesting seabirds. Marine Ecology Progress Series 454:83-90.
 - Jumean, Z., B.O. Ma, **A.M. Chubaty**, C.W. Ellenor, B.D. Roitberg, and G. Gries (2011) A theoretical approach to study the evolution of aggregation behavior by codling moth larvae. The Journal of Insect Behaviour 24(4):249-263.
@@ -166,15 +204,18 @@ date: 2015-03-25
 ### Membership
 
 - Canadian Society for Ecology and Evolution (2006-present)
-- Ecological Society of America (2013-present)
+- Ecological Society of America (2013-2014)
 - Entomological Society of British Columbia (2005-present)
-- Entomological Society of Canada (2010-present)
+- Entomological Society of Canada (2010-2014)
 - Professional Pest Management Association of British Columbia (2007-2010)
 
 ### Service Activity
 
 - Website Editor, Entomological Society of British Columbia (2011-present)
-  - Oversaw digitization of the society's entire journal archive dating back to 1906, and directed efforts to move the journal archive online and made freely available as an open-access publication
+
+    - Oversaw digitization of the society's entire journal archive dating back to 1906, and directed efforts to move the journal archive online and made freely available as an open-access publication
+
+- A/V Volunteer, 98th Annual Meeting of the Ecological Society of America (4-9 Aug 2013)
 - Organizer, Joint Annual Meeting of the Entomological Societies of Canada and British Columbia (2010)
 - Volunteer, Let's Talk Science (2008-present)
 - Organizer, SFU New Biology Grad Student Mentorship Program (2007-2010)
