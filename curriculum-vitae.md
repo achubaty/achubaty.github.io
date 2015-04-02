@@ -11,7 +11,7 @@ date: 2015-04-02
 
 **PhD, Biological Sciences** (2013) Simon Fraser University, Burnaby, BC
 
-- Thesis: "Individual host selection decisions and population-level responses in a time- and energy-limited forager, *Dendroctonus ponderosae* Hopkins"
+- Thesis: "Individual host selection decisions and population-level responses in a time- and energy-limited forager, *Dendroctonus ponderosae* Hopkins" ([https://theses.lib.sfu.ca/thesis/etd8060](https://theses.lib.sfu.ca/thesis/etd8060))
 - Supervisors: Dr. Bernie Roitberg (SFU) & Dr. Chao Li (CFS)
 - Research: developed models of mountain pine beetle individual behaviour and population dynamics; designed and executed experiments testing model predictions; collected field data to assist with model parameterization
 
