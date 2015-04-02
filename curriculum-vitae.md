@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Curriculum Vitae
 author: Alex Chubaty
-date: 2015-03-25
+date: 2015-04-02
 ---
 
 ### Education
@@ -154,6 +154,7 @@ date: 2015-03-25
 
 **Author**
 
+- `fpCompare`: Reliable comparison of floating point numbers. [https://github.com/PredictiveEcology/fpCompare](https://github.com/PredictiveEcology/fpCompare)
 - `SpaDES`: Develop and run spatially explicit discrete event simulation models. [http://spades.predictiveecology.org/](http://spades.predictiveecology.org/)
 
 **Contributor**
