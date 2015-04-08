@@ -110,28 +110,28 @@ date: 2015-04-02
     - Ran online tutorial discussions and exam review sessions; assisted with management and instruction of labs; marked assignments and exams
 
 - BISC 100 Introduction to Biology (Fall 2010, Spring 2012)
-    
+
     - Taught general biological principles including cell functions, genetics, evolution, behaviour, population and community dynamics
     - Designed and taught lessons for tutorial sessions; assisted with management and instruction of labs; marked assignments and exams
-  
+
 - BISC 102 Introductory Biology II (Spring 2006, Spring 2009)
 
     - Taught general biological principles including genetics, diversity and evolution, behaviour, population and community dynamics
     - Designed and taught lessons for tutorial sessions; assisted with management and instruction of labs; marked assignments and exams
-	
+
 - BISC 471W Special Topics: Biology Before the Beagle (Fall 2008)
- 
+
     - Examination of the history of biological thought, emphasizing the life and times of Charles Darwin
     - Exploration of popular and technical scientific writing styles; writing for all audiences; writing historical science essays
     - Designed and taught lessons for tutorial sessions; marked essay assignments
-	
+
 - BISC 410 Behavioural Ecology (Spring 2008)
-  
+
     - Topics covered: foraging, predation, aggression, habitat selection, reproduction, parental care, social behaviour, conservation
     - Evaluated students' presentations of scientific papers and led discussions on behavioural and ecological topics; marked assignments and exams
-	
+
 - BISC 204 Introduction to Ecology (Fall 2006)
-  
+
     - Topics covered: evolution, life history, behavioural ecology, population and community ecology
     - Evaluated students' presentations of scientific papers and led discussions on ecological topics; marked assignments and exams
 
@@ -174,7 +174,7 @@ date: 2015-04-02
 
 ### Recent Publications
 
-- **Chubaty, A.M.**, M. Hart, B.D. Roitberg (*in press*) To tree or not to tree: The role of energy limitation on host tree acceptance in a bark beetle. Evolutionary Ecology Research.
+- **Chubaty, A.M.**, M. Hart, B.D. Roitberg (2014) To tree or not to tree: The role of energy limitation on host tree acceptance in a bark beetle. Evolutionary Ecology Research 16(4):337-349.
 - **Chubaty, A.M.**\*, B.O. Ma\*, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg (2014) On the evolution of omnivory in a community context. Ecology and Evolution 4:251-265.
 - Major, H.L. and **A.M. Chubaty** (2012) Estimating colony and breeding population size for nocturnal burrow-nesting seabirds. Marine Ecology Progress Series 454:83-90.
 - Jumean, Z., B.O. Ma, **A.M. Chubaty**, C.W. Ellenor, B.D. Roitberg, and G. Gries (2011) A theoretical approach to study the evolution of aggregation behavior by codling moth larvae. The Journal of Insect Behaviour 24(4):249-263.
