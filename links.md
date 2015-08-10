@@ -63,10 +63,10 @@ date: 2014-04-18
 
 **R**
 
-- The Comprehensive R Archive Network (CRAN) [ <a href="https://cran.rstudio.com" target="_blank">link</a>]
+- The Comprehensive R Archive Network (CRAN) [ <a href="https://cran.rstudio.com" target="_blank">link</a> ]
 - The R Project for Statistical Computing [ <a href="http://r-project.org " target="_blank">link</a> ]
-- Rstudio IDE for R [ <a href="https://www.rstudio.com" target="_blank">link</a>]
-- `SpaDES` modelling software [ <a href="http://spades.predictiveecology.org" target="_blank">link</a>]
+- Rstudio IDE for R [ <a href="https://www.rstudio.com" target="_blank">link</a> ]
+- `SpaDES` modelling software [ <a href="http://spades.predictiveecology.org" target="_blank">link</a> ]
 
 **Other**
 
