@@ -33,6 +33,10 @@ date: 2014-04-18
 - Entomological Society of Canada (ESC) [ <a href="http://www.esc-sec.ca/ " target="_blank">link</a> ]
 - Professional Pest Management Association Society of BC (PPMABC) [ <a href="http://www.sfu.ca/~ppmabc/ " target="_blank">link</a> ]
 
+### Predictive Ecology
+
+- Predictive Ecology lab [ <a href="http://predictiveecology.org" target="_blank">link</a>]
+
 ### Simon Fraser University
 
 - Evolution and Behavioural Ecology Research Group (eBERG) [ <a href="http://www.sfu.ca/biology/berg/ " target="_blank">link</a> ]
@@ -57,13 +61,18 @@ date: 2014-04-18
 - LaTeX Project [ <a href="http://www.latex-project.org " target="_blank">link</a> ]
 - LaTeX WikiBook [ <a href="https://en.wikibooks.org/wiki/LaTeX " target="_blank">link</a> ]
 
+**R**
+
+- The Comprehensive R Archive Network (CRAN) [ <a href="https://cran.rstudio.com" target="_blank">link</a>]
+- The R Project for Statistical Computing [ <a href="http://r-project.org " target="_blank">link</a> ]
+- Rstudio IDE for R [ <a href="https://www.rstudio.com" target="_blank">link</a>]
+- `SpaDES` modelling software [ <a href="http://spades.predictiveecology.org" target="_blank">link</a>]
+
 **Other**
 
 - Drupal [ <a href="http://drupal.org/ " target="_blank">link</a> ]
 - Google Web Fonts [ <a href="http://code.google.com/webfonts " target="_blank">link</a> ]
 - Mathematica [ <a href="http://www.wolfram.com/mathematica/ " target="_blank">link</a> ]
-- The R Project for Statistical Computing [ <a href="http://r-project.org " target="_blank">link</a> ]
 - Ubuntu Linux [ <a href="http://www.ubuntu.com " target="_blank">link</a> ]
 - WestGrid [ <a href="http://www.westgrid.ca " target="_blank">link</a> ]
 - WordPress [ <a href="http://wordpress.org" target="_blank">link</a> ]
-
