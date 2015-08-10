@@ -35,7 +35,7 @@ date: 2014-04-18
 
 ### Predictive Ecology
 
-- Predictive Ecology lab [ <a href="http://predictiveecology.org" target="_blank">link</a>]
+- Predictive Ecology lab [ <a href="http://predictiveecology.org" target="_blank">link</a> ]
 
 ### Simon Fraser University
 
