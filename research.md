@@ -9,31 +9,31 @@ date: 2014-04-18
 
 ### Research Interests
 
-**Effects of individual differences on higher-level processes**
+I am broadly interested in scaling up from individual­based behavioural models to population­, community­, and even landscape­ level models of insect outbreak and disturbance. I look forward to further exploring impacts of host selection and dispersal at multiple spatial scales.
 
-Broadly, I am interested in understanding how individual variation, especially in physiological state (*e.g.*, energy, age), affects population- and community-level processes. I consider how individuals make behavioural decisions (*i.e.*, mechanisms) as well as their outcomes. In particular, my research focuses on habitat selection and dispersal.
+I have considerable experience modelling biological and ecological systems as well as designing and carrying out experiments. As part of my model development and to test model predictions, I have relied on empirical and experimental data collected in both lab and field settings. I have developed strong data analytical and statistical skills, and am a proficient programmer, with experience using C, Mathematica, and R programming languages. I have authored and contributed to several R packages.
 
-I use a combination of theoretical and experimental approaches, encompassing field and lab work together with mathematical modeling and analysis.
+In addition to designing and executing computer­ based experiments, I have also implemented both lab­ and field­work­based studies, all the way through from initial conception, to planning, conducting measurements, and data analysis. I have worked with various data management systems including spreadsheets and databases, as well as using version control systems to ensure data integrity, reproducibility of analyses, and transparency of results reporting.
 
 ### Current Research
 
-Working with Eliot McIntire (Canadian Forest Service), my postdoctoral work involves the development of individual-based models of mountain pine beetle (MPB) dispersal across the landscape.
+Working with Eliot McIntire (Canadian Forest Service), my current postdoctoral work involves the development of large scale predictive models of mountain pine beetle (MPB) spread from BC and AB into the western range of the boreal forest. I am developing individual­based models of MPB dispersal and expansion. 
+
+Development of these simulation models required software development for building, running, and analyzing outputs. I have been a core author and designer of the `SpaDES` [http://spades.predictiveecology.org/](http://spades.predictiveecology.org/) R package as well as a web­-based user interface, which facilitates the development and deployment of ecological simulation models.
 
 ### Other Research
 
 **Habitat selection decisions of individuals and effects on population-level processes**
 
-Under the supervision of Bernie Roitberg (Simon Fraser University) and Chao Li (Canadian Forest Service) my doctoral thesis considered how both energy and time constraints affect habitat selection decisions of individuals. I specifically consider how these constraints modulate habitat (*i.e.*, host) selection in mountain pine beetle (MPB) and the resulting attack distributions of MPB in pine forests.
-
-Successful mating and reproduction in this bark beetle species is contingent on successful search and colonization of host trees, which involves coordinated 'mass attack' required to overwhelm the host tree's defences. Thus, an individual's host selection decision policy must incorporate assessments of habitat resource quality, host defensive capability, and expected conspecific attack densities. Timing of attack and individual energy (lipid) reserves are further expected to modulate individual decisions.
+Previously, my doctoral research involved development of analytical and simulation models of mountain pine beetle (MPB) habitat selection and dispersal behaviour, and the resulting population distributions and dynamics. Specifically, I considered the role of energy­- and time­-limited host search in MPB, and I developed individual based state­dependent dynamic game models of beetle host selection.
 
 **Theoretical implementation of bark beetle genetic control**
 
-Selfish genetic elements have the potential to drastically reduce the fitness of a pest population via meoitic drive. I evaluate the theoretical potential for such a mechanism to maintain beetle populations below outbreak levels by coupling classic analytical population dynamics and population genetics models incorporating this genetic control element, within a spatially explicit simulation model of beetle infestation across a forest landscape.
+Selfish genetic elements have the potential to drastically reduce the fitness of a pest population via meoitic drive. I evaluated the theoretical potential for such a mechanism to maintain beetle populations below outbreak levels by coupling classic analytical population dynamics and population genetics models incorporating this genetic control element, within a spatially explicit simulation model of beetle infestation across a forest landscape.
 
 **Temperature-Dependent Community Dynamics**
 
-Working with Bernie Roitberg (SFU), Erin Udal (SFU), and Franz Simon (SFU), we are developing a temperature-dependent tritrophic community model of a plant, herbivore, and predator system. We are examining the effects of temperature changes and refugia on the dynamics and stability of such systems. We are following up with experiments to test the outcomes of the models.
+Working with Bernie Roitberg (SFU), Erin Udal (SFU), and Franz Simon (SFU/Yale), we are developing a temperature-dependent tritrophic community model of a plant, herbivore, and predator system. We are examining the effects of temperature changes and refugia on the dynamics and stability of such systems. We are following up with experiments to test the outcomes of the models.
 
 **Evolution of Omnivory in a Community Context**
 
