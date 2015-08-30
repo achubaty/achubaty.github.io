@@ -5,7 +5,6 @@ published: true
 title: Curriculum Vitae
 author: Alex Chubaty
 date: 2015-04-02
-redirect_from: cv
 ---
 
 ### Education

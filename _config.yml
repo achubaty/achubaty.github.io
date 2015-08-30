@@ -1,6 +1,8 @@
 name: Alex M. Chubaty
 markdown: redcarpet
 pygments: true
+gems:
+  - jekyll-redirect-from
 
 domain: alexchubaty.com
 author: Alex M. Chubaty
@@ -18,5 +20,3 @@ disqus:
 twitter:
    username: alexchubaty
 
-gems:
-  - jekyll-redirect-from
