@@ -9,7 +9,7 @@ date: 2014-04-18
 
 ### Research Interests
 
-I am broadly interested in scaling up from individual­based behavioural models to population­, community­, and even landscape­ level models of insect outbreak and disturbance. I look forward to further exploring impacts of host selection and dispersal at multiple spatial scales.
+I am broadly interested in exploring impacts of host selection and dispersal at multiple spatial scales as well as scaling up from individual­-based behavioural models to population-­, community­-, and even landscape­-level models of insect outbreak and disturbance. I 
 
 I have considerable experience modelling biological and ecological systems as well as designing and carrying out experiments. As part of my model development and to test model predictions, I have relied on empirical and experimental data collected in both lab and field settings. I have developed strong data analytical and statistical skills, and am a proficient programmer, with experience using C, Mathematica, and R programming languages. I have authored and contributed to several R packages.
 
