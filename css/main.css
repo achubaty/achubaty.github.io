@@ -4,8 +4,6 @@
 /*
 /*****************************************************************************/
 
-@import  "http://fonts.googleapis.com/css?family=Inconsolata:400,700";
-
 /* Global Reset */
 * {
   margin: 0;
@@ -16,7 +14,7 @@ html, body { height: 100%; }
 
 body {
   background-color: #222222;
-  font-family: 'Inconsolata', sans-serif;
+  font-family: sans-serif;
   font-size: 14px;
   text-align: center;
 }
