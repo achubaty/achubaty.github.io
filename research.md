@@ -19,7 +19,7 @@ In addition to designing and executing computer­ based experiments, I have also
 
 Working with Eliot McIntire (Canadian Forest Service), my current postdoctoral work involves the development of large scale predictive models of mountain pine beetle (MPB) spread from BC and AB into the western range of the boreal forest. I am developing individual­based models of MPB dispersal and expansion. 
 
-Development of these simulation models required software development for building, running, and analyzing outputs. I have been a core author and designer of the `SpaDES` [http://spades.predictiveecology.org/](http://spades.predictiveecology.org/) R package as well as a web­-based user interface, which facilitates the development and deployment of ecological simulation models.
+Development of these simulation models required software development for building, running, and analyzing outputs. I have been a core author and designer of the [`SpaDES`](http://spades.predictiveecology.org/) R package as well as a web­-based user interface, which facilitates the development and deployment of ecological simulation models.
 
 ### Other Research
 
