@@ -18,3 +18,5 @@ disqus:
 twitter:
    username: alexchubaty
 
+gems:
+  - jekyll-redirect-from
