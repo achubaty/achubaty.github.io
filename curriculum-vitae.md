@@ -19,6 +19,8 @@ date: 2016-01-08
 
 - Major in Biological Sciences, minor in Psychology
 
+-----
+
 ### Work Experience
 
 #### Postdoctoral Researcher
@@ -57,6 +59,8 @@ date: 2016-01-08
 - Longair Lab (Sept 2004 - Aug 2005)
 
     - Sorting, identifying, pinning insect specimens
+
+-----
 
 ### Teaching Experience
 
@@ -153,6 +157,8 @@ date: 2016-01-08
 
     - Read, evaluated, and provided feedback on work-term reports submitted by co-op students
 
+-----
+
 ### Software Experience
 
 #### Software package development
@@ -177,13 +183,20 @@ date: 2016-01-08
 - Version control systems: Git, GitHub
 - Web development: CSS, HTML, XHTML, Drupal, Wordpress, Open Journal Systems, `shiny`
 
+-----
+
 ### Recent Publications
 
 <script src="http://bibbase.org/service/mendeley/c009878c-ce2e-397e-b4d5-32d70b399230?jsonp=1"></script>
 
+-----
+
 ### Recent Presentations
 
 <script src="http://bibbase.org/service/mendeley/c009878c-ce2e-397e-b4d5-32d70b399230/group/069d5091-c6b0-38c4-90a2-752e0e826957?jsonp=1"></script>
+
+
+-----
 
 ### Awards, Scholarships & Grants
 
@@ -204,6 +217,8 @@ date: 2016-01-08
 - Alexander Rutherford Scholarship ($2500) Oct 2001
 - University of Calgary Scholar’s Advantage Award ($500) Sept 2001
 
+-----
+
 ### Membership
 
 - Canadian Society for Ecology and Evolution (2006-present)
@@ -211,6 +226,8 @@ date: 2016-01-08
 - Entomological Society of British Columbia (2005-present)
 - Entomological Society of Canada (2010-2014)
 - Professional Pest Management Association of British Columbia (2007-2010)
+
+-----
 
 ### Service Activity
 
