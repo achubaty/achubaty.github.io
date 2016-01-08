@@ -25,7 +25,7 @@ Development of these simulation models required software development for buildin
 
 **Habitat selection decisions of individuals and effects on population-level processes**
 
-Previously, my doctoral research involved development of analytical and simulation models of mountain pine beetle (MPB) habitat selection and dispersal behaviour, and the resulting population distributions and dynamics. Specifically, I considered the role of energy­- and time­-limited host search in MPB, and I developed individual based state­dependent dynamic game models of beetle host selection.
+Previously, my doctoral research involved development of analytical and simulation models of mountain pine beetle (MPB) habitat selection and dispersal behaviour, and the resulting population distributions and dynamics. Specifically, I considered the role of energy­- and time­-limited host search in MPB, and I developed individual-based state-dependent dynamic game models of beetle host selection.
 
 **Theoretical implementation of bark beetle genetic control**
 
