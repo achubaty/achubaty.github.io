@@ -183,22 +183,7 @@ date: 2016-01-08
 
 ### Recent Presentations
 
-- Riel, W., **A.M. Chubaty**. Evolution of Decision Support for Forest Ecosystem Management: Towards Open Modelling and Data. Annual General Meeting of the Entomological Society of British Columbia (Symposium), 17 Oct 2015.
-- Hodson, C., S. Dhanani, A. Hoi, **A.M. Chubaty**, F. Simon. *Drosophila suzukii* in a *D. suzukii* world: Humidity decreases density dependent competition. Annual General Meeting of the Entomological Society of British Columbia, 1-2 Nov 2013
-- **Chubaty, A.M.**, B.O. Ma, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg. On the evolution of omnivory in a community context. 98th Annual Meeting of the Ecological Society of America, 4-9 Aug 2013.
-- Mladenovic, I., **A.M. Chubaty**, and A. Tirajoh. Enhancing Students' Understanding of Biological Concepts by Engaging Them in Research (poster). Symposium on Teaching and Learning: Embracing Change @ SFU, 15 May 2013.
-- **Chubaty, A.M.**, B.O. Ma, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg. On the evolution of omnivory in a community context. Canadian Society for Ecology and Evolution, 12-15 May 2013.
-- **Chubaty, A.M.**, B.O. Ma, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg. Evolution of omnivory in a community context. RPM Research Group, SFU, 11 Apr 2013.
-- **Chubaty, A.M.**. To tree or not to tree: Energy and time limited habitat settlement decisions in bark beetles. Les Écologistes Seminar Series, SFU, Nov 2012.
-- **Chubaty, A.M.** and B.D. Roitberg. Can selfish genes help prevent pest outbreaks? 1st Joint Congress on Evolutionary Biology, 6-10 July 2012.
-- Roitberg, B.D. and **A.M. Chubaty**. State dependent problems for arthropods. Pacific Institute for the Mathematical Sciences / Centre for Scientific Computing Seminar Series, SFU, 19 Nov 2010.
-- **Chubaty, A.M.**. Energy reserves modulate host acceptance decisions in mountain pine beetles. Joint Annual Meeting of the Entomological Societies of Canada and British Columbia, 31 Oct – 3 Nov 2010.
-- **Chubaty, A.M.** and M. Hart. Mountain pine beetle condition and timing of emergence: who emerges when. Annual General Meeting of the Entomological Society of British Columbia, 2-3 Oct 2009. *(Best PhD Student Talk)*
-- **Chubaty, A.M.** and M. Hart. Mountain pine beetle condition and timing of emergence: who emerges when. Canadian Society for Ecology and Evolution, 11-14 May 2008.
-- **Chubaty, A.M.**, B.D. Roitberg, C. Li. An individual model of host selection for mountain pine beetle. Canadian Society for Ecology and Evolution, 17-20 May 2007.
-- **Chubaty, A.M.**, *et al.*. "I’ll have the steak special, with a side salad": exploring the evolution of omnivory. Les Écologistes Seminar Series, SFU, 15 Mar 2007.
-- **Chubaty, A.M.**, B.D. Roitberg, C. Li. Beetles pine for lodgepole homes: mountain pine beetle’s search for a host. Annual General Meeting of the Entomological Society of British Columbia, 13-14 Oct 2006.
-- **Chubaty, A.M.**, B.D. Roitberg, C. Li, B.O. Ma. Using game theory to evaluate host acceptance decisions in mountain pine beetle. 27th Annual Pacific Ecology and Evolution Conference, 3-5 Mar 2006.
+<script src="http://bibbase.org/service/mendeley/c009878c-ce2e-397e-b4d5-32d70b399230/group/069d5091-c6b0-38c4-90a2-752e0e826957?jsonp=1"></script>
 
 ### Awards, Scholarships & Grants
 
