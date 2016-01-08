@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Curriculum Vitae
 author: Alex Chubaty
-date: 2015-04-02
+date: 2016-01-06
 ---
 
 ### Education
@@ -23,7 +23,12 @@ date: 2015-04-02
 
 #### Postdoctoral Researcher
 
-- Canadian Forest Service — Pacific Forestry Centre (Jan 2014 - present)
+- Canadian Forest Service — Pacific Forestry Centre (Sept 2015 - present)
+
+    - Integrate conceptual models of mountain pine beetle (MPB) dispersal and available data into a simulation models to predict the easterly and northerly spread of MPB in Canada.
+    - Develop spatial simulation software: `SpaDES` [http://spades.predictiveecology.org/](http://spades.predictiveecology.org/)
+
+- Université Laval — Département des sciences du bois et de la forêt AND Canadian Forest Service — Pacific Forestry Centre (Jan 2014 - Sept 2015)
 
     - Development of individual based models of mountain pine beetle dispersal on the landscape.
 	- Development of spatial simulation software, `SpaDES` [http://spades.predictiveecology.org/](http://spades.predictiveecology.org/)
@@ -182,6 +187,7 @@ date: 2015-04-02
 
 ### Recent Presentations
 
+- Riel, W., **A.M. Chubaty**. Evolution of Decision Support for Forest Ecosystem Management: Towards Open Modelling and Data. Annual General Meeting of the Entomological Society of British Columbia (Symposium), 17 Oct 2015.
 - Hodson, C., S. Dhanani, A. Hoi, **A.M. Chubaty**, F. Simon. *Drosophila suzukii* in a *D. suzukii* world: Humidity decreases density dependent competition. Annual General Meeting of the Entomological Society of British Columbia, 1-2 Nov 2013
 - **Chubaty, A.M.**, B.O. Ma, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg. On the evolution of omnivory in a community context. 98th Annual Meeting of the Ecological Society of America, 4-9 Aug 2013.
 - Mladenovic, I., **A.M. Chubaty**, and A. Tirajoh. Enhancing Students' Understanding of Biological Concepts by Engaging Them in Research (poster). Symposium on Teaching and Learning: Embracing Change @ SFU, 15 May 2013.
@@ -227,15 +233,16 @@ date: 2015-04-02
 
 ### Service Activity
 
-- Website Editor, Entomological Society of British Columbia (2011-present)
+- External Reviewer, NSERC discovery grants (2016)
+- Website Editor, Entomological Society of British Columbia (2011-2015)
 
     - Oversaw digitization of the society's entire journal archive dating back to 1906, and directed efforts to move the journal archive online and made freely available as an open-access publication
 
 - A/V Volunteer, 98th Annual Meeting of the Ecological Society of America (4-9 Aug 2013)
 - Organizer, Joint Annual Meeting of the Entomological Societies of Canada and British Columbia (2010)
-- Volunteer, Let's Talk Science (2008-present)
+- Volunteer, Let's Talk Science (2008-2013)
 - Organizer, SFU New Biology Grad Student Mentorship Program (2007-2010)
-- Webmaster, SFU Biology Grad Student Caucus (2007–present)
+- Webmaster, SFU Biology Grad Student Caucus (2007–2012)
 - Editor, Newsletter of the Professional Pest Management Association of British Columbia (2007-2010)
 - Webmaster, Professional Pest Management Association of British Columbia (2007-2010)
 - Judge, Calgary Youth Science Fair (2003, 2004)
