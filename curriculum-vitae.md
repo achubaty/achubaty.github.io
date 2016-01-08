@@ -187,13 +187,13 @@ date: 2016-01-08
 
 ### Recent Publications
 
-<script src="http://bibbase.org/service/mendeley/c009878c-ce2e-397e-b4d5-32d70b399230?jsonp=1"></script>
+<script src="http://bibbase.org/service/mendeley/c009878c-ce2e-397e-b4d5-32d70b399230?jsonp=1&authorFirst=1"></script>
 
 -----
 
 ### Recent Presentations
 
-<script src="http://bibbase.org/service/mendeley/c009878c-ce2e-397e-b4d5-32d70b399230/group/069d5091-c6b0-38c4-90a2-752e0e826957?jsonp=1"></script>
+<script src="http://bibbase.org/service/mendeley/c009878c-ce2e-397e-b4d5-32d70b399230/group/069d5091-c6b0-38c4-90a2-752e0e826957?jsonp=1&authorFirst=1"></script>
 
 
 -----
