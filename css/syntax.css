@@ -1,4 +1,4 @@
-@import  "http://fonts.googleapis.com/css?family=Inconsolata:400,700";
+@import  "//fonts.googleapis.com/css?family=Inconsolata:400,700";
 
 .highlight  { background: #ffffff; font-family: 'Inconsolata' }
 .highlight .c { color: #999988; font-style: italic } /* Comment */
