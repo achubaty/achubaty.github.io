@@ -1,6 +1,6 @@
 name: Alex M. Chubaty
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 gems:
   - jekyll-redirect-from
 
