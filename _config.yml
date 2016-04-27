@@ -1,5 +1,5 @@
 name: Alex M. Chubaty
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
 gems:
   - jekyll-redirect-from
