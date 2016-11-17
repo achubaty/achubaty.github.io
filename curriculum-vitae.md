@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Curriculum Vitae
 author: Alex Chubaty
-date: 2016-01-06
+date: 2016-11-17
 ---
 
 ### Education
@@ -16,8 +16,6 @@ date: 2016-01-06
 - Research: developed models of mountain pine beetle individual behaviour and population dynamics; designed and executed experiments testing model predictions; collected field data to assist with model parameterization
 
 **BSc, Biological Sciences** (2005) University of Calgary, Calgary, AB
-
-- Major in Biological Sciences, minor in Psychology
 
 -----
 
@@ -166,6 +164,7 @@ date: 2016-01-06
 **Author**
 
 - `fpCompare`: Reliable comparison of floating point numbers. [https://github.com/PredictiveEcology/fpCompare](https://github.com/PredictiveEcology/fpCompare)
+- `NetLogoR`: A Port of 'NetLogo' Functions and Language to R. [http://netlogor.predictiveecology.org/](http://netlogor.predictiveecology.org/)
 - `SpaDES`: Develop and run spatially explicit discrete event simulation models. [http://spades.predictiveecology.org/](http://spades.predictiveecology.org/)
 
 **Contributor**
@@ -197,7 +196,9 @@ date: 2016-01-06
 
 ### Recent Presentations
 
+- McIntire, E.J.B. and **A.M. Chubaty**. The `SpaDES platform: Modern scientific forecasts, backcasts, and decisions. Northern Forestry Centre, NRCAN, 22 July 2015.
 - Riel, W., **A.M. Chubaty**. Evolution of Decision Support for Forest Ecosystem Management: Towards Open Modelling and Data. Annual General Meeting of the Entomological Society of British Columbia (Symposium), 17 Oct 2015.
+- **Chubaty, A.M.** and E.J.B. McIntire. `SpaDES`: Spatial Discrete Event Simulation. Northern Forestry Centre, NRCAN. 25 Nov 2014.
 - Hodson, C., S. Dhanani, A. Hoi, **A.M. Chubaty**, F. Simon. *Drosophila suzukii* in a *D. suzukii* world: Humidity decreases density dependent competition. Annual General Meeting of the Entomological Society of British Columbia, 1-2 Nov 2013
 - **Chubaty, A.M.**, B.O. Ma, R.W. Stein, D.R. Gillespie, L.M. Henry, C. Phelan, E. Palsson, F.W. Simon, B.D. Roitberg. On the evolution of omnivory in a community context. 98th Annual Meeting of the Ecological Society of America, 4-9 Aug 2013.
 - Mladenovic, I., **A.M. Chubaty**, and A. Tirajoh. Enhancing Students' Understanding of Biological Concepts by Engaging Them in Research (poster). Symposium on Teaching and Learning: Embracing Change @ SFU, 15 May 2013.
@@ -263,3 +264,4 @@ date: 2016-01-06
 - Webmaster, Professional Pest Management Association of British Columbia (2007-2010)
 - Judge, Calgary Youth Science Fair (2003, 2004)
 - Student Leader, "U of C 101" University of Calgary (2003, 2004)
+
