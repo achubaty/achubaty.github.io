@@ -242,8 +242,8 @@ date: 2016-11-17
 
 - Canadian Society for Ecology and Evolution (2006-present)
 - Ecological Society of America (2013-2014)
-- Entomological Society of British Columbia (2005-present)
-- Entomological Society of Canada (2010-2014)
+- Entomological Society of British Columbia (2005-2015)
+- Entomological Society of Canada (2010-2014; 2016-present)
 - Professional Pest Management Association of British Columbia (2007-2010)
 
 -----
