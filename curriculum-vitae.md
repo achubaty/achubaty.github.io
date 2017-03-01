@@ -196,6 +196,7 @@ date: 2016-11-17
 
 ### Recent Presentations
 
+- **Chubaty, A.M.**, E.J.B. McIntire, B. J. Cooke. Simulating MPB invasive spread control in Saskatchewan using `SpaDES`. SERG International Workshop, 6-9 Feb 2017.
 - McIntire, E.J.B. and **A.M. Chubaty**. The `SpaDES platform: Modern scientific forecasts, backcasts, and decisions. Northern Forestry Centre, NRCAN, 22 July 2015.
 - Riel, W., **A.M. Chubaty**. Evolution of Decision Support for Forest Ecosystem Management: Towards Open Modelling and Data. Annual General Meeting of the Entomological Society of British Columbia (Symposium), 17 Oct 2015.
 - **Chubaty, A.M.** and E.J.B. McIntire. `SpaDES`: Spatial Discrete Event Simulation. Northern Forestry Centre, NRCAN. 25 Nov 2014.
