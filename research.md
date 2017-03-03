@@ -25,7 +25,7 @@ Development of these simulation models required software development for buildin
 
 **Boreal forest ecosystem forecasts using integrated dynamic simulation models**
 
-My postdoctoral work involves the development of a spatially explicit discrete event simulation framework for R (the `SpaDES` package), and implementation of simulation models examining ecological processes in boreal ecosystems. I am developing models of mountain pine beetle (MPB) dispersal and spread, and integrating these models with others developed in our lab for forest vegetaiton dynamics, fire, and others.
+Working with others in the McIntire lab at PFC, we are working on integrating various simulation models dealing with forest vegetaiton dynamics, fire, insect disturbance, and wildlife populations.
 
 **Habitat selection decisions of individuals and effects on population-level processes**
 
