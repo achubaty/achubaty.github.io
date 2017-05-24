@@ -196,7 +196,9 @@ date: 2016-11-17
 
 ### Recent Presentations
 
-- **Chubaty, A.M.**, E.J.B. McIntire, B. J. Cooke. Simulating MPB invasive spread control in Saskatchewan using `SpaDES`. SERG International Workshop, 6-9 Feb 2017.
+- **Chubaty, A.M.**, E.J.B. McIntire, B.J. Cooke, S.G. Cumming, Y. Luo. Boreal insect disturbancne in `SpaDES`: integrated simulation model of mountain pine beetle eastward spread (poster). Canadian Society for Ecology and Evolution, 7-10 May 2017.
+- **Chubaty, A.M.**, E.J.B. McIntire, B.J. Cooke. Simulating MPB invasive spread control using `SpaDES`. fRI Mountain Pine Beetle Ecology Research Forum, 25-26 Apr 2017.
+- **Chubaty, A.M.**, E.J.B. McIntire, B.J. Cooke. Simulating MPB invasive spread control in Saskatchewan using `SpaDES`. SERG International Workshop, 6-9 Feb 2017.
 - McIntire, E.J.B. and **A.M. Chubaty**. The `SpaDES platform: Modern scientific forecasts, backcasts, and decisions. Northern Forestry Centre, NRCAN, 22 July 2015.
 - Riel, W., **A.M. Chubaty**. Evolution of Decision Support for Forest Ecosystem Management: Towards Open Modelling and Data. Annual General Meeting of the Entomological Society of British Columbia (Symposium), 17 Oct 2015.
 - **Chubaty, A.M.** and E.J.B. McIntire. `SpaDES`: Spatial Discrete Event Simulation. Northern Forestry Centre, NRCAN. 25 Nov 2014.
@@ -251,6 +253,7 @@ date: 2016-11-17
 
 ### Service Activity
 
+- Reviewer, PeerJ (2017)
 - External Reviewer, NSERC discovery grants (2016)
 - Website Editor, Entomological Society of British Columbia (2011-2015)
 
