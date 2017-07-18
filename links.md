@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Links
 author: Alex Chubaty
-date: 2014-04-18
+date: 2017-07-18
 ---
 
 ### Academic Journals & Societies
@@ -47,8 +47,8 @@ date: 2014-04-18
 
 #### Backup, Synchronization, and Version Control
 
-- Dropbox [ <a href="http://www.dropbox.com/referrals/NTcyMTk0NTk " target="_blank">link</a> ]
-- GitHub [ <a href="http://github.com " target="_blank">link</a> ]
+- Dropbox [ <a href="https://www.dropbox.com/referrals/NTcyMTk0NTk " target="_blank">link</a> ]
+- GitHub [ <a href="https://github.com " target="_blank">link</a> ]
 
 #### Citation Management
 
@@ -57,22 +57,20 @@ date: 2014-04-18
 
 #### LaTeX
 
-- LaTeX Bibliography Styles Database [ <a href="http://bst.maururu.net/ " target="_blank">link</a> ]
-- LaTeX Project [ <a href="http://www.latex-project.org " target="_blank">link</a> ]
+- LaTeX Project [ <a href="https://www.latex-project.org " target="_blank">link</a> ]
 - LaTeX WikiBook [ <a href="https://en.wikibooks.org/wiki/LaTeX " target="_blank">link</a> ]
 
 #### R
 
 - The Comprehensive R Archive Network (CRAN) [ <a href="https://cran.rstudio.com" target="_blank">link</a> ]
-- The R Project for Statistical Computing [ <a href="http://r-project.org " target="_blank">link</a> ]
+- The R Project for Statistical Computing [ <a href="https://r-project.org " target="_blank">link</a> ]
 - Rstudio IDE for R [ <a href="https://www.rstudio.com" target="_blank">link</a> ]
 - `SpaDES` modelling software [ <a href="http://spades.predictiveecology.org" target="_blank">link</a> ]
 
 #### Other
 
-- Drupal [ <a href="http://drupal.org/ " target="_blank">link</a> ]
-- Google Web Fonts [ <a href="http://code.google.com/webfonts " target="_blank">link</a> ]
-- Mathematica [ <a href="http://www.wolfram.com/mathematica/ " target="_blank">link</a> ]
-- Ubuntu Linux [ <a href="http://www.ubuntu.com " target="_blank">link</a> ]
-- WestGrid [ <a href="http://www.westgrid.ca " target="_blank">link</a> ]
-- WordPress [ <a href="http://wordpress.org" target="_blank">link</a> ]
+- Google Web Fonts [ <a href="https://fonts.google.com/" target="_blank">link</a> ]
+- Mathematica [ <a href="https://www.wolfram.com/mathematica/ " target="_blank">link</a> ]
+- Ubuntu Linux [ <a href="https://www.ubuntu.com " target="_blank">link</a> ]
+- WestGrid [ <a href="https://www.westgrid.ca " target="_blank">link</a> ]
+- WordPress [ <a href="https://wordpress.org" target="_blank">link</a> ]
