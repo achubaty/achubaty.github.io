@@ -163,15 +163,16 @@ date: 2017-09-01
 
 **Author**
 
-- `fpCompare`: Reliable comparison of floating point numbers. [CRAN](https://cran.r-project.org/package=fpCompare); [GitHub](https://github.com/PredictiveEcology/fpCompare)
+- `fpCompare`: Reliable comparison of floating point numbers. [CRAN](https://cran.r-project.org/package=fpCompare); [GitHub](https://github.com/PredictiveEcology/fpCompare); [Website](http://fpcompare.predictvieecology.org)
 - `grainscape`: Efficient modelling of landscape connectivity, habitat, and protected area networks. [CRAN](https://cran.r-project.org/package=grainscape); [GitHub](https://github.com/achubaty/grainscape); [Website](https://achubaty.github.io/grainscape)
 - `NetLogoR`: A Port of 'NetLogo' Functions and Language to R. [CRAN](https://cran.r-project.org/package=NetLogoR); [GitHub](https://github.com/PredictiveEcology/NetLogoR); [Website](http://netlogor.predictiveecology.org/)
-- `quickPlot`: Develop and run spatially explicit discrete event simulation models. [CRAN](https://cran.r-project.org/package=quickPlot); [GitHub](https://github.com/PredictiveEcology/quickPlot)
-- `reproducible`: Develop and run spatially explicit discrete event simulation models. [CRAN](https://cran.r-project.org/package=reproducible); [GitHube](https://github.com/PredictiveEcology/reproducible)
+- `quickPlot`: Develop and run spatially explicit discrete event simulation models. [CRAN](https://cran.r-project.org/package=quickPlot); [GitHub](https://github.com/PredictiveEcology/quickPlot); [Website](http://quickplot.predictiveecology.org/)
+- `reproducible`: Develop and run spatially explicit discrete event simulation models. [CRAN](https://cran.r-project.org/package=reproducible); [GitHub](https://github.com/PredictiveEcology/reproducible); [Website](http://reproducible.predictiveecology.org/)
 - `SpaDES`: Develop and run spatially explicit discrete event simulation models. [CRAN](https://cran.r-project.org/package=SpaDES); [GitHub](); [Website](http://spades.predictiveecology.org/)
-- `SpaDES.addins`: Tools and RStudio addins for 'SpaDES' and 'SpaDES' module development. [CRAN](https://cran.r-project.org/package=SpaDES.addins); [GitHub](https://github.com/PredictiveEcology/SpaDES.addins)
-- `SpaDES.core`: Core functionality for Spatial Discrete Event Simulation (SpaDES). [CRAN](https://cran.r-project.org/package=SpaDES.core); [GitHub](https://github.com/PredictiveEcology/SpaDES.core)
-- `SpaDES.tools`: Additional modelling tools for Spatial Discrete Event Simulation (SpaDES) module development. [CRAN](https://cran.r-project.org/package=SpaDES.tools); [GitHub](https://github.com/PredictiveEcology/SpaDES.tools)
+- `SpaDES.addins`: Tools and RStudio addins for 'SpaDES' and 'SpaDES' module development. [CRAN](https://cran.r-project.org/package=SpaDES.addins); [GitHub](https://github.com/PredictiveEcology/SpaDES.addins); [Website](http://spades-addins.predictiveecology.org/)
+- `SpaDES.core`: Core functionality for Spatial Discrete Event Simulation (SpaDES). [CRAN](https://cran.r-project.org/package=SpaDES.core); [GitHub](https://github.com/PredictiveEcology/SpaDES.core); [Website](http://spades-core.predictiveecology.org/)
+- `SpaDES.shiny`: Utilities for building `shiny`-based apps for `SpaDES` simulations. [GitHub](https://github.com/PredictiveEcology/SpaDES.shiny); [Website](http://spades-shiny.predictiveecology.org/)
+- `SpaDES.tools`: Additional modelling tools for Spatial Discrete Event Simulation (SpaDES) module development. [CRAN](https://cran.r-project.org/package=SpaDES.tools); [GitHub](https://github.com/PredictiveEcology/SpaDES.tools); [Website](http://spades-tools.predictiveecology.org/)
 
 **Contributor**
 
