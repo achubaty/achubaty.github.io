@@ -163,7 +163,7 @@ date: 2017-09-01
 
 **Author**
 
-- `fpCompare`: Reliable comparison of floating point numbers. [CRAN](https://cran.r-project.org/package=fpCompare); [GitHub](https://github.com/PredictiveEcology/fpCompare); [Website](http://fpcompare.predictvieecology.org)
+- `fpCompare`: Reliable comparison of floating point numbers. [CRAN](https://cran.r-project.org/package=fpCompare); [GitHub](https://github.com/PredictiveEcology/fpCompare); [Website](http://fpcompare.predictiveecology.org)
 - `grainscape`: Efficient modelling of landscape connectivity, habitat, and protected area networks. [CRAN](https://cran.r-project.org/package=grainscape); [GitHub](https://github.com/achubaty/grainscape); [Website](https://achubaty.github.io/grainscape)
 - `NetLogoR`: A Port of 'NetLogo' Functions and Language to R. [CRAN](https://cran.r-project.org/package=NetLogoR); [GitHub](https://github.com/PredictiveEcology/NetLogoR); [Website](http://netlogor.predictiveecology.org/)
 - `quickPlot`: Develop and run spatially explicit discrete event simulation models. [CRAN](https://cran.r-project.org/package=quickPlot); [GitHub](https://github.com/PredictiveEcology/quickPlot); [Website](http://quickplot.predictiveecology.org/)
