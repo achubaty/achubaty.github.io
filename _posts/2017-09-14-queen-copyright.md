@@ -24,7 +24,7 @@ Author:	Alex M Chubaty [aut, cre],
 
 Note, however, that Her Majesty's [role](http://r-pkgs.had.co.nz/description.html#author) not as a package *author* (`aut`) but as the *copyright holder* (`cph`).
 
-It's common practice in many companies to attribute copyright to your employer, an there are several R packages that list a company as copyright holder.
+It's common practice in many companies to attribute copyright to your employer, and there are several R packages that list a company as copyright holder.
 For example, take a look at the packages packages produced by RStudio (*e.g.*, [`dplyr`](https://cran.r-project.org/package=dplyr), [`ggplot2`](https://cran.r-project.org/package=ggplot2)).
 
 As a Canadian public servant, the Crown holds copyright on our work, including R packages.
