@@ -25,10 +25,10 @@ Author:	Alex M Chubaty [aut, cre],
 Note, however, that Her Majesty's [role](http://r-pkgs.had.co.nz/description.html#author) not as a package *author* (`aut`) but as the *copyright holder* (`cph`).
 
 It's common practice in many companies to attribute copyright to your employer, and there are several R packages that list a company as copyright holder.
-For example, take a look at the packages packages produced by RStudio (*e.g.*, [`dplyr`](https://cran.r-project.org/package=dplyr), [`ggplot2`](https://cran.r-project.org/package=ggplot2)).
+For example, take a look at the packages produced by RStudio (*e.g.*, [`dplyr`](https://cran.r-project.org/package=dplyr), [`ggplot2`](https://cran.r-project.org/package=ggplot2)).
 
 As a Canadian public servant, the Crown holds copyright on our work, including R packages.
-(Next time you're reading a scientific paper produced by a federal employee note the copyright -- most publishers assign Crown Copyright in these cases instead of the publisher itself maintaining copyright. *E.g.*, [Elsevier](https://www.elsevier.com/about/our-business/policies/copyright#Government-employees))
+(Next time you're reading a scientific paper produced by a federal employee note the copyright -- most publishers assign Crown Copyright in these cases instead of the publisher itself maintaining copyright. *E.g.*, [Elsevier](https://www.elsevier.com/about/our-business/policies/copyright#Government-employees).)
 
 <blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">Queen Elizabeth II has another <a href="https://twitter.com/hashtag/rstats?src=hash">#rstats</a> package on CRAN. This one&#39;s for reproducible research. <a href="https://t.co/T71aefEPTL">https://t.co/T71aefEPTL</a></p>&mdash; Thomas Leeper (@thosjleeper) <a href="https://twitter.com/thosjleeper/status/894176471392059392">August 6, 2017</a></blockquote>
 <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
