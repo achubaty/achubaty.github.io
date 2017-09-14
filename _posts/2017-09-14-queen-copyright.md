@@ -14,7 +14,12 @@ A [number](https://twitter.com/JennyBryan/status/585955759525007360) [of](http:/
 For example, in the [`SpaDES`](https://cran.r-project.org/package=SpaDES) package:
 
 ```
-Author:	Alex M Chubaty [aut, cre], Eliot J B McIntire [aut], Yong Luo [ctb], Steve Cumming [ctb], Her Majesty the Queen in Right of Canada, as represented by the Minister of Natural Resources Canada [cph
+Author:	Alex M Chubaty [aut, cre],
+        Eliot J B McIntire [aut],
+        Yong Luo [ctb],
+        Steve Cumming [ctb],
+        Her Majesty the Queen in Right of Canada, as represented by
+         the Minister of Natural Resources Canada [cph]
 ```
 
 Note, however, that Her Majesty's [role](http://r-pkgs.had.co.nz/description.html#author) not as a package *author* (`aut`) but as the *copyright holder* (`cph`).
