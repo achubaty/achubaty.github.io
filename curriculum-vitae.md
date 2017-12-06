@@ -204,7 +204,7 @@ date: 2017-09-01
 ### Recent Presentations
 
 - McIntire, E.J.B., S. Bauduin, J. Marchal, A. Clason, **A.M. Chubaty**, S.G. Cumming. Incorporating changing climate in ecological models: feedbacks, trade-offs and surprises! *OR* How do we influence decision makers?. Canadian Institute of Forestry, Web Seminar, Nov 2017.
-- **Chubaty, A.M.**, E.J.B. McIntire, B.J. Cooke. Boreal insect disturbancne in `SpaDES`: integrated simulation model of mountain pine beetle eastward spread (poster). Joint Annual Meeting of the Entomological Societies of Canada and Manitoba, 22-25 Oct 2017.
+- **Chubaty, A.M.**, E.J.B. McIntire, B.J. Cooke. Boreal insect disturbancne in `SpaDES`: integrated simulation model of mountain pine beetle eastward spread. Joint Annual Meeting of the Entomological Societies of Canada and Manitoba, 22-25 Oct 2017.
 - **A.M. Chubaty** and E.J.B. McIntire. Cumulative effects simulation and modern scientific forecasts: challenges and opportunities. Great Lakes Forestry Centre Seminar Series, NRCAN, 20 Oct 2017.
 - McIntire, E.J.B., S. Bauduin, J. Marchal, A. Clason, **A.M. Chubaty**, S.G. Cumming. Incorporating changing climate in ecological models: feedback, reversals and surprises abound! Global climate change and patagonian ecosystem response: present and future challenges, Coyhaique, Chile, 2017.
 - McIntire, E.J.B., E.M. Campbell, R.S. Winder, **A.M. Chubaty**, M.A. Wulder, *et al.* Building a continuous adaptive management system in `SpaDES`: dialing down the risk for woodland caribou. Ontario, 2017.
