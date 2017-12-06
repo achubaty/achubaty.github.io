@@ -211,7 +211,7 @@ date: 2017-09-01
 - **Chubaty, A.M.**, E.J.B. McIntire, B.J. Cooke, S.G. Cumming, Y. Luo. Boreal insect disturbance in `SpaDES`: integrated simulation model of mountain pine beetle eastward spread (poster). Canadian Society for Ecology and Evolution, 7-10 May 2017.
 - Cumming, S.G., E.J.B. McIntire, Y. Luo, **A.M. Chubaty**, D. Woolford. Burning in `SpaDES`: Automated parameter estimation for landscape fire models. Canadian Society for Ecology and Evolution, 7-10 May 2017.
 - Luo, Y., E.J.B. McIntire, **A.M. Chubaty**, D. Andison, S.G. Cumming. Vegetation dynamics in `SpaDES`: the recoded LANDIS-II biomass succession model. Canadian Society for Ecology and Evolution, 7-10 May 2017.
-- McIntire, E.J.B., D. Andison, S.G. Cumming, Y. Luo, **A.M. Chubaty**. Building a continuous adaptive management system in SpaDES: using historical landscape variation for the LandWeb project. Canadian Society for Ecology and Evolution, 7-10 May 2017.
+- McIntire, E.J.B., D. Andison, S.G. Cumming, Y. Luo, **A.M. Chubaty**. Building a continuous adaptive management system in `SpaDES`: using historical landscape variation for the LandWeb project. Canadian Society for Ecology and Evolution, 7-10 May 2017.
 - **Chubaty, A.M.**, E.J.B. McIntire, B.J. Cooke. Simulating MPB invasive spread control using `SpaDES`. fRI Mountain Pine Beetle Ecology Research Forum, 25-26 Apr 2017.
 - **Chubaty, A.M.**, E.J.B. McIntire, B.J. Cooke. Simulating MPB invasive spread control in Saskatchewan using `SpaDES`. SERG International Workshop, 6-9 Feb 2017.
 - McIntire, E.J.B., **A.M. Chubaty**, D. Andison. Getting to answers, in `SpaDES`. FaCOP Webinar Series, Sault Ste. Marie, ON, 2016.
