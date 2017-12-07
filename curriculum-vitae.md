@@ -4,7 +4,7 @@ status: publish
 published: true
 title: Curriculum Vitae
 author: Alex Chubaty
-date: 2017-12-06
+date: 2017-12-07
 ---
 
 ### Education
