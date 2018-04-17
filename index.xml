@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Alex M. Chubaty on Alex M. Chubaty</title>
-    <link>/</link>
+    <link>https://alexchubaty.com/</link>
     <description>Recent content in Alex M. Chubaty on Alex M. Chubaty</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
@@ -12,19 +12,19 @@
     
     <item>
       <title>Habitat Connectivity</title>
-      <link>/project/habitat-connectivity/</link>
+      <link>https://alexchubaty.com/project/habitat-connectivity/</link>
       <pubDate>Mon, 16 Apr 2018 20:41:21 -0600</pubDate>
       
-      <guid>/project/habitat-connectivity/</guid>
+      <guid>https://alexchubaty.com/project/habitat-connectivity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Boreal forest ecosystem forecasts using integrated dynamic simulation models</title>
-      <link>/project/boreal-ecosystems/</link>
+      <link>https://alexchubaty.com/project/boreal-ecosystems/</link>
       <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
       
-      <guid>/project/boreal-ecosystems/</guid>
+      <guid>https://alexchubaty.com/project/boreal-ecosystems/</guid>
       <description>&lt;p&gt;Working with others in the McIntire lab at the Pacific Forestry Centre, we are working on integrating various simulation models dealing with forest vegetaiton dynamics, fire, insect disturbance, and wildlife populations, to inform decision making in these management areas.&lt;/p&gt;
 
 &lt;p&gt;We are developing multiple simulation model components for use with the &lt;a href=&#34;http://predictiveecology.org/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;SpaDES&lt;/code&gt;&lt;/a&gt; simulation platform (of which I am co-developer).&lt;/p&gt;
@@ -33,10 +33,10 @@
     
     <item>
       <title>Simulating mountain pine beetle eastward spread</title>
-      <link>/project/mpb-spread/</link>
+      <link>https://alexchubaty.com/project/mpb-spread/</link>
       <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
       
-      <guid>/project/mpb-spread/</guid>
+      <guid>https://alexchubaty.com/project/mpb-spread/</guid>
       <description>&lt;p&gt;The continued eastward spread of mountain pine beetle (Dendroctonus ponderosae Hopk.; MPB) now threatens the boreal forests of eastern Alberta, Saskatchewan, and beyond. Predicting the outbreak and spread dynamics of this insect in jack pine, and to evaluate control measures to mitigate a potentially devastating loss of forest habitat and timber supply requires not only a complex understanding of the various inputs to this system and their interactions (e.g., MPB population dynamics, climate impacts, landscape features) but also the technical capacity to run large-scale spatial simulation models, and to update them quickly as new data are acquired and new models are developed.&lt;/p&gt;
 
 &lt;p&gt;Nonlinear density-dependent dynamics of mountain pine beetle (MPB) recruitment means that MPB spread to Saskatchewan and beyond is primarily a “numbers game”, and this has sharp consequences for pest management thresholds. The nonlinear dependency of survival rate on temperature means that eruptive potential is regulated secondarily by climate, and this has consequences for the efficacy of pest management through “direct control”. Through simulation we distinguish the conditions under which MPB spread can be significantly slowed. Preliminary results indicate that the prognosis for pest management in the lodgepole pine of the Rocky Mountains Foothills region is distinctly different that of boreal jack pine.&lt;/p&gt;
@@ -47,28 +47,28 @@
     
     <item>
       <title>SpaDES: Spatial Discrete Event Simulation</title>
-      <link>/project/spades/</link>
+      <link>https://alexchubaty.com/project/spades/</link>
       <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
       
-      <guid>/project/spades/</guid>
+      <guid>https://alexchubaty.com/project/spades/</guid>
       <description></description>
     </item>
     
     <item>
       <title>State-dependent domicile leaving rates in Anopheles gambiae</title>
-      <link>/publication/zappia2017mj/</link>
+      <link>https://alexchubaty.com/publication/zappia2017mj/</link>
       <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
       
-      <guid>/publication/zappia2017mj/</guid>
+      <guid>https://alexchubaty.com/publication/zappia2017mj/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Yes, The Queen is listed as an &#39;author&#39; on our R packages</title>
-      <link>/post/2017-09-14-queen-copyright/</link>
+      <link>https://alexchubaty.com/post/2017-09-14-queen-copyright/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-09-14-queen-copyright/</guid>
+      <guid>https://alexchubaty.com/post/2017-09-14-queen-copyright/</guid>
       <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Just noticed the Queen is listed as an author in this (and probably other) R packages &lt;a href=&#34;https://t.co/ehCb3uHjpx&#34;&gt;https://t.co/ehCb3uHjpx&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://t.co/KRKKQvlGX4&#34;&gt;pic.twitter.com/KRKKQvlGX4&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Smith (@revodavid) &lt;a href=&#34;https://twitter.com/revodavid/status/905899118446436358&#34;&gt;September 7, 2017&lt;/a&gt;&lt;/blockquote&gt;
 &lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
 
@@ -100,14 +100,14 @@ For example, take a look at the packages produced by RStudio (&lt;em&gt;e.g.&lt;
     
     <item>
       <title>Using the latest GDAL with R packages on macOS</title>
-      <link>/post/2016-12-13-using-latest-gdal-macos/</link>
+      <link>https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos/</link>
       <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/2016-12-13-using-latest-gdal-macos/</guid>
+      <guid>https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos/</guid>
       <description>
 
 &lt;p&gt;I wanted to play around with the new &lt;a href=&#34;https://cran.r-project.org/package=sf&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;sf&lt;/code&gt;&lt;/a&gt; package, which requires the latest GDAL (&amp;gt;= 2.0.0), GEOS (&amp;gt;= 3.3.0), and PROJ.4 (&amp;gt;= 4.8.0).
-However, the version of GDAL &lt;a href=&#34;/post/2014-08-05-installing-rgdal-osx/&#34; target=&#34;_blank&#34;&gt;installed via &lt;code&gt;brew&lt;/code&gt;&lt;/a&gt; is 1.11.4, so I needed to update to the latest version and reinstall a few R packages in order to get &lt;code&gt;sf&lt;/code&gt; to work on macOS.&lt;/p&gt;
+However, the version of GDAL &lt;a href=&#34;https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/&#34; target=&#34;_blank&#34;&gt;installed via &lt;code&gt;brew&lt;/code&gt;&lt;/a&gt; is 1.11.4, so I needed to update to the latest version and reinstall a few R packages in order to get &lt;code&gt;sf&lt;/code&gt; to work on macOS.&lt;/p&gt;
 
 &lt;h2 id=&#34;update-gdal&#34;&gt;Update GDAL&lt;/h2&gt;
 
@@ -139,10 +139,10 @@ library(rgdal) ## confirm the GDAL version being used
     
     <item>
       <title>meow: the most anticipated R package of 2015</title>
-      <link>/post/2015-02-09-meow/</link>
+      <link>https://alexchubaty.com/post/2015-02-09-meow/</link>
       <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-02-09-meow/</guid>
+      <guid>https://alexchubaty.com/post/2015-02-09-meow/</guid>
       <description>
 
 &lt;p&gt;In preparing a presentation on developing R packages using RStudio for the Victoria R Users Meetup Group this month, organizer Kiri Whan and I put together a very simple demo R package.&lt;/p&gt;
@@ -172,28 +172,28 @@ library(rgdal) ## confirm the GDAL version being used
     
     <item>
       <title>On the evolution of omnivory in a community context</title>
-      <link>/publication/chubaty2014ee/</link>
+      <link>https://alexchubaty.com/publication/chubaty2014ee/</link>
       <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>/publication/chubaty2014ee/</guid>
+      <guid>https://alexchubaty.com/publication/chubaty2014ee/</guid>
       <description></description>
     </item>
     
     <item>
       <title>To tree or not to tree: The role of energy limitation on host tree acceptance in a bark beetle</title>
-      <link>/publication/chubaty2014eer/</link>
+      <link>https://alexchubaty.com/publication/chubaty2014eer/</link>
       <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
       
-      <guid>/publication/chubaty2014eer/</guid>
+      <guid>https://alexchubaty.com/publication/chubaty2014eer/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Installing rgdal on OSX</title>
-      <link>/post/2014-08-05-installing-rgdal-osx/</link>
+      <link>https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>/post/2014-08-05-installing-rgdal-osx/</guid>
+      <guid>https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/</guid>
       <description>&lt;p&gt;This is actually really easy to do, but most of the google hits I came across were old (from 2010) or horribly complex (building &lt;code&gt;gdal&lt;/code&gt; and &lt;code&gt;proj4&lt;/code&gt; from source then building &lt;code&gt;rgdal&lt;/code&gt; itself).&lt;/p&gt;
 
 &lt;p&gt;First, this assumes you already have &lt;code&gt;homebrew&lt;/code&gt; installed &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. If not, see &lt;a href=&#34;http://brew.sh/&#34; target=&#34;_blank&#34;&gt;http://brew.sh/&lt;/a&gt; for the one-liner terminal install.&lt;/p&gt;
@@ -225,37 +225,37 @@ library(rgdal) ## confirm the GDAL version being used
     
     <item>
       <title>Evolution of omnivory in a community context</title>
-      <link>/project/omniga/</link>
+      <link>https://alexchubaty.com/project/omniga/</link>
       <pubDate>Sun, 13 Apr 2014 20:37:16 -0600</pubDate>
       
-      <guid>/project/omniga/</guid>
+      <guid>https://alexchubaty.com/project/omniga/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PhD thesis: Individual host selection decisions and population-level responses in a time- and energy-limited forager, Dendroctonus ponderosae Hopkins</title>
-      <link>/project/phd/</link>
+      <link>https://alexchubaty.com/project/phd/</link>
       <pubDate>Thu, 26 Sep 2013 13:37:16 -0600</pubDate>
       
-      <guid>/project/phd/</guid>
+      <guid>https://alexchubaty.com/project/phd/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Individual host selection decisions and population-level responses in a time- and energy-limited forager, Dendroctonus ponderosae Hopkins</title>
-      <link>/publication/chubaty2013th/</link>
+      <link>https://alexchubaty.com/publication/chubaty2013th/</link>
       <pubDate>Thu, 26 Sep 2013 00:00:00 +0000</pubDate>
       
-      <guid>/publication/chubaty2013th/</guid>
+      <guid>https://alexchubaty.com/publication/chubaty2013th/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Essential software for biology grad students: Part III Writing Tools</title>
-      <link>/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</link>
+      <link>https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</guid>
+      <guid>https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</guid>
       <description>
 
 &lt;p&gt;Whenever I used to sit down in front of the computer to write anything other than an email, I would immediately open Microsoft Word and start clacking away on the keyboard. When I switched operating systems (away from Windows) I began using Open Office Writer and even now I still use Libre Office Writer for some of my writing needs. Each of these word processors offer similar sets of tools and can effectively be used for a wide range of writing tasks, from letters to essays, yet I feel most people use Word not because it&amp;rsquo;s always the best tool for the job, but because it&amp;rsquo;s ubiquitous and familiar.&lt;/p&gt;
@@ -264,7 +264,7 @@ library(rgdal) ## confirm the GDAL version being used
 
 &lt;p&gt;To overcome these limitations and to make writing easier, I want to share my favourite writing tools &amp;ndash; &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; and &lt;a href=&#34;http://www.latex-project.org/&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt;, which use plain-text file formats and can be easily converted to any other file type with &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34; target=&#34;_blank&#34;&gt;Pandoc&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;The use of plain text format is important. &lt;a href=&#34;/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync&#34;&gt;Version control software&lt;/a&gt; like &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; works perfectly with plain-text files, showing you which lines have changed between versions. However, this version differencing isn&amp;rsquo;t possible using &lt;em&gt;binary&lt;/em&gt; file formats like those used by Word (.doc and .docx). Additionally, you can open plain-text files on any computer without any special (proprietary!) software, so 10 years from now when you want to revisit an old document, you can do so without having to ensure you keep an old computer with old software around.&lt;/p&gt;
+&lt;p&gt;The use of plain text format is important. &lt;a href=&#34;https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync&#34;&gt;Version control software&lt;/a&gt; like &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; works perfectly with plain-text files, showing you which lines have changed between versions. However, this version differencing isn&amp;rsquo;t possible using &lt;em&gt;binary&lt;/em&gt; file formats like those used by Word (.doc and .docx). Additionally, you can open plain-text files on any computer without any special (proprietary!) software, so 10 years from now when you want to revisit an old document, you can do so without having to ensure you keep an old computer with old software around.&lt;/p&gt;
 
 &lt;h3 id=&#34;you-shouldn-t-have-to-worry-about-formatting&#34;&gt;You shouldn&amp;rsquo;t have to worry about formatting&lt;/h3&gt;
 
@@ -303,7 +303,7 @@ to learn more.
 
 &lt;p&gt;The markdown text above produces this:&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;/uploads/2013/07/markdown.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-229 aligncenter&#34; alt=&#34;markdown&#34; src=&#34;/uploads/2013/07/markdown-201x300.png&#34; width=&#34;201&#34; height=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexchubaty.com/uploads/2013/07/markdown.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-229 aligncenter&#34; alt=&#34;markdown&#34; src=&#34;https://alexchubaty.com/uploads/2013/07/markdown-201x300.png&#34; width=&#34;201&#34; height=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;And it doesn&amp;rsquo;t stop there. Markdown also supports citations and references with bibtex, which means that you can easily write up that thesis chapter or manuscript, not worrying about the final format until you&amp;rsquo;re ready to convert your markdown file to whatever file format you require.&lt;/p&gt;
 
@@ -311,7 +311,7 @@ to learn more.
 
 &lt;p&gt;Markdown is incredibly easy to learn, and will cover most of your writing needs, but if you are (or will be) making heavy use of code, equations, and statistics, then you need to be using LaTeX. The syntax is more complex than Markdown, but it hands-down beats MS Word for formatting, equation typesetting, and portability between computers. I&amp;rsquo;ve done all my thesis stuff, including manuscripts, in LaTeX and output as PDF or converted to .doc format when needed.&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&#34;/uploads/2013/07/mpb-game-dpe.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-232&#34; title=&#34;a LaTeX equation&#34; alt=&#34;a LaTeX equation&#34; src=&#34;/uploads/2013/07/mpb-game-dpe-1024x231.png&#34; width=&#34;625&#34; height=&#34;140&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexchubaty.com/uploads/2013/07/mpb-game-dpe.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-232&#34; title=&#34;a LaTeX equation&#34; alt=&#34;a LaTeX equation&#34; src=&#34;https://alexchubaty.com/uploads/2013/07/mpb-game-dpe-1024x231.png&#34; width=&#34;625&#34; height=&#34;140&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;To make your introduction to LaTeX easier, I recommend starting out using an editor like &lt;a href=&#34;http://www.xm1math.net/texmaker/&#34; target=&#34;_blank&#34;&gt;Texmaker&lt;/a&gt;, which is cross platform and come with a GUI to assist with inserting various document elements. If you will be using equations, you&amp;rsquo;ll want to make sure you use the &lt;code&gt;amsmath&lt;/code&gt; package. There are a lot of other great packages for latex which will help with everything from document formatting and layout, to citation formatting with bibtex, as well as &lt;a href=&#34;http://texblog.org/2012/06/21/classic-coffee-stains-with-latex/&#34; target=&#34;_blank&#34;&gt;adding coffee stains to your pdf documents&lt;/a&gt;. I also recommend checking out the &lt;a href=&#34;http://tex.stackexchange.com/&#34; target=&#34;_blank&#34;&gt;TeX Stack Exchange&lt;/a&gt; site to get Q&amp;amp;A help with everything (La)TeX.&lt;/p&gt;
 

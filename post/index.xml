@@ -2,22 +2,22 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Alex M. Chubaty</title>
-    <link>/post/</link>
+    <link>https://alexchubaty.com/post/</link>
     <description>Recent content in Posts on Alex M. Chubaty</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alexchubaty.com/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Yes, The Queen is listed as an &#39;author&#39; on our R packages</title>
-      <link>/post/2017-09-14-queen-copyright/</link>
+      <link>https://alexchubaty.com/post/2017-09-14-queen-copyright/</link>
       <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>/post/2017-09-14-queen-copyright/</guid>
+      <guid>https://alexchubaty.com/post/2017-09-14-queen-copyright/</guid>
       <description>Just noticed the Queen is listed as an author in this (and probably other) R packages https://t.co/ehCb3uHjpx #rstats pic.twitter.com/KRKKQvlGX4
 &amp;mdash; David Smith (@revodavid) September 7, 2017 
 A number of people have been surprised to learn that Her Majesty the Queen is listed as an author on a number of our packages. For example, in the SpaDES package:
@@ -26,20 +26,20 @@ Author:	Alex M Chubaty [aut, cre], Eliot J B McIntire [aut], Yong Luo [ctb], Ste
     
     <item>
       <title>Using the latest GDAL with R packages on macOS</title>
-      <link>/post/2016-12-13-using-latest-gdal-macos/</link>
+      <link>https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos/</link>
       <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
       
-      <guid>/post/2016-12-13-using-latest-gdal-macos/</guid>
+      <guid>https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos/</guid>
       <description>I wanted to play around with the new sf package, which requires the latest GDAL (&amp;gt;= 2.0.0), GEOS (&amp;gt;= 3.3.0), and PROJ.4 (&amp;gt;= 4.8.0). However, the version of GDAL installed via brew is 1.11.4, so I needed to update to the latest version and reinstall a few R packages in order to get sf to work on macOS.
 Update GDAL ## unlink the previous GDAL version brew unlink gdal ## update GDAL to the latest version (2.</description>
     </item>
     
     <item>
       <title>meow: the most anticipated R package of 2015</title>
-      <link>/post/2015-02-09-meow/</link>
+      <link>https://alexchubaty.com/post/2015-02-09-meow/</link>
       <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
       
-      <guid>/post/2015-02-09-meow/</guid>
+      <guid>https://alexchubaty.com/post/2015-02-09-meow/</guid>
       <description>In preparing a presentation on developing R packages using RStudio for the Victoria R Users Meetup Group this month, organizer Kiri Whan and I put together a very simple demo R package.
 UPDATE 2015/02/09: I didn&amp;rsquo;t notice the conflict with the package name; thanks Scott Chamberlain for pointing it out. I&amp;rsquo;ve renamed the package to meow and updated the links below.
 From the README at https://github.com/achubaty/meow:
@@ -48,10 +48,10 @@ meow: Get random pictures of cats.</description>
     
     <item>
       <title>Installing rgdal on OSX</title>
-      <link>/post/2014-08-05-installing-rgdal-osx/</link>
+      <link>https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/</link>
       <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
       
-      <guid>/post/2014-08-05-installing-rgdal-osx/</guid>
+      <guid>https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/</guid>
       <description>This is actually really easy to do, but most of the google hits I came across were old (from 2010) or horribly complex (building gdal and proj4 from source then building rgdal itself).
 First, this assumes you already have homebrew installed 1. If not, see http://brew.sh/ for the one-liner terminal install.
 Next, install gdal:
@@ -60,38 +60,38 @@ brew install gdal  Then open RStudio (for some reason it didn&amp;rsquo;t work u
     
     <item>
       <title>Essential software for biology grad students: Part III Writing Tools</title>
-      <link>/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</link>
+      <link>https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</link>
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</guid>
+      <guid>https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</guid>
       <description>Whenever I used to sit down in front of the computer to write anything other than an email, I would immediately open Microsoft Word and start clacking away on the keyboard. When I switched operating systems (away from Windows) I began using Open Office Writer and even now I still use Libre Office Writer for some of my writing needs. Each of these word processors offer similar sets of tools and can effectively be used for a wide range of writing tasks, from letters to essays, yet I feel most people use Word not because it&amp;rsquo;s always the best tool for the job, but because it&amp;rsquo;s ubiquitous and familiar.</description>
     </item>
     
     <item>
       <title>Essential software for biology grad students: Part II Backups and Version Control</title>
-      <link>/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</link>
+      <link>https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</link>
       <pubDate>Thu, 11 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</guid>
+      <guid>https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</guid>
       <description>Always. Back up. Your data. Simple, yet for various reasons many people simply don&amp;rsquo;t. Backing up data and documents is critical in the event of random computer (or, more likely, user) failure. Losing your data sucks. I have seen too many frantic colleagues try to get at data on a failed hard drive: many had some (but not all) of their most important data backed up, but others were left with few options and resorted to spending hundreds of dollars on data recovery assistance.</description>
     </item>
     
     <item>
       <title>Essential software for biology grad students: Part I Overview</title>
-      <link>/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</link>
+      <link>https://alexchubaty.com/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</link>
       <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
       
-      <guid>/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</guid>
+      <guid>https://alexchubaty.com/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</guid>
       <description>When I started grad school, I had no idea at the time just how much I&amp;rsquo;d learn doing a PhD. I&amp;rsquo;m not just talking about the &amp;ldquo;big picture&amp;rdquo; stuff: how to do research, design and conduct experiments, analyze data, and synthesize information. I mean all of the day-to-day skills associated with academic writing, data entry, and organization.
 Over the next few weeks, I&amp;rsquo;ll explain a bit about the workflows I use and the various pieces of software that make my life quite a bit easier.</description>
     </item>
     
     <item>
       <title>more on journal abbreviations in Mendeley</title>
-      <link>/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/</link>
+      <link>https://alexchubaty.com/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/</link>
       <pubDate>Thu, 20 Jun 2013 00:00:00 +0000</pubDate>
       
-      <guid>/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/</guid>
+      <guid>https://alexchubaty.com/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/</guid>
       <description>Wow, my other posts on the topic are getting a lot of hits!
 Some exciting info for anyone still struggling with getting abbreviated journal names working with Mendeley: this feature is coming soon!
  This is currently on our roadmap for Mendeley Desktop 1.10. Expected release date is the start of August.
@@ -100,30 +100,30 @@ Some exciting info for anyone still struggling with getting abbreviated journal 
     
     <item>
       <title>website updates</title>
-      <link>/post/2013-04-26-website-updates/</link>
+      <link>https://alexchubaty.com/post/2013-04-26-website-updates/</link>
       <pubDate>Fri, 26 Apr 2013 00:00:00 +0000</pubDate>
       
-      <guid>/post/2013-04-26-website-updates/</guid>
+      <guid>https://alexchubaty.com/post/2013-04-26-website-updates/</guid>
       <description>I just transferred my hosting away from GoDaddy (good riddance!) and am now self-hosting this site on a Raspberry Pi.
 There may be some DNS and 404 hiccups for the next 48 hours or so while all the new settings &amp;ldquo;take&amp;rdquo;. Please update your bookmarks accordingly, and thank you for you patience.</description>
     </item>
     
     <item>
       <title>enabling Libre/OpenOffice plugin for Mendeley 1.5</title>
-      <link>/post/2012-04-13-enabling-libreopenoffice-plugin-for-mendeley-1-5/</link>
+      <link>https://alexchubaty.com/post/2012-04-13-enabling-libreopenoffice-plugin-for-mendeley-1-5/</link>
       <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
       
-      <guid>/post/2012-04-13-enabling-libreopenoffice-plugin-for-mendeley-1-5/</guid>
+      <guid>https://alexchubaty.com/post/2012-04-13-enabling-libreopenoffice-plugin-for-mendeley-1-5/</guid>
       <description>I upgraded to using Mendeley v 1.5 (because previous versions don&amp;rsquo;t work on Ubuntu 12.04 Precise) and I had problems installing the OpenOffice plugin. Normally this is easy: in Mendeley you select the Tools menu and go to Install OpenOffice Plugin. However, for whatever reason the software can&amp;rsquo;t find the plugin, and I get this error:
 Mendeley couldn&#39;t locate unopkg in the default location. It should be in the &#39;program&#39; subdirectory of the path where OpenOffice is installed.</description>
     </item>
     
     <item>
       <title>list of abbreviated journal names</title>
-      <link>/post/2012-02-28-list-of-abbreviated-journal-names/</link>
+      <link>https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names/</link>
       <pubDate>Tue, 28 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>/post/2012-02-28-list-of-abbreviated-journal-names/</guid>
+      <guid>https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names/</guid>
       <description>As a followup to my previous post, I wrote a script to generate the master list of journal names and their abbreviations from Web of Science.
 The script is designed to be used in conjunction with the previous one, and is also written in perl (which I&amp;rsquo;m still learning) and can be downloaded here or viewed here. Improvements and suggestions welcome.
 At the bottom of the script is a list of my custom journal names and abbreviations.</description>
@@ -131,10 +131,10 @@ At the bottom of the script is a list of my custom journal names and abbreviatio
     
     <item>
       <title>Abbreviated Journal Names in Mendeley [updated]</title>
-      <link>/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/</link>
+      <link>https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/</link>
       <pubDate>Thu, 09 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/</guid>
+      <guid>https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/</guid>
       <description>UPDATE: I just posted an update. This feature is coming soon to Mendeley!
 Several journals require abbreviated journal names, but as of yet Mendeley doesn&amp;rsquo;t make this possible. Or so I thought. After coming across this blog post I decided to try to get this functionality working on my computers.
 To summarize, you can get Mendeley to read in a list of abbreviated journal names by:
@@ -143,10 +143,10 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
     
     <item>
       <title>Easily make custom Mendeley citation styles</title>
-      <link>/post/2012-02-01-easily-make-custom-mendeley-citation-styles/</link>
+      <link>https://alexchubaty.com/post/2012-02-01-easily-make-custom-mendeley-citation-styles/</link>
       <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
       
-      <guid>/post/2012-02-01-easily-make-custom-mendeley-citation-styles/</guid>
+      <guid>https://alexchubaty.com/post/2012-02-01-easily-make-custom-mendeley-citation-styles/</guid>
       <description>I came across this incredibly useful site today:
 http://csleditor.quist.de/csleditor/show/1/example-citation-style
 No longer need to manually edit custom citation style (CSL) files for Mendeley (and Zotero) within a text file!!!</description>
@@ -154,19 +154,19 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
     
     <item>
       <title>Finding Symbol Commands for LaTeX</title>
-      <link>/post/2012-01-28-finding-symbol-commands-for-latex/</link>
+      <link>https://alexchubaty.com/post/2012-01-28-finding-symbol-commands-for-latex/</link>
       <pubDate>Sat, 28 Jan 2012 00:00:00 +0000</pubDate>
       
-      <guid>/post/2012-01-28-finding-symbol-commands-for-latex/</guid>
+      <guid>https://alexchubaty.com/post/2012-01-28-finding-symbol-commands-for-latex/</guid>
       <description>Ever been writing a document in [latex]\LaTeX[/latex] and had to look up the code for a particular symbol? Google usually directs me to the Comprehesive LaTeX Symbol List but scrolling through and finding the symbol I&amp;rsquo;m looking for is time consuming. However, today I came across this site (Detexify) which lets you draw the symbol you are looking for and it tries to match it, providing symbol suggestions and letting you know the [latex]\LaTeX[/latex] code and the package to use!</description>
     </item>
     
     <item>
       <title>Constructing Pedigrees in R</title>
-      <link>/post/2011-11-14-constructing-pedigrees-in-r/</link>
+      <link>https://alexchubaty.com/post/2011-11-14-constructing-pedigrees-in-r/</link>
       <pubDate>Mon, 14 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>/post/2011-11-14-constructing-pedigrees-in-r/</guid>
+      <guid>https://alexchubaty.com/post/2011-11-14-constructing-pedigrees-in-r/</guid>
       <description>I was looking for a good way to draw pedigrees using software, without having to fuss drawing them &amp;ldquo;by hand&amp;rdquo; using a drawing program. Lo and behold, I came across a few different packages in R that allow me to do just that!
 
 Using the kinship2 package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy.</description>
@@ -174,20 +174,20 @@ Using the kinship2 package, I was quickly able to produce a nice pedigree for a 
     
     <item>
       <title>Custom Citation Styles in Mendeley</title>
-      <link>/post/2011-11-07-custom-citation-styles-in-mendeley/</link>
+      <link>https://alexchubaty.com/post/2011-11-07-custom-citation-styles-in-mendeley/</link>
       <pubDate>Mon, 07 Nov 2011 00:00:00 +0000</pubDate>
       
-      <guid>/post/2011-11-07-custom-citation-styles-in-mendeley/</guid>
+      <guid>https://alexchubaty.com/post/2011-11-07-custom-citation-styles-in-mendeley/</guid>
       <description>I&amp;rsquo;m an avid user of Mendeley citation management software (CMS), and am pleased with the capabilities of this cross-platform, open-source, and *free* referencing tool. However, one limitation I&amp;rsquo;ve encountered is that it does not have very many citiation styles preinstalled, and although many additional formats are available to download through the Mendeley interface, it does not (yet) provide a built-in style editor to customize citiation styles.
 Fortunately, Mendeley uses Citation Style Language v1.</description>
     </item>
     
     <item>
       <title>Exploring Population Dynamics Models using a GUI for R</title>
-      <link>/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</link>
+      <link>https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</link>
       <pubDate>Sun, 07 Aug 2011 00:00:00 +0000</pubDate>
       
-      <guid>/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</guid>
+      <guid>https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</guid>
       <description>Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using Mathematica because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies.</description>
     </item>
     

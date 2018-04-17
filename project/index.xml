@@ -2,68 +2,68 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Projects on Alex M. Chubaty</title>
-    <link>/project/</link>
+    <link>https://alexchubaty.com/project/</link>
     <description>Recent content in Projects on Alex M. Chubaty</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Mon, 16 Apr 2018 20:41:21 -0600</lastBuildDate>
     
-	<atom:link href="/project/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://alexchubaty.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Habitat Connectivity</title>
-      <link>/project/habitat-connectivity/</link>
+      <link>https://alexchubaty.com/project/habitat-connectivity/</link>
       <pubDate>Mon, 16 Apr 2018 20:41:21 -0600</pubDate>
       
-      <guid>/project/habitat-connectivity/</guid>
+      <guid>https://alexchubaty.com/project/habitat-connectivity/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Boreal forest ecosystem forecasts using integrated dynamic simulation models</title>
-      <link>/project/boreal-ecosystems/</link>
+      <link>https://alexchubaty.com/project/boreal-ecosystems/</link>
       <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
       
-      <guid>/project/boreal-ecosystems/</guid>
+      <guid>https://alexchubaty.com/project/boreal-ecosystems/</guid>
       <description>Working with others in the McIntire lab at the Pacific Forestry Centre, we are working on integrating various simulation models dealing with forest vegetaiton dynamics, fire, insect disturbance, and wildlife populations, to inform decision making in these management areas.
 We are developing multiple simulation model components for use with the SpaDES simulation platform (of which I am co-developer).</description>
     </item>
     
     <item>
       <title>Simulating mountain pine beetle eastward spread</title>
-      <link>/project/mpb-spread/</link>
+      <link>https://alexchubaty.com/project/mpb-spread/</link>
       <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
       
-      <guid>/project/mpb-spread/</guid>
+      <guid>https://alexchubaty.com/project/mpb-spread/</guid>
       <description>The continued eastward spread of mountain pine beetle (Dendroctonus ponderosae Hopk.; MPB) now threatens the boreal forests of eastern Alberta, Saskatchewan, and beyond. Predicting the outbreak and spread dynamics of this insect in jack pine, and to evaluate control measures to mitigate a potentially devastating loss of forest habitat and timber supply requires not only a complex understanding of the various inputs to this system and their interactions (e.g., MPB population dynamics, climate impacts, landscape features) but also the technical capacity to run large-scale spatial simulation models, and to update them quickly as new data are acquired and new models are developed.</description>
     </item>
     
     <item>
       <title>SpaDES: Spatial Discrete Event Simulation</title>
-      <link>/project/spades/</link>
+      <link>https://alexchubaty.com/project/spades/</link>
       <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
       
-      <guid>/project/spades/</guid>
+      <guid>https://alexchubaty.com/project/spades/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Evolution of omnivory in a community context</title>
-      <link>/project/omniga/</link>
+      <link>https://alexchubaty.com/project/omniga/</link>
       <pubDate>Sun, 13 Apr 2014 20:37:16 -0600</pubDate>
       
-      <guid>/project/omniga/</guid>
+      <guid>https://alexchubaty.com/project/omniga/</guid>
       <description></description>
     </item>
     
     <item>
       <title>PhD thesis: Individual host selection decisions and population-level responses in a time- and energy-limited forager, Dendroctonus ponderosae Hopkins</title>
-      <link>/project/phd/</link>
+      <link>https://alexchubaty.com/project/phd/</link>
       <pubDate>Thu, 26 Sep 2013 13:37:16 -0600</pubDate>
       
-      <guid>/project/phd/</guid>
+      <guid>https://alexchubaty.com/project/phd/</guid>
       <description></description>
     </item>
     
