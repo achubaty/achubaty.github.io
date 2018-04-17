@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>R on Alex M. Chubaty</title>
+    <link>/tags/r/</link>
+    <description>Recent content in R on Alex M. Chubaty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Thu, 14 Sep 2017 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Yes, The Queen is listed as an &#39;author&#39; on our R packages</title>
+      <link>/post/2017-09-14-queen-copyright/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017-09-14-queen-copyright/</guid>
+      <description>Just noticed the Queen is listed as an author in this (and probably other) R packages https://t.co/ehCb3uHjpx #rstats pic.twitter.com/KRKKQvlGX4
+&amp;mdash; David Smith (@revodavid) September 7, 2017 
+A number of people have been surprised to learn that Her Majesty the Queen is listed as an author on a number of our packages. For example, in the SpaDES package:
+Author:	Alex M Chubaty [aut, cre], Eliot J B McIntire [aut], Yong Luo [ctb], Steve Cumming [ctb], Her Majesty the Queen in Right of Canada, as represented by the Minister of Natural Resources Canada [cph]  Note, however, that Her Majesty&amp;rsquo;s role not as a package author (aut) but as the copyright holder (cph).</description>
+    </item>
+    
+    <item>
+      <title>Using the latest GDAL with R packages on macOS</title>
+      <link>/post/2016-12-13-using-latest-gdal-macos/</link>
+      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2016-12-13-using-latest-gdal-macos/</guid>
+      <description>I wanted to play around with the new sf package, which requires the latest GDAL (&amp;gt;= 2.0.0), GEOS (&amp;gt;= 3.3.0), and PROJ.4 (&amp;gt;= 4.8.0). However, the version of GDAL installed via brew is 1.11.4, so I needed to update to the latest version and reinstall a few R packages in order to get sf to work on macOS.
+Update GDAL ## unlink the previous GDAL version brew unlink gdal ## update GDAL to the latest version (2.</description>
+    </item>
+    
+    <item>
+      <title>meow: the most anticipated R package of 2015</title>
+      <link>/post/2015-02-09-meow/</link>
+      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2015-02-09-meow/</guid>
+      <description>In preparing a presentation on developing R packages using RStudio for the Victoria R Users Meetup Group this month, organizer Kiri Whan and I put together a very simple demo R package.
+UPDATE 2015/02/09: I didn&amp;rsquo;t notice the conflict with the package name; thanks Scott Chamberlain for pointing it out. I&amp;rsquo;ve renamed the package to meow and updated the links below.
+From the README at https://github.com/achubaty/meow:
+meow: Get random pictures of cats.</description>
+    </item>
+    
+    <item>
+      <title>Installing rgdal on OSX</title>
+      <link>/post/2014-08-05-installing-rgdal-osx/</link>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2014-08-05-installing-rgdal-osx/</guid>
+      <description>This is actually really easy to do, but most of the google hits I came across were old (from 2010) or horribly complex (building gdal and proj4 from source then building rgdal itself).
+First, this assumes you already have homebrew installed 1. If not, see http://brew.sh/ for the one-liner terminal install.
+Next, install gdal:
+brew install gdal  Then open RStudio (for some reason it didn&amp;rsquo;t work using R in the terminal&amp;hellip;) and install the package from source:</description>
+    </item>
+    
+    <item>
+      <title>Constructing Pedigrees in R</title>
+      <link>/post/2011-11-14-constructing-pedigrees-in-r/</link>
+      <pubDate>Mon, 14 Nov 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2011-11-14-constructing-pedigrees-in-r/</guid>
+      <description>I was looking for a good way to draw pedigrees using software, without having to fuss drawing them &amp;ldquo;by hand&amp;rdquo; using a drawing program. Lo and behold, I came across a few different packages in R that allow me to do just that!
+
+Using the kinship2 package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy.</description>
+    </item>
+    
+    <item>
+      <title>Exploring Population Dynamics Models using a GUI for R</title>
+      <link>/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</link>
+      <pubDate>Sun, 07 Aug 2011 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</guid>
+      <description>Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using Mathematica because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies.</description>
+    </item>
+    
+  </channel>
+</rss>

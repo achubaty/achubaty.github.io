@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Guides on Alex M. Chubaty</title>
+    <link>/tags/guides/</link>
+    <description>Recent content in Guides on Alex M. Chubaty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Mon, 15 Jul 2013 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/guides/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Essential software for biology grad students: Part III Writing Tools</title>
+      <link>/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</link>
+      <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</guid>
+      <description>Whenever I used to sit down in front of the computer to write anything other than an email, I would immediately open Microsoft Word and start clacking away on the keyboard. When I switched operating systems (away from Windows) I began using Open Office Writer and even now I still use Libre Office Writer for some of my writing needs. Each of these word processors offer similar sets of tools and can effectively be used for a wide range of writing tasks, from letters to essays, yet I feel most people use Word not because it&amp;rsquo;s always the best tool for the job, but because it&amp;rsquo;s ubiquitous and familiar.</description>
+    </item>
+    
+    <item>
+      <title>Essential software for biology grad students: Part II Backups and Version Control</title>
+      <link>/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</link>
+      <pubDate>Thu, 11 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</guid>
+      <description>Always. Back up. Your data. Simple, yet for various reasons many people simply don&amp;rsquo;t. Backing up data and documents is critical in the event of random computer (or, more likely, user) failure. Losing your data sucks. I have seen too many frantic colleagues try to get at data on a failed hard drive: many had some (but not all) of their most important data backed up, but others were left with few options and resorted to spending hundreds of dollars on data recovery assistance.</description>
+    </item>
+    
+    <item>
+      <title>Essential software for biology grad students: Part I Overview</title>
+      <link>/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</guid>
+      <description>When I started grad school, I had no idea at the time just how much I&amp;rsquo;d learn doing a PhD. I&amp;rsquo;m not just talking about the &amp;ldquo;big picture&amp;rdquo; stuff: how to do research, design and conduct experiments, analyze data, and synthesize information. I mean all of the day-to-day skills associated with academic writing, data entry, and organization.
+Over the next few weeks, I&amp;rsquo;ll explain a bit about the workflows I use and the various pieces of software that make my life quite a bit easier.</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alex M. Chubaty on Alex M. Chubaty</title>
+    <link>/</link>
+    <description>Recent content in Alex M. Chubaty on Alex M. Chubaty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 -0600</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Habitat Connectivity</title>
+      <link>/project/habitat-connectivity/</link>
+      <pubDate>Mon, 16 Apr 2018 20:41:21 -0600</pubDate>
+      
+      <guid>/project/habitat-connectivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boreal forest ecosystem forecasts using integrated dynamic simulation models</title>
+      <link>/project/boreal-ecosystems/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      
+      <guid>/project/boreal-ecosystems/</guid>
+      <description>&lt;p&gt;Working with others in the McIntire lab at the Pacific Forestry Centre, we are working on integrating various simulation models dealing with forest vegetaiton dynamics, fire, insect disturbance, and wildlife populations, to inform decision making in these management areas.&lt;/p&gt;
+
+&lt;p&gt;We are developing multiple simulation model components for use with the &lt;a href=&#34;http://predictiveecology.org/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;SpaDES&lt;/code&gt;&lt;/a&gt; simulation platform (of which I am co-developer).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simulating mountain pine beetle eastward spread</title>
+      <link>/project/mpb-spread/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      
+      <guid>/project/mpb-spread/</guid>
+      <description>&lt;p&gt;The continued eastward spread of mountain pine beetle (Dendroctonus ponderosae Hopk.; MPB) now threatens the boreal forests of eastern Alberta, Saskatchewan, and beyond. Predicting the outbreak and spread dynamics of this insect in jack pine, and to evaluate control measures to mitigate a potentially devastating loss of forest habitat and timber supply requires not only a complex understanding of the various inputs to this system and their interactions (e.g., MPB population dynamics, climate impacts, landscape features) but also the technical capacity to run large-scale spatial simulation models, and to update them quickly as new data are acquired and new models are developed.&lt;/p&gt;
+
+&lt;p&gt;Nonlinear density-dependent dynamics of mountain pine beetle (MPB) recruitment means that MPB spread to Saskatchewan and beyond is primarily a “numbers game”, and this has sharp consequences for pest management thresholds. The nonlinear dependency of survival rate on temperature means that eruptive potential is regulated secondarily by climate, and this has consequences for the efficacy of pest management through “direct control”. Through simulation we distinguish the conditions under which MPB spread can be significantly slowed. Preliminary results indicate that the prognosis for pest management in the lodgepole pine of the Rocky Mountains Foothills region is distinctly different that of boreal jack pine.&lt;/p&gt;
+
+&lt;p&gt;Simulations of MPB population recruitment and spread were developed using the &lt;a href=&#34;http://spades.predictiveecology.org&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;SpaDES&lt;/code&gt;&lt;/a&gt; (Spatial Discrete Event Simulation) platform. &lt;code&gt;SpaDES&lt;/code&gt; facilitates a tight coupling of simulation and data within a modular framework that allows easy updates to model components. Furthermore, our development cycle follows current best practices for reproducible computing workflows and, where possible, we have followed an &amp;ldquo;Open-Access&amp;rdquo; model for software platform and simulation model development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>SpaDES: Spatial Discrete Event Simulation</title>
+      <link>/project/spades/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      
+      <guid>/project/spades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State-dependent domicile leaving rates in Anopheles gambiae</title>
+      <link>/publication/zappia2017mj/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/zappia2017mj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yes, The Queen is listed as an &#39;author&#39; on our R packages</title>
+      <link>/post/2017-09-14-queen-copyright/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2017-09-14-queen-copyright/</guid>
+      <description>&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Just noticed the Queen is listed as an author in this (and probably other) R packages &lt;a href=&#34;https://t.co/ehCb3uHjpx&#34;&gt;https://t.co/ehCb3uHjpx&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://t.co/KRKKQvlGX4&#34;&gt;pic.twitter.com/KRKKQvlGX4&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Smith (@revodavid) &lt;a href=&#34;https://twitter.com/revodavid/status/905899118446436358&#34;&gt;September 7, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;A &lt;a href=&#34;https://twitter.com/JennyBryan/status/585955759525007360&#34; target=&#34;_blank&#34;&gt;number&lt;/a&gt; &lt;a href=&#34;http://www.pieceofk.fr/?p=431&#34; target=&#34;_blank&#34;&gt;of&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hspter/status/908263547167277056&#34; target=&#34;_blank&#34;&gt;people&lt;/a&gt; have been surprised to learn that Her Majesty the Queen is listed as an author on a number of our packages.
+For example, in the &lt;a href=&#34;https://cran.r-project.org/package=SpaDES&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;SpaDES&lt;/code&gt;&lt;/a&gt; package:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;Author:	Alex M Chubaty [aut, cre],
+        Eliot J B McIntire [aut],
+        Yong Luo [ctb],
+        Steve Cumming [ctb],
+        Her Majesty the Queen in Right of Canada, as represented by
+         the Minister of Natural Resources Canada [cph]
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Note, however, that Her Majesty&amp;rsquo;s &lt;a href=&#34;http://r-pkgs.had.co.nz/description.html#author&#34; target=&#34;_blank&#34;&gt;role&lt;/a&gt; not as a package &lt;em&gt;author&lt;/em&gt; (&lt;code&gt;aut&lt;/code&gt;) but as the &lt;em&gt;copyright holder&lt;/em&gt; (&lt;code&gt;cph&lt;/code&gt;).&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s common practice in many companies to attribute copyright to your employer, and there are several R packages that list a company as copyright holder.
+For example, take a look at the packages produced by RStudio (&lt;em&gt;e.g.&lt;/em&gt;, &lt;a href=&#34;https://cran.r-project.org/package=dplyr&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;dplyr&lt;/code&gt;&lt;/a&gt;, &lt;a href=&#34;https://cran.r-project.org/package=ggplot2&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt;).&lt;/p&gt;
+
+&lt;p&gt;As a Canadian public servant, the Crown holds copyright on our work, including R packages.
+(Next time you&amp;rsquo;re reading a scientific paper produced by a federal employee note the copyright &amp;ndash; most publishers assign Crown Copyright in these cases instead of the publisher itself maintaining copyright. &lt;em&gt;E.g.&lt;/em&gt;, &lt;a href=&#34;https://www.elsevier.com/about/our-business/policies/copyright#Government-employees&#34; target=&#34;_blank&#34;&gt;Elsevier&lt;/a&gt;.)&lt;/p&gt;
+
+&lt;p&gt;&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Queen Elizabeth II has another &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&#34;&gt;#rstats&lt;/a&gt; package on CRAN. This one&amp;#39;s for reproducible research. &lt;a href=&#34;https://t.co/T71aefEPTL&#34;&gt;https://t.co/T71aefEPTL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Thomas Leeper (@thosjleeper) &lt;a href=&#34;https://twitter.com/thosjleeper/status/894176471392059392&#34;&gt;August 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;&lt;/p&gt;
+
+&lt;p&gt;So while it may be a little surprising to see The Queen listed (as copyright holder) in the authors list for several R packages, assigning copyright to one&amp;rsquo;s employer is common in general, and expected for public servants in Canada (and likely other Commonwealth countries).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Using the latest GDAL with R packages on macOS</title>
+      <link>/post/2016-12-13-using-latest-gdal-macos/</link>
+      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2016-12-13-using-latest-gdal-macos/</guid>
+      <description>
+
+&lt;p&gt;I wanted to play around with the new &lt;a href=&#34;https://cran.r-project.org/package=sf&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;sf&lt;/code&gt;&lt;/a&gt; package, which requires the latest GDAL (&amp;gt;= 2.0.0), GEOS (&amp;gt;= 3.3.0), and PROJ.4 (&amp;gt;= 4.8.0).
+However, the version of GDAL &lt;a href=&#34;/post/2014-08-05-installing-rgdal-osx/&#34; target=&#34;_blank&#34;&gt;installed via &lt;code&gt;brew&lt;/code&gt;&lt;/a&gt; is 1.11.4, so I needed to update to the latest version and reinstall a few R packages in order to get &lt;code&gt;sf&lt;/code&gt; to work on macOS.&lt;/p&gt;
+
+&lt;h2 id=&#34;update-gdal&#34;&gt;Update GDAL&lt;/h2&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## unlink the previous GDAL version
+brew unlink gdal
+
+## update GDAL to the latest version (2.1.2)
+brew tap osgeo/osgeos4mac
+brew install gdal2
+brew link --force gdal2
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h2 id=&#34;re-install-r-spatial-packages&#34;&gt;(Re)install R spatial packages&lt;/h2&gt;
+
+&lt;p&gt;Next, we need to install a few packages from source in order to use the new GDAL libraries:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;## (re)install spatial packages from source
+install.packages(c(&amp;quot;rgeos&amp;quot;, &amp;quot;sf&amp;quot;, &amp;quot;sp&amp;quot;), type = &amp;quot;source&amp;quot;)
+
+## rgdal requires some additional configuration to build correctly:
+##   based on http://stackoverflow.com/a/26836125/1380598
+install.packages(&amp;quot;rgdal&amp;quot;, type = &amp;quot;source&amp;quot;,
+                 configure.args = c(&amp;quot;--with-proj-include=/usr/local/include&amp;quot;,
+                                    &amp;quot;--with-proj-lib=/usr/local/lib&amp;quot;))
+library(rgdal) ## confirm the GDAL version being used
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>meow: the most anticipated R package of 2015</title>
+      <link>/post/2015-02-09-meow/</link>
+      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2015-02-09-meow/</guid>
+      <description>
+
+&lt;p&gt;In preparing a presentation on developing R packages using RStudio for the Victoria R Users Meetup Group this month, organizer Kiri Whan and I put together a very simple demo R package.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;UPDATE 2015/02/09: I didn&amp;rsquo;t notice the conflict with the package name; thanks Scott Chamberlain for &lt;a href=&#34;https://twitter.com/recology_/status/565037285507215362&#34; target=&#34;_blank&#34;&gt;pointing it out&lt;/a&gt;. I&amp;rsquo;ve renamed the package to &lt;code&gt;meow&lt;/code&gt; and updated the links below.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;From the &lt;code&gt;README&lt;/code&gt; at &lt;a href=&#34;https://github.com/achubaty/meow&#34; target=&#34;_blank&#34;&gt;https://github.com/achubaty/meow&lt;/a&gt;:&lt;/p&gt;
+
+&lt;h2 id=&#34;meow-get-random-pictures-of-cats&#34;&gt;&lt;code&gt;meow&lt;/code&gt;: Get random pictures of cats.&lt;/h2&gt;
+
+&lt;p&gt;This package doesn&amp;rsquo;t do much, but it&amp;rsquo;s adorable:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;http://thecatapi.com/api/images/get?format=src&amp;amp;type=jpg&amp;amp;size=med&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Use &lt;code&gt;meow()&lt;/code&gt; to fetch a random cat photo from &lt;a href=&#34;http://thecatapi.com&#34; target=&#34;_blank&#34;&gt;http://thecatapi.com&lt;/a&gt; plot it in yor R session. Meow!&lt;/p&gt;
+
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+
+&lt;pre&gt;&lt;code&gt;devtools::install_github(&amp;quot;achubaty/meow&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;h3 id=&#34;reporting-bugs&#34;&gt;Reporting Bugs&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&#34;https://github.com/achubaty/meow/issues&#34; target=&#34;_blank&#34;&gt;https://github.com/achubaty/meow/issues&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the evolution of omnivory in a community context</title>
+      <link>/publication/chubaty2014ee/</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chubaty2014ee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To tree or not to tree: The role of energy limitation on host tree acceptance in a bark beetle</title>
+      <link>/publication/chubaty2014eer/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chubaty2014eer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installing rgdal on OSX</title>
+      <link>/post/2014-08-05-installing-rgdal-osx/</link>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2014-08-05-installing-rgdal-osx/</guid>
+      <description>&lt;p&gt;This is actually really easy to do, but most of the google hits I came across were old (from 2010) or horribly complex (building &lt;code&gt;gdal&lt;/code&gt; and &lt;code&gt;proj4&lt;/code&gt; from source then building &lt;code&gt;rgdal&lt;/code&gt; itself).&lt;/p&gt;
+
+&lt;p&gt;First, this assumes you already have &lt;code&gt;homebrew&lt;/code&gt; installed &lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. If not, see &lt;a href=&#34;http://brew.sh/&#34; target=&#34;_blank&#34;&gt;http://brew.sh/&lt;/a&gt; for the one-liner terminal install.&lt;/p&gt;
+
+&lt;p&gt;Next, install &lt;code&gt;gdal&lt;/code&gt;:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;brew install gdal
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;Then open &lt;code&gt;RStudio&lt;/code&gt; (for some reason it didn&amp;rsquo;t work using R in the terminal&amp;hellip;) and install the package from source:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;rgdal&amp;quot;, type=&amp;quot;source&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;That&amp;rsquo;s it. Seriously easy.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Update: fixed typos in &lt;code&gt;brew&lt;/code&gt; commands&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;If you use &lt;code&gt;macports&lt;/code&gt; the process is similarly simple. See &lt;a href=&#34;http://www.janosgyerik.com/installing-rgdal-in-r-on-os-x-mavericks/&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+ &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:1&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evolution of omnivory in a community context</title>
+      <link>/project/omniga/</link>
+      <pubDate>Sun, 13 Apr 2014 20:37:16 -0600</pubDate>
+      
+      <guid>/project/omniga/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>PhD thesis: Individual host selection decisions and population-level responses in a time- and energy-limited forager, Dendroctonus ponderosae Hopkins</title>
+      <link>/project/phd/</link>
+      <pubDate>Thu, 26 Sep 2013 13:37:16 -0600</pubDate>
+      
+      <guid>/project/phd/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Individual host selection decisions and population-level responses in a time- and energy-limited forager, Dendroctonus ponderosae Hopkins</title>
+      <link>/publication/chubaty2013th/</link>
+      <pubDate>Thu, 26 Sep 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/publication/chubaty2013th/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Essential software for biology grad students: Part III Writing Tools</title>
+      <link>/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</link>
+      <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</guid>
+      <description>
+
+&lt;p&gt;Whenever I used to sit down in front of the computer to write anything other than an email, I would immediately open Microsoft Word and start clacking away on the keyboard. When I switched operating systems (away from Windows) I began using Open Office Writer and even now I still use Libre Office Writer for some of my writing needs. Each of these word processors offer similar sets of tools and can effectively be used for a wide range of writing tasks, from letters to essays, yet I feel most people use Word not because it&amp;rsquo;s always the best tool for the job, but because it&amp;rsquo;s ubiquitous and familiar.&lt;/p&gt;
+
+&lt;p&gt;There are plenty of limitations to using Word (and Writer), especially when it comes to 1) complex formatting (especially working with equations), 2) sharing documents and collaborating with others, 3) version control, and 4) converting to different file types.&lt;/p&gt;
+
+&lt;p&gt;To overcome these limitations and to make writing easier, I want to share my favourite writing tools &amp;ndash; &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; and &lt;a href=&#34;http://www.latex-project.org/&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt;, which use plain-text file formats and can be easily converted to any other file type with &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34; target=&#34;_blank&#34;&gt;Pandoc&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;The use of plain text format is important. &lt;a href=&#34;/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync&#34;&gt;Version control software&lt;/a&gt; like &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; works perfectly with plain-text files, showing you which lines have changed between versions. However, this version differencing isn&amp;rsquo;t possible using &lt;em&gt;binary&lt;/em&gt; file formats like those used by Word (.doc and .docx). Additionally, you can open plain-text files on any computer without any special (proprietary!) software, so 10 years from now when you want to revisit an old document, you can do so without having to ensure you keep an old computer with old software around.&lt;/p&gt;
+
+&lt;h3 id=&#34;you-shouldn-t-have-to-worry-about-formatting&#34;&gt;You shouldn&amp;rsquo;t have to worry about formatting&lt;/h3&gt;
+
+&lt;p&gt;Markdown and LaTeX files are markup languages, which means that the text in a document is annotated in a way that indicates the structure and formatting of the text, using tags. For example, bolded text in &lt;acronym title=&#34;HyperText Markup Language&#34;&gt;HTML&lt;/acronym&gt; (used for webpages) would be written like this: &lt;code&gt;&amp;lt;b&amp;gt;bold text here&amp;lt;/b&amp;gt;&lt;/code&gt;. Markdown makes this even simpler, so you spend less time formatting your document while writing, which means you can focus on actually writing rather than formatting.&lt;/p&gt;
+
+&lt;p&gt;It&amp;rsquo;s fantastically easy to learn the markdown syntax and create documents with markdown:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code&gt;# Simple Headings
+
+## And Subheadings
+
+Here&#39;s some paragraph text with some words *emphasized* with italics.
+
+Others are **bolded** for emphasis.
+
+### Don&#39;t Forget Subsubheadings
+
+You can keep adding headings and subheadings by using more hashes!
+
+# What about lists?
+
+- lists are easy to make
+- just use 4 spaces for sub-points
+- numbered lists are also supported
+
+# Markdown is great for embedding code too
+
+You just put your code `inside the backticks` or use blocks of code.
+
+# Blockquotes are just as easy
+&amp;gt; Look at me go!
+
+Check out [Markdown basics](http://daringfireball.net/projects/markdown/basics)
+to learn more.
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;The markdown text above produces this:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/uploads/2013/07/markdown.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-229 aligncenter&#34; alt=&#34;markdown&#34; src=&#34;/uploads/2013/07/markdown-201x300.png&#34; width=&#34;201&#34; height=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;And it doesn&amp;rsquo;t stop there. Markdown also supports citations and references with bibtex, which means that you can easily write up that thesis chapter or manuscript, not worrying about the final format until you&amp;rsquo;re ready to convert your markdown file to whatever file format you require.&lt;/p&gt;
+
+&lt;h3 id=&#34;equations-and-more&#34;&gt;Equations and more!&lt;/h3&gt;
+
+&lt;p&gt;Markdown is incredibly easy to learn, and will cover most of your writing needs, but if you are (or will be) making heavy use of code, equations, and statistics, then you need to be using LaTeX. The syntax is more complex than Markdown, but it hands-down beats MS Word for formatting, equation typesetting, and portability between computers. I&amp;rsquo;ve done all my thesis stuff, including manuscripts, in LaTeX and output as PDF or converted to .doc format when needed.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&#34;/uploads/2013/07/mpb-game-dpe.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-232&#34; title=&#34;a LaTeX equation&#34; alt=&#34;a LaTeX equation&#34; src=&#34;/uploads/2013/07/mpb-game-dpe-1024x231.png&#34; width=&#34;625&#34; height=&#34;140&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;To make your introduction to LaTeX easier, I recommend starting out using an editor like &lt;a href=&#34;http://www.xm1math.net/texmaker/&#34; target=&#34;_blank&#34;&gt;Texmaker&lt;/a&gt;, which is cross platform and come with a GUI to assist with inserting various document elements. If you will be using equations, you&amp;rsquo;ll want to make sure you use the &lt;code&gt;amsmath&lt;/code&gt; package. There are a lot of other great packages for latex which will help with everything from document formatting and layout, to citation formatting with bibtex, as well as &lt;a href=&#34;http://texblog.org/2012/06/21/classic-coffee-stains-with-latex/&#34; target=&#34;_blank&#34;&gt;adding coffee stains to your pdf documents&lt;/a&gt;. I also recommend checking out the &lt;a href=&#34;http://tex.stackexchange.com/&#34; target=&#34;_blank&#34;&gt;TeX Stack Exchange&lt;/a&gt; site to get Q&amp;amp;A help with everything (La)TeX.&lt;/p&gt;
+
+&lt;p&gt;Going further and using R+LaTeX+Sweave and you&amp;rsquo;ve got yourself a full-on powerhouse of reproducible, portable document publishing. Also remember, .tex files are simply a type of text file, so they work with version control software like Git.&lt;/p&gt;
+
+&lt;h3 id=&#34;file-conversion-with-pandoc&#34;&gt;File conversion with Pandoc&lt;/h3&gt;
+
+&lt;p&gt;Lastly, I&amp;rsquo;ll quickly mention that the best way to take your Markdown and LaTeX documents and convert them to almost any type of document file including (e.g., .tex, .html, .pdf, .doc, .odt) is using Pandoc. It&amp;rsquo;s a simple command-line tool, and &lt;a href=&#34;http://johnmacfarlane.net/pandoc/README.html&#34; target=&#34;_blank&#34;&gt;using it is incredibly straightforward&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h3 id=&#34;use-them-everyday&#34;&gt;Use them everyday&lt;/h3&gt;
+
+&lt;p&gt;Like any new software, there is a bit of a learning curve, so the best way to get used to it is simply to use it. Using markdown for everyday note taking or creating and maintaining your cv with markdown/LaTeX are great ways to gain familiarity with these tools. Start using them today. Start using them with your collaborators. You (and they) won&amp;rsquo;t be disappointed.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

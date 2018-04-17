@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Alex M. Chubaty</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Alex M. Chubaty</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018</copyright>
+    <lastBuildDate>Fri, 12 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>/tags/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Admin</title>
+      <link>/tags/admin/</link>
+      <pubDate>Fri, 26 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Grainscape</title>
+      <link>/tags/grainscape/</link>
+      <pubDate>Mon, 16 Apr 2018 20:41:21 -0600</pubDate>
+      
+      <guid>/tags/grainscape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Guides</title>
+      <link>/tags/guides/</link>
+      <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/guides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>/tags/latex/</link>
+      <pubDate>Sat, 28 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MPB</title>
+      <link>/tags/mpb/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      
+      <guid>/tags/mpb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mendeley</title>
+      <link>/tags/mendeley/</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/mendeley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>/tags/r/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpaDES</title>
+      <link>/tags/spades/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      
+      <guid>/tags/spades/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
