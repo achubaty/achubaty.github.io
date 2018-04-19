@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
-    <lastBuildDate>Thu, 26 Sep 2013 13:37:16 -0600</lastBuildDate>
+    <lastBuildDate>Fri, 13 Apr 2018 20:37:16 -0600</lastBuildDate>
     
 	<atom:link href="https://alexchubaty.com/tags/mpb/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Simulating mountain pine beetle eastward spread</title>
+      <link>https://alexchubaty.com/project/mpb-spread/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      
+      <guid>https://alexchubaty.com/project/mpb-spread/</guid>
+      <description>The continued eastward spread of mountain pine beetle (Dendroctonus ponderosae Hopk.; MPB) now threatens the boreal forests of eastern Alberta, Saskatchewan, and beyond. Predicting the outbreak and spread dynamics of this insect in jack pine, and to evaluate control measures to mitigate a potentially devastating loss of forest habitat and timber supply requires not only a complex understanding of the various inputs to this system and their interactions (e.g., MPB population dynamics, climate impacts, landscape features) but also the technical capacity to run large-scale spatial simulation models, and to update them quickly as new data are acquired and new models are developed.</description>
+    </item>
     
     <item>
       <title>PhD thesis: Individual host selection decisions and population-level responses in a time- and energy-limited forager, Dendroctonus ponderosae Hopkins</title>
