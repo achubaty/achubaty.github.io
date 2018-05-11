@@ -11,6 +11,15 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Building R packages - Getting started and best practices</title>
+      <link>https://alexchubaty.com/talk/chubaty2018_r_pkgs/</link>
+      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/chubaty2018_r_pkgs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Habitat Connectivity</title>
       <link>https://alexchubaty.com/project/habitat-connectivity/</link>
       <pubDate>Mon, 16 Apr 2018 20:41:21 -0600</pubDate>
@@ -167,15 +176,6 @@ For example, take a look at the packages produced by RStudio (&lt;em&gt;e.g.&lt;
       <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
       
       <guid>https://alexchubaty.com/talk/mcintire_csee_2017/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Burning in SpaDES: Automated parameter estimation for landscape fire models</title>
-      <link>https://alexchubaty.com/talk/cumming_csee_2017/</link>
-      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexchubaty.com/talk/cumming_csee_2017/</guid>
       <description></description>
     </item>
     
