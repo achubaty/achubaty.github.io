@@ -4,13 +4,67 @@
     <title>Recent &amp; Upcoming Talks on Alex M. Chubaty</title>
     <link>https://alexchubaty.com/talk/</link>
     <description>Recent content in Recent &amp; Upcoming Talks on Alex M. Chubaty</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Sun, 01 Jan 2017 00:00:00 -0700</lastBuildDate>
     
-	<atom:link href="https://alexchubaty.com/talk/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://alexchubaty.com/talk/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Best Practices Working With Spatial Data in R</title>
+      <link>https://alexchubaty.com/talk/chubaty2019_r_spatial/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/chubaty2019_r_spatial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facing the tree-slayer: forecasting Mountain Pine Beetle spatial spread in SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2019fri-mpb/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/chubaty2019fri-mpb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating fire disturbance with models of mountain pine beetle spread to evaluate efficacy of controlled burns as a management tool</title>
+      <link>https://alexchubaty.com/talk/chubaty2019serg/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/chubaty2019serg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testimony before the House of Commons Standing Committee on Natural Resources</title>
+      <link>https://alexchubaty.com/talk/chubaty2018_hoc_testimony/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/chubaty2018_hoc_testimony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cumulative Impacts Monitoring Program (CIMP) SpaDES Workshop</title>
+      <link>https://alexchubaty.com/talk/chubaty2018_cimp/</link>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/chubaty2018_cimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LandWeb: Exploring NRV in the Western Canadian Boreal Forest</title>
+      <link>https://alexchubaty.com/talk/chubaty2019_landweb/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/chubaty2019_landweb/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Building R packages - Getting started and best practices</title>

@@ -4,12 +4,12 @@
     <title>Projects on Alex M. Chubaty</title>
     <link>https://alexchubaty.com/project/</link>
     <description>Recent content in Projects on Alex M. Chubaty</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2018</copyright>
     <lastBuildDate>Mon, 16 Apr 2018 20:41:21 -0600</lastBuildDate>
     
-	<atom:link href="https://alexchubaty.com/project/index.xml" rel="self" type="application/rss+xml" />
+	    <atom:link href="https://alexchubaty.com/project/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,8 +27,10 @@
       <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
       
       <guid>https://alexchubaty.com/project/boreal-ecosystems/</guid>
-      <description>Working with others in the McIntire lab at the Pacific Forestry Centre, we are working on integrating various simulation models dealing with forest vegetaiton dynamics, fire, insect disturbance, and wildlife populations, to inform decision making in these management areas.
-We are developing multiple simulation model components for use with the SpaDES simulation platform (of which I am co-developer).</description>
+      <description>&lt;p&gt;Working with others in the McIntire lab at the Pacific Forestry Centre, we are working on integrating various simulation models dealing with forest vegetaiton dynamics, fire, insect disturbance, and wildlife populations, to inform decision making in these management areas.&lt;/p&gt;
+
+&lt;p&gt;We are developing multiple simulation model components for use with the &lt;a href=&#34;http://predictiveecology.org/&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;SpaDES&lt;/code&gt;&lt;/a&gt; simulation platform (of which I am co-developer).&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -37,7 +39,12 @@ We are developing multiple simulation model components for use with the SpaDES s
       <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
       
       <guid>https://alexchubaty.com/project/mpb-spread/</guid>
-      <description>The continued eastward spread of mountain pine beetle (Dendroctonus ponderosae Hopk.; MPB) now threatens the boreal forests of eastern Alberta, Saskatchewan, and beyond. Predicting the outbreak and spread dynamics of this insect in jack pine, and to evaluate control measures to mitigate a potentially devastating loss of forest habitat and timber supply requires not only a complex understanding of the various inputs to this system and their interactions (e.g., MPB population dynamics, climate impacts, landscape features) but also the technical capacity to run large-scale spatial simulation models, and to update them quickly as new data are acquired and new models are developed.</description>
+      <description>&lt;p&gt;The continued eastward spread of mountain pine beetle (Dendroctonus ponderosae Hopk.; MPB) now threatens the boreal forests of eastern Alberta, Saskatchewan, and beyond. Predicting the outbreak and spread dynamics of this insect in jack pine, and to evaluate control measures to mitigate a potentially devastating loss of forest habitat and timber supply requires not only a complex understanding of the various inputs to this system and their interactions (e.g., MPB population dynamics, climate impacts, landscape features) but also the technical capacity to run large-scale spatial simulation models, and to update them quickly as new data are acquired and new models are developed.&lt;/p&gt;
+
+&lt;p&gt;Nonlinear density-dependent dynamics of mountain pine beetle (MPB) recruitment means that MPB spread to Saskatchewan and beyond is primarily a “numbers game”, and this has sharp consequences for pest management thresholds. The nonlinear dependency of survival rate on temperature means that eruptive potential is regulated secondarily by climate, and this has consequences for the efficacy of pest management through “direct control”. Through simulation we distinguish the conditions under which MPB spread can be significantly slowed. Preliminary results indicate that the prognosis for pest management in the lodgepole pine of the Rocky Mountains Foothills region is distinctly different that of boreal jack pine.&lt;/p&gt;
+
+&lt;p&gt;Simulations of MPB population recruitment and spread were developed using the &lt;a href=&#34;http://spades.predictiveecology.org&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;SpaDES&lt;/code&gt;&lt;/a&gt; (Spatial Discrete Event Simulation) platform. &lt;code&gt;SpaDES&lt;/code&gt; facilitates a tight coupling of simulation and data within a modular framework that allows easy updates to model components. Furthermore, our development cycle follows current best practices for reproducible computing workflows and, where possible, we have followed an &amp;ldquo;Open-Access&amp;rdquo; model for software platform and simulation model development.&lt;/p&gt;
+</description>
     </item>
     
     <item>

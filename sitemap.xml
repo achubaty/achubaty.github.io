@@ -1,757 +1,511 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2018_r_pkgs/</loc>
-      <lastmod>2018-05-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/project/habitat-connectivity/</loc>
-      <lastmod>2018-04-16T20:41:21-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/project/boreal-ecosystems/</loc>
-      <lastmod>2018-04-13T20:37:16-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/project/mpb-spread/</loc>
-      <lastmod>2018-04-13T20:37:16-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/project/spades/</loc>
-      <lastmod>2018-04-13T20:37:16-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2018serg/</loc>
-      <lastmod>2018-02-06T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication/zappia2017mj/</loc>
-      <lastmod>2018-01-12T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/mcintire_uvic_es_2018/</loc>
-      <lastmod>2018-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/mcintire_cif_2017/</loc>
-      <lastmod>2017-11-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty_esc_2017/</loc>
-      <lastmod>2017-10-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty_cumlative_effects_2017/</loc>
-      <lastmod>2017-10-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2017-09-14-queen-copyright/</loc>
-      <lastmod>2017-09-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty_csee_2017/</loc>
-      <lastmod>2017-05-07T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/mcintire_caribou_2017/</loc>
-      <lastmod>2017-05-07T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/mcintire_csee_2017/</loc>
-      <lastmod>2017-05-07T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/cumming_csee_2017/</loc>
-      <lastmod>2017-05-07T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/luo_csee_2017/</loc>
-      <lastmod>2017-05-07T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty_sergi_2017/</loc>
-      <lastmod>2017-02-06T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/</loc>
-      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication/</loc>
-      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/</loc>
-      <lastmod>2017-01-01T00:00:00-07:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/mcintire_chile_2017/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty_fri_2017/</loc>
-      <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos/</loc>
-      <lastmod>2016-12-13T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/mcintire_getting_2016/</loc>
-      <lastmod>2016-02-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/riel2015/</loc>
-      <lastmod>2015-10-17T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/mcintire_nofc_2015/</loc>
-      <lastmod>2015-07-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2015-02-09-meow/</loc>
-      <lastmod>2015-02-09T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication/chubaty2014ee/</loc>
-      <lastmod>2014-12-29T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication/chubaty2014eer/</loc>
-      <lastmod>2014-12-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty_spades_2014/</loc>
-      <lastmod>2014-11-25T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/</loc>
-      <lastmod>2014-08-05T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/project/omniga/</loc>
-      <lastmod>2014-04-13T20:37:16-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/hodson2013/</loc>
-      <lastmod>2013-11-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/project/phd/</loc>
-      <lastmod>2013-09-26T13:37:16-06:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication/chubaty2013th/</loc>
-      <lastmod>2013-09-26T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2013/</loc>
-      <lastmod>2013-08-04T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</loc>
-      <lastmod>2013-07-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</loc>
-      <lastmod>2013-07-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</loc>
-      <lastmod>2013-07-10T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/</loc>
-      <lastmod>2013-06-20T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/mladenovic2013/</loc>
-      <lastmod>2013-05-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2013a/</loc>
-      <lastmod>2013-05-12T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2013-04-26-website-updates/</loc>
-      <lastmod>2013-04-26T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2013b/</loc>
-      <lastmod>2013-04-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2012/</loc>
-      <lastmod>2012-11-22T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2012a/</loc>
-      <lastmod>2012-07-06T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication/major2012me/</loc>
-      <lastmod>2012-05-21T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2012-04-13-enabling-libreopenoffice-plugin-for-mendeley-1-5/</loc>
-      <lastmod>2012-04-13T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names/</loc>
-      <lastmod>2012-02-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/</loc>
-      <lastmod>2012-02-09T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2012-02-01-easily-make-custom-mendeley-citation-styles/</loc>
-      <lastmod>2012-02-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2012-01-28-finding-symbol-commands-for-latex/</loc>
-      <lastmod>2012-01-28T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2011-11-14-constructing-pedigrees-in-r/</loc>
-      <lastmod>2011-11-14T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2011-11-07-custom-citation-styles-in-mendeley/</loc>
-      <lastmod>2011-11-07T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</loc>
-      <lastmod>2011-08-07T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication/jumean2011ji/</loc>
-      <lastmod>2011-01-08T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/roitberg2010b/</loc>
-      <lastmod>2010-11-19T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2010/</loc>
-      <lastmod>2010-11-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/alexmchubaty2009/</loc>
-      <lastmod>2009-10-02T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication/chubaty2009/</loc>
-      <lastmod>2009-05-01T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2008/</loc>
-      <lastmod>2008-05-11T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/alexmchubaty2007/</loc>
-      <lastmod>2007-05-17T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2007/</loc>
-      <lastmod>2007-03-15T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2006/</loc>
-      <lastmod>2006-10-13T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/talk/chubaty2006a/</loc>
-      <lastmod>2006-03-04T00:00:00+00:00</lastmod>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/tags/</loc>
-      <lastmod>2018-05-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication_types/0/</loc>
-      <lastmod>2013-09-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication_types/2/</loc>
-      <lastmod>2018-01-12T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/tags/admin/</loc>
-      <lastmod>2013-04-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/</loc>
-      <lastmod>2016-04-20T00:00:00-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/categories/</loc>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/tags/grainscape/</loc>
-      <lastmod>2018-04-16T20:41:21-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/tags/guides/</loc>
-      <lastmod>2013-07-15T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/tags/latex/</loc>
-      <lastmod>2012-01-28T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/tags/mpb/</loc>
-      <lastmod>2018-04-13T20:37:16-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/tags/mendeley/</loc>
-      <lastmod>2013-06-20T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/project/</loc>
-      <lastmod>2018-04-16T20:41:21-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/publication_types/</loc>
-      <lastmod>2013-09-26T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/tags/r/</loc>
-      <lastmod>2017-09-14T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/tags/spades/</loc>
-      <lastmod>2018-04-13T20:37:16-06:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://alexchubaty.com/tags/</loc>
-      <lastmod>2018-05-11T00:00:00+00:00</lastmod>
-      <priority>0</priority>
-    </url>
-    
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://alexchubaty.com/home/about/</loc>
+    <lastmod>2016-04-20T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/home/publications_selected/</loc>
+    <lastmod>2016-04-20T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/home/publications/</loc>
+    <lastmod>2016-04-20T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/home/talks/</loc>
+    <lastmod>2016-04-20T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/home/software/</loc>
+    <lastmod>2016-04-20T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/home/posts/</loc>
+    <lastmod>2016-04-20T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/home/projects/</loc>
+    <lastmod>2016-04-20T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/home/tags/</loc>
+    <lastmod>2017-09-20T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/home/contact/</loc>
+    <lastmod>2016-04-20T00:00:00-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/tags/</loc>
+    <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/</loc>
+    <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2019_r_spatial/</loc>
+    <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/tags/</loc>
+    <lastmod>2019-05-02T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2019fri-mpb/</loc>
+    <lastmod>2019-02-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2019serg/</loc>
+    <lastmod>2019-02-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2018_hoc_testimony/</loc>
+    <lastmod>2018-10-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2018_cimp/</loc>
+    <lastmod>2018-10-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2019_landweb/</loc>
+    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2018_r_pkgs/</loc>
+    <lastmod>2018-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/project/habitat-connectivity/</loc>
+    <lastmod>2018-04-16T20:41:21-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/project/</loc>
+    <lastmod>2018-04-16T20:41:21-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/tags/grainscape/</loc>
+    <lastmod>2018-04-16T20:41:21-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/project/boreal-ecosystems/</loc>
+    <lastmod>2018-04-13T20:37:16-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/tags/mpb/</loc>
+    <lastmod>2018-04-13T20:37:16-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/project/mpb-spread/</loc>
+    <lastmod>2018-04-13T20:37:16-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/tags/spades/</loc>
+    <lastmod>2018-04-13T20:37:16-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/project/spades/</loc>
+    <lastmod>2018-04-13T20:37:16-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2018serg/</loc>
+    <lastmod>2018-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication_types/2/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication_types/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication/zappia2017mj/</loc>
+    <lastmod>2018-01-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/mcintire_uvic_es_2018/</loc>
+    <lastmod>2018-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/mcintire_cif_2017/</loc>
+    <lastmod>2017-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty_esc_2017/</loc>
+    <lastmod>2017-10-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty_cumlative_effects_2017/</loc>
+    <lastmod>2017-10-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/home/</loc>
+    <lastmod>2017-09-20T00:00:00-06:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/tags/r/</loc>
+    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2017-09-14-queen-copyright/</loc>
+    <lastmod>2017-09-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty_csee_2017/</loc>
+    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/mcintire_caribou_2017/</loc>
+    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/mcintire_csee_2017/</loc>
+    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/cumming_csee_2017/</loc>
+    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/luo_csee_2017/</loc>
+    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty_sergi_2017/</loc>
+    <lastmod>2017-02-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/</loc>
+    <lastmod>2017-01-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication/</loc>
+    <lastmod>2017-01-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/</loc>
+    <lastmod>2017-01-01T00:00:00-07:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/mcintire_chile_2017/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty_fri_2017/</loc>
+    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos/</loc>
+    <lastmod>2016-12-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/mcintire_getting_2016/</loc>
+    <lastmod>2016-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/riel2015/</loc>
+    <lastmod>2015-10-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/mcintire_nofc_2015/</loc>
+    <lastmod>2015-07-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2015-02-09-meow/</loc>
+    <lastmod>2015-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication/chubaty2014ee/</loc>
+    <lastmod>2014-12-29T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication/chubaty2014eer/</loc>
+    <lastmod>2014-12-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty_spades_2014/</loc>
+    <lastmod>2014-11-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/</loc>
+    <lastmod>2014-08-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/project/omniga/</loc>
+    <lastmod>2014-04-13T20:37:16-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/hodson2013/</loc>
+    <lastmod>2013-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/project/phd/</loc>
+    <lastmod>2013-09-26T13:37:16-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication_types/0/</loc>
+    <lastmod>2013-09-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication/chubaty2013th/</loc>
+    <lastmod>2013-09-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2013/</loc>
+    <lastmod>2013-08-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</loc>
+    <lastmod>2013-07-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/tags/guides/</loc>
+    <lastmod>2013-07-15T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</loc>
+    <lastmod>2013-07-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</loc>
+    <lastmod>2013-07-10T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/tags/mendeley/</loc>
+    <lastmod>2013-06-20T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/</loc>
+    <lastmod>2013-06-20T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/mladenovic2013/</loc>
+    <lastmod>2013-05-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2013a/</loc>
+    <lastmod>2013-05-12T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/tags/admin/</loc>
+    <lastmod>2013-04-26T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2013-04-26-website-updates/</loc>
+    <lastmod>2013-04-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2013b/</loc>
+    <lastmod>2013-04-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2012/</loc>
+    <lastmod>2012-11-22T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2012a/</loc>
+    <lastmod>2012-07-06T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication/major2012me/</loc>
+    <lastmod>2012-05-21T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2012-04-13-enabling-libreopenoffice-plugin-for-mendeley-1-5/</loc>
+    <lastmod>2012-04-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names/</loc>
+    <lastmod>2012-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/</loc>
+    <lastmod>2012-02-09T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2012-02-01-easily-make-custom-mendeley-citation-styles/</loc>
+    <lastmod>2012-02-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2012-01-28-finding-symbol-commands-for-latex/</loc>
+    <lastmod>2012-01-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/tags/latex/</loc>
+    <lastmod>2012-01-28T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2011-11-14-constructing-pedigrees-in-r/</loc>
+    <lastmod>2011-11-14T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2011-11-07-custom-citation-styles-in-mendeley/</loc>
+    <lastmod>2011-11-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</loc>
+    <lastmod>2011-08-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication/jumean2011ji/</loc>
+    <lastmod>2011-01-08T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/roitberg2010b/</loc>
+    <lastmod>2010-11-19T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2010/</loc>
+    <lastmod>2010-11-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/alexmchubaty2009/</loc>
+    <lastmod>2009-10-02T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/publication/chubaty2009/</loc>
+    <lastmod>2009-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2008/</loc>
+    <lastmod>2008-05-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/alexmchubaty2007/</loc>
+    <lastmod>2007-05-17T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2007/</loc>
+    <lastmod>2007-03-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2006/</loc>
+    <lastmod>2006-10-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/talk/chubaty2006a/</loc>
+    <lastmod>2006-03-04T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/categories/</loc>
+    <priority>0</priority>
+  </url>
   
 </urlset>
