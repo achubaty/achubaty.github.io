@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-ca">
 
 <head>
 
@@ -15,9 +15,13 @@
   
   
   
+    
+    
+    
+  
   
 
-  
+  <meta name="author" content="Alex M. Chubaty">
 
   
   
@@ -29,7 +33,7 @@ http://csleditor.quist.de/csleditor/show/1/example-citation-style
 No longer need to manually edit custom citation style (CSL) files for Mendeley (and Zotero) within a text file!!!">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alexchubaty.com/post/2012-02-01-easily-make-custom-mendeley-citation-styles/">
+  <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/post/2012-02-01-easily-make-custom-mendeley-citation-styles/">
 
   
 
@@ -87,7 +91,7 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-34446208-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -117,13 +121,16 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
   
   <meta property="twitter:card" content="summary">
   
+  <meta property="twitter:site" content="@alexchubaty">
+  <meta property="twitter:creator" content="@alexchubaty">
+  
   <meta property="og:site_name" content="Alex M. Chubaty">
   <meta property="og:url" content="https://alexchubaty.com/post/2012-02-01-easily-make-custom-mendeley-citation-styles/">
   <meta property="og:title" content="Easily make custom Mendeley citation styles | Alex M. Chubaty">
   <meta property="og:description" content="I came across this incredibly useful site today:
 http://csleditor.quist.de/csleditor/show/1/example-citation-style
-No longer need to manually edit custom citation style (CSL) files for Mendeley (and Zotero) within a text file!!!"><meta property="og:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg">
-  <meta property="twitter:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg"><meta property="og:locale" content="en-us">
+No longer need to manually edit custom citation style (CSL) files for Mendeley (and Zotero) within a text file!!!"><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
   
   <meta property="article:published_time" content="2012-02-01T00:00:00&#43;00:00">
   
@@ -131,6 +138,32 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
 
   
@@ -160,7 +193,8 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -249,7 +283,7 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications_selected"><span>Publications</span></a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -376,9 +410,17 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
         
 
       </ul>
@@ -441,9 +483,6 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
   
 
   
-  
-  <span class="middot-divider"></span>
-  <a href="/post/2012-02-01-easily-make-custom-mendeley-citation-styles/#disqus_thread"></a>
   
 
   
@@ -592,12 +631,113 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
 
 
   
+
+
+
+
+
   
   
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/achubaty/avatar_huaedd9bc4dac6dd95e96a95620d39fb31_48159_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
 
-
-
-
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://alexchubaty.com/">Alex M. Chubaty</a></h5>
+      <h6 class="card-subtitle">Ecologist and simulation modeller</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/alexchubaty" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=MnxAoasAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0001-7146-8135" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/achubaty" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
 
 
 
@@ -618,29 +758,6 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
     
 
     
-<section id="comments">
-  <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "alexmchubaty" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
-
 
 
   </div>
@@ -681,8 +798,6 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
     
     
     
-    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
-    
 
     
     
@@ -711,13 +826,31 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -725,12 +858,12 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.dc856155b640fa1cd8bd8b7b068fe79c.js"></script>
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
     
 
@@ -745,7 +878,7 @@ No longer need to manually edit custom citation style (CSL) files for Mendeley (
   
 
   <p class="powered-by">
-    &copy; 2018 &middot; 
+    &copy; 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

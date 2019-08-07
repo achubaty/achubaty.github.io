@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-ca">
 
 <head>
 
@@ -15,9 +15,13 @@
   
   
   
+    
+    
+    
+  
   
 
-  
+  <meta name="author" content="Alex M. Chubaty">
 
   
   
@@ -28,7 +32,7 @@
 Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and the various pieces of software that make my life quite a bit easier.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alexchubaty.com/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/">
+  <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/">
 
   
 
@@ -86,7 +90,7 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-34446208-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -116,12 +120,15 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
   
   <meta property="twitter:card" content="summary">
   
+  <meta property="twitter:site" content="@alexchubaty">
+  <meta property="twitter:creator" content="@alexchubaty">
+  
   <meta property="og:site_name" content="Alex M. Chubaty">
   <meta property="og:url" content="https://alexchubaty.com/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/">
   <meta property="og:title" content="Essential software for biology grad students: Part I Overview | Alex M. Chubaty">
   <meta property="og:description" content="When I started grad school, I had no idea at the time just how much I&rsquo;d learn doing a PhD. I&rsquo;m not just talking about the &ldquo;big picture&rdquo; stuff: how to do research, design and conduct experiments, analyze data, and synthesize information. I mean all of the day-to-day skills associated with academic writing, data entry, and organization.
-Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and the various pieces of software that make my life quite a bit easier."><meta property="og:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg">
-  <meta property="twitter:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg"><meta property="og:locale" content="en-us">
+Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and the various pieces of software that make my life quite a bit easier."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
   
   <meta property="article:published_time" content="2013-07-10T00:00:00&#43;00:00">
   
@@ -129,6 +136,32 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
 
   
@@ -158,7 +191,8 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -247,7 +281,7 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications_selected"><span>Publications</span></a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -374,9 +408,17 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
         
 
       </ul>
@@ -439,9 +481,6 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
   
 
   
-  
-  <span class="middot-divider"></span>
-  <a href="/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/#disqus_thread"></a>
   
 
   
@@ -602,12 +641,113 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
 
 
   
+
+
+
+
+
   
   
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/achubaty/avatar_huaedd9bc4dac6dd95e96a95620d39fb31_48159_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
 
-
-
-
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://alexchubaty.com/">Alex M. Chubaty</a></h5>
+      <h6 class="card-subtitle">Ecologist and simulation modeller</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/alexchubaty" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=MnxAoasAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0001-7146-8135" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/achubaty" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
 
 
 
@@ -618,29 +758,6 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
     
 
     
-<section id="comments">
-  <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
-    
-    
-    
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "alexmchubaty" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-</section>
-
 
 
   </div>
@@ -681,8 +798,6 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
     
     
     
-    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
-    
 
     
     
@@ -711,13 +826,31 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -725,12 +858,12 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.dc856155b640fa1cd8bd8b7b068fe79c.js"></script>
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
     
 
@@ -745,7 +878,7 @@ Over the next few weeks, I&rsquo;ll explain a bit about the workflows I use and 
   
 
   <p class="powered-by">
-    &copy; 2018 &middot; 
+    &copy; 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

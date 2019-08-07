@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-ca">
 
 <head>
 
@@ -15,9 +15,13 @@
   
   
   
+    
+    
+    
+  
   
 
-  
+  <meta name="author" content="Alex M. Chubaty">
 
   
   
@@ -27,7 +31,7 @@
   <meta name="description" content="Humidity has been suggested to be important for Drosophila suzukii development; however, how it mediates competition has not been described previously. An examination of densitydependent competition under variation in humidity of D. suzukii suggests that high humidity reduces the consequences of competition at high densities.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alexchubaty.com/talk/hodson2013/">
+  <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/talk/hodson2013/">
 
   
 
@@ -85,7 +89,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-34446208-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -115,11 +119,14 @@
   
   <meta property="twitter:card" content="summary">
   
+  <meta property="twitter:site" content="@alexchubaty">
+  <meta property="twitter:creator" content="@alexchubaty">
+  
   <meta property="og:site_name" content="Alex M. Chubaty">
   <meta property="og:url" content="https://alexchubaty.com/talk/hodson2013/">
   <meta property="og:title" content="Drosophila suzukii in a D. suzukii world: Humidity decreases density dependent competition | Alex M. Chubaty">
-  <meta property="og:description" content="Humidity has been suggested to be important for Drosophila suzukii development; however, how it mediates competition has not been described previously. An examination of densitydependent competition under variation in humidity of D. suzukii suggests that high humidity reduces the consequences of competition at high densities."><meta property="og:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg">
-  <meta property="twitter:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Humidity has been suggested to be important for Drosophila suzukii development; however, how it mediates competition has not been described previously. An examination of densitydependent competition under variation in humidity of D. suzukii suggests that high humidity reduces the consequences of competition at high densities."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
   
   <meta property="article:published_time" content="2013-11-01T00:00:00&#43;00:00">
   
@@ -127,6 +134,32 @@
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
 
   
@@ -156,7 +189,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -245,7 +279,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications_selected"><span>Publications</span></a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -372,9 +406,17 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
         
 
       </ul>
@@ -428,7 +470,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Christina Hodson</span>, <span itemprop="author name" itemtype="http://schema.org/Person">S Dhanani</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Amber Hoi</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Alex M Chubaty</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Franz W Simon</span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/christina-hodson/">Christina Hodson</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/s.-dhanani/">S. Dhanani</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/amber-hoi/">Amber Hoi</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/alex-m.-chubaty/">Alex M. Chubaty</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/franz-w.-simon/">Franz W. Simon</a></span>
 
   </div>
   
@@ -607,7 +649,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            Nov 1, 2013 00:00 AM
+            Nov 1, 2013
           </div>
         </div>
       </div>
@@ -667,6 +709,23 @@
 
 
 
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/christina-hodson/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
 
 
 
@@ -710,8 +769,6 @@
     
     
     
-    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
-    
 
     
     
@@ -740,13 +797,31 @@
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -754,12 +829,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.dc856155b640fa1cd8bd8b7b068fe79c.js"></script>
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
     
 
@@ -774,7 +849,7 @@
   
 
   <p class="powered-by">
-    &copy; 2018 &middot; 
+    &copy; 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

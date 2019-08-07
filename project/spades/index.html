@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-ca">
 
 <head>
 
@@ -15,9 +15,13 @@
   
   
   
+    
+    
+    
+  
   
 
-  
+  <meta name="author" content="Alex M. Chubaty">
 
   
   
@@ -27,7 +31,7 @@
   <meta name="description" content="A collection of R packages for implementing a variety of event-based models, with a focus on spatially explicit models. These include raster-based, event-based, and agent-based models.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alexchubaty.com/project/spades/">
+  <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/project/spades/">
 
   
 
@@ -85,7 +89,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-34446208-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -114,11 +118,14 @@
   
   <meta property="twitter:card" content="summary_large_image">
   
+  <meta property="twitter:site" content="@alexchubaty">
+  <meta property="twitter:creator" content="@alexchubaty">
+  
   <meta property="og:site_name" content="Alex M. Chubaty">
   <meta property="og:url" content="https://alexchubaty.com/project/spades/">
-  <meta property="og:title" content="SpaDES: Spatial Discrete Event Simulation | Alex M. Chubaty">
-  <meta property="og:description" content="A collection of R packages for implementing a variety of event-based models, with a focus on spatially explicit models. These include raster-based, event-based, and agent-based models."><meta property="og:image" content="https://alexchubaty.com/img/SpaDES-banner.png">
-  <meta property="twitter:image" content="https://alexchubaty.com/img/SpaDES-banner.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="`SpaDES`: Spatial Discrete Event Simulation | Alex M. Chubaty">
+  <meta property="og:description" content="A collection of R packages for implementing a variety of event-based models, with a focus on spatially explicit models. These include raster-based, event-based, and agent-based models."><meta property="og:image" content="https://alexchubaty.com/project/spades/featured.png">
+  <meta property="twitter:image" content="https://alexchubaty.com/project/spades/featured.png"><meta property="og:locale" content="en-ca">
   
   <meta property="article:published_time" content="2018-04-13T20:37:16-06:00">
   
@@ -127,6 +134,32 @@
 
   
 
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
+
 
   
 
@@ -134,7 +167,7 @@
 
 
 
-  <title>SpaDES: Spatial Discrete Event Simulation | Alex M. Chubaty</title>
+  <title>`SpaDES`: Spatial Discrete Event Simulation | Alex M. Chubaty</title>
 
 </head>
 
@@ -155,7 +188,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -244,7 +278,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications_selected"><span>Publications</span></a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -371,9 +405,17 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
         
 
       </ul>
@@ -395,30 +437,29 @@
 
 
 
-<div class="article-header">
-  
-  
-  <img src="/img/SpaDES-banner.png" class="article-banner" itemprop="image" alt="">
-  
-
-  
-</div>
 
 
 
 
-  
+
+
+
+
+
+
 
   
-  
-  
-<div class="article-container pt-3">
-  <h1 itemprop="name">SpaDES: Spatial Discrete Event Simulation</h1>
-
-  
-
   
     
+  
+
+
+<div class="article-container pt-3">
+  <h1 itemprop="name">`SpaDES`: Spatial Discrete Event Simulation</h1>
+
+  
+
+  
 
 
 
@@ -463,7 +504,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://alexchubaty.com/project/spades/&amp;text=SpaDES:%20Spatial%20Discrete%20Event%20Simulation" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://alexchubaty.com/project/spades/&amp;text=%60SpaDES%60:%20Spatial%20Discrete%20Event%20Simulation" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -476,7 +517,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://alexchubaty.com/project/spades/&amp;t=SpaDES:%20Spatial%20Discrete%20Event%20Simulation" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://alexchubaty.com/project/spades/&amp;t=%60SpaDES%60:%20Spatial%20Discrete%20Event%20Simulation" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -489,7 +530,7 @@
       
       
       <li>
-        <a href="mailto:?subject=SpaDES:%20Spatial%20Discrete%20Event%20Simulation&amp;body=https://alexchubaty.com/project/spades/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=%60SpaDES%60:%20Spatial%20Discrete%20Event%20Simulation&amp;body=https://alexchubaty.com/project/spades/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -502,7 +543,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://alexchubaty.com/project/spades/&amp;title=SpaDES:%20Spatial%20Discrete%20Event%20Simulation" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://alexchubaty.com/project/spades/&amp;title=%60SpaDES%60:%20Spatial%20Discrete%20Event%20Simulation" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -515,7 +556,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=SpaDES:%20Spatial%20Discrete%20Event%20Simulation%20https://alexchubaty.com/project/spades/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=%60SpaDES%60:%20Spatial%20Discrete%20Event%20Simulation%20https://alexchubaty.com/project/spades/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -528,7 +569,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://alexchubaty.com/project/spades/&amp;title=SpaDES:%20Spatial%20Discrete%20Event%20Simulation" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://alexchubaty.com/project/spades/&amp;title=%60SpaDES%60:%20Spatial%20Discrete%20Event%20Simulation" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -541,7 +582,7 @@
 
 </div>
 
-    
+  
 
 
 
@@ -591,7 +632,14 @@
 </div>
 
 
-  
+</div>
+
+
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 720px; max-height: 240px;">
+  <div style="position: relative">
+    <img src="/project/spades/featured_hub4bedfdf86ccb385ec70a27dd89c2a03_47467_720x0_resize_lanczos_2.png" alt="" class="featured-image">
+    
+  </div>
 </div>
 
 
@@ -621,12 +669,113 @@
 
 
   
+
+
+
+
+
   
   
+  
+    
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+      
+      <img class="portrait mr-3" src="/authors/achubaty/avatar_huaedd9bc4dac6dd95e96a95620d39fb31_48159_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
+    
 
-
-
-
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="https://alexchubaty.com/">Alex M. Chubaty</a></h5>
+      <h6 class="card-subtitle">Ecologist and simulation modeller</h6>
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="/#contact" >
+              <i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://twitter.com/alexchubaty" target="_blank" rel="noopener">
+              <i class="fab fa-twitter"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=MnxAoasAAAAJ" target="_blank" rel="noopener">
+              <i class="ai ai-google-scholar"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://orcid.org/0000-0001-7146-8135" target="_blank" rel="noopener">
+              <i class="ai ai-orcid"></i>
+            </a>
+          </li>
+        
+          
+          
+          
+            
+          
+          
+          
+          
+          
+            
+          
+          <li>
+            <a itemprop="sameAs" href="https://github.com/achubaty" target="_blank" rel="noopener">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
 
 
 
@@ -686,8 +835,6 @@
     
     
     
-    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
-    
 
     
     
@@ -716,13 +863,31 @@
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -730,12 +895,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.dc856155b640fa1cd8bd8b7b068fe79c.js"></script>
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
     
 
@@ -750,7 +915,7 @@
   
 
   <p class="powered-by">
-    &copy; 2018 &middot; 
+    &copy; 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

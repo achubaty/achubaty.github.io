@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-ca">
 
 <head>
 
@@ -15,19 +15,23 @@
   
   
   
+    
+    
+    
+  
   
 
-  
+  <meta name="author" content="Alex M. Chubaty">
 
   
   
   
     
   
-  <meta name="description" content="">
+  <meta name="description" content="Ecologist and simulation modeller">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alexchubaty.com/tags/">
+  <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/tags/">
 
   
 
@@ -85,7 +89,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-34446208-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -117,16 +121,45 @@
   
   <meta property="twitter:card" content="summary">
   
+  <meta property="twitter:site" content="@alexchubaty">
+  <meta property="twitter:creator" content="@alexchubaty">
+  
   <meta property="og:site_name" content="Alex M. Chubaty">
   <meta property="og:url" content="https://alexchubaty.com/tags/">
   <meta property="og:title" content=" | Alex M. Chubaty">
-  <meta property="og:description" content=""><meta property="og:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg">
-  <meta property="twitter:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Ecologist and simulation modeller"><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
   
   <meta property="og:updated_time" content="2019-05-02T00:00:00&#43;00:00">
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
 
   
@@ -156,7 +189,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -245,7 +279,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications_selected"><span>Publications</span></a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -372,9 +406,17 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
         
 
       </ul>
@@ -422,13 +464,6 @@
   
   
   <div>
-    <h2><a href="/talk/chubaty_fri_2017/">Simulating MPB invasive spread control in Saskatchewan using SpaDES</a></h2>
-    <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
     <h2><a href="/talk/mcintire_getting_2016/">Getting to answers, in SpaDES</a></h2>
     <div class="article-style">
       
@@ -452,35 +487,8 @@
   </div>
   
   <div>
-    <h2><a href="/publication/chubaty2014ee/">On the evolution of omnivory in a community context</a></h2>
-    <div class="article-style">
-      
-      Omnivory is extremely common in animals, yet theory predicts that when given a choice of resources specialization should be favored over being generalist. The evolution of a feeding phenotype involves complex interactions with many factors other than …
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/publication/chubaty2014eer/">To tree or not to tree: The role of energy limitation on host tree acceptance in a bark beetle</a></h2>
-    <div class="article-style">
-      
-      Background: Energy and time constraints experienced by dispersing animals often limit individual dispersal and subsequent habitat selection decisions. When substantial variation in individual dispersal capability is present, these constraints may …
-      
-    </div>
-  </div>
-  
-  <div>
     <h2><a href="/talk/chubaty_spades_2014/">SpaDES: Spatial Discrete Event Simulation</a></h2>
     <div class="article-style">
-      
-    </div>
-  </div>
-  
-  <div>
-    <h2><a href="/project/omniga/">Evolution of omnivory in a community context</a></h2>
-    <div class="article-style">
-      
-      We developed an evolutionary simulation model to consider the feeding strategies (broadly classified as three feeding types: herbivores, omnivores, and carnivores) of a community of individuals and explore how the intrinsic properties of these foragers and extrinsic characteristics of their environment determine the prevalence of omnivores and other feeding types.
       
     </div>
   </div>
@@ -495,10 +503,38 @@
   </div>
   
   <div>
-    <h2><a href="/publication/chubaty2013th/">Individual host selection decisions and population-level responses in a time- and energy-limited forager, Dendroctonus ponderosae Hopkins</a></h2>
+    <h2><a href="/talk/chubaty2013/">On the evolution of omnivory in a community context</a></h2>
     <div class="article-style">
       
-      My thesis explores the link between habitat selection decisions made at the individual level and the resulting population-level distributions, using a combination of field, laboratory, and theoretical studies in mountain pine beetle (MPB), …
+      Background/Questions/Methods: An individual's ability to assimilate and obtain one food resource is constrained by trade-offs between foraging for alternate resources. Investment in the ability to exploit one resource may make it more difficult to …
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/talk/mladenovic2013/">Enhancing Students&#39; Understanding of Biological Concepts by Engaging Them in Research</a></h2>
+    <div class="article-style">
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/talk/chubaty2013a/">On the evolution of omnivory in a community context</a></h2>
+    <div class="article-style">
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/talk/chubaty2013b/">Evolution of omnivory in a community context</a></h2>
+    <div class="article-style">
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/talk/chubaty2012/">To tree or not to tree: energy and time limited habitat settlement decisions in bark beetles</a></h2>
+    <div class="article-style">
       
     </div>
   </div>
@@ -554,8 +590,6 @@
     
     
     
-    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
-    
 
     
     
@@ -584,13 +618,31 @@
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -598,12 +650,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.dc856155b640fa1cd8bd8b7b068fe79c.js"></script>
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
     
 
@@ -618,7 +670,7 @@
   
 
   <p class="powered-by">
-    &copy; 2018 &middot; 
+    &copy; 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

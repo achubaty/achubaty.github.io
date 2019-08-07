@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-ca">
 
 <head>
 
@@ -15,9 +15,13 @@
   
   
   
+    
+    
+    
+  
   
 
-  
+  <meta name="author" content="Alex M. Chubaty">
 
   
   
@@ -27,7 +31,7 @@
   <meta name="description" content="Mountain Pine Beetle, a native species of North American forests, searches out and colonizes live trees such as lodgepole pine. Female beetles have a limited period of time to find a suitable tree to breed and lay her eggs in. However, to successfully reproduce the beetle must overcome host defences and kill the host tree. How beetles distribute themselves on particular host trees will be largely affected by the density of other beetles, since individual beetles on their own are incapable of successfully colonizing and killing a host tree. I use a combination of theoretical and experimental approaches to explore how Mountain Pine Beetle searches for and selects host trees in which to reproduce. I develop a dynamic state variable model to first evaluate individual host acceptance decisions. However, individual decisions may be contingent on the decisions of conspecifics, therefore, the decision-making policies of the beetles as a population should be treated as a game. Thus, I use a game theory approach to evaluate the policies of beetles leading to stable decision policies. A combination of field and experimental work will be used to test various components of the model before it is scaled up into a spatially-explicit forest landscape model.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alexchubaty.com/talk/chubaty2006a/">
+  <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/talk/chubaty2006a/">
 
   
 
@@ -85,7 +89,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-34446208-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -115,11 +119,14 @@
   
   <meta property="twitter:card" content="summary">
   
+  <meta property="twitter:site" content="@alexchubaty">
+  <meta property="twitter:creator" content="@alexchubaty">
+  
   <meta property="og:site_name" content="Alex M. Chubaty">
   <meta property="og:url" content="https://alexchubaty.com/talk/chubaty2006a/">
   <meta property="og:title" content="Using game theory to evaluate host acceptance decisions in mountain pine beetle | Alex M. Chubaty">
-  <meta property="og:description" content="Mountain Pine Beetle, a native species of North American forests, searches out and colonizes live trees such as lodgepole pine. Female beetles have a limited period of time to find a suitable tree to breed and lay her eggs in. However, to successfully reproduce the beetle must overcome host defences and kill the host tree. How beetles distribute themselves on particular host trees will be largely affected by the density of other beetles, since individual beetles on their own are incapable of successfully colonizing and killing a host tree. I use a combination of theoretical and experimental approaches to explore how Mountain Pine Beetle searches for and selects host trees in which to reproduce. I develop a dynamic state variable model to first evaluate individual host acceptance decisions. However, individual decisions may be contingent on the decisions of conspecifics, therefore, the decision-making policies of the beetles as a population should be treated as a game. Thus, I use a game theory approach to evaluate the policies of beetles leading to stable decision policies. A combination of field and experimental work will be used to test various components of the model before it is scaled up into a spatially-explicit forest landscape model."><meta property="og:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg">
-  <meta property="twitter:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Mountain Pine Beetle, a native species of North American forests, searches out and colonizes live trees such as lodgepole pine. Female beetles have a limited period of time to find a suitable tree to breed and lay her eggs in. However, to successfully reproduce the beetle must overcome host defences and kill the host tree. How beetles distribute themselves on particular host trees will be largely affected by the density of other beetles, since individual beetles on their own are incapable of successfully colonizing and killing a host tree. I use a combination of theoretical and experimental approaches to explore how Mountain Pine Beetle searches for and selects host trees in which to reproduce. I develop a dynamic state variable model to first evaluate individual host acceptance decisions. However, individual decisions may be contingent on the decisions of conspecifics, therefore, the decision-making policies of the beetles as a population should be treated as a game. Thus, I use a game theory approach to evaluate the policies of beetles leading to stable decision policies. A combination of field and experimental work will be used to test various components of the model before it is scaled up into a spatially-explicit forest landscape model."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
   
   <meta property="article:published_time" content="2006-03-04T00:00:00&#43;00:00">
   
@@ -127,6 +134,32 @@
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
 
   
@@ -156,7 +189,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -245,7 +279,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications_selected"><span>Publications</span></a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -372,9 +406,17 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
         
 
       </ul>
@@ -428,7 +470,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Alex M Chubaty</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Bernard D Roitberg</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Chao Li</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Brian O Ma</span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/alex-m.-chubaty/">Alex M. Chubaty</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/bernard-d.-roitberg/">Bernard D. Roitberg</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/chao-li/">Chao Li</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/brian-o.-ma/">Brian O. Ma</a></span>
 
   </div>
   
@@ -609,7 +651,7 @@
         <div class="row">
           <div class="col-12 col-md-3 pub-row-heading">Date</div>
           <div class="col-12 col-md-9" itemprop="datePublished">
-            Mar 4, 2006 00:00 AM
+            Mar 4, 2006
           </div>
         </div>
       </div>
@@ -681,6 +723,23 @@
 
 
 
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/alex-m.-chubaty/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
+
 
 
 
@@ -724,8 +783,6 @@
     
     
     
-    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
-    
 
     
     
@@ -754,13 +811,31 @@
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -768,12 +843,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.dc856155b640fa1cd8bd8b7b068fe79c.js"></script>
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
     
 
@@ -788,7 +863,7 @@
   
 
   <p class="powered-by">
-    &copy; 2018 &middot; 
+    &copy; 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

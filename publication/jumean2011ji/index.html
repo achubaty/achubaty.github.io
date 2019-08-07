@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en-us">
+<html lang="en-ca">
 
 <head>
 
@@ -15,9 +15,13 @@
   
   
   
+    
+    
+    
+  
   
 
-  
+  <meta name="author" content="Alex M. Chubaty">
 
   
   
@@ -27,7 +31,7 @@
   <meta name="description" content="Pupation site-seeking larvae of the codling moth, Cydia pomonella, aggregate in response to aggregation pheromone produced by cocoon-spinning conspecific larvae. Larvae that pupate in an aggregation rather than in solitude may experience a lower rate of parasitism by the parasitoid Mastrus ridibundus. Additionally, adults eclosing from a larval aggregation may encounter mates more rapidly at the site of eclosion (on-site) than away from that site (off-site). We employed an evolutionary simulation to determine the effect of several ecological parameters on the evolution of larval aggregation behavior. These parameters included (i) the probability of mate encounter off-site; (ii) the time available for finding a mate; and (iii) the population density of parasitoids and their rate of larval parasitism. The model predicts that larval aggregation behavior is selected for when the probability of off-site mate encounter is low, the time to locate mates is short, and egg-limited parasitoids are at high population levels. We also show that aggregations reduce the risk of parasitism through dilution effects. The parameters found to favour the evolution of larval aggregation behavior are consistent with life history traits exhibited by C. pomonella.">
 
   
-  <link rel="alternate" hreflang="en-us" href="https://alexchubaty.com/publication/jumean2011ji/">
+  <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/publication/jumean2011ji/">
 
   
 
@@ -85,7 +89,7 @@
     <script>
       window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
       ga('create', 'UA-34446208-1', 'auto');
-      
+      ga('set', 'anonymizeIp', true);
       ga('require', 'eventTracker');
       ga('require', 'outboundLinkTracker');
       ga('require', 'urlChangeTracker');
@@ -115,11 +119,14 @@
   
   <meta property="twitter:card" content="summary">
   
+  <meta property="twitter:site" content="@alexchubaty">
+  <meta property="twitter:creator" content="@alexchubaty">
+  
   <meta property="og:site_name" content="Alex M. Chubaty">
   <meta property="og:url" content="https://alexchubaty.com/publication/jumean2011ji/">
   <meta property="og:title" content="A Theoretical Approach to Study the Evolution of Aggregation Behavior by Larval Codling Moth, Cydia pomonella (Lepidoptera: Tortricidae) | Alex M. Chubaty">
-  <meta property="og:description" content="Pupation site-seeking larvae of the codling moth, Cydia pomonella, aggregate in response to aggregation pheromone produced by cocoon-spinning conspecific larvae. Larvae that pupate in an aggregation rather than in solitude may experience a lower rate of parasitism by the parasitoid Mastrus ridibundus. Additionally, adults eclosing from a larval aggregation may encounter mates more rapidly at the site of eclosion (on-site) than away from that site (off-site). We employed an evolutionary simulation to determine the effect of several ecological parameters on the evolution of larval aggregation behavior. These parameters included (i) the probability of mate encounter off-site; (ii) the time available for finding a mate; and (iii) the population density of parasitoids and their rate of larval parasitism. The model predicts that larval aggregation behavior is selected for when the probability of off-site mate encounter is low, the time to locate mates is short, and egg-limited parasitoids are at high population levels. We also show that aggregations reduce the risk of parasitism through dilution effects. The parameters found to favour the evolution of larval aggregation behavior are consistent with life history traits exhibited by C. pomonella."><meta property="og:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg">
-  <meta property="twitter:image" content="https://alexchubaty.com/img/amc_pipe_CROP_small.jpg"><meta property="og:locale" content="en-us">
+  <meta property="og:description" content="Pupation site-seeking larvae of the codling moth, Cydia pomonella, aggregate in response to aggregation pheromone produced by cocoon-spinning conspecific larvae. Larvae that pupate in an aggregation rather than in solitude may experience a lower rate of parasitism by the parasitoid Mastrus ridibundus. Additionally, adults eclosing from a larval aggregation may encounter mates more rapidly at the site of eclosion (on-site) than away from that site (off-site). We employed an evolutionary simulation to determine the effect of several ecological parameters on the evolution of larval aggregation behavior. These parameters included (i) the probability of mate encounter off-site; (ii) the time available for finding a mate; and (iii) the population density of parasitoids and their rate of larval parasitism. The model predicts that larval aggregation behavior is selected for when the probability of off-site mate encounter is low, the time to locate mates is short, and egg-limited parasitoids are at high population levels. We also show that aggregations reduce the risk of parasitism through dilution effects. The parameters found to favour the evolution of larval aggregation behavior are consistent with life history traits exhibited by C. pomonella."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
+  <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
   
   <meta property="article:published_time" content="2011-01-08T00:00:00&#43;00:00">
   
@@ -127,6 +134,32 @@
   
 
   
+
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": {
+          "background": "#2962ff",
+          "text": "#fff"
+        },
+        "button": {
+          "background": "#fff",
+          "text": "#2962ff"
+        }
+      },
+      "theme": "classic",
+      "content": {
+        "message": "This website uses cookies to ensure you get the best experience on our website.",
+        "dismiss": "Got it!",
+        "link": "Learn more",
+        "href": "https://cookies.insites.com"
+      }
+    })});
+</script>
+
 
 
   
@@ -156,7 +189,8 @@
 
       <div id="search-box">
         
-        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
         
       </div>
 
@@ -245,7 +279,7 @@
         
 
         <li class="nav-item">
-          <a class="nav-link " href="/#publications_selected"><span>Publications</span></a>
+          <a class="nav-link " href="/#featured"><span>Publications</span></a>
         </li>
 
         
@@ -372,9 +406,17 @@
         
 
         
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
 
         
 
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
         
 
       </ul>
@@ -428,7 +470,7 @@
 
 
 
-  <span itemprop="author name" itemtype="http://schema.org/Person">Zaid Jumean</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Brian O Ma</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Alex M Chubaty</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Christopher W Ellenor</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Bernard D Roitberg</span>, <span itemprop="author name" itemtype="http://schema.org/Person">Gerhard Gries</span>
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/zaid-jumean/">Zaid Jumean</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/brian-o.-ma/">Brian O. Ma</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/achubaty/">Alex M. Chubaty</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/christopher-w-ellenor/">Christopher W Ellenor</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/bernard-d.-roitberg/">Bernard D. Roitberg</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/gerhard-gries/">Gerhard Gries</a></span>
 
   </div>
   
@@ -557,6 +599,8 @@
 
 
 
+  
+
 
 
 <div class="btn-links mb-3">
@@ -582,21 +626,26 @@
 
 
 
-
-
-
-
-  
-    
-  
-
-
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/jumean2011ji/cite.bib">
+  Cite
+</button>
 
 
 
 
 
 
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1007/s10905-010-9251-7" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 
@@ -656,12 +705,6 @@
 
     
 
-<div class="article-tags">
-  
-  <a class="badge badge-light" href=""></a>
-  
-</div>
-
 
     
 
@@ -681,6 +724,23 @@
 
 
 
+
+  
+  
+  
+  
+  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
+    
+
+    <div class="media-body">
+      <h5 class="card-title" itemprop="name"><a href="/authors/zaid-jumean/"></a></h5>
+      
+      
+      <ul class="network-icon" aria-hidden="true">
+        
+      </ul>
+    </div>
+  </div>
 
 
 
@@ -725,8 +785,6 @@
     
     
     
-    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
-    
 
     
     
@@ -755,13 +813,31 @@
     
 
     
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
 
     
     
 
     
     
-
     
     
     
@@ -769,12 +845,12 @@
     
     
     
+      
     
     
     
     
-    
-    <script src="/js/academic.min.dc856155b640fa1cd8bd8b7b068fe79c.js"></script>
+    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
 
     
 
@@ -789,7 +865,7 @@
   
 
   <p class="powered-by">
-    &copy; 2018 &middot; 
+    &copy; 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
