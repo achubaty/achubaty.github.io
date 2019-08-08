@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Steve G. Cumming on Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/authors/steve-g.-cumming/</link>
+    <description>Recent content in Steve G. Cumming on Alex M. Chubaty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-ca</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://alexchubaty.com/authors/steve-g.-cumming/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Predictive ecology in a world filled with dynamic data and models – entering continuous adaptive management</title>
+      <link>https://alexchubaty.com/talk/mcintire_uvic_es_2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/mcintire_uvic_es_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incorporating changing climate in ecological models: feedbacks, trade-offs and surprises! OR How do we influence decision makers?</title>
+      <link>https://alexchubaty.com/talk/mcintire_cif_2017/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/mcintire_cif_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boreal insect disturbance in SpaDES: an integrated simulation model of mountain pine beetle eastward spread</title>
+      <link>https://alexchubaty.com/talk/chubaty_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/chubaty_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a continuous adaptive management system in SpaDES: using historical landscape variation for the LandWeb project</title>
+      <link>https://alexchubaty.com/talk/mcintire_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/mcintire_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Burning in SpaDES: Automated parameter estimation for landscape fire models</title>
+      <link>https://alexchubaty.com/talk/cumming_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/cumming_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vegetation dynamics in SpaDES: the recoded LANDIS-II biomass succession model</title>
+      <link>https://alexchubaty.com/talk/luo_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/luo_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incorporating changing climate in ecological models: feedback, reversals and surprises abound!</title>
+      <link>https://alexchubaty.com/talk/mcintire_chile_2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/mcintire_chile_2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

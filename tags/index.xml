@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/tags/</link>
+    <description>Recent content in Tags on Alex M. Chubaty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-ca</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Thu, 02 May 2019 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://alexchubaty.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://alexchubaty.com/tags/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/tags/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>grainscape</title>
+      <link>https://alexchubaty.com/tags/grainscape/</link>
+      <pubDate>Mon, 16 Apr 2018 20:41:21 -0600</pubDate>
+      
+      <guid>https://alexchubaty.com/tags/grainscape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>MPB</title>
+      <link>https://alexchubaty.com/tags/mpb/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      
+      <guid>https://alexchubaty.com/tags/mpb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpaDES</title>
+      <link>https://alexchubaty.com/tags/spades/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      
+      <guid>https://alexchubaty.com/tags/spades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>https://alexchubaty.com/tags/r/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/tags/r/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>guides</title>
+      <link>https://alexchubaty.com/tags/guides/</link>
+      <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/tags/guides/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mendeley</title>
+      <link>https://alexchubaty.com/tags/mendeley/</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/tags/mendeley/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>admin</title>
+      <link>https://alexchubaty.com/tags/admin/</link>
+      <pubDate>Fri, 26 Apr 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/tags/admin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LaTeX</title>
+      <link>https://alexchubaty.com/tags/latex/</link>
+      <pubDate>Sat, 28 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/tags/latex/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

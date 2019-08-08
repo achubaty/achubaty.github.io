@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Bill Riel on Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/authors/bill-riel/</link>
+    <description>Recent content in Bill Riel on Alex M. Chubaty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-ca</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Sat, 17 Oct 2015 00:00:00 +0000</lastBuildDate>
+    
+	    <atom:link href="https://alexchubaty.com/authors/bill-riel/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Evolution of Decision Support for Forest Ecosystem Management: Towards Open Modelling and Data</title>
+      <link>https://alexchubaty.com/talk/riel2015/</link>
+      <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/talk/riel2015/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
