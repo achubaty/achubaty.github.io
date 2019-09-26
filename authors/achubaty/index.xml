@@ -7,10 +7,19 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-ca</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 12 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Aug 2019 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://alexchubaty.com/authors/achubaty/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>NetLogoR: A package to build and run spatially explicit agent-based models in R</title>
+      <link>https://alexchubaty.com/publication/bauduin2019ec/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/publication/bauduin2019ec/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>State-dependent domicile leaving rates in Anopheles gambiae</title>
@@ -73,18 +82,6 @@
       
       <guid>https://alexchubaty.com/publication/chubaty2009em/</guid>
       <description></description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://alexchubaty.com/authors/achubaty/</link>
-      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexchubaty.com/authors/achubaty/</guid>
-      <description>&lt;p&gt;Dr. Chubaty is an ecologist and simulation modeller developing landscape-level models of insect dispersal and forest disturbance.&lt;/p&gt;
-
-&lt;p&gt;His research broadly explores the impacts of host selection and dispersal at multiple spatial scales as well as scaling up from individual-based behavioural models to population-, community-, and even landscape-level models of insect outbreak and disturbance.&lt;/p&gt;
-</description>
     </item>
     
   </channel>

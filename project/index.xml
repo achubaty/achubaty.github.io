@@ -22,6 +22,15 @@
     </item>
     
     <item>
+      <title>`SpaDES`: Spatial Discrete Event Simulation</title>
+      <link>https://alexchubaty.com/project/spades/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      
+      <guid>https://alexchubaty.com/project/spades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Boreal forest ecosystem forecasts</title>
       <link>https://alexchubaty.com/project/boreal-ecosystems/</link>
       <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
@@ -43,15 +52,6 @@
 
 &lt;p&gt;Simulations of MPB population recruitment and spread were developed using the &lt;a href=&#34;http://spades.predictiveecology.org&#34; target=&#34;_blank&#34;&gt;&lt;code&gt;SpaDES&lt;/code&gt;&lt;/a&gt; (Spatial Discrete Event Simulation) platform. &lt;code&gt;SpaDES&lt;/code&gt; facilitates a tight coupling of simulation and data within a modular framework that allows easy updates to model components. Furthermore, our development cycle follows current best practices for reproducible computing workflows and, where possible, we have followed an &amp;ldquo;Open-Access&amp;rdquo; model for software platform and simulation model development.&lt;/p&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>`SpaDES`: Spatial Discrete Event Simulation</title>
-      <link>https://alexchubaty.com/project/spades/</link>
-      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
-      
-      <guid>https://alexchubaty.com/project/spades/</guid>
-      <description></description>
     </item>
     
     <item>
