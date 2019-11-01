@@ -3,12 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://alexchubaty.com/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alexchubaty.com/authors/alex-m.-chubaty/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alexchubaty.com/</loc>
+    <loc>https://alexchubaty.com/authors/ana-paula-raymundo/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -18,7 +23,62 @@
   </url>
   
   <url>
+    <loc>https://alexchubaty.com/authors/ceres-barros/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alexchubaty.com/talk/chubaty2019glfc/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/david-andison/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/diana-stralberg/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/eliot-j.-b.-mcintire/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/frances-stewart/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/ian-eddy/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/james-hodson/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/jean-marchal/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/junior-tremblay/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/mario-van-telgen/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/mathieu-leblond/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -28,87 +88,37 @@
   </url>
   
   <url>
+    <loc>https://alexchubaty.com/authors/rhiannon-pankratz/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/samuel-hache/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/steve-cumming/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alexchubaty.com/tags/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alexchubaty.com/authors/ana-paula-raymundo/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
+    <loc>https://alexchubaty.com/authors/tati-micheletti/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alexchubaty.com/authors/ceres-barros/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
+    <loc>https://alexchubaty.com/authors/yong-luo/</loc>
+    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://alexchubaty.com/talk/micheletti2019/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/diana-stralberg/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/eliot-j.-b.-mcintire/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/frances-stewart/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/ian-eddy/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/james-hodson/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/jean-marchal/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/junior-tremblay/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/mario-van-telgen/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/mathieu-leblond/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/rhiannon-pankratz/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/samuel-hache/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/steve-cumming/</loc>
-    <lastmod>2019-08-30T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/tati-micheletti/</loc>
     <lastmod>2019-08-30T00:00:00+00:00</lastmod>
   </url>
   
@@ -328,11 +338,6 @@
   </url>
   
   <url>
-    <loc>https://alexchubaty.com/authors/david-andison/</loc>
-    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://alexchubaty.com/authors/elizabeth-m-campbell/</loc>
     <lastmod>2017-05-07T00:00:00+00:00</lastmod>
   </url>
@@ -354,11 +359,6 @@
   
   <url>
     <loc>https://alexchubaty.com/talk/luo_csee_2017/</loc>
-    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/authors/yong-luo/</loc>
     <lastmod>2017-05-07T00:00:00+00:00</lastmod>
   </url>
   
