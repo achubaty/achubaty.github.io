@@ -3,12 +3,12 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://alexchubaty.com/</loc>
+    <loc>https://alexchubaty.com/authors/alex-m.-chubaty/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alexchubaty.com/authors/alex-m.-chubaty/</loc>
+    <loc>https://alexchubaty.com/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -33,7 +33,7 @@
   </url>
   
   <url>
-    <loc>https://alexchubaty.com/authors/david-andison/</loc>
+    <loc>https://alexchubaty.com/authors/david-w.-andison/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -193,11 +193,6 @@
   </url>
   
   <url>
-    <loc>https://alexchubaty.com/authors/david-w.-andison/</loc>
-    <lastmod>2018-07-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://alexchubaty.com/talk/chubaty2019_landweb/</loc>
     <lastmod>2018-07-27T00:00:00+00:00</lastmod>
   </url>
@@ -334,6 +329,11 @@
   
   <url>
     <loc>https://alexchubaty.com/authors/d-woolford/</loc>
+    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://alexchubaty.com/authors/david-andison/</loc>
     <lastmod>2017-05-07T00:00:00+00:00</lastmod>
   </url>
   
