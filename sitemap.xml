@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://alexchubaty.com/authors/alex-m.-chubaty/</loc>
+    <loc>https://alexchubaty.com/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>https://alexchubaty.com/</loc>
+    <loc>https://alexchubaty.com/authors/alex-m.-chubaty/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url>
   
@@ -363,17 +363,17 @@
   </url>
   
   <url>
+    <loc>https://alexchubaty.com/talk/chubaty_fri_2017/</loc>
+    <lastmod>2017-04-25T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://alexchubaty.com/talk/chubaty_sergi_2017/</loc>
     <lastmod>2017-02-06T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://alexchubaty.com/talk/mcintire_chile_2017/</loc>
-    <lastmod>2017-01-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://alexchubaty.com/talk/chubaty_fri_2017/</loc>
     <lastmod>2017-01-01T00:00:00+00:00</lastmod>
   </url>
   

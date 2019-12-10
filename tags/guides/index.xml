@@ -18,22 +18,13 @@
       <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</guid>
-      <description>
-
-&lt;p&gt;Whenever I used to sit down in front of the computer to write anything other than an email, I would immediately open Microsoft Word and start clacking away on the keyboard. When I switched operating systems (away from Windows) I began using Open Office Writer and even now I still use Libre Office Writer for some of my writing needs. Each of these word processors offer similar sets of tools and can effectively be used for a wide range of writing tasks, from letters to essays, yet I feel most people use Word not because it&amp;rsquo;s always the best tool for the job, but because it&amp;rsquo;s ubiquitous and familiar.&lt;/p&gt;
-
+      <description>&lt;p&gt;Whenever I used to sit down in front of the computer to write anything other than an email, I would immediately open Microsoft Word and start clacking away on the keyboard. When I switched operating systems (away from Windows) I began using Open Office Writer and even now I still use Libre Office Writer for some of my writing needs. Each of these word processors offer similar sets of tools and can effectively be used for a wide range of writing tasks, from letters to essays, yet I feel most people use Word not because it&#39;s always the best tool for the job, but because it&#39;s ubiquitous and familiar.&lt;/p&gt;
 &lt;p&gt;There are plenty of limitations to using Word (and Writer), especially when it comes to 1) complex formatting (especially working with equations), 2) sharing documents and collaborating with others, 3) version control, and 4) converting to different file types.&lt;/p&gt;
-
-&lt;p&gt;To overcome these limitations and to make writing easier, I want to share my favourite writing tools &amp;ndash; &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34; target=&#34;_blank&#34;&gt;Markdown&lt;/a&gt; and &lt;a href=&#34;http://www.latex-project.org/&#34; target=&#34;_blank&#34;&gt;LaTeX&lt;/a&gt;, which use plain-text file formats and can be easily converted to any other file type with &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34; target=&#34;_blank&#34;&gt;Pandoc&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The use of plain text format is important. &lt;a href=&#34;https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync&#34;&gt;Version control software&lt;/a&gt; like &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;Git&lt;/a&gt; works perfectly with plain-text files, showing you which lines have changed between versions. However, this version differencing isn&amp;rsquo;t possible using &lt;em&gt;binary&lt;/em&gt; file formats like those used by Word (.doc and .docx). Additionally, you can open plain-text files on any computer without any special (proprietary!) software, so 10 years from now when you want to revisit an old document, you can do so without having to ensure you keep an old computer with old software around.&lt;/p&gt;
-
-&lt;h3 id=&#34;you-shouldn-t-have-to-worry-about-formatting&#34;&gt;You shouldn&amp;rsquo;t have to worry about formatting&lt;/h3&gt;
-
-&lt;p&gt;Markdown and LaTeX files are markup languages, which means that the text in a document is annotated in a way that indicates the structure and formatting of the text, using tags. For example, bolded text in &lt;acronym title=&#34;HyperText Markup Language&#34;&gt;HTML&lt;/acronym&gt; (used for webpages) would be written like this: &lt;code&gt;&amp;lt;b&amp;gt;bold text here&amp;lt;/b&amp;gt;&lt;/code&gt;. Markdown makes this even simpler, so you spend less time formatting your document while writing, which means you can focus on actually writing rather than formatting.&lt;/p&gt;
-
-&lt;p&gt;It&amp;rsquo;s fantastically easy to learn the markdown syntax and create documents with markdown:&lt;/p&gt;
-
+&lt;p&gt;To overcome these limitations and to make writing easier, I want to share my favourite writing tools &amp;ndash; &lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;Markdown&lt;/a&gt; and &lt;a href=&#34;http://www.latex-project.org/&#34;&gt;LaTeX&lt;/a&gt;, which use plain-text file formats and can be easily converted to any other file type with &lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34;&gt;Pandoc&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The use of plain text format is important. &lt;a href=&#34;https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync&#34;&gt;Version control software&lt;/a&gt; like &lt;a href=&#34;https://github.com/&#34;&gt;Git&lt;/a&gt; works perfectly with plain-text files, showing you which lines have changed between versions. However, this version differencing isn&#39;t possible using &lt;em&gt;binary&lt;/em&gt; file formats like those used by Word (.doc and .docx). Additionally, you can open plain-text files on any computer without any special (proprietary!) software, so 10 years from now when you want to revisit an old document, you can do so without having to ensure you keep an old computer with old software around.&lt;/p&gt;
+&lt;h3 id=&#34;you-shouldnt-have-to-worry-about-formatting&#34;&gt;You shouldn&#39;t have to worry about formatting&lt;/h3&gt;
+&lt;p&gt;Markdown and LaTeX files are markup languages, which means that the text in a document is annotated in a way that indicates the structure and formatting of the text, using tags. For example, bolded text in &lt;!-- raw HTML omitted --&gt;HTML&lt;!-- raw HTML omitted --&gt; (used for webpages) would be written like this: &lt;code&gt;&amp;lt;b&amp;gt;bold text here&amp;lt;/b&amp;gt;&lt;/code&gt;. Markdown makes this even simpler, so you spend less time formatting your document while writing, which means you can focus on actually writing rather than formatting.&lt;/p&gt;
+&lt;p&gt;It&#39;s fantastically easy to learn the markdown syntax and create documents with markdown:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;# Simple Headings
 
 ## And Subheadings
@@ -61,31 +52,18 @@ You just put your code `inside the backticks` or use blocks of code.
 
 Check out [Markdown basics](http://daringfireball.net/projects/markdown/basics)
 to learn more.
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;The markdown text above produces this:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://alexchubaty.com/uploads/2013/07/markdown.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-229 aligncenter&#34; alt=&#34;markdown&#34; src=&#34;https://alexchubaty.com/uploads/2013/07/markdown-201x300.png&#34; width=&#34;201&#34; height=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;And it doesn&amp;rsquo;t stop there. Markdown also supports citations and references with bibtex, which means that you can easily write up that thesis chapter or manuscript, not worrying about the final format until you&amp;rsquo;re ready to convert your markdown file to whatever file format you require.&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;The markdown text above produces this:&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;And it doesn&#39;t stop there. Markdown also supports citations and references with bibtex, which means that you can easily write up that thesis chapter or manuscript, not worrying about the final format until you&#39;re ready to convert your markdown file to whatever file format you require.&lt;/p&gt;
 &lt;h3 id=&#34;equations-and-more&#34;&gt;Equations and more!&lt;/h3&gt;
-
-&lt;p&gt;Markdown is incredibly easy to learn, and will cover most of your writing needs, but if you are (or will be) making heavy use of code, equations, and statistics, then you need to be using LaTeX. The syntax is more complex than Markdown, but it hands-down beats MS Word for formatting, equation typesetting, and portability between computers. I&amp;rsquo;ve done all my thesis stuff, including manuscripts, in LaTeX and output as PDF or converted to .doc format when needed.&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;https://alexchubaty.com/uploads/2013/07/mpb-game-dpe.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-232&#34; title=&#34;a LaTeX equation&#34; alt=&#34;a LaTeX equation&#34; src=&#34;https://alexchubaty.com/uploads/2013/07/mpb-game-dpe-1024x231.png&#34; width=&#34;625&#34; height=&#34;140&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;To make your introduction to LaTeX easier, I recommend starting out using an editor like &lt;a href=&#34;http://www.xm1math.net/texmaker/&#34; target=&#34;_blank&#34;&gt;Texmaker&lt;/a&gt;, which is cross platform and come with a GUI to assist with inserting various document elements. If you will be using equations, you&amp;rsquo;ll want to make sure you use the &lt;code&gt;amsmath&lt;/code&gt; package. There are a lot of other great packages for latex which will help with everything from document formatting and layout, to citation formatting with bibtex, as well as &lt;a href=&#34;http://texblog.org/2012/06/21/classic-coffee-stains-with-latex/&#34; target=&#34;_blank&#34;&gt;adding coffee stains to your pdf documents&lt;/a&gt;. I also recommend checking out the &lt;a href=&#34;http://tex.stackexchange.com/&#34; target=&#34;_blank&#34;&gt;TeX Stack Exchange&lt;/a&gt; site to get Q&amp;amp;A help with everything (La)TeX.&lt;/p&gt;
-
-&lt;p&gt;Going further and using R+LaTeX+Sweave and you&amp;rsquo;ve got yourself a full-on powerhouse of reproducible, portable document publishing. Also remember, .tex files are simply a type of text file, so they work with version control software like Git.&lt;/p&gt;
-
+&lt;p&gt;Markdown is incredibly easy to learn, and will cover most of your writing needs, but if you are (or will be) making heavy use of code, equations, and statistics, then you need to be using LaTeX. The syntax is more complex than Markdown, but it hands-down beats MS Word for formatting, equation typesetting, and portability between computers. I&#39;ve done all my thesis stuff, including manuscripts, in LaTeX and output as PDF or converted to .doc format when needed.&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;To make your introduction to LaTeX easier, I recommend starting out using an editor like &lt;a href=&#34;http://www.xm1math.net/texmaker/&#34;&gt;Texmaker&lt;/a&gt;, which is cross platform and come with a GUI to assist with inserting various document elements. If you will be using equations, you&#39;ll want to make sure you use the &lt;code&gt;amsmath&lt;/code&gt; package. There are a lot of other great packages for latex which will help with everything from document formatting and layout, to citation formatting with bibtex, as well as &lt;a href=&#34;http://texblog.org/2012/06/21/classic-coffee-stains-with-latex/&#34;&gt;adding coffee stains to your pdf documents&lt;/a&gt;. I also recommend checking out the &lt;a href=&#34;http://tex.stackexchange.com/&#34;&gt;TeX Stack Exchange&lt;/a&gt; site to get Q&amp;amp;A help with everything (La)TeX.&lt;/p&gt;
+&lt;p&gt;Going further and using R+LaTeX+Sweave and you&#39;ve got yourself a full-on powerhouse of reproducible, portable document publishing. Also remember, .tex files are simply a type of text file, so they work with version control software like Git.&lt;/p&gt;
 &lt;h3 id=&#34;file-conversion-with-pandoc&#34;&gt;File conversion with Pandoc&lt;/h3&gt;
-
-&lt;p&gt;Lastly, I&amp;rsquo;ll quickly mention that the best way to take your Markdown and LaTeX documents and convert them to almost any type of document file including (e.g., .tex, .html, .pdf, .doc, .odt) is using Pandoc. It&amp;rsquo;s a simple command-line tool, and &lt;a href=&#34;http://johnmacfarlane.net/pandoc/README.html&#34; target=&#34;_blank&#34;&gt;using it is incredibly straightforward&lt;/a&gt;.&lt;/p&gt;
-
+&lt;p&gt;Lastly, I&#39;ll quickly mention that the best way to take your Markdown and LaTeX documents and convert them to almost any type of document file including (e.g., .tex, .html, .pdf, .doc, .odt) is using Pandoc. It&#39;s a simple command-line tool, and &lt;a href=&#34;http://johnmacfarlane.net/pandoc/README.html&#34;&gt;using it is incredibly straightforward&lt;/a&gt;.&lt;/p&gt;
 &lt;h3 id=&#34;use-them-everyday&#34;&gt;Use them everyday&lt;/h3&gt;
-
-&lt;p&gt;Like any new software, there is a bit of a learning curve, so the best way to get used to it is simply to use it. Using markdown for everyday note taking or creating and maintaining your cv with markdown/LaTeX are great ways to gain familiarity with these tools. Start using them today. Start using them with your collaborators. You (and they) won&amp;rsquo;t be disappointed.&lt;/p&gt;
+&lt;p&gt;Like any new software, there is a bit of a learning curve, so the best way to get used to it is simply to use it. Using markdown for everyday note taking or creating and maintaining your cv with markdown/LaTeX are great ways to gain familiarity with these tools. Start using them today. Start using them with your collaborators. You (and they) won&#39;t be disappointed.&lt;/p&gt;
 </description>
     </item>
     
@@ -95,59 +73,32 @@ to learn more.
       <pubDate>Thu, 11 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</guid>
-      <description>
-
-&lt;h2 id=&#34;always-back-up-your-data&#34;&gt;Always. Back up. Your data.&lt;/h2&gt;
-
-&lt;p&gt;Simple, yet for various reasons many people simply don&amp;rsquo;t. Backing up data and documents is critical in the event of random computer (or, more likely, user) failure. &lt;em&gt;Losing your data sucks.&lt;/em&gt; I have seen too many frantic colleagues try to get at data on a failed hard drive: many had some (but not all) of their most important data backed up, but others were left with few options and resorted to spending hundreds of dollars on data recovery assistance.&lt;/p&gt;
-
-&lt;p&gt;Unfortunately, even when people do attempt to make (and regularly use) backups of their data, they either don&amp;rsquo;t backup everything or they backup so infrequently that they end up losing a day&amp;rsquo;s, or a week&amp;rsquo;s, or even a month&amp;rsquo;s worth of work. So in order for a backup regimen to actually protect your data, the key is to &lt;strong&gt;1) backup everything&lt;/strong&gt;, and &lt;strong&gt;2) back up often&lt;/strong&gt;. I&amp;rsquo;ll also add that you should &lt;strong&gt;3) keep a remote copy&lt;/strong&gt; in the event that something happens to your primary backup.&lt;/p&gt;
-
-&lt;p&gt;Ideally, a backup solution will deal with all three of these points, and I&amp;rsquo;ll discuss some options below.&lt;/p&gt;
-
+      <description>&lt;h2 id=&#34;always-back-up-your-data&#34;&gt;Always. Back up. Your data.&lt;/h2&gt;
+&lt;p&gt;Simple, yet for various reasons many people simply don&#39;t. Backing up data and documents is critical in the event of random computer (or, more likely, user) failure. &lt;em&gt;Losing your data sucks.&lt;/em&gt; I have seen too many frantic colleagues try to get at data on a failed hard drive: many had some (but not all) of their most important data backed up, but others were left with few options and resorted to spending hundreds of dollars on data recovery assistance.&lt;/p&gt;
+&lt;p&gt;Unfortunately, even when people do attempt to make (and regularly use) backups of their data, they either don&#39;t backup everything or they backup so infrequently that they end up losing a day&#39;s, or a week&#39;s, or even a month&#39;s worth of work. So in order for a backup regimen to actually protect your data, the key is to &lt;strong&gt;1) backup everything&lt;/strong&gt;, and &lt;strong&gt;2) back up often&lt;/strong&gt;. I&#39;ll also add that you should &lt;strong&gt;3) keep a remote copy&lt;/strong&gt; in the event that something happens to your primary backup.&lt;/p&gt;
+&lt;p&gt;Ideally, a backup solution will deal with all three of these points, and I&#39;ll discuss some options below.&lt;/p&gt;
 &lt;h3 id=&#34;external-hard-drives-or-usb-drives&#34;&gt;External hard drives or USB drives&lt;/h3&gt;
-
 &lt;p&gt;Hard drives are cheap, and the storage capacity of portable external hard drives is huge. You can buy a 2TB external drive for under $100. So, for relatively low cost, you can effectively back up all of your data (music and movies included) to and external hard drive and be done with it, right?&lt;/p&gt;
-
 &lt;p&gt;Not quite. The problem with using an external hard drive is that you need to remember to plug it in and backup your computer at least once a day in order to keep your backups current. Not only that, but you will also need to ensure you have a remote copy somewhere in case you lose or damage your external hard drive.&lt;/p&gt;
-
 &lt;h3 id=&#34;network-attached-storage&#34;&gt;Network Attached Storage&lt;/h3&gt;
-
-&lt;p&gt;I like NAS devices because, like external hard drive they aren&amp;rsquo;t too expensive, yet they overcome the limitation of having to remember to manually initiate backups. Basically, a NAS device plugs into your router and sits on the network, allowing you (or others on your network) to access the files stored. All you need to do is configure your computer&amp;rsquo;s operating system to backup to the NAS, and voila! If anything happens and you need to restore from backup you simply tell your computer to restore from the NAS.&lt;/p&gt;
-
-&lt;p&gt;The downside is that your backups will only run when you are connected to the network on which the NAS resides. So if you go away to a conference for a few days, or you have a super-productive day at school, you&amp;rsquo;d better make sure nothing happens to your data before you get home to backup the work! You&amp;rsquo;ll also need to keep a remote backup copy handy.&lt;/p&gt;
-
+&lt;p&gt;I like NAS devices because, like external hard drive they aren&#39;t too expensive, yet they overcome the limitation of having to remember to manually initiate backups. Basically, a NAS device plugs into your router and sits on the network, allowing you (or others on your network) to access the files stored. All you need to do is configure your computer&#39;s operating system to backup to the NAS, and voila! If anything happens and you need to restore from backup you simply tell your computer to restore from the NAS.&lt;/p&gt;
+&lt;p&gt;The downside is that your backups will only run when you are connected to the network on which the NAS resides. So if you go away to a conference for a few days, or you have a super-productive day at school, you&#39;d better make sure nothing happens to your data before you get home to backup the work! You&#39;ll also need to keep a remote backup copy handy.&lt;/p&gt;
 &lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
-
-&lt;p&gt;One way of ensuring you have a remote copy of your work is to email it to yourself. This works fine once in a while, but if you were to email every file to yourself every time you made changes, you&amp;rsquo;d likely fill up your inbox or go crazy. Plus, something will probably slip through.&lt;/p&gt;
-
+&lt;p&gt;One way of ensuring you have a remote copy of your work is to email it to yourself. This works fine once in a while, but if you were to email every file to yourself every time you made changes, you&#39;d likely fill up your inbox or go crazy. Plus, something will probably slip through.&lt;/p&gt;
 &lt;h3 id=&#34;university-ftp-server&#34;&gt;University FTP Server&lt;/h3&gt;
-
-&lt;p&gt;I should probably mention that most Universities do provide online storage for their students - usually a couple gigabytes&amp;rsquo; worth - that is accessible over FTP or similar. It&amp;rsquo;s worth checking out, even if it doesn&amp;rsquo;t give you much storage space.&lt;/p&gt;
-
+&lt;p&gt;I should probably mention that most Universities do provide online storage for their students - usually a couple gigabytes&amp;rsquo; worth - that is accessible over FTP or similar. It&#39;s worth checking out, even if it doesn&#39;t give you much storage space.&lt;/p&gt;
 &lt;h3 id=&#34;the-cloud&#34;&gt;The Cloud&lt;/h3&gt;
-
 &lt;p&gt;In the last several years there has been a huge increase not only in the number of online cloud storage providers but also a increase in the amount of free storage space they offer their users. These cloud storage providers offer a desktop client that runs on your computer and continuously monitors changes to files, which are then uploaded to the storage servers. Thus you can hit all three &amp;ldquo;must haves&amp;rdquo; with these services: your files all get backed up, in real time, and you maintain remote copies of your data.&lt;/p&gt;
-
-&lt;p&gt;I personally use &lt;a href=&#34;http://www.dropbox.com&#34;&gt;Dropbox&lt;/a&gt;, but other options include &lt;a href=&#34;https://one.ubuntu.com/&#34;&gt;UbuntuOne&lt;/a&gt;, &lt;a href=&#34;https://spideroak.com/&#34;&gt;SpiderOak&lt;/a&gt;, and others. These services give you several GB worth of online storage and allow you to keep your files synchronized across multiple computers, and can also be accessed via web interface. These cloud storage providers give you more space with a paid account, but with Dropbox at least, I get additional space for signing up with an educational email address and for every referral I make (the referee also gets bonus space). Space hasn&amp;rsquo;t been an issue for me.&lt;/p&gt;
-
-&lt;p&gt;The other awesome feature of Dropbox is that it provides &lt;em&gt;version control.&lt;/em&gt; Using the web interface, you can view previous versions of your files, and also roll back changes to restore previous versions or undelete things from your Dropbox. It also provides good collaboration options, allowing you to create shared folders for group projects.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;One warning:&lt;/strong&gt; BC Privacy Legislation prohibits storing personal information on non-Canadian servers. This means that, for example as a TA or instructor, you can&amp;rsquo;t store student grades etc. using cloud storage, because the servers are located in the USA.&lt;/p&gt;
-
+&lt;p&gt;I personally use &lt;!-- raw HTML omitted --&gt;Dropbox&lt;!-- raw HTML omitted --&gt;, but other options include &lt;!-- raw HTML omitted --&gt;UbuntuOne&lt;!-- raw HTML omitted --&gt;, &lt;!-- raw HTML omitted --&gt;SpiderOak&lt;!-- raw HTML omitted --&gt;, and others. These services give you several GB worth of online storage and allow you to keep your files synchronized across multiple computers, and can also be accessed via web interface. These cloud storage providers give you more space with a paid account, but with Dropbox at least, I get additional space for signing up with an educational email address and for every referral I make (the referee also gets bonus space). Space hasn&#39;t been an issue for me.&lt;/p&gt;
+&lt;p&gt;The other awesome feature of Dropbox is that it provides &lt;!-- raw HTML omitted --&gt;version control.&lt;!-- raw HTML omitted --&gt; Using the web interface, you can view previous versions of your files, and also roll back changes to restore previous versions or undelete things from your Dropbox. It also provides good collaboration options, allowing you to create shared folders for group projects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;One warning:&lt;/strong&gt; BC Privacy Legislation prohibits storing personal information on non-Canadian servers. This means that, for example as a TA or instructor, you can&#39;t store student grades etc. using cloud storage, because the servers are located in the USA.&lt;/p&gt;
 &lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
-
-&lt;p&gt;Overall, the easiest way to have automated backups is to use a cloud storage provider like Dropbox. Although the free plans have limited storage space, the limits are easily increased. Besides, you can&amp;rsquo;t beat &amp;ldquo;no fuss&amp;rdquo; when it comes to backing up your work! However, in practice I do use some combinations of the other backup methods, depending on the type of data and how much there is to move between computers.&lt;/p&gt;
-
+&lt;p&gt;Overall, the easiest way to have automated backups is to use a cloud storage provider like Dropbox. Although the free plans have limited storage space, the limits are easily increased. Besides, you can&#39;t beat &amp;ldquo;no fuss&amp;rdquo; when it comes to backing up your work! However, in practice I do use some combinations of the other backup methods, depending on the type of data and how much there is to move between computers.&lt;/p&gt;
 &lt;h2 id=&#34;version-control&#34;&gt;Version Control&lt;/h2&gt;
-
-&lt;p&gt;As mentioned above, some cloud storage/backup providers offer version control, which allows you to view and revert changes made to your files. Dropbox certainly does a good job at this, and the undelete feature has saved me on several occasions. However, the main drawback of Dropbox&amp;rsquo;s version control is that it operates on a &lt;em&gt;per file&lt;/em&gt; basis.&lt;/p&gt;
-
-&lt;p&gt;Often when writing papers (or code), I trash or substantially rewrite something, only later to realize that what I overwrote wasn&amp;rsquo;t that bad. Hitting ctrl-z will undo the changes, but it also means it will undo any progress you&amp;rsquo;ve made. Restoring previous version of your document using Dropbox will get you an old copy, but you still have to hunt around to find exactly which version you want to restore. And what if you actually want to incorporate changes from multiple restored files?&lt;/p&gt;
-
-&lt;p&gt;This is where &amp;ldquo;real&amp;rdquo; version control software (VCS) comes in handy. Now, I&amp;rsquo;m new to the VCS game, having only started using &lt;a href=&#34;https://github.com/&#34;&gt;Git&lt;/a&gt; this year, but already I can see its power and potential. If you&amp;rsquo;re working with text files - be it a paper written in Markdown (maybe LaTeX), or chunks of code - you will want to use Git.&lt;/p&gt;
-
-&lt;p&gt;This post has run rather long, so I won&amp;rsquo;t be providing a &amp;ldquo;how to&amp;rdquo;, but &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;GitHub&lt;/a&gt; provides great help getting started. You don&amp;rsquo;t &lt;em&gt;need&lt;/em&gt; to use GitHub at all to use Git - you can keep everything local (in a Dropbox folder!) and still have access to all of your project files. Try it. Use it.&lt;/p&gt;
+&lt;p&gt;As mentioned above, some cloud storage/backup providers offer version control, which allows you to view and revert changes made to your files. Dropbox certainly does a good job at this, and the undelete feature has saved me on several occasions. However, the main drawback of Dropbox&#39;s version control is that it operates on a &lt;em&gt;per file&lt;/em&gt; basis.&lt;/p&gt;
+&lt;p&gt;Often when writing papers (or code), I trash or substantially rewrite something, only later to realize that what I overwrote wasn&#39;t that bad. Hitting ctrl-z will undo the changes, but it also means it will undo any progress you&#39;ve made. Restoring previous version of your document using Dropbox will get you an old copy, but you still have to hunt around to find exactly which version you want to restore. And what if you actually want to incorporate changes from multiple restored files?&lt;/p&gt;
+&lt;p&gt;This is where &amp;ldquo;real&amp;rdquo; version control software (VCS) comes in handy. Now, I&#39;m new to the VCS game, having only started using &lt;!-- raw HTML omitted --&gt;Git&lt;!-- raw HTML omitted --&gt; this year, but already I can see its power and potential. If you&#39;re working with text files - be it a paper written in Markdown (maybe LaTeX), or chunks of code - you will want to use Git.&lt;/p&gt;
+&lt;p&gt;This post has run rather long, so I won&#39;t be providing a &amp;ldquo;how to&amp;rdquo;, but &lt;a href=&#34;https://github.com/&#34;&gt;GitHub&lt;/a&gt; provides great help getting started. You don&#39;t &lt;em&gt;need&lt;/em&gt; to use GitHub at all to use Git - you can keep everything local (in a Dropbox folder!) and still have access to all of your project files. Try it. Use it.&lt;/p&gt;
 </description>
     </item>
     
@@ -157,12 +108,9 @@ to learn more.
       <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
       
       <guid>https://alexchubaty.com/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</guid>
-      <description>&lt;p&gt;When I started grad school, I had no idea at the time just how much I&amp;rsquo;d learn doing a PhD. I&amp;rsquo;m not just talking about the &amp;ldquo;big picture&amp;rdquo; stuff: how to do research, design and conduct experiments, analyze data, and synthesize information. I mean all of the day-to-day skills associated with academic writing, data entry, and organization.&lt;/p&gt;
-
-&lt;p&gt;Over the next few weeks, I&amp;rsquo;ll explain a bit about the workflows I use and the various pieces of software that make my life quite a bit easier. After numerous discussions with colleagues over the years, providing various software and workflow recommendations to others, and attending (and running) various software workshops, it turns out I have a lot of suggestions for fellow biology grad students.&lt;/p&gt;
-
-&lt;p&gt;I&amp;rsquo;ll try to keep my recommendations general, because I think they are applicable not just to grad students in biology, but are also likely of interest to undergrads (even post-grads) in the sciences and perhaps elsewhere. I won&amp;rsquo;t put together detailed &lt;em&gt;How-To&lt;/em&gt;&amp;rsquo;s, and I won&amp;rsquo;t be able to cover everything, but here&amp;rsquo;s an overview of what to expect:&lt;/p&gt;
-
+      <description>&lt;p&gt;When I started grad school, I had no idea at the time just how much I&#39;d learn doing a PhD. I&#39;m not just talking about the &amp;ldquo;big picture&amp;rdquo; stuff: how to do research, design and conduct experiments, analyze data, and synthesize information. I mean all of the day-to-day skills associated with academic writing, data entry, and organization.&lt;/p&gt;
+&lt;p&gt;Over the next few weeks, I&#39;ll explain a bit about the workflows I use and the various pieces of software that make my life quite a bit easier. After numerous discussions with colleagues over the years, providing various software and workflow recommendations to others, and attending (and running) various software workshops, it turns out I have a lot of suggestions for fellow biology grad students.&lt;/p&gt;
+&lt;p&gt;I&#39;ll try to keep my recommendations general, because I think they are applicable not just to grad students in biology, but are also likely of interest to undergrads (even post-grads) in the sciences and perhaps elsewhere. I won&#39;t put together detailed &lt;em&gt;How-To&lt;/em&gt;&amp;lsquo;s, and I won&#39;t be able to cover everything, but here&#39;s an overview of what to expect:&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;a href=&#34;https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync&#34;&gt;Part II&lt;/a&gt; will cover some essential computing basics: automated backups, using online (cloud) storage, and version control;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools&#34;&gt;Part III&lt;/a&gt; will deal with different writing tools including Microsoft Word, Libre Office Writer, Markdown, Pandoc, and LaTeX;&lt;/li&gt;
@@ -172,8 +120,7 @@ to learn more.
 &lt;li&gt;&lt;strong&gt;Part VII&lt;/strong&gt; will go into a little bit about programming and shell scripting;&lt;/li&gt;
 &lt;li&gt;and finally, &lt;strong&gt;Part VIII&lt;/strong&gt; will wrap things all up.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;So stay tuned! I&amp;rsquo;m still fleshing out my ideas on some of these topics, so as we go along I look forward to comments and suggestions.&lt;/p&gt;
+&lt;p&gt;So stay tuned! I&#39;m still fleshing out my ideas on some of these topics, so as we go along I look forward to comments and suggestions.&lt;/p&gt;
 </description>
     </item>
     

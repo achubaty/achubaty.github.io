@@ -29,8 +29,7 @@
     
   
   <meta name="description" content="I was looking for a good way to draw pedigrees using software, without having to fuss drawing them &ldquo;by hand&rdquo; using a drawing program. Lo and behold, I came across a few different packages in R that allow me to do just that!
-
-Using the kinship2 package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy.">
+Using the kinship2 package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy. Factor VIII deficiency is a classic example of a sex-linked recessive trait, and myotonic dystrophy follows autosomal dominant inheritance.">
 
   
   <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/post/2011-11-14-constructing-pedigrees-in-r/">
@@ -82,7 +81,7 @@ Using the kinship2 package, I was quickly able to produce a nice pedigree for a 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.3bc694af15fd1e4ff7262e7dd46f11a8.css">
+  <link rel="stylesheet" href="/css/academic.min.f9fb2fab3fe71649e596cce2f10f8161.css">
 
   
 
@@ -128,8 +127,7 @@ Using the kinship2 package, I was quickly able to produce a nice pedigree for a 
   <meta property="og:url" content="https://alexchubaty.com/post/2011-11-14-constructing-pedigrees-in-r/">
   <meta property="og:title" content="Constructing Pedigrees in R | Alex M. Chubaty">
   <meta property="og:description" content="I was looking for a good way to draw pedigrees using software, without having to fuss drawing them &ldquo;by hand&rdquo; using a drawing program. Lo and behold, I came across a few different packages in R that allow me to do just that!
-
-Using the kinship2 package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
+Using the kinship2 package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy. Factor VIII deficiency is a classic example of a sex-linked recessive trait, and myotonic dystrophy follows autosomal dominant inheritance."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
   <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
   
   <meta property="article:published_time" content="2011-11-14T00:00:00&#43;00:00">
@@ -635,51 +633,32 @@ Using the kinship2 package, I was quickly able to produce a nice pedigree for a 
 
     <div class="article-style" itemprop="articleBody">
       <p>I was looking for a good way to draw pedigrees using software, without having to fuss drawing them &ldquo;by hand&rdquo; using a drawing program. Lo and behold, I came across a few different packages in R that allow me to do just that!</p>
-
-<p><a href="/uploads/2013/04/pedigree.png"><img class="alignnone size-medium wp-image-60" alt="pedigree" src="/uploads/2013/04/pedigree-300x200.png" width="300" height="200" /></a></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>Using the <code>kinship2</code> package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy. Factor VIII deficiency is a classic example of a sex-linked recessive trait, and myotonic dystrophy follows autosomal dominant inheritance. In this pedigree, I show the status of affected and unaffected indiviudals (not carriers), using the following bits of code in R.</p>
-
-<p>First, let&rsquo;s install (if needed) and load the <code>kinship2</code> package:</p>
-
-<pre><code class="language-r">if (!require(kinship2)) {install.packages(&quot;kinship2&quot;); library(kinship2)}
-</code></pre>
-
-<p>Now we need to code several variables which will correspond to all of the individuals in the pedigree. First, we need individual ID numbers:</p>
-
-<pre><code class="language-r">ids &lt;- 1:49
-</code></pre>
-
-<p>Second, we need to identify the father and mother of each individual using the individual ID numbers above:</p>
-
-<pre><code class="language-r">dad &lt;- c(41,41,41,NA,NA,41,43,43,4,6,6,NA,9,9,9,NA,11,11,NA,15,
+<p>First, let's install (if needed) and load the <code>kinship2</code> package:</p>
+<pre><code class="language-{r}" data-lang="{r}">if (!require(kinship2)) {install.packages(&quot;kinship2&quot;); library(kinship2)}
+</code></pre><p>Now we need to code several variables which will correspond to all of the individuals in the pedigree. First, we need individual ID numbers:</p>
+<pre><code class="language-{r}" data-lang="{r}">ids &lt;- 1:49
+</code></pre><p>Second, we need to identify the father and mother of each individual using the individual ID numbers above:</p>
+<pre><code class="language-{r}" data-lang="{r}">dad &lt;- c(41,41,41,NA,NA,41,43,43,4,6,6,NA,9,9,9,NA,11,11,NA,15,
 		 15,19,45,45,45,45,45,45,45,47,NA,29,29,29,29,NA,31,31,31,36,
 		 NA,NA,NA,NA,NA,NA,NA,NA,37)
 mom &lt;- c(42,42,42,NA,NA,42,44,44,5,7,7,NA,10,10,10,NA,12,12,NA,16,
 		 16,18,46,46,46,46,46,46,46,48,NA,30,30,30,30,NA,32,32,32,35,
 		 NA,NA,NA,NA,NA,NA,NA,NA,13)
-</code></pre>
-
-<p>Now we code the sex and status (0=alive, 1=dead) of each individual:</p>
-
-<pre><code class="language-r">sexes &lt;- c(1,1,1,1,2,1,2,2,1,2,1,2,2,1,1,2,1,2,1,1,1,1,2,2,2,1,1,1,1,
+</code></pre><p>Now we code the sex and status (0=alive, 1=dead) of each individual:</p>
+<pre><code class="language-{r}" data-lang="{r}">sexes &lt;- c(1,1,1,1,2,1,2,2,1,2,1,2,2,1,1,2,1,2,1,1,1,1,2,2,2,1,1,1,1,
 		   2,1,2,1,1,2,1,1,1,2,2,1,2,1,2,1,2,1,2,3)
 dead &lt;- c(0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,
 		  0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0)
-</code></pre>
-
-<p>Here is where we code the affected status of each individual (0=unaffected, 1=affected, NA=unknown). We need to bind these columns together in a matrix (you can have up to 4 traits; one per column):</p>
-
-<pre><code class="language-r">F8 &lt;- c(0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
+</code></pre><p>Here is where we code the affected status of each individual (0=unaffected, 1=affected, NA=unknown). We need to bind these columns together in a matrix (you can have up to 4 traits; one per column):</p>
+<pre><code class="language-{r}" data-lang="{r}">F8 &lt;- c(0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
 		0,0,0,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA)
 MD &lt;- c(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,1,
 		0,0,0,1,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA)
 affect &lt;- as.matrix(cbind(F8, MD))
-</code></pre>
-
-<p>And now we create the pedigree object and plot it:</p>
-
-<pre><code class="language-r">family &lt;- pedigree(id=ids, dadid=dad, momid=mom,
+</code></pre><p>And now we create the pedigree object and plot it:</p>
+<pre><code class="language-{r}" data-lang="{r}">family &lt;- pedigree(id=ids, dadid=dad, momid=mom,
 				   affected=affect, sex=sexes, status=dead)
 
 plot.pedigree(family)
@@ -687,9 +666,7 @@ plot.pedigree(family)
 pedigree.legend(family, location=&quot;bottomright&quot;,
 				labels=list(&quot;Factor VIII\nDeficiency&quot;, &quot;Myotonic\nDystrophy&quot;),
 				cex=0.8, radius=0.3)
-</code></pre>
-
-<p>That&rsquo;s the basics! Of course, with a large pedigree I expect this becomes a bit unruly, but for smaller examples like this one it&rsquo;s relatively easy to put together.</p>
+</code></pre><p>That's the basics! Of course, with a large pedigree I expect this becomes a bit unruly, but for smaller examples like this one it's relatively easy to put together.</p>
 
     </div>
 
@@ -986,7 +963,7 @@ pedigree.legend(family, location=&quot;bottomright&quot;,
   
 
   <p class="powered-by">
-    &copy; 2019 &middot; 
+    © 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

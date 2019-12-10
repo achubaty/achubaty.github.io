@@ -81,7 +81,7 @@ Update GDAL ## unlink the previous GDAL version brew unlink gdal ## update GDAL 
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.3bc694af15fd1e4ff7262e7dd46f11a8.css">
+  <link rel="stylesheet" href="/css/academic.min.f9fb2fab3fe71649e596cce2f10f8161.css">
 
   
 
@@ -632,37 +632,28 @@ Update GDAL ## unlink the previous GDAL version brew unlink gdal ## update GDAL 
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<p>I wanted to play around with the new <a href="https://cran.r-project.org/package=sf" target="_blank"><code>sf</code></a> package, which requires the latest GDAL (&gt;= 2.0.0), GEOS (&gt;= 3.3.0), and PROJ.4 (&gt;= 4.8.0).
-However, the version of GDAL <a href="/post/2014-08-05-installing-rgdal-osx/" target="_blank">installed via <code>brew</code></a> is 1.11.4, so I needed to update to the latest version and reinstall a few R packages in order to get <code>sf</code> to work on macOS.</p>
-
+      <p>I wanted to play around with the new <a href="https://cran.r-project.org/package=sf"><code>sf</code></a> package, which requires the latest GDAL (&gt;= 2.0.0), GEOS (&gt;= 3.3.0), and PROJ.4 (&gt;= 4.8.0).
+However, the version of GDAL <a href="/post/2014-08-05-installing-rgdal-osx/">installed via <code>brew</code></a> is 1.11.4, so I needed to update to the latest version and reinstall a few R packages in order to get <code>sf</code> to work on macOS.</p>
 <h2 id="update-gdal">Update GDAL</h2>
-
-<pre><code class="language-bash">## unlink the previous GDAL version
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-bash" data-lang="bash"><span style="color:#75715e">## unlink the previous GDAL version</span>
 brew unlink gdal
 
-## update GDAL to the latest version (2.1.2)
+<span style="color:#75715e">## update GDAL to the latest version (2.1.2)</span>
 brew tap osgeo/osgeos4mac
 brew install gdal2
 brew link --force gdal2
-</code></pre>
-
-<h2 id="re-install-r-spatial-packages">(Re)install R spatial packages</h2>
-
+</code></pre></div><h2 id="reinstall-r-spatial-packages">(Re)install R spatial packages</h2>
 <p>Next, we need to install a few packages from source in order to use the new GDAL libraries:</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-r" data-lang="r"><span style="color:#75715e">## (re)install spatial packages from source</span>
+<span style="color:#a6e22e">install.packages</span>(<span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">rgeos&#34;</span>, <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">sf&#34;</span>, <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">sp&#34;</span>), type <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">source&#34;</span>)
 
-<pre><code class="language-r">## (re)install spatial packages from source
-install.packages(c(&quot;rgeos&quot;, &quot;sf&quot;, &quot;sp&quot;), type = &quot;source&quot;)
-
-## rgdal requires some additional configuration to build correctly:
-##   based on http://stackoverflow.com/a/26836125/1380598
-install.packages(&quot;rgdal&quot;, type = &quot;source&quot;,
-                 configure.args = c(&quot;--with-proj-include=/usr/local/include&quot;,
-                                    &quot;--with-proj-lib=/usr/local/lib&quot;))
-library(rgdal) ## confirm the GDAL version being used
-</code></pre>
-
+<span style="color:#75715e">## rgdal requires some additional configuration to build correctly:</span>
+<span style="color:#75715e">##   based on http://stackoverflow.com/a/26836125/1380598</span>
+<span style="color:#a6e22e">install.packages</span>(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">rgdal&#34;</span>, type <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">source&#34;</span>,
+                 configure.args <span style="color:#f92672">=</span> <span style="color:#a6e22e">c</span>(<span style="color:#e6db74">&#34;</span><span style="color:#e6db74">--with-proj-include=/usr/local/include&#34;</span>,
+                                    <span style="color:#e6db74">&#34;</span><span style="color:#e6db74">--with-proj-lib=/usr/local/lib&#34;</span>))
+<span style="color:#a6e22e">library</span>(rgdal) <span style="color:#75715e">## confirm the GDAL version being used</span>
+</code></pre></div>
     </div>
 
     
@@ -964,7 +955,7 @@ library(rgdal) ## confirm the GDAL version being used
   
 
   <p class="powered-by">
-    &copy; 2019 &middot; 
+    © 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

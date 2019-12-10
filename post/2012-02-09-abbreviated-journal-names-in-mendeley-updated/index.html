@@ -29,9 +29,9 @@
     
   
   <meta name="description" content="UPDATE: I just posted an update. This feature is coming soon to Mendeley!
-Several journals require abbreviated journal names, but as of yet Mendeley doesn&rsquo;t make this possible. Or so I thought. After coming across this blog post I decided to try to get this functionality working on my computers.
+Several journals require abbreviated journal names, but as of yet Mendeley doesn&#39;t make this possible. Or so I thought. After coming across this blog post I decided to try to get this functionality working on my computers.
 To summarize, you can get Mendeley to read in a list of abbreviated journal names by:
- creating a folder inside the Mendeley data directory called &lsquo;journalAbbreviations&rsquo;; placing a formatted text file named &lsquo;default.">
+ creating a folder inside the Mendeley data directory called &lsquo;journalAbbreviations&#39;; placing a formatted text file named &lsquo;default.">
 
   
   <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/">
@@ -83,7 +83,7 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.3bc694af15fd1e4ff7262e7dd46f11a8.css">
+  <link rel="stylesheet" href="/css/academic.min.f9fb2fab3fe71649e596cce2f10f8161.css">
 
   
 
@@ -129,9 +129,9 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
   <meta property="og:url" content="https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/">
   <meta property="og:title" content="Abbreviated Journal Names in Mendeley [updated] | Alex M. Chubaty">
   <meta property="og:description" content="UPDATE: I just posted an update. This feature is coming soon to Mendeley!
-Several journals require abbreviated journal names, but as of yet Mendeley doesn&rsquo;t make this possible. Or so I thought. After coming across this blog post I decided to try to get this functionality working on my computers.
+Several journals require abbreviated journal names, but as of yet Mendeley doesn&#39;t make this possible. Or so I thought. After coming across this blog post I decided to try to get this functionality working on my computers.
 To summarize, you can get Mendeley to read in a list of abbreviated journal names by:
- creating a folder inside the Mendeley data directory called &lsquo;journalAbbreviations&rsquo;; placing a formatted text file named &lsquo;default."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
+ creating a folder inside the Mendeley data directory called &lsquo;journalAbbreviations&#39;; placing a formatted text file named &lsquo;default."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
   <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
   
   <meta property="article:published_time" content="2012-02-09T00:00:00&#43;00:00">
@@ -637,65 +637,59 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 
     <div class="article-style" itemprop="articleBody">
       <p><em>UPDATE: I just posted <a href="/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/">an update</a>. This feature is coming soon to Mendeley!</em></p>
-
-<p>Several journals require abbreviated journal names, but as of yet Mendeley doesn&rsquo;t make this possible. Or so I thought. After coming across <a href="http://simply-p450s.blogspot.com/2012/01/journal-abbreviations-in-mendeley.html" target="_blank">this blog post</a> I decided to try to get this functionality working on my computers.</p>
-
+<p>Several journals require abbreviated journal names, but as of yet Mendeley doesn't make this possible. Or so I thought. After coming across <a href="http://simply-p450s.blogspot.com/2012/01/journal-abbreviations-in-mendeley.html">this blog post</a> I decided to try to get this functionality working on my computers.</p>
 <p>To summarize, you can get Mendeley to read in a list of abbreviated journal names by:</p>
-
 <ul>
-<li>creating a folder inside the Mendeley data  directory called &lsquo;<em>journalAbbreviations</em>&rsquo;;</li>
+<li>creating a folder inside the Mendeley data  directory called &lsquo;<em>journalAbbreviations</em>';</li>
 <li>placing a formatted text file named &lsquo;<em>default.txt</em>&rsquo; inside this directory. Each line of this text file needs to contain the full name of the journal, a tab character, and the abbreviated journal name.</li>
 </ul>
-
-<p>&ldquo;Easy&rdquo;, I thought. All I needed was to find a list of full journal names and their abbreviations for my field and make sure it was formatted correctly. Turns out the few lists I did find were incomplete: they didn&rsquo;t have all the journals I cite. I don&rsquo;t want to have to maintain a text file by hand, so I looked to a more &ldquo;automated&rdquo; approach, outlined below.</p>
-
+<p>&ldquo;Easy&rdquo;, I thought. All I needed was to find a list of full journal names and their abbreviations for my field and make sure it was formatted correctly. Turns out the few lists I did find were incomplete: they didn't have all the journals I cite. I don't want to have to maintain a text file by hand, so I looked to a more &ldquo;automated&rdquo; approach, outlined below.</p>
 <p>I use both BibTeX and Mendeley for my references, and have setup Mendeley to automagically update and maintain my bibliography (<em>.bib</em>) files. This is key to obtaining a list of the journals I use - I extracted this info from the <em>.bib</em> files and compared this list of journals against the master list to get the abbreviations.</p>
-
-<p>First, <del>I obtained (by hand, sadly) a list of all the ISI journals indexed by Web of Science from <a href="http://images.webofknowledge.com/WOK46/help/WOS/A_abrvjt.html" target="_blank">this site</a> I copy/pasted all the journals into a text file named &lsquo;<em>masterlist.txt</em>&rsquo;.</del> I wrote a script to generate a master list of all journal names and their abbreviations from Web of Science (<a href="/post/2012-02-28-list-of-abbreviated-journal-names">see this post</a>). This file is pretty big, and not very helpful at that point. I don&rsquo;t need ALL of those journals, only the journals I cite from my Mendeley library.</p>
-
+<p>First, <!-- raw HTML omitted -->I obtained (by hand, sadly) a list of all the ISI journals indexed by Web of Science from <a href="http://images.webofknowledge.com/WOK46/help/WOS/A_abrvjt.html">this site</a> I copy/pasted all the journals into a text file named &lsquo;<em>masterlist.txt</em>'.<!-- raw HTML omitted --> I wrote a script to generate a master list of all journal names and their abbreviations from Web of Science (<a href="/post/2012-02-28-list-of-abbreviated-journal-names">see this post</a>). This file is pretty big, and not very helpful at that point. I don't need ALL of those journals, only the journals I cite from my Mendeley library.</p>
 <p>The Perl script I wrote (with Charlie and Filipe) does all of this and saves the list of journals used directly into the Mendeley data folder.</p>
-
 <p>To get this working yourself, follow the steps below:</p>
-
-<p><strong>NOTE:</strong> This was written for and tested on a machine running Ubuntu 11.10 64-bit with a default Mendeley installation (also tested and run on Ubuntu 12.04 and 12.10). IT WON&rsquo;T WORK ON WINDOWS OR A MAC WITHOUT SOME CHANGES TO THE PERL SCRIPT because the Mendeley directories are in different places on different operating systems. There may be some funny perl-related issues going between OSes too that I&rsquo;m not aware of.</p>
-
+<p><strong>NOTE:</strong> This was written for and tested on a machine running Ubuntu 11.10 64-bit with a default Mendeley installation (also tested and run on Ubuntu 12.04 and 12.10). IT WON'T WORK ON WINDOWS OR A MAC WITHOUT SOME CHANGES TO THE PERL SCRIPT because the Mendeley directories are in different places on different operating systems. There may be some funny perl-related issues going between OSes too that I'm not aware of.</p>
 <ul>
-<li>Download and save <a href="/uploads/2013/04/jabbrev.zip">jabbrev.zip</a> and unzip the directory &lsquo;<em>jabbrev</em>&lsquo;</li>
-
-<li><p>open a terminal (and keep it open) and type:</p>
-
+<li>
+<p>Download and save <a href="/uploads/2013/04/jabbrev.zip">jabbrev.zip</a> and unzip the directory &lsquo;<em>jabbrev</em>&rsquo;</p>
+</li>
+<li>
+<p>open a terminal (and keep it open) and type:</p>
 <pre><code>cd path/to/jabbrev
 </code></pre></li>
-
-<li><p>In Mendeley go to &lsquo;<em>Tools</em>&rsquo; &ndash;&gt; &lsquo;<em>Options</em>&rsquo; and select the &lsquo;<em>BibTeX</em>&rsquo; tab.</p></li>
-
-<li><p>Check the box &lsquo;Enable BibTeX syncing&rsquo; and select either:
-&lsquo;<em>Create one BibTeX file for my whole library</em>&rsquo; or &lsquo;<em>Create one BibTeX file per collection</em>&lsquo;</p></li>
-
-<li><p>Set the path to where these BibTeX files will be saved (e.g., <code>~/Documents/Mendeley/bibliographies</code>).</p></li>
-
-<li><p>Click &lsquo;<em>Apply</em>&rsquo; and &lsquo;<em>OK</em>&rsquo;, wait for Mendeley to generate the files, then exit Mendeley.</p></li>
-
-<li><p>In a nautilus window, go to the bibliographies directory you just set up (e.g., <code>~/Documents/Mendeley/bibliographies</code>)</p></li>
-
-<li><p>Switch back to your open terminal window and allow the script to be executed by typing:</p>
-
+<li>
+<p>In Mendeley go to &lsquo;<em>Tools</em>&rsquo; &ndash;&gt; &lsquo;<em>Options</em>&rsquo; and select the &lsquo;<em>BibTeX</em>&rsquo; tab.</p>
+</li>
+<li>
+<p>Check the box &lsquo;Enable BibTeX syncing&rsquo; and select either:
+&lsquo;<em>Create one BibTeX file for my whole library</em>&rsquo; or &lsquo;<em>Create one BibTeX file per collection</em>&rsquo;</p>
+</li>
+<li>
+<p>Set the path to where these BibTeX files will be saved (e.g., <code>~/Documents/Mendeley/bibliographies</code>).</p>
+</li>
+<li>
+<p>Click &lsquo;<em>Apply</em>&rsquo; and &lsquo;<em>OK</em>', wait for Mendeley to generate the files, then exit Mendeley.</p>
+</li>
+<li>
+<p>In a nautilus window, go to the bibliographies directory you just set up (e.g., <code>~/Documents/Mendeley/bibliographies</code>)</p>
+</li>
+<li>
+<p>Switch back to your open terminal window and allow the script to be executed by typing:</p>
 <pre><code>chmod a+x script.pl
 </code></pre></li>
-
-<li><p>The script accepts a filepath for each of the masterlist and multiple bibtex files. Execute the script by typing:</p>
-
+<li>
+<p>The script accepts a filepath for each of the masterlist and multiple bibtex files. Execute the script by typing:</p>
 <pre><code>./script.pl /path/to/masterlist.txt /path/to/bibfile1.bib [/path/to/bibfile2.bib ...]
 </code></pre></li>
-
-<li><p>Sit back and wait (it may take a while to run, especially with a large library!).</p></li>
-
-<li><p>Open Mendeley back up, go to &lsquo;<em>View</em>&rsquo; &ndash;&gt; &lsquo;<em>Citation Style</em>&rsquo; &ndash;&gt; &lsquo;<em>More Styles&hellip;</em>&rsquo; and select a citation format that uses abbreviated journal names (e.g., Vancouver). You should now be able to generate bibliographies in Word and Open(Libre)Office documents with abbrev j names!*</p></li>
+<li>
+<p>Sit back and wait (it may take a while to run, especially with a large library!).</p>
+</li>
+<li>
+<p>Open Mendeley back up, go to &lsquo;<em>View</em>&rsquo; &ndash;&gt; &lsquo;<em>Citation Style</em>&rsquo; &ndash;&gt; &lsquo;<em>More Styles&hellip;</em>&rsquo; and select a citation format that uses abbreviated journal names (e.g., Vancouver). You should now be able to generate bibliographies in Word and Open(Libre)Office documents with abbrev j names!*</p>
+</li>
 </ul>
-
 <p>*note that the abbreviated names do NOT have periods.</p>
-
-<p><strong>EDIT:</strong> view the perl script at <a href="http://pastebin.com/2C7X8aGZ" target="_blank">http://pastebin.com/2C7X8aGZ</a> [updated 2013-02-27]. It&rsquo;s not perfect (yet) but it&rsquo;s mostly there. Suggestions welcome, especially how to deal with some of the funny cases.</p>
+<p><strong>EDIT:</strong> view the perl script at <a href="http://pastebin.com/2C7X8aGZ"><a href="http://pastebin.com/2C7X8aGZ">http://pastebin.com/2C7X8aGZ</a></a> [updated 2013-02-27]. It's not perfect (yet) but it's mostly there. Suggestions welcome, especially how to deal with some of the funny cases.</p>
 
     </div>
 
@@ -994,7 +988,7 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
   
 
   <p class="powered-by">
-    &copy; 2019 &middot; 
+    © 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for

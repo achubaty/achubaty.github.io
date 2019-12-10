@@ -19,14 +19,11 @@
       
       <guid>https://alexchubaty.com/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/</guid>
       <description>&lt;p&gt;Wow, my &lt;a href=&#34;https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names&#34;&gt;other&lt;/a&gt; &lt;a href=&#34;https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated&#34;&gt;posts&lt;/a&gt; on the topic are getting a lot of hits!&lt;/p&gt;
-
-&lt;p&gt;Some exciting info for anyone still struggling with getting abbreviated journal names working with Mendeley: &lt;a href=&#34;http://feedback.mendeley.com/forums/4941-general/suggestions/83173-journal-abbreviations?tracking_code=36d3a06b5cba533f95b15ede1b570435&#34; target=&#34;_blank&#34;&gt;this feature is coming soon&lt;/a&gt;!&lt;/p&gt;
-
+&lt;p&gt;Some exciting info for anyone still struggling with getting abbreviated journal names working with Mendeley: &lt;a href=&#34;http://feedback.mendeley.com/forums/4941-general/suggestions/83173-journal-abbreviations?tracking_code=36d3a06b5cba533f95b15ede1b570435&#34;&gt;this feature is coming soon&lt;/a&gt;!&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;This is currently on our roadmap for Mendeley Desktop 1.10. Expected release date is the start of August.&lt;/p&gt;
 &lt;/blockquote&gt;
-
-&lt;p&gt;From the mockups and descriptions the good folks at Mendeley have provided it looks like they&amp;rsquo;re doing a great job of addressing this shortcoming of their current product.&lt;/p&gt;
+&lt;p&gt;From the mockups and descriptions the good folks at Mendeley have provided it looks like they&#39;re doing a great job of addressing this shortcoming of their current product.&lt;/p&gt;
 </description>
     </item>
     
@@ -36,16 +33,13 @@
       <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
       
       <guid>https://alexchubaty.com/post/2012-04-13-enabling-libreopenoffice-plugin-for-mendeley-1-5/</guid>
-      <description>&lt;p&gt;I upgraded to using &lt;a href=&#34;http://mendeley.com&#34; target=&#34;_blank&#34;&gt;Mendeley&lt;/a&gt; v 1.5 (because previous versions don&amp;rsquo;t work on Ubuntu 12.04 Precise) and I had problems installing the OpenOffice plugin. Normally this is easy: in Mendeley you select the &lt;em&gt;Tools&lt;/em&gt; menu and go to &lt;em&gt;Install OpenOffice Plugin&lt;/em&gt;. However, for whatever reason the software can&amp;rsquo;t find the plugin, and I get this error:&lt;/p&gt;
-
+      <description>&lt;p&gt;I upgraded to using &lt;a href=&#34;http://mendeley.com&#34;&gt;Mendeley&lt;/a&gt; v 1.5 (because previous versions don&#39;t work on Ubuntu 12.04 Precise) and I had problems installing the OpenOffice plugin. Normally this is easy: in Mendeley you select the &lt;em&gt;Tools&lt;/em&gt; menu and go to &lt;em&gt;Install OpenOffice Plugin&lt;/em&gt;. However, for whatever reason the software can&#39;t find the plugin, and I get this error:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;Mendeley couldn&#39;t locate unopkg in the default location.
 It should be in the &#39;program&#39; subdirectory of the path where
 OpenOffice is installed. Please press OK to locate it.
 &lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Fortunately, it was easy to find and install. I clicked &lt;em&gt;OK&lt;/em&gt; and closed the file browser window that popped up. Then I opened a nautilus window (file browser), clicked the search button, selected my filesystem&amp;rsquo;s root partiton (see image below) and searched for &lt;code&gt;.oxt&lt;/code&gt;, which is the file extension used for OpenOffice and LibreOffice plugins. My search returned the pulgin for version 1.5 (plus some older versions I had previously installed).&lt;/p&gt;
-
-&lt;p&gt;After right-clicking the plugin file and selecting *Open with LibreOffice* started the install, which I confirmed and voila!&lt;/p&gt;
+&lt;p&gt;Fortunately, it was easy to find and install. I clicked &lt;em&gt;OK&lt;/em&gt; and closed the file browser window that popped up. Then I opened a nautilus window (file browser), clicked the search button, selected my filesystem&#39;s root partiton (see image below) and searched for &lt;code&gt;.oxt&lt;/code&gt;, which is the file extension used for OpenOffice and LibreOffice plugins. My search returned the pulgin for version 1.5 (plus some older versions I had previously installed).&lt;/p&gt;
+&lt;p&gt;After right-clicking the plugin file and selecting &lt;em&gt;Open with LibreOffice&lt;/em&gt; started the install, which I confirmed and voila!&lt;/p&gt;
 </description>
     </item>
     
@@ -56,26 +50,22 @@ OpenOffice is installed. Please press OK to locate it.
       
       <guid>https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names/</guid>
       <description>&lt;p&gt;As a followup to my &lt;a href=&#34;https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated&#34;&gt;previous post&lt;/a&gt;, I wrote a script to generate the master list of journal names and their abbreviations from Web of Science.&lt;/p&gt;
-
-&lt;p&gt;The script is designed to be used in conjunction with the &lt;a href=&#34;https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated&#34;&gt;previous one&lt;/a&gt;, and is also written in perl (which I&amp;rsquo;m still learning) and can be downloaded &lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/getJlist.txt&#34;&gt;here&lt;/a&gt; or viewed &lt;a href=&#34;http://pastebin.com/6tr7hec4&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Improvements and suggestions welcome.&lt;/p&gt;
-
+&lt;p&gt;The script is designed to be used in conjunction with the &lt;a href=&#34;https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated&#34;&gt;previous one&lt;/a&gt;, and is also written in perl (which I&#39;m still learning) and can be downloaded &lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/getJlist.txt&#34;&gt;here&lt;/a&gt; or viewed &lt;a href=&#34;http://pastebin.com/6tr7hec4&#34;&gt;here&lt;/a&gt;. Improvements and suggestions welcome.&lt;/p&gt;
 &lt;p&gt;At the bottom of the script is a list of my custom journal names and abbreviations. Feel free to adjust the script to suit your needs.&lt;/p&gt;
-
 &lt;p&gt;To run the script:&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;save it to the &lt;em&gt;jabbrev&lt;/em&gt; directory;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;open a terminal and type:&lt;/p&gt;
-
+&lt;li&gt;
+&lt;p&gt;save it to the &lt;em&gt;jabbrev&lt;/em&gt; directory;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;open a terminal and type:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;cd path/to/jabbrev
 mv getJlist.txt getJlist.pl
 chmod a+x getJlist.pl
 ./getJlist.pl
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;The script replaces the &lt;code&gt;masterlist.txt&lt;/code&gt; file with one containing the recently downloaded list of journals. Alternatively, just &lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/masterlist.txt&#34;&gt;download the masterlist.txt file directly&lt;/a&gt;. Because this master list is pretty big (~3.7 MB), you&amp;rsquo;ll want to extract only those journals that are in your Mendeley database. To do this,  run &lt;code&gt;script.pl&lt;/code&gt; (&lt;a href=&#34;https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated&#34;&gt;see previous post&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;The script replaces the &lt;code&gt;masterlist.txt&lt;/code&gt; file with one containing the recently downloaded list of journals. Alternatively, just &lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/masterlist.txt&#34;&gt;download the masterlist.txt file directly&lt;/a&gt;. Because this master list is pretty big (~3.7 MB), you&#39;ll want to extract only those journals that are in your Mendeley database. To do this,  run &lt;code&gt;script.pl&lt;/code&gt; (&lt;a href=&#34;https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated&#34;&gt;see previous post&lt;/a&gt;).&lt;/p&gt;
 </description>
     </item>
     
@@ -86,65 +76,59 @@ chmod a+x getJlist.pl
       
       <guid>https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/</guid>
       <description>&lt;p&gt;&lt;em&gt;UPDATE: I just posted &lt;a href=&#34;https://alexchubaty.com/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/&#34;&gt;an update&lt;/a&gt;. This feature is coming soon to Mendeley!&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Several journals require abbreviated journal names, but as of yet Mendeley doesn&amp;rsquo;t make this possible. Or so I thought. After coming across &lt;a href=&#34;http://simply-p450s.blogspot.com/2012/01/journal-abbreviations-in-mendeley.html&#34; target=&#34;_blank&#34;&gt;this blog post&lt;/a&gt; I decided to try to get this functionality working on my computers.&lt;/p&gt;
-
+&lt;p&gt;Several journals require abbreviated journal names, but as of yet Mendeley doesn&#39;t make this possible. Or so I thought. After coming across &lt;a href=&#34;http://simply-p450s.blogspot.com/2012/01/journal-abbreviations-in-mendeley.html&#34;&gt;this blog post&lt;/a&gt; I decided to try to get this functionality working on my computers.&lt;/p&gt;
 &lt;p&gt;To summarize, you can get Mendeley to read in a list of abbreviated journal names by:&lt;/p&gt;
-
 &lt;ul&gt;
-&lt;li&gt;creating a folder inside the Mendeley data  directory called &amp;lsquo;&lt;em&gt;journalAbbreviations&lt;/em&gt;&amp;rsquo;;&lt;/li&gt;
+&lt;li&gt;creating a folder inside the Mendeley data  directory called &amp;lsquo;&lt;em&gt;journalAbbreviations&lt;/em&gt;&#39;;&lt;/li&gt;
 &lt;li&gt;placing a formatted text file named &amp;lsquo;&lt;em&gt;default.txt&lt;/em&gt;&amp;rsquo; inside this directory. Each line of this text file needs to contain the full name of the journal, a tab character, and the abbreviated journal name.&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;p&gt;&amp;ldquo;Easy&amp;rdquo;, I thought. All I needed was to find a list of full journal names and their abbreviations for my field and make sure it was formatted correctly. Turns out the few lists I did find were incomplete: they didn&amp;rsquo;t have all the journals I cite. I don&amp;rsquo;t want to have to maintain a text file by hand, so I looked to a more &amp;ldquo;automated&amp;rdquo; approach, outlined below.&lt;/p&gt;
-
+&lt;p&gt;&amp;ldquo;Easy&amp;rdquo;, I thought. All I needed was to find a list of full journal names and their abbreviations for my field and make sure it was formatted correctly. Turns out the few lists I did find were incomplete: they didn&#39;t have all the journals I cite. I don&#39;t want to have to maintain a text file by hand, so I looked to a more &amp;ldquo;automated&amp;rdquo; approach, outlined below.&lt;/p&gt;
 &lt;p&gt;I use both BibTeX and Mendeley for my references, and have setup Mendeley to automagically update and maintain my bibliography (&lt;em&gt;.bib&lt;/em&gt;) files. This is key to obtaining a list of the journals I use - I extracted this info from the &lt;em&gt;.bib&lt;/em&gt; files and compared this list of journals against the master list to get the abbreviations.&lt;/p&gt;
-
-&lt;p&gt;First, &lt;del&gt;I obtained (by hand, sadly) a list of all the ISI journals indexed by Web of Science from &lt;a href=&#34;http://images.webofknowledge.com/WOK46/help/WOS/A_abrvjt.html&#34; target=&#34;_blank&#34;&gt;this site&lt;/a&gt; I copy/pasted all the journals into a text file named &amp;lsquo;&lt;em&gt;masterlist.txt&lt;/em&gt;&amp;rsquo;.&lt;/del&gt; I wrote a script to generate a master list of all journal names and their abbreviations from Web of Science (&lt;a href=&#34;https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names&#34;&gt;see this post&lt;/a&gt;). This file is pretty big, and not very helpful at that point. I don&amp;rsquo;t need ALL of those journals, only the journals I cite from my Mendeley library.&lt;/p&gt;
-
+&lt;p&gt;First, &lt;!-- raw HTML omitted --&gt;I obtained (by hand, sadly) a list of all the ISI journals indexed by Web of Science from &lt;a href=&#34;http://images.webofknowledge.com/WOK46/help/WOS/A_abrvjt.html&#34;&gt;this site&lt;/a&gt; I copy/pasted all the journals into a text file named &amp;lsquo;&lt;em&gt;masterlist.txt&lt;/em&gt;&#39;.&lt;!-- raw HTML omitted --&gt; I wrote a script to generate a master list of all journal names and their abbreviations from Web of Science (&lt;a href=&#34;https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names&#34;&gt;see this post&lt;/a&gt;). This file is pretty big, and not very helpful at that point. I don&#39;t need ALL of those journals, only the journals I cite from my Mendeley library.&lt;/p&gt;
 &lt;p&gt;The Perl script I wrote (with Charlie and Filipe) does all of this and saves the list of journals used directly into the Mendeley data folder.&lt;/p&gt;
-
 &lt;p&gt;To get this working yourself, follow the steps below:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This was written for and tested on a machine running Ubuntu 11.10 64-bit with a default Mendeley installation (also tested and run on Ubuntu 12.04 and 12.10). IT WON&amp;rsquo;T WORK ON WINDOWS OR A MAC WITHOUT SOME CHANGES TO THE PERL SCRIPT because the Mendeley directories are in different places on different operating systems. There may be some funny perl-related issues going between OSes too that I&amp;rsquo;m not aware of.&lt;/p&gt;
-
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This was written for and tested on a machine running Ubuntu 11.10 64-bit with a default Mendeley installation (also tested and run on Ubuntu 12.04 and 12.10). IT WON&#39;T WORK ON WINDOWS OR A MAC WITHOUT SOME CHANGES TO THE PERL SCRIPT because the Mendeley directories are in different places on different operating systems. There may be some funny perl-related issues going between OSes too that I&#39;m not aware of.&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;Download and save &lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/jabbrev.zip&#34;&gt;jabbrev.zip&lt;/a&gt; and unzip the directory &amp;lsquo;&lt;em&gt;jabbrev&lt;/em&gt;&amp;lsquo;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;open a terminal (and keep it open) and type:&lt;/p&gt;
-
+&lt;li&gt;
+&lt;p&gt;Download and save &lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/jabbrev.zip&#34;&gt;jabbrev.zip&lt;/a&gt; and unzip the directory &amp;lsquo;&lt;em&gt;jabbrev&lt;/em&gt;&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;open a terminal (and keep it open) and type:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;cd path/to/jabbrev
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In Mendeley go to &amp;lsquo;&lt;em&gt;Tools&lt;/em&gt;&amp;rsquo; &amp;ndash;&amp;gt; &amp;lsquo;&lt;em&gt;Options&lt;/em&gt;&amp;rsquo; and select the &amp;lsquo;&lt;em&gt;BibTeX&lt;/em&gt;&amp;rsquo; tab.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Check the box &amp;lsquo;Enable BibTeX syncing&amp;rsquo; and select either:
-&amp;lsquo;&lt;em&gt;Create one BibTeX file for my whole library&lt;/em&gt;&amp;rsquo; or &amp;lsquo;&lt;em&gt;Create one BibTeX file per collection&lt;/em&gt;&amp;lsquo;&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Set the path to where these BibTeX files will be saved (e.g., &lt;code&gt;~/Documents/Mendeley/bibliographies&lt;/code&gt;).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Click &amp;lsquo;&lt;em&gt;Apply&lt;/em&gt;&amp;rsquo; and &amp;lsquo;&lt;em&gt;OK&lt;/em&gt;&amp;rsquo;, wait for Mendeley to generate the files, then exit Mendeley.&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;In a nautilus window, go to the bibliographies directory you just set up (e.g., &lt;code&gt;~/Documents/Mendeley/bibliographies&lt;/code&gt;)&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Switch back to your open terminal window and allow the script to be executed by typing:&lt;/p&gt;
-
+&lt;li&gt;
+&lt;p&gt;In Mendeley go to &amp;lsquo;&lt;em&gt;Tools&lt;/em&gt;&amp;rsquo; &amp;ndash;&amp;gt; &amp;lsquo;&lt;em&gt;Options&lt;/em&gt;&amp;rsquo; and select the &amp;lsquo;&lt;em&gt;BibTeX&lt;/em&gt;&amp;rsquo; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check the box &amp;lsquo;Enable BibTeX syncing&amp;rsquo; and select either:
+&amp;lsquo;&lt;em&gt;Create one BibTeX file for my whole library&lt;/em&gt;&amp;rsquo; or &amp;lsquo;&lt;em&gt;Create one BibTeX file per collection&lt;/em&gt;&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set the path to where these BibTeX files will be saved (e.g., &lt;code&gt;~/Documents/Mendeley/bibliographies&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &amp;lsquo;&lt;em&gt;Apply&lt;/em&gt;&amp;rsquo; and &amp;lsquo;&lt;em&gt;OK&lt;/em&gt;&#39;, wait for Mendeley to generate the files, then exit Mendeley.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In a nautilus window, go to the bibliographies directory you just set up (e.g., &lt;code&gt;~/Documents/Mendeley/bibliographies&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Switch back to your open terminal window and allow the script to be executed by typing:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;chmod a+x script.pl
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;The script accepts a filepath for each of the masterlist and multiple bibtex files. Execute the script by typing:&lt;/p&gt;
-
+&lt;li&gt;
+&lt;p&gt;The script accepts a filepath for each of the masterlist and multiple bibtex files. Execute the script by typing:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;./script.pl /path/to/masterlist.txt /path/to/bibfile1.bib [/path/to/bibfile2.bib ...]
 &lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Sit back and wait (it may take a while to run, especially with a large library!).&lt;/p&gt;&lt;/li&gt;
-
-&lt;li&gt;&lt;p&gt;Open Mendeley back up, go to &amp;lsquo;&lt;em&gt;View&lt;/em&gt;&amp;rsquo; &amp;ndash;&amp;gt; &amp;lsquo;&lt;em&gt;Citation Style&lt;/em&gt;&amp;rsquo; &amp;ndash;&amp;gt; &amp;lsquo;&lt;em&gt;More Styles&amp;hellip;&lt;/em&gt;&amp;rsquo; and select a citation format that uses abbreviated journal names (e.g., Vancouver). You should now be able to generate bibliographies in Word and Open(Libre)Office documents with abbrev j names!*&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sit back and wait (it may take a while to run, especially with a large library!).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open Mendeley back up, go to &amp;lsquo;&lt;em&gt;View&lt;/em&gt;&amp;rsquo; &amp;ndash;&amp;gt; &amp;lsquo;&lt;em&gt;Citation Style&lt;/em&gt;&amp;rsquo; &amp;ndash;&amp;gt; &amp;lsquo;&lt;em&gt;More Styles&amp;hellip;&lt;/em&gt;&amp;rsquo; and select a citation format that uses abbreviated journal names (e.g., Vancouver). You should now be able to generate bibliographies in Word and Open(Libre)Office documents with abbrev j names!*&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ul&gt;
-
 &lt;p&gt;*note that the abbreviated names do NOT have periods.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;EDIT:&lt;/strong&gt; view the perl script at &lt;a href=&#34;http://pastebin.com/2C7X8aGZ&#34; target=&#34;_blank&#34;&gt;http://pastebin.com/2C7X8aGZ&lt;/a&gt; [updated 2013-02-27]. It&amp;rsquo;s not perfect (yet) but it&amp;rsquo;s mostly there. Suggestions welcome, especially how to deal with some of the funny cases.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EDIT:&lt;/strong&gt; view the perl script at &lt;a href=&#34;http://pastebin.com/2C7X8aGZ&#34;&gt;&lt;a href=&#34;http://pastebin.com/2C7X8aGZ&#34;&gt;http://pastebin.com/2C7X8aGZ&lt;/a&gt;&lt;/a&gt; [updated 2013-02-27]. It&#39;s not perfect (yet) but it&#39;s mostly there. Suggestions welcome, especially how to deal with some of the funny cases.&lt;/p&gt;
 </description>
     </item>
     
@@ -155,9 +139,7 @@ chmod a+x getJlist.pl
       
       <guid>https://alexchubaty.com/post/2012-02-01-easily-make-custom-mendeley-citation-styles/</guid>
       <description>&lt;p&gt;I came across this incredibly useful site today:&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://csleditor.quist.de/csleditor/show/1/example-citation-style&#34; target=&#34;_blank&#34;&gt;http://csleditor.quist.de/csleditor/show/1/example-citation-style&lt;/a&gt;&lt;/p&gt;
-
+&lt;p&gt;&lt;a href=&#34;http://csleditor.quist.de/csleditor/show/1/example-citation-style&#34;&gt;&lt;a href=&#34;http://csleditor.quist.de/csleditor/show/1/example-citation-style&#34;&gt;http://csleditor.quist.de/csleditor/show/1/example-citation-style&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;No longer need to manually edit custom citation style (CSL) files for Mendeley (and Zotero) within a text file!!!&lt;/p&gt;
 </description>
     </item>
@@ -168,38 +150,20 @@ chmod a+x getJlist.pl
       <pubDate>Mon, 07 Nov 2011 00:00:00 +0000</pubDate>
       
       <guid>https://alexchubaty.com/post/2011-11-07-custom-citation-styles-in-mendeley/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m an avid user of &lt;a href=&#34;http://www.mendeley.com/&#34; target=&#34;_blank&#34;&gt;Mendeley&lt;/a&gt; citation management software (CMS), and am pleased with the capabilities of this cross-platform, open-source, and *free* referencing tool. However, one limitation I&amp;rsquo;ve encountered is that it does not have very many citiation styles preinstalled, and although many additional formats are available to download through the Mendeley interface, it does not (yet) provide a built-in style editor to customize citiation styles.&lt;/p&gt;
-
-&lt;p&gt;Fortunately, Mendeley uses &lt;a href=&#34;http://citationstyles.org/&#34; target=&#34;_blank&#34;&gt;Citation Style Language v1.0&lt;/a&gt; (CSL) which is also used by &lt;a href=&#34;http://www.zotero.org/&#34; target=&#34;_blank&#34;&gt;Zotero&lt;/a&gt; and other CMSs, so not only is it possible to find thousands more citiation styles (e.g., using the &lt;a href=&#34;http://www.zotero.org/styles&#34; target=&#34;_blank&#34;&gt;Zotero Style Repository&lt;/a&gt;), but it&amp;rsquo;s also easy to create custom CSL files!&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&#34;http://www.mendeley.com/blog/research-tutorials/howto-edit-citation-styles-for-use-in-mendeley/&#34; target=&#34;_blank&#34;&gt;This tutorial on the Mendeley blog&lt;/a&gt; shows you the basics, although note that for Windows 7, the custom style directory is actually located at&lt;/p&gt;
-
-&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;C:\Users\&amp;lt;USERNAME&amp;gt;\AppData\Local\Mendeley Ltd\Mendeley Desktop\citationStyles-1.0
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Using the Vancouver style as a template, I easily created a custom citation style for the Open Forest Science Journal, which required modifying a copy of the *vancouver.csl* file:&lt;/p&gt;
-
-&lt;p&gt;To get the numbered citations in text to be displayed using square brackets &amp;ldquo;[]&amp;rdquo; rather than round brackets &amp;ldquo;()&amp;rdquo;, I changed line 120 from:&lt;/p&gt;
-
+      <description>&lt;p&gt;I&#39;m an avid user of &lt;a href=&#34;http://www.mendeley.com/&#34;&gt;Mendeley&lt;/a&gt; citation management software (CMS), and am pleased with the capabilities of this cross-platform, open-source, and &lt;em&gt;free&lt;/em&gt; referencing tool. However, one limitation I&#39;ve encountered is that it does not have very many citiation styles preinstalled, and although many additional formats are available to download through the Mendeley interface, it does not (yet) provide a built-in style editor to customize citiation styles.&lt;/p&gt;
+&lt;p&gt;Fortunately, Mendeley uses &lt;a href=&#34;http://citationstyles.org/&#34;&gt;Citation Style Language v1.0&lt;/a&gt; (CSL) which is also used by &lt;a href=&#34;http://www.zotero.org/&#34;&gt;Zotero&lt;/a&gt; and other CMSs, so not only is it possible to find thousands more citiation styles (e.g., using the &lt;a href=&#34;http://www.zotero.org/styles&#34;&gt;Zotero Style Repository&lt;/a&gt;), but it&#39;s also easy to create custom CSL files!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://www.mendeley.com/blog/research-tutorials/howto-edit-citation-styles-for-use-in-mendeley/&#34;&gt;This tutorial on the Mendeley blog&lt;/a&gt; shows you the basics, although note that for Windows 7, the custom style directory is actually located at&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{bash}&#34; data-lang=&#34;{bash}&#34;&gt;C:\Users\&amp;lt;USERNAME&amp;gt;\AppData\Local\Mendeley Ltd\Mendeley Desktop\citationStyles-1.0
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Using the Vancouver style as a template, I easily created a custom citation style for the Open Forest Science Journal, which required modifying a copy of the &lt;em&gt;vancouver.csl&lt;/em&gt; file:&lt;/p&gt;
+&lt;p&gt;To get the numbered citations in text to be displayed using square brackets &amp;ldquo;[]&amp;rdquo; rather than round brackets &amp;ldquo;()&amp;quot;, I changed line 120 from:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;layout prefix=&amp;quot;(&amp;quot; suffix=&amp;quot;)&amp;quot; delimiter=&amp;quot;,&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;to&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;layout prefix=&amp;quot;[&amp;quot; suffix=&amp;quot;]&amp;quot; delimiter=&amp;quot;,&amp;quot;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;Also, to get the square brackets to show up around the numbers in the bibliography I changed line 126 from:&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Also, to get the square brackets to show up around the numbers in the bibliography I changed line 126 from:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;text variable=&amp;quot;citation-number&amp;quot; suffix=&amp;quot;. &amp;quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;to&lt;/p&gt;
-
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;to&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;&amp;lt;text variable=&amp;quot;citation-number&amp;quot; prefix=&amp;quot;[&amp;quot; suffix=&amp;quot;] &amp;quot;/&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;p&gt;That&amp;rsquo;s it! Pretty simple stuff. You can download the modified file here: &lt;a href=&#34;https://alexchubaty.com/uploads/2011/11/open-forest-science-journal.csl&#34;&gt;open-forest-science-journal&lt;/a&gt;.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That&#39;s it! Pretty simple stuff. You can download the modified file here: &lt;a href=&#34;https://alexchubaty.com/uploads/2011/11/open-forest-science-journal.csl&#34;&gt;open-forest-science-journal&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

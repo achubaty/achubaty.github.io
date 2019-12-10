@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using Mathematica because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies.">
+  <meta name="description" content="Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using Mathematicabecause of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies.">
 
   
   <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/">
@@ -80,7 +80,7 @@
   
   
   
-  <link rel="stylesheet" href="/css/academic.min.3bc694af15fd1e4ff7262e7dd46f11a8.css">
+  <link rel="stylesheet" href="/css/academic.min.f9fb2fab3fe71649e596cce2f10f8161.css">
 
   
 
@@ -125,7 +125,7 @@
   <meta property="og:site_name" content="Alex M. Chubaty">
   <meta property="og:url" content="https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/">
   <meta property="og:title" content="Exploring Population Dynamics Models using a GUI for R | Alex M. Chubaty">
-  <meta property="og:description" content="Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using Mathematica because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
+  <meta property="og:description" content="Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using Mathematicabecause of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
   <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
   
   <meta property="article:published_time" content="2011-08-07T00:00:00&#43;00:00">
@@ -630,73 +630,49 @@
   <div class="article-container">
 
     <div class="article-style" itemprop="articleBody">
-      
-
-<h3 id="backstory">Backstory</h3>
-
-<p>I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using <a href="http://www.wolfram.com/mathematica/">Mathematica</a> because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies. Being an avid <a href="http://www.r-project.org">R</a> user, I had also thought about using R for the course but was concerned about the learning curve associated with it. I didn&rsquo;t want students getting hung up on coding syntax, but rather, have an opportunity to explore different model parameterizations graphically.</p>
-
-<p>Just before the course started, someone showed me the <a href="http://cran.r-project.org/web/packages/PBSmodelling/index.html">PBSmodelling package</a> and I knew this could be the way to go. PBSmodelling makes it easy to construct a graphical user interface (GUI) for any function in R, in order to create a much more user-friendly interface with which to interact with computer models.</p>
-
+      <h3 id="backstory">Backstory</h3>
+<p>I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using <!-- raw HTML omitted -->Mathematica<!-- raw HTML omitted --> because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies. Being an avid <!-- raw HTML omitted -->R<!-- raw HTML omitted --> user, I had also thought about using R for the course but was concerned about the learning curve associated with it. I didn't want students getting hung up on coding syntax, but rather, have an opportunity to explore different model parameterizations graphically.</p>
+<p>Just before the course started, someone showed me the <!-- raw HTML omitted -->PBSmodelling package<!-- raw HTML omitted --> and I knew this could be the way to go. PBSmodelling makes it easy to construct a graphical user interface (GUI) for any function in R, in order to create a much more user-friendly interface with which to interact with computer models.</p>
 <p>I took it upon myself to learn the basics of the PBSmodelling package, and I was able to create a fairly slick GUI to run a variety of population dynamics models in R and produce various types of plots in the process.</p>
-
-<p><a href="/uploads/2013/04/screenshot.png"><img alt="screenshot of R gui" src="/uploads/2013/04/screenshot-300x217.png" width="300" height="217" /></a></p>
-
+<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <h3 id="disclaimer">Disclaimer</h3>
-
-<p>This is still a work in progress, and I expect there to be minor bugs (mostly aesthetic I hope!), but I think I&rsquo;m off to great start.</p>
-
+<p>This is still a work in progress, and I expect there to be minor bugs (mostly aesthetic I hope!), but I think I'm off to great start.</p>
 <h3 id="requirements">Requirements</h3>
-
 <p><strong>Operating Systems:</strong></p>
-
 <ul>
 <li>Windows: XP, Vista, 7</li>
 <li>Mac OSX*: 10.5, 10.6</li>
 <li>Linux**: Ubuntu 10.04, 10.10, 11.04</li>
 </ul>
-
 <p><strong>R must be installed</strong></p>
-
 <ul>
-<li>see <a href="http://cran.r-project.org/" target="_blank">http://cran.r-project.org/</a></li>
+<li>see <a href="http://cran.r-project.org/"><a href="http://cran.r-project.org/">http://cran.r-project.org/</a></a></li>
 <li>the following packages are also required: <code>PBSmodelling</code>, <code>deSolve</code>, <code>scatterplot3d</code></li>
 </ul>
-
-<p>*OSX doesn&rsquo;t come with X11 and tcltk installed by default:</p>
-
+<p>*OSX doesn't come with X11 and tcltk installed by default:</p>
 <ol>
-<li>install X11 (<a href="http://support.apple.com/kb/DL641">http://support.apple.com/kb/DL641</a>)</li>
-<li>install the update (<a href="http://support.apple.com/kb/DL304">http://support.apple.com/kb/DL304</a>)</li>
+<li>install X11 (<!-- raw HTML omitted --><a href="http://support.apple.com/kb/DL641">http://support.apple.com/kb/DL641</a><!-- raw HTML omitted -->)</li>
+<li>install the update (<!-- raw HTML omitted --><a href="http://support.apple.com/kb/DL304">http://support.apple.com/kb/DL304</a><!-- raw HTML omitted -->)</li>
 <li>restart your computer</li>
-<li>install tcltk for R (<a href="http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg" target="_blank">http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg</a>)</li>
+<li>install tcltk for R (<a href="http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg"><a href="http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg">http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg</a></a>)</li>
 <li>open R and select package installer from the menu</li>
 <li>in the R package installer window, search &ldquo;tcltk&rdquo;</li>
 <li>this returns two results: <code>tcktl2</code> and <code>gWidgetstcltk</code></li>
 <li>select both and be sure to check the &ldquo;install dependencies&rdquo; box.</li>
 </ol>
-
 <p>** Ubuntu users may need to install tcl/tk:</p>
-
 <p><code>sudo apt-get install tcl tk</code></p>
-
 <h3 id="getting-started">Getting Started</h3>
-
 <ol>
 <li>download my <a href="/uploads/2011/08/models_GUI_2011-08-07.zip">population dynamics modelling gui code</a>, and unzip the contents</li>
 <li>open R from the models_GUI directory</li>
 <li>load the default workspace (<code>models_GUI/.Rdata</code>)</li>
 <li>press the up arrow key to recall previous commands saved in the workspace:</li>
 </ol>
-
 <p>a. <code>source(&quot;407.SSG.models.R&quot;)</code> loads the single species growth models interface</p>
-
 <p>b. <code>source(&quot;407.MSG.models.R&quot;)</code> loads the multi-species growth models interface</p>
-
 <p>c. <code>source(&quot;407.disease.models.R&quot;)</code> loads the disease (SIR) models interface</p>
-
 <p>d. <code>source(&quot;407.num.approx.R&quot;)</code> loads the numerical approximation interface</p>
-
 <ol>
 <li>use the tabs along the top of each interface to select model type</li>
 <li>to view equations used, press &lsquo;Show Equation&rsquo; button</li>
@@ -704,9 +680,7 @@
 <li>solve the model using current parameter values by pressing &lsquo;Solve&rsquo;</li>
 <li>after solving, plot the model results by pressing &lsquo;Plot&rsquo; (note you can plot to a PDF device by checking the box &lsquo;plot to pdf&rsquo;)</li>
 </ol>
-
 <h3 id="download">Download</h3>
-
 <p>Link: <a href="/uploads/2011/08/models_GUI_2011-08-07.zip">models_GUI_2011-08-07</a></p>
 
     </div>
@@ -994,7 +968,7 @@
   
 
   <p class="powered-by">
-    &copy; 2019 &middot; 
+    © 2019 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
