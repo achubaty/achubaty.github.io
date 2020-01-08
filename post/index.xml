@@ -13,12 +13,12 @@
     
     
     <item>
-      <title>Using the latest GDAL with R packages on macOS _redux_</title>
+      <title>Using the latest GDAL with R packages on macOS - redux</title>
       <link>https://alexchubaty.com/post/2020-01-08-using-latest-gdal-macos-redux/</link>
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://alexchubaty.com/post/2020-01-08-using-latest-gdal-macos-redux/</guid>
-      <description>&lt;p&gt;As an update to an earlier post, here&#39;s how to use the latest versions of GDAL/PROJ with R spatial packages.&lt;/p&gt;
+      <description>&lt;p&gt;As an update to an &lt;a href=&#34;https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos&#34;&gt;earlier post&lt;/a&gt;, here&#39;s how to use the latest versions of GDAL/PROJ with R spatial packages.&lt;/p&gt;
 &lt;h2 id=&#34;install-gdal&#34;&gt;Install GDAL&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;brew install pkg-config
 brew install gdal
@@ -67,7 +67,8 @@ For example, take a look at the packages produced by RStudio (&lt;em&gt;e.g.&lt;
       <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
       
       <guid>https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos/</guid>
-      <description>&lt;p&gt;I wanted to play around with the new &lt;a href=&#34;https://cran.r-project.org/package=sf&#34;&gt;&lt;code&gt;sf&lt;/code&gt;&lt;/a&gt; package, which requires the latest GDAL (&amp;gt;= 2.0.0), GEOS (&amp;gt;= 3.3.0), and PROJ.4 (&amp;gt;= 4.8.0).
+      <description>&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; see more recent version of this post &lt;a href=&#34;https://alexchubaty.com/post/2020-01-08-using-latest-gdal-macos-redux&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I wanted to play around with the new &lt;a href=&#34;https://cran.r-project.org/package=sf&#34;&gt;&lt;code&gt;sf&lt;/code&gt;&lt;/a&gt; package, which requires the latest GDAL (&amp;gt;= 2.0.0), GEOS (&amp;gt;= 3.3.0), and PROJ.4 (&amp;gt;= 4.8.0).
 However, the version of GDAL &lt;a href=&#34;https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/&#34;&gt;installed via &lt;code&gt;brew&lt;/code&gt;&lt;/a&gt; is 1.11.4, so I needed to update to the latest version and reinstall a few R packages in order to get &lt;code&gt;sf&lt;/code&gt; to work on macOS.&lt;/p&gt;
 &lt;h2 id=&#34;update-gdal&#34;&gt;Update GDAL&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## unlink the previous GDAL version&lt;/span&gt;
