@@ -7,10 +7,34 @@
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
     <language>en-ca</language>
     <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Thu, 14 Sep 2017 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	    <atom:link href="https://alexchubaty.com/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Using the latest GDAL with R packages on macOS _redux_</title>
+      <link>https://alexchubaty.com/post/2020-01-08-using-latest-gdal-macos-redux/</link>
+      <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://alexchubaty.com/post/2020-01-08-using-latest-gdal-macos-redux/</guid>
+      <description>&lt;p&gt;As an update to an earlier post, here&#39;s how to use the latest versions of GDAL/PROJ with R spatial packages.&lt;/p&gt;
+&lt;h2 id=&#34;install-gdal&#34;&gt;Install GDAL&lt;/h2&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;brew install pkg-config
+brew install gdal
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h2 id=&#34;reinstall-r-spatial-packages&#34;&gt;(Re)install R spatial packages&lt;/h2&gt;
+&lt;p&gt;Next, we need to install a few packages from source in order to use the new GDAL libraries:&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-r&#34; data-lang=&#34;r&#34;&gt;&lt;span style=&#34;color:#75715e&#34;&gt;## (re)install spatial packages from source&lt;/span&gt;
+&lt;span style=&#34;color:#a6e22e&#34;&gt;install.packages&lt;/span&gt;(&lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;rgeos&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;sf&amp;#34;&lt;/span&gt;, &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;sp&amp;#34;&lt;/span&gt;), type &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;source&amp;#34;&lt;/span&gt;)
+
+&lt;span style=&#34;color:#75715e&#34;&gt;## rgdal requires some additional configuration to build correctly:&lt;/span&gt;
+&lt;span style=&#34;color:#75715e&#34;&gt;##   based on http://stackoverflow.com/a/26836125/1380598&lt;/span&gt;
+&lt;span style=&#34;color:#a6e22e&#34;&gt;install.packages&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;rgdal&amp;#34;&lt;/span&gt;, type &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;source&amp;#34;&lt;/span&gt;,
+                 configure.args &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#a6e22e&#34;&gt;c&lt;/span&gt;(&lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;--with-proj-include=/usr/local/include&amp;#34;&lt;/span&gt;,
+                                    &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;&lt;/span&gt;&lt;span style=&#34;color:#e6db74&#34;&gt;--with-proj-lib=/usr/local/lib&amp;#34;&lt;/span&gt;))
+&lt;span style=&#34;color:#a6e22e&#34;&gt;library&lt;/span&gt;(rgdal) &lt;span style=&#34;color:#75715e&#34;&gt;## confirm the GDAL version being used&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</description>
+    </item>
     
     <item>
       <title>Yes, The Queen is listed as an &#39;author&#39; on our R packages</title>
