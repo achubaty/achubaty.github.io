@@ -635,7 +635,7 @@ Using the kinship2 package, I was quickly able to produce a nice pedigree for a 
       <p>I was looking for a good way to draw pedigrees using software, without having to fuss drawing them &ldquo;by hand&rdquo; using a drawing program. Lo and behold, I came across a few different packages in R that allow me to do just that!</p>
 <p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
 <p>Using the <code>kinship2</code> package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy. Factor VIII deficiency is a classic example of a sex-linked recessive trait, and myotonic dystrophy follows autosomal dominant inheritance. In this pedigree, I show the status of affected and unaffected indiviudals (not carriers), using the following bits of code in R.</p>
-<p>First, let's install (if needed) and load the <code>kinship2</code> package:</p>
+<p>First, let&rsquo;s install (if needed) and load the <code>kinship2</code> package:</p>
 <pre><code class="language-{r}" data-lang="{r}">if (!require(kinship2)) {install.packages(&quot;kinship2&quot;); library(kinship2)}
 </code></pre><p>Now we need to code several variables which will correspond to all of the individuals in the pedigree. First, we need individual ID numbers:</p>
 <pre><code class="language-{r}" data-lang="{r}">ids &lt;- 1:49
@@ -666,7 +666,7 @@ plot.pedigree(family)
 pedigree.legend(family, location=&quot;bottomright&quot;,
 				labels=list(&quot;Factor VIII\nDeficiency&quot;, &quot;Myotonic\nDystrophy&quot;),
 				cex=0.8, radius=0.3)
-</code></pre><p>That's the basics! Of course, with a large pedigree I expect this becomes a bit unruly, but for smaller examples like this one it's relatively easy to put together.</p>
+</code></pre><p>That&rsquo;s the basics! Of course, with a large pedigree I expect this becomes a bit unruly, but for smaller examples like this one it&rsquo;s relatively easy to put together.</p>
 
     </div>
 

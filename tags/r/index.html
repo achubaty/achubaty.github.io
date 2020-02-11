@@ -494,7 +494,7 @@
     <h2><a href="/post/2020-01-08-using-latest-gdal-macos-redux/">Using the latest GDAL with R packages on macOS - redux</a></h2>
     <div class="article-style">
       
-      As an update to an earlier post, here's how to use the latest versions of GDAL/PROJ with R spatial packages.
+      As an update to an earlier post, here&rsquo;s how to use the latest versions of GDAL/PROJ with R spatial packages.
 Install GDAL brew install pkg-config brew install gdal (Re)install R spatial packages Next, we need to install a few packages from source in order to use the new GDAL libraries:
 ## (re)install spatial packages from source install.packages(c(&#34;rgeos&#34;, &#34;sf&#34;, &#34;sp&#34;), type = &#34;source&#34;) ## rgdal requires some additional configuration to build correctly: ## based on http://stackoverflow.
       
@@ -506,7 +506,7 @@ Install GDAL brew install pkg-config brew install gdal (Re)install R spatial pac
     <div class="article-style">
       
       A number of people have been surprised to learn that Her Majesty the Queen is listed as an author on a number of our packages. For example, in the SpaDES package:
-Author:	Alex M Chubaty [aut, cre], Eliot J B McIntire [aut], Yong Luo [ctb], Steve Cumming [ctb], Her Majesty the Queen in Right of Canada, as represented by the Minister of Natural Resources Canada [cph] Note, however, that Her Majesty's role not as a package author (aut) but as the copyright holder (cph).
+Author:	Alex M Chubaty [aut, cre], Eliot J B McIntire [aut], Yong Luo [ctb], Steve Cumming [ctb], Her Majesty the Queen in Right of Canada, as represented by the Minister of Natural Resources Canada [cph] Note, however, that Her Majesty&rsquo;s role not as a package author (aut) but as the copyright holder (cph).
       
     </div>
   </div>
@@ -527,7 +527,7 @@ Update GDAL ## unlink the previous GDAL version brew unlink gdal ## update GDAL 
     <div class="article-style">
       
       In preparing a presentation on developing R packages using RStudio for the Victoria R Users Meetup Group this month, organizer Kiri Whan and I put together a very simple demo R package.
-UPDATE 2015/02/09: I didn't notice the conflict with the package name; thanks Scott Chamberlain for pointing it out. I've renamed the package to meow and updated the links below.
+UPDATE 2015/02/09: I didn&rsquo;t notice the conflict with the package name; thanks Scott Chamberlain for pointing it out. I&rsquo;ve renamed the package to meow and updated the links below.
 From the README at https://github.com/achubaty/meow:
 meow: Get random pictures of cats.
       
@@ -541,7 +541,7 @@ meow: Get random pictures of cats.
       This is actually really easy to do, but most of the google hits I came across were old (from 2010) or horribly complex (building gdal and proj4 from source then building rgdal itself).
 First, this assumes you already have homebrew installed 1. If not, see http://brew.sh/ for the one-liner terminal install.
 Next, install gdal:
-brew install gdal Then open RStudio (for some reason it didn't work using R in the terminal&hellip;) and install the package from source:
+brew install gdal Then open RStudio (for some reason it didn&rsquo;t work using R in the terminal&hellip;) and install the package from source:
       
     </div>
   </div>

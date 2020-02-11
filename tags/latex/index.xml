@@ -18,7 +18,7 @@
       <pubDate>Sat, 28 Jan 2012 00:00:00 +0000</pubDate>
       
       <guid>https://alexchubaty.com/post/2012-01-28-finding-symbol-commands-for-latex/</guid>
-      <description>&lt;p&gt;Ever been writing a document in [latex]\LaTeX[/latex] and had to look up the code for a particular symbol? Google usually directs me to the &lt;a href=&#34;http://www.ctan.org/tex-archive/info/symbols/comprehensive/&#34;&gt;Comprehesive LaTeX Symbol List&lt;/a&gt; but scrolling through and finding the symbol I&#39;m looking for is time consuming. However, today I came across this site (&lt;a href=&#34;http://detexify.kirelabs.org/&#34;&gt;Detexify&lt;/a&gt;) which lets you draw the symbol you are looking for and it tries to match it, providing symbol suggestions and letting you know the [latex]\LaTeX[/latex] code and the package to use!&lt;/p&gt;
+      <description>&lt;p&gt;Ever been writing a document in [latex]\LaTeX[/latex] and had to look up the code for a particular symbol? Google usually directs me to the &lt;a href=&#34;http://www.ctan.org/tex-archive/info/symbols/comprehensive/&#34;&gt;Comprehesive LaTeX Symbol List&lt;/a&gt; but scrolling through and finding the symbol I&amp;rsquo;m looking for is time consuming. However, today I came across this site (&lt;a href=&#34;http://detexify.kirelabs.org/&#34;&gt;Detexify&lt;/a&gt;) which lets you draw the symbol you are looking for and it tries to match it, providing symbol suggestions and letting you know the [latex]\LaTeX[/latex] code and the package to use!&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 </description>
     </item>

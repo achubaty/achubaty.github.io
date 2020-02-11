@@ -18,7 +18,7 @@
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
       
       <guid>https://alexchubaty.com/post/2020-01-08-using-latest-gdal-macos-redux/</guid>
-      <description>&lt;p&gt;As an update to an &lt;a href=&#34;https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos&#34;&gt;earlier post&lt;/a&gt;, here&#39;s how to use the latest versions of GDAL/PROJ with R spatial packages.&lt;/p&gt;
+      <description>&lt;p&gt;As an update to an &lt;a href=&#34;https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos&#34;&gt;earlier post&lt;/a&gt;, here&amp;rsquo;s how to use the latest versions of GDAL/PROJ with R spatial packages.&lt;/p&gt;
 &lt;h2 id=&#34;install-gdal&#34;&gt;Install GDAL&lt;/h2&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;brew install pkg-config
 brew install gdal
@@ -51,13 +51,13 @@ For example, in the &lt;a href=&#34;https://cran.r-project.org/package=SpaDES&#3
         Steve Cumming [ctb],
         Her Majesty the Queen in Right of Canada, as represented by
          the Minister of Natural Resources Canada [cph]
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Note, however, that Her Majesty&#39;s &lt;a href=&#34;http://r-pkgs.had.co.nz/description.html#author&#34;&gt;role&lt;/a&gt; not as a package &lt;em&gt;author&lt;/em&gt; (&lt;code&gt;aut&lt;/code&gt;) but as the &lt;em&gt;copyright holder&lt;/em&gt; (&lt;code&gt;cph&lt;/code&gt;).&lt;/p&gt;
-&lt;p&gt;It&#39;s common practice in many companies to attribute copyright to your employer, and there are several R packages that list a company as copyright holder.
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Note, however, that Her Majesty&amp;rsquo;s &lt;a href=&#34;http://r-pkgs.had.co.nz/description.html#author&#34;&gt;role&lt;/a&gt; not as a package &lt;em&gt;author&lt;/em&gt; (&lt;code&gt;aut&lt;/code&gt;) but as the &lt;em&gt;copyright holder&lt;/em&gt; (&lt;code&gt;cph&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s common practice in many companies to attribute copyright to your employer, and there are several R packages that list a company as copyright holder.
 For example, take a look at the packages produced by RStudio (&lt;em&gt;e.g.&lt;/em&gt;, &lt;a href=&#34;https://cran.r-project.org/package=dplyr&#34;&gt;&lt;code&gt;dplyr&lt;/code&gt;&lt;/a&gt;, &lt;a href=&#34;https://cran.r-project.org/package=ggplot2&#34;&gt;&lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt;).&lt;/p&gt;
 &lt;p&gt;As a Canadian public servant, the Crown holds copyright on our work, including R packages.
-(Next time you&#39;re reading a scientific paper produced by a federal employee note the copyright &amp;ndash; most publishers assign Crown Copyright in these cases instead of the publisher itself maintaining copyright. &lt;em&gt;E.g.&lt;/em&gt;, &lt;a href=&#34;https://www.elsevier.com/about/our-business/policies/copyright#Government-employees&#34;&gt;Elsevier&lt;/a&gt;.)&lt;/p&gt;
+(Next time you&amp;rsquo;re reading a scientific paper produced by a federal employee note the copyright &amp;ndash; most publishers assign Crown Copyright in these cases instead of the publisher itself maintaining copyright. &lt;em&gt;E.g.&lt;/em&gt;, &lt;a href=&#34;https://www.elsevier.com/about/our-business/policies/copyright#Government-employees&#34;&gt;Elsevier&lt;/a&gt;.)&lt;/p&gt;
 &lt;!-- raw HTML omitted --&gt;
-&lt;p&gt;So while it may be a little surprising to see The Queen listed (as copyright holder) in the authors list for several R packages, assigning copyright to one&#39;s employer is common in general, and expected for public servants in Canada (and likely other Commonwealth countries).&lt;/p&gt;
+&lt;p&gt;So while it may be a little surprising to see The Queen listed (as copyright holder) in the authors list for several R packages, assigning copyright to one&amp;rsquo;s employer is common in general, and expected for public servants in Canada (and likely other Commonwealth countries).&lt;/p&gt;
 </description>
     </item>
     
@@ -99,17 +99,17 @@ brew link --force gdal2
       
       <guid>https://alexchubaty.com/post/2015-02-09-meow/</guid>
       <description>&lt;p&gt;In preparing a presentation on developing R packages using RStudio for the Victoria R Users Meetup Group this month, organizer Kiri Whan and I put together a very simple demo R package.&lt;/p&gt;
-&lt;p&gt;&lt;em&gt;UPDATE 2015/02/09: I didn&#39;t notice the conflict with the package name; thanks Scott Chamberlain for &lt;a href=&#34;https://twitter.com/recology_/status/565037285507215362&#34;&gt;pointing it out&lt;/a&gt;. I&#39;ve renamed the package to &lt;code&gt;meow&lt;/code&gt; and updated the links below.&lt;/em&gt;&lt;/p&gt;
-&lt;p&gt;From the &lt;code&gt;README&lt;/code&gt; at &lt;a href=&#34;https://github.com/achubaty/meow&#34;&gt;&lt;a href=&#34;https://github.com/achubaty/meow&#34;&gt;https://github.com/achubaty/meow&lt;/a&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;UPDATE 2015/02/09: I didn&amp;rsquo;t notice the conflict with the package name; thanks Scott Chamberlain for &lt;a href=&#34;https://twitter.com/recology_/status/565037285507215362&#34;&gt;pointing it out&lt;/a&gt;. I&amp;rsquo;ve renamed the package to &lt;code&gt;meow&lt;/code&gt; and updated the links below.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;From the &lt;code&gt;README&lt;/code&gt; at &lt;a href=&#34;https://github.com/achubaty/meow&#34;&gt;https://github.com/achubaty/meow&lt;/a&gt;:&lt;/p&gt;
 &lt;h2 id=&#34;meow-get-random-pictures-of-cats&#34;&gt;&lt;code&gt;meow&lt;/code&gt;: Get random pictures of cats.&lt;/h2&gt;
-&lt;p&gt;This package doesn&#39;t do much, but it&#39;s adorable:&lt;/p&gt;
+&lt;p&gt;This package doesn&amp;rsquo;t do much, but it&amp;rsquo;s adorable:&lt;/p&gt;
 &lt;p&gt;&lt;img src=&#34;http://thecatapi.com/api/images/get?format=src&amp;amp;type=jpg&amp;amp;size=med&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;p&gt;Use &lt;code&gt;meow()&lt;/code&gt; to fetch a random cat photo from &lt;a href=&#34;http://thecatapi.com&#34;&gt;&lt;a href=&#34;http://thecatapi.com&#34;&gt;http://thecatapi.com&lt;/a&gt;&lt;/a&gt; plot it in yor R session. Meow!&lt;/p&gt;
+&lt;p&gt;Use &lt;code&gt;meow()&lt;/code&gt; to fetch a random cat photo from &lt;a href=&#34;http://thecatapi.com&#34;&gt;http://thecatapi.com&lt;/a&gt; plot it in yor R session. Meow!&lt;/p&gt;
 &lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
 &lt;pre&gt;&lt;code&gt;devtools::install_github(&amp;quot;achubaty/meow&amp;quot;)
 &lt;/code&gt;&lt;/pre&gt;
 &lt;h3 id=&#34;reporting-bugs&#34;&gt;Reporting Bugs&lt;/h3&gt;
-&lt;p&gt;&lt;a href=&#34;https://github.com/achubaty/meow/issues&#34;&gt;&lt;a href=&#34;https://github.com/achubaty/meow/issues&#34;&gt;https://github.com/achubaty/meow/issues&lt;/a&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/achubaty/meow/issues&#34;&gt;https://github.com/achubaty/meow/issues&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
@@ -120,18 +120,18 @@ brew link --force gdal2
       
       <guid>https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/</guid>
       <description>&lt;p&gt;This is actually really easy to do, but most of the google hits I came across were old (from 2010) or horribly complex (building &lt;code&gt;gdal&lt;/code&gt; and &lt;code&gt;proj4&lt;/code&gt; from source then building &lt;code&gt;rgdal&lt;/code&gt; itself).&lt;/p&gt;
-&lt;p&gt;First, this assumes you already have &lt;code&gt;homebrew&lt;/code&gt; installed &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. If not, see &lt;a href=&#34;http://brew.sh/&#34;&gt;&lt;a href=&#34;http://brew.sh/&#34;&gt;http://brew.sh/&lt;/a&gt;&lt;/a&gt; for the one-liner terminal install.&lt;/p&gt;
+&lt;p&gt;First, this assumes you already have &lt;code&gt;homebrew&lt;/code&gt; installed &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. If not, see &lt;a href=&#34;http://brew.sh/&#34;&gt;http://brew.sh/&lt;/a&gt; for the one-liner terminal install.&lt;/p&gt;
 &lt;p&gt;Next, install &lt;code&gt;gdal&lt;/code&gt;:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;brew install gdal
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then open &lt;code&gt;RStudio&lt;/code&gt; (for some reason it didn&#39;t work using R in the terminal&amp;hellip;) and install the package from source:&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Then open &lt;code&gt;RStudio&lt;/code&gt; (for some reason it didn&amp;rsquo;t work using R in the terminal&amp;hellip;) and install the package from source:&lt;/p&gt;
 &lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;rgdal&amp;quot;, type=&amp;quot;source&amp;quot;)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That&#39;s it. Seriously easy.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That&amp;rsquo;s it. Seriously easy.&lt;/p&gt;
 &lt;p&gt;&lt;em&gt;Update: fixed typos in &lt;code&gt;brew&lt;/code&gt; commands&lt;/em&gt;&lt;/p&gt;
 &lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
 &lt;hr&gt;
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
-&lt;p&gt;If you use &lt;code&gt;macports&lt;/code&gt; the process is similarly simple. See &lt;a href=&#34;http://www.janosgyerik.com/installing-rgdal-in-r-on-os-x-mavericks/&#34;&gt;here&lt;/a&gt;.&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#8617;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;If you use &lt;code&gt;macports&lt;/code&gt; the process is similarly simple. See &lt;a href=&#34;http://www.janosgyerik.com/installing-rgdal-in-r-on-os-x-mavericks/&#34;&gt;here&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -147,7 +147,7 @@ brew link --force gdal2
       <description>&lt;p&gt;I was looking for a good way to draw pedigrees using software, without having to fuss drawing them &amp;ldquo;by hand&amp;rdquo; using a drawing program. Lo and behold, I came across a few different packages in R that allow me to do just that!&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;p&gt;Using the &lt;code&gt;kinship2&lt;/code&gt; package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy. Factor VIII deficiency is a classic example of a sex-linked recessive trait, and myotonic dystrophy follows autosomal dominant inheritance. In this pedigree, I show the status of affected and unaffected indiviudals (not carriers), using the following bits of code in R.&lt;/p&gt;
-&lt;p&gt;First, let&#39;s install (if needed) and load the &lt;code&gt;kinship2&lt;/code&gt; package:&lt;/p&gt;
+&lt;p&gt;First, let&amp;rsquo;s install (if needed) and load the &lt;code&gt;kinship2&lt;/code&gt; package:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;if (!require(kinship2)) {install.packages(&amp;quot;kinship2&amp;quot;); library(kinship2)}
 &lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Now we need to code several variables which will correspond to all of the individuals in the pedigree. First, we need individual ID numbers:&lt;/p&gt;
 &lt;pre&gt;&lt;code class=&#34;language-{r}&#34; data-lang=&#34;{r}&#34;&gt;ids &amp;lt;- 1:49
@@ -178,7 +178,7 @@ plot.pedigree(family)
 pedigree.legend(family, location=&amp;quot;bottomright&amp;quot;,
 				labels=list(&amp;quot;Factor VIII\nDeficiency&amp;quot;, &amp;quot;Myotonic\nDystrophy&amp;quot;),
 				cex=0.8, radius=0.3)
-&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That&#39;s the basics! Of course, with a large pedigree I expect this becomes a bit unruly, but for smaller examples like this one it&#39;s relatively easy to put together.&lt;/p&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;That&amp;rsquo;s the basics! Of course, with a large pedigree I expect this becomes a bit unruly, but for smaller examples like this one it&amp;rsquo;s relatively easy to put together.&lt;/p&gt;
 </description>
     </item>
     
@@ -189,12 +189,12 @@ pedigree.legend(family, location=&amp;quot;bottomright&amp;quot;,
       
       <guid>https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</guid>
       <description>&lt;h3 id=&#34;backstory&#34;&gt;Backstory&lt;/h3&gt;
-&lt;p&gt;I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using &lt;!-- raw HTML omitted --&gt;Mathematica&lt;!-- raw HTML omitted --&gt; because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies. Being an avid &lt;!-- raw HTML omitted --&gt;R&lt;!-- raw HTML omitted --&gt; user, I had also thought about using R for the course but was concerned about the learning curve associated with it. I didn&#39;t want students getting hung up on coding syntax, but rather, have an opportunity to explore different model parameterizations graphically.&lt;/p&gt;
+&lt;p&gt;I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using &lt;!-- raw HTML omitted --&gt;Mathematica&lt;!-- raw HTML omitted --&gt; because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies. Being an avid &lt;!-- raw HTML omitted --&gt;R&lt;!-- raw HTML omitted --&gt; user, I had also thought about using R for the course but was concerned about the learning curve associated with it. I didn&amp;rsquo;t want students getting hung up on coding syntax, but rather, have an opportunity to explore different model parameterizations graphically.&lt;/p&gt;
 &lt;p&gt;Just before the course started, someone showed me the &lt;!-- raw HTML omitted --&gt;PBSmodelling package&lt;!-- raw HTML omitted --&gt; and I knew this could be the way to go. PBSmodelling makes it easy to construct a graphical user interface (GUI) for any function in R, in order to create a much more user-friendly interface with which to interact with computer models.&lt;/p&gt;
 &lt;p&gt;I took it upon myself to learn the basics of the PBSmodelling package, and I was able to create a fairly slick GUI to run a variety of population dynamics models in R and produce various types of plots in the process.&lt;/p&gt;
 &lt;p&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
 &lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
-&lt;p&gt;This is still a work in progress, and I expect there to be minor bugs (mostly aesthetic I hope!), but I think I&#39;m off to great start.&lt;/p&gt;
+&lt;p&gt;This is still a work in progress, and I expect there to be minor bugs (mostly aesthetic I hope!), but I think I&amp;rsquo;m off to great start.&lt;/p&gt;
 &lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
 &lt;p&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
@@ -204,15 +204,15 @@ pedigree.legend(family, location=&amp;quot;bottomright&amp;quot;,
 &lt;/ul&gt;
 &lt;p&gt;&lt;strong&gt;R must be installed&lt;/strong&gt;&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;see &lt;a href=&#34;http://cran.r-project.org/&#34;&gt;&lt;a href=&#34;http://cran.r-project.org/&#34;&gt;http://cran.r-project.org/&lt;/a&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;see &lt;a href=&#34;http://cran.r-project.org/&#34;&gt;http://cran.r-project.org/&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;the following packages are also required: &lt;code&gt;PBSmodelling&lt;/code&gt;, &lt;code&gt;deSolve&lt;/code&gt;, &lt;code&gt;scatterplot3d&lt;/code&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;p&gt;*OSX doesn&#39;t come with X11 and tcltk installed by default:&lt;/p&gt;
+&lt;p&gt;*OSX doesn&amp;rsquo;t come with X11 and tcltk installed by default:&lt;/p&gt;
 &lt;ol&gt;
 &lt;li&gt;install X11 (&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://support.apple.com/kb/DL641&#34;&gt;http://support.apple.com/kb/DL641&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
 &lt;li&gt;install the update (&lt;!-- raw HTML omitted --&gt;&lt;a href=&#34;http://support.apple.com/kb/DL304&#34;&gt;http://support.apple.com/kb/DL304&lt;/a&gt;&lt;!-- raw HTML omitted --&gt;)&lt;/li&gt;
 &lt;li&gt;restart your computer&lt;/li&gt;
-&lt;li&gt;install tcltk for R (&lt;a href=&#34;http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg&#34;&gt;&lt;a href=&#34;http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg&#34;&gt;http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg&lt;/a&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;install tcltk for R (&lt;a href=&#34;http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg&#34;&gt;http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;open R and select package installer from the menu&lt;/li&gt;
 &lt;li&gt;in the R package installer window, search &amp;ldquo;tcltk&amp;rdquo;&lt;/li&gt;
 &lt;li&gt;this returns two results: &lt;code&gt;tcktl2&lt;/code&gt; and &lt;code&gt;gWidgetstcltk&lt;/code&gt;&lt;/li&gt;
