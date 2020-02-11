@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Boreal Ecosystems on Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/tags/boreal-ecosystems/</link>
+    <description>Recent content in Boreal Ecosystems on Alex M. Chubaty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
+    <language>en-ca</language>
+    <copyright>&amp;copy; {year}</copyright>
+    <lastBuildDate>Fri, 13 Apr 2018 20:37:16 -0600</lastBuildDate>
+    
+	    <atom:link href="https://alexchubaty.com/tags/boreal-ecosystems/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>LandWeb: historic range of variation in western boreal forests</title>
+      <link>https://alexchubaty.com/project/landweb/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      
+      <guid>https://alexchubaty.com/project/landweb/</guid>
+      <description>&lt;p&gt;LandWeb was initially developed with Eliot McIntire&amp;rsquo;s group at the Pacific Forestry Centre and with funding contributions through &lt;a href=&#34;https://friresearch.ca/project/landweb-simulation-modelling&#34;&gt;fRI Research&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A summary of the results is available at &lt;a href=&#34;http://landweb.ca&#34;&gt;landweb.ca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ongoing work explores model dynamics, sensitivity, and further refinements.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/PredictiveEcology/LandWeb&#34;&gt;https://github.com/PredictiveEcology/LandWeb&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
