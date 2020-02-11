@@ -28,10 +28,10 @@
   
     
   
-  <meta name="description" content="We have reimplemented and updated the `grainscape` R package for landscape connectivity, habitat, and protected area network analyses.">
+  <meta name="description" content="Networks are widely used for modelling landscape connectivity and have many ecological and conservation applications. The nodes in these models describe geographic locations (such as habitat patches or protected areas) and links describe the potential for organisms (or their propagules) to move among nodes. We present the R package grainscape which facilitates working with these networks within a spatially explicit framework. Package analyses are based on the minimum planar graph, a class of network where links among nodes are influenced by the spatial characteristics of features across the entire landscape. Modelling outputs are compatible with downstream packages including igraph for network analysis and ggplot2 for visualization. Tools for analysis (e.g. finding corridors) and scaling networks (e.g. grains of connectivity) are also provided. Models can be exported for visualization and analysis in Geographic Information System (GIS) or network software. This package provides a computationally‐efficient programmatic toolbox for many landscape connectivity research questions, enabling researchers to easily customize models, work at large geographic extents, generate their own network metrics, conduct sensitivity analyses and seamlessly employ R statistical functions to test models using biological data. A detailed guide, provided as an Appendix, illustrates common analysis and model variants with accompanying R code.">
 
   
-  <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/project/habitat-connectivity/">
+  <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/publication/chubaty2020mee/">
 
   
 
@@ -108,7 +108,7 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
 
-  <link rel="canonical" href="https://alexchubaty.com/project/habitat-connectivity/">
+  <link rel="canonical" href="https://alexchubaty.com/publication/chubaty2020mee/">
 
   
   
@@ -123,14 +123,14 @@
   <meta property="twitter:creator" content="@alexchubaty">
   
   <meta property="og:site_name" content="Alex M. Chubaty">
-  <meta property="og:url" content="https://alexchubaty.com/project/habitat-connectivity/">
-  <meta property="og:title" content="Habitat Connectivity | Alex M. Chubaty">
-  <meta property="og:description" content="We have reimplemented and updated the `grainscape` R package for landscape connectivity, habitat, and protected area network analyses."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
+  <meta property="og:url" content="https://alexchubaty.com/publication/chubaty2020mee/">
+  <meta property="og:title" content="The R toolbox grainscape for modelling and visualizing landscape connectivity using spatially explicit networks | Alex M. Chubaty">
+  <meta property="og:description" content="Networks are widely used for modelling landscape connectivity and have many ecological and conservation applications. The nodes in these models describe geographic locations (such as habitat patches or protected areas) and links describe the potential for organisms (or their propagules) to move among nodes. We present the R package grainscape which facilitates working with these networks within a spatially explicit framework. Package analyses are based on the minimum planar graph, a class of network where links among nodes are influenced by the spatial characteristics of features across the entire landscape. Modelling outputs are compatible with downstream packages including igraph for network analysis and ggplot2 for visualization. Tools for analysis (e.g. finding corridors) and scaling networks (e.g. grains of connectivity) are also provided. Models can be exported for visualization and analysis in Geographic Information System (GIS) or network software. This package provides a computationally‐efficient programmatic toolbox for many landscape connectivity research questions, enabling researchers to easily customize models, work at large geographic extents, generate their own network metrics, conduct sensitivity analyses and seamlessly employ R statistical functions to test models using biological data. A detailed guide, provided as an Appendix, illustrates common analysis and model variants with accompanying R code."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
   <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
   
-  <meta property="article:published_time" content="2018-04-16T20:41:21-06:00">
+  <meta property="article:published_time" content="2020-01-18T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2018-04-16T20:41:21-06:00">
+  <meta property="article:modified_time" content="2020-01-18T00:00:00&#43;00:00">
   
 
   
@@ -168,7 +168,7 @@
 
 
 
-  <title>Habitat Connectivity | Alex M. Chubaty</title>
+  <title>The R toolbox grainscape for modelling and visualizing landscape connectivity using spatially explicit networks | Alex M. Chubaty</title>
 
 </head>
 
@@ -455,7 +455,7 @@
 </nav>
 
 
-  <article class="article article-project" itemscope itemtype="http://schema.org/Article">
+  <div class="pub" itemscope itemtype="http://schema.org/CreativeWork">
 
   
 
@@ -476,7 +476,7 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Habitat Connectivity</h1>
+  <h1 itemprop="name">The R toolbox grainscape for modelling and visualizing landscape connectivity using spatially explicit networks</h1>
 
   
 
@@ -485,11 +485,23 @@
 
 
 
-<meta content="2018-04-16 20:41:21 -0600 MDT" itemprop="datePublished">
-<meta content="2018-04-16 20:41:21 -0600 MDT" itemprop="dateModified">
+<meta content="2020-01-18 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+<meta content="2020-01-18 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
+  
+  
+  
+  
+  <div>
+    
+
+
+
+  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/achubaty/">Alex M. Chubaty</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/paul-galpern/">Paul Galpern</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sam-doctolero/">Sam Doctolero</a></span>
+
+  </div>
   
   
 
@@ -499,7 +511,7 @@
     
       
     
-    <time>Apr 16, 2018</time>
+    <time>January, 2020</time>
   </span>
   
 
@@ -526,7 +538,7 @@
       
       
       <li>
-        <a href="https://twitter.com/intent/tweet?url=https://alexchubaty.com/project/habitat-connectivity/&amp;text=Habitat%20Connectivity" target="_blank" rel="noopener" class="share-btn-twitter">
+        <a href="https://twitter.com/intent/tweet?url=https://alexchubaty.com/publication/chubaty2020mee/&amp;text=The%20R%20toolbox%20grainscape%20for%20modelling%20and%20visualizing%20landscape%20connectivity%20using%20spatially%20explicit%20networks" target="_blank" rel="noopener" class="share-btn-twitter">
           <i class="fab fa-twitter"></i>
         </a>
       </li>
@@ -539,7 +551,7 @@
       
       
       <li>
-        <a href="https://www.facebook.com/sharer.php?u=https://alexchubaty.com/project/habitat-connectivity/&amp;t=Habitat%20Connectivity" target="_blank" rel="noopener" class="share-btn-facebook">
+        <a href="https://www.facebook.com/sharer.php?u=https://alexchubaty.com/publication/chubaty2020mee/&amp;t=The%20R%20toolbox%20grainscape%20for%20modelling%20and%20visualizing%20landscape%20connectivity%20using%20spatially%20explicit%20networks" target="_blank" rel="noopener" class="share-btn-facebook">
           <i class="fab fa-facebook-f"></i>
         </a>
       </li>
@@ -552,7 +564,7 @@
       
       
       <li>
-        <a href="mailto:?subject=Habitat%20Connectivity&amp;body=https://alexchubaty.com/project/habitat-connectivity/" target="_blank" rel="noopener" class="share-btn-email">
+        <a href="mailto:?subject=The%20R%20toolbox%20grainscape%20for%20modelling%20and%20visualizing%20landscape%20connectivity%20using%20spatially%20explicit%20networks&amp;body=https://alexchubaty.com/publication/chubaty2020mee/" target="_blank" rel="noopener" class="share-btn-email">
           <i class="fas fa-envelope"></i>
         </a>
       </li>
@@ -565,7 +577,7 @@
       
       
       <li>
-        <a href="https://www.linkedin.com/shareArticle?url=https://alexchubaty.com/project/habitat-connectivity/&amp;title=Habitat%20Connectivity" target="_blank" rel="noopener" class="share-btn-linkedin">
+        <a href="https://www.linkedin.com/shareArticle?url=https://alexchubaty.com/publication/chubaty2020mee/&amp;title=The%20R%20toolbox%20grainscape%20for%20modelling%20and%20visualizing%20landscape%20connectivity%20using%20spatially%20explicit%20networks" target="_blank" rel="noopener" class="share-btn-linkedin">
           <i class="fab fa-linkedin-in"></i>
         </a>
       </li>
@@ -578,7 +590,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Habitat%20Connectivity%20https://alexchubaty.com/project/habitat-connectivity/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="https://web.whatsapp.com/send?text=The%20R%20toolbox%20grainscape%20for%20modelling%20and%20visualizing%20landscape%20connectivity%20using%20spatially%20explicit%20networks%20https://alexchubaty.com/publication/chubaty2020mee/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -591,7 +603,7 @@
       
       
       <li>
-        <a href="https://service.weibo.com/share/share.php?url=https://alexchubaty.com/project/habitat-connectivity/&amp;title=Habitat%20Connectivity" target="_blank" rel="noopener" class="share-btn-weibo">
+        <a href="https://service.weibo.com/share/share.php?url=https://alexchubaty.com/publication/chubaty2020mee/&amp;title=The%20R%20toolbox%20grainscape%20for%20modelling%20and%20visualizing%20landscape%20connectivity%20using%20spatially%20explicit%20networks" target="_blank" rel="noopener" class="share-btn-weibo">
           <i class="fab fa-weibo"></i>
         </a>
       </li>
@@ -616,12 +628,12 @@
 
 
 
+  
+
 
 
 <div class="btn-links mb-3">
   
-  <a class="btn btn-outline-primary my-1" href="https://alexchubaty.com/grainscape" target="_blank" rel="noopener">Go to Project Site</a>
-  
   
 
 
@@ -637,6 +649,20 @@
 
 
 
+<button type="button" class="btn btn-outline-primary my-1 mr-1 js-cite-modal"
+        data-filename="/publication/chubaty2020mee/cite.bib">
+  Cite
+</button>
+
+
+
+
+
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="/project/habitat-connectivity/">
+    Project
+  </a>
+  
 
 
 
@@ -646,8 +672,9 @@
 
 
 
-
-
+<a class="btn btn-outline-primary my-1 mr-1" href="https://doi.org/10.1111/2041-210X.13350" target="_blank" rel="noopener">
+  DOI
+</a>
 
 
 
@@ -661,18 +688,52 @@
 
   <div class="article-container">
 
-    <div class="article-style" itemprop="articleBody">
-      
+    
+    <h3>Abstract</h3>
+    <p class="pub-abstract" itemprop="text">Networks are widely used for modelling landscape connectivity and have many ecological and conservation applications. The nodes in these models describe geographic locations (such as habitat patches or protected areas) and links describe the potential for organisms (or their propagules) to move among nodes. We present the R package grainscape which facilitates working with these networks within a spatially explicit framework. Package analyses are based on the minimum planar graph, a class of network where links among nodes are influenced by the spatial characteristics of features across the entire landscape. Modelling outputs are compatible with downstream packages including igraph for network analysis and ggplot2 for visualization. Tools for analysis (e.g. finding corridors) and scaling networks (e.g. grains of connectivity) are also provided. Models can be exported for visualization and analysis in Geographic Information System (GIS) or network software. This package provides a computationally‐efficient programmatic toolbox for many landscape connectivity research questions, enabling researchers to easily customize models, work at large geographic extents, generate their own network metrics, conduct sensitivity analyses and seamlessly employ R statistical functions to test models using biological data. A detailed guide, provided as an Appendix, illustrates common analysis and model variants with accompanying R code.</p>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Type</div>
+          <div class="col-12 col-md-9">
+            
+            
+            <a href="/publication/#2">
+              Journal article
+            </a>
+            
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
     </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <div class="row">
+          <div class="col-12 col-md-3 pub-row-heading">Publication</div>
+          <div class="col-12 col-md-9">Methods in Ecology and Evolution</div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+    <div class="d-md-none space-below"></div>
+    
+
+    <div class="space-below"></div>
+
+    <div class="article-style"></div>
 
     
 
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/grainscape/">grainscape</a>
-  
-</div>
-
 
     
 
@@ -683,6 +744,10 @@
 
 
 
+  
+  
+    
+  
   
 
 
@@ -795,136 +860,8 @@
 
 
 
-    
-    
-
-    
-    
-    
-
-    
-    
-    
-      <h2>Publications</h2>
-      
-        
-          
-
-
-
-
-
-
-
-
-
-
-  
-  
-  
-
-
-
-
-
-  
-
-
-<div class="media stream-item" itemscope itemtype="http://schema.org/ScholarlyArticle">
-  <div class="media-body">
-
-    <h3 class="article-title mb-0 mt-0" itemprop="name">
-      <a href="/publication/chubaty2020mee/"  itemprop="url">The R toolbox grainscape for modelling and visualizing landscape connectivity using spatially explicit networks</a>
-    </h3>
-
-    
-    <div class="article-style" itemprop="articleBody">
-      Networks are widely used for modelling landscape connectivity and have many ecological and conservation applications. The nodes in …
-    </div>
-    
-
-    <div class="stream-meta article-metadata">
-
-      
-
-      
-      <div itemprop="author">
-        
-
-
-
-  <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/achubaty/">Alex M. Chubaty</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/paul-galpern/">Paul Galpern</a></span>, <span itemprop="author name" itemtype="http://schema.org/Person"><a href="/authors/sam-doctolero/">Sam Doctolero</a></span>
-
-      </div>
-      
-    </div>
-
-    
-    <div class="btn-links">
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-<button type="button" class="btn btn-outline-primary my-1 mr-1 btn-sm js-cite-modal"
-        data-filename="/publication/chubaty2020mee/cite.bib">
-  Cite
-</button>
-
-
-
-
-
-  
-  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/project/habitat-connectivity/">
-    Project
-  </a>
-  
-
-
-
-
-
-
-
-
-
-<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1111/2041-210X.13350" target="_blank" rel="noopener">
-  DOI
-</a>
-
-
-
-    </div>
-    
-
-  </div>
-  <div class="ml-3">
-    
-    
   </div>
 </div>
-
-        
-      
-    
-
-    
-    
-    
-
-  </div>
-</article>
 
 
 
