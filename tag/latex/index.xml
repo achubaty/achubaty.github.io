@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>LaTeX | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/tag/latex/</link>
+      <atom:link href="https://alexchubaty.com/tag/latex/index.xml" rel="self" type="application/rss+xml" />
+    <description>LaTeX</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Sat, 28 Jan 2012 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>LaTeX</title>
+      <link>https://alexchubaty.com/tag/latex/</link>
+    </image>
+    
+    <item>
+      <title>Finding Symbol Commands for LaTeX</title>
+      <link>https://alexchubaty.com/post/2012-01-28-finding-symbol-commands-for-latex/</link>
+      <pubDate>Sat, 28 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2012-01-28-finding-symbol-commands-for-latex/</guid>
+      <description>&lt;p&gt;Ever been writing a document in [latex]\LaTeX[/latex] and had to look up the code for a particular symbol? Google usually directs me to the 
+&lt;a href=&#34;http://www.ctan.org/tex-archive/info/symbols/comprehensive/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehesive LaTeX Symbol List&lt;/a&gt; but scrolling through and finding the symbol I&amp;rsquo;m looking for is time consuming. However, today I came across this site (
+&lt;a href=&#34;http://detexify.kirelabs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Detexify&lt;/a&gt;) which lets you draw the symbol you are looking for and it tries to match it, providing symbol suggestions and letting you know the [latex]\LaTeX[/latex] code and the package to use!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://detexify.kirelabs.org/&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-162&#34; alt=&#34;detexify&#34; src=&#34;https://alexchubaty.com/uploads/2012/01/detexify-300x236.png&#34; width=&#34;300&#34; height=&#34;236&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

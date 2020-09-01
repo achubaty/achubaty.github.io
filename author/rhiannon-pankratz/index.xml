@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rhiannon Pankratz | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/author/rhiannon-pankratz/</link>
+      <atom:link href="https://alexchubaty.com/author/rhiannon-pankratz/index.xml" rel="self" type="application/rss+xml" />
+    <description>Rhiannon Pankratz</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Rhiannon Pankratz</title>
+      <link>https://alexchubaty.com/author/rhiannon-pankratz/</link>
+    </image>
+    
+    <item>
+      <title>Cumulative effects research in SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2019glfc/</link>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019glfc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data to decisions: a multispecies approach case study for Northwest Territories</title>
+      <link>https://alexchubaty.com/talk/micheletti2019/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/micheletti2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

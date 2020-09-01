@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en-ca">
+<!DOCTYPE html><html lang="en-ca" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.4.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
+  
+
+  
   
 
   
@@ -21,7 +23,7 @@
   
   
 
-  <meta name="author" content="Alex M. Chubaty">
+  
 
   
   
@@ -29,9 +31,7 @@
     
   
   <meta name="description" content="UPDATE: I just posted an update. This feature is coming soon to Mendeley!
-Several journals require abbreviated journal names, but as of yet Mendeley doesn&rsquo;t make this possible. Or so I thought. After coming across this blog post I decided to try to get this functionality working on my computers.
-To summarize, you can get Mendeley to read in a list of abbreviated journal names by:
- creating a folder inside the Mendeley data directory called &lsquo;journalAbbreviations&#39;; placing a formatted text file named &lsquo;default.">
+Several journals require abbreviated journal names, but as of yet Mendeley doesn&rsquo;t make this possible. Or so I thought.">
 
   
   <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/">
@@ -39,6 +39,19 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
   
 
 
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
 
   
@@ -49,12 +62,17 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 
   
   
+
+  
+  
   
   
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -64,8 +82,8 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
     
       
       
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
       
     
 
@@ -73,43 +91,204 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 
     
 
-  
-
-  
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="/css/academic.min.f9fb2fab3fe71649e596cce2f10f8161.css">
-
-  
-
-  
-  
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-34446208-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
     
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
     
   
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-34446208-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-34446208-1', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
   
 
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/">
 
@@ -117,42 +296,94 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
   
   
   
+  
+  
+  
     
     
+  
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="twitter:site" content="@alexchubaty">
-  <meta property="twitter:creator" content="@alexchubaty">
+  <meta property="twitter:site" content="@alex chubaty">
+  <meta property="twitter:creator" content="@alex chubaty">
   
   <meta property="og:site_name" content="Alex M. Chubaty">
   <meta property="og:url" content="https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/">
   <meta property="og:title" content="Abbreviated Journal Names in Mendeley [updated] | Alex M. Chubaty">
   <meta property="og:description" content="UPDATE: I just posted an update. This feature is coming soon to Mendeley!
-Several journals require abbreviated journal names, but as of yet Mendeley doesn&rsquo;t make this possible. Or so I thought. After coming across this blog post I decided to try to get this functionality working on my computers.
-To summarize, you can get Mendeley to read in a list of abbreviated journal names by:
- creating a folder inside the Mendeley data directory called &lsquo;journalAbbreviations&#39;; placing a formatted text file named &lsquo;default."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
-  <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
+Several journals require abbreviated journal names, but as of yet Mendeley doesn&rsquo;t make this possible. Or so I thought."><meta property="og:image" content="https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-ca">
   
-  <meta property="article:published_time" content="2012-02-09T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2012-02-09T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2012-02-09T00:00:00&#43;00:00">
   
-  <meta property="article:modified_time" content="2012-02-09T00:00:00&#43;00:00">
+
   
+
+
+    
+
+
+
+
+
 
   
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/"
+  },
+  "headline": "Abbreviated Journal Names in Mendeley [updated]",
+  
+  "datePublished": "2012-02-09T00:00:00Z",
+  "dateModified": "2012-02-09T00:00:00Z",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Alex M. Chubaty",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "UPDATE: I just posted an update. This feature is coming soon to Mendeley!\nSeveral journals require abbreviated journal names, but as of yet Mendeley doesn\u0026rsquo;t make this possible. Or so I thought."
+}
+</script>
+
+  
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
   window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
         "popup": {
           "background": "#2962ff",
-          "text": "#fff"
+          "text": "rgb(255, 255, 255)"
         },
         "button": {
-          "background": "#fff",
+          "background": "rgb(255, 255, 255)",
           "text": "#2962ff"
         }
       },
@@ -161,10 +392,10 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "https://cookies.insites.com"
+        "href": "https://www.cookiesandyou.com"
       }
     })});
-</script>
+  </script>
 
 
 
@@ -178,7 +409,19 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.staDarkLightChooser = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -196,7 +439,7 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
         
       </div>
 
@@ -213,24 +456,46 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Alex M. Chubaty</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Alex M. Chubaty</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -242,16 +507,24 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -271,16 +544,24 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -300,16 +581,24 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -329,16 +618,24 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -358,16 +655,24 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -387,16 +692,24 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -416,16 +729,24 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -439,29 +760,45 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
       
 
         
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
       </ul>
-
     </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
 
-  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  <article class="article">
 
   
 
@@ -482,17 +819,13 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Abbreviated Journal Names in Mendeley [updated]</h1>
+  <h1>Abbreviated Journal Names in Mendeley [updated]</h1>
 
   
 
   
     
 
-
-
-<meta content="2012-02-09 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2012-02-09 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -505,7 +838,7 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
     
       
     
-    <time>Feb 9, 2012</time>
+    Feb 9, 2012
   </span>
   
 
@@ -515,6 +848,7 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 
   
   
+  
   <span class="middot-divider"></span>
   <a href="/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/#disqus_thread"></a>
   
@@ -522,8 +856,112 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
   
   
 
-  
+</div>
+
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <p><em>UPDATE: I just posted 
+<a href="/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/">an update</a>. This feature is coming soon to Mendeley!</em></p>
+<p>Several journals require abbreviated journal names, but as of yet Mendeley doesn&rsquo;t make this possible. Or so I thought. After coming across 
+<a href="http://simply-p450s.blogspot.com/2012/01/journal-abbreviations-in-mendeley.html" target="_blank" rel="noopener">this blog post</a> I decided to try to get this functionality working on my computers.</p>
+<p>To summarize, you can get Mendeley to read in a list of abbreviated journal names by:</p>
+<ul>
+<li>creating a folder inside the Mendeley data  directory called &lsquo;<em>journalAbbreviations</em>';</li>
+<li>placing a formatted text file named &lsquo;<em>default.txt</em>&rsquo; inside this directory. Each line of this text file needs to contain the full name of the journal, a tab character, and the abbreviated journal name.</li>
+</ul>
+<p>&ldquo;Easy&rdquo;, I thought. All I needed was to find a list of full journal names and their abbreviations for my field and make sure it was formatted correctly. Turns out the few lists I did find were incomplete: they didn&rsquo;t have all the journals I cite. I don&rsquo;t want to have to maintain a text file by hand, so I looked to a more &ldquo;automated&rdquo; approach, outlined below.</p>
+<p>I use both BibTeX and Mendeley for my references, and have setup Mendeley to automagically update and maintain my bibliography (<em>.bib</em>) files. This is key to obtaining a list of the journals I use - I extracted this info from the <em>.bib</em> files and compared this list of journals against the master list to get the abbreviations.</p>
+<p>First, <del>I obtained (by hand, sadly) a list of all the ISI journals indexed by Web of Science from 
+<a href="http://images.webofknowledge.com/WOK46/help/WOS/A_abrvjt.html" target="_blank" rel="noopener">this site</a> I copy/pasted all the journals into a text file named &lsquo;<em>masterlist.txt</em>&rsquo;.</del> I wrote a script to generate a master list of all journal names and their abbreviations from Web of Science (
+<a href="/post/2012-02-28-list-of-abbreviated-journal-names">see this post</a>). This file is pretty big, and not very helpful at that point. I don&rsquo;t need ALL of those journals, only the journals I cite from my Mendeley library.</p>
+<p>The Perl script I wrote (with Charlie and Filipe) does all of this and saves the list of journals used directly into the Mendeley data folder.</p>
+<p>To get this working yourself, follow the steps below:</p>
+<p><strong>NOTE:</strong> This was written for and tested on a machine running Ubuntu 11.10 64-bit with a default Mendeley installation (also tested and run on Ubuntu 12.04 and 12.10). IT WON&rsquo;T WORK ON WINDOWS OR A MAC WITHOUT SOME CHANGES TO THE PERL SCRIPT because the Mendeley directories are in different places on different operating systems. There may be some funny perl-related issues going between OSes too that I&rsquo;m not aware of.</p>
+<ul>
+<li>
+<p>Download and save 
+<a href="/uploads/2013/04/jabbrev.zip">jabbrev.zip</a> and unzip the directory &lsquo;<em>jabbrev</em>&rsquo;</p>
+</li>
+<li>
+<p>open a terminal (and keep it open) and type:</p>
+<pre><code>cd path/to/jabbrev
+</code></pre>
+</li>
+<li>
+<p>In Mendeley go to &lsquo;<em>Tools</em>&rsquo; &ndash;&gt; &lsquo;<em>Options</em>&rsquo; and select the &lsquo;<em>BibTeX</em>&rsquo; tab.</p>
+</li>
+<li>
+<p>Check the box &lsquo;Enable BibTeX syncing&rsquo; and select either:
+&lsquo;<em>Create one BibTeX file for my whole library</em>&rsquo; or &lsquo;<em>Create one BibTeX file per collection</em>&rsquo;</p>
+</li>
+<li>
+<p>Set the path to where these BibTeX files will be saved (e.g., <code>~/Documents/Mendeley/bibliographies</code>).</p>
+</li>
+<li>
+<p>Click &lsquo;<em>Apply</em>&rsquo; and &lsquo;<em>OK</em>&rsquo;, wait for Mendeley to generate the files, then exit Mendeley.</p>
+</li>
+<li>
+<p>In a nautilus window, go to the bibliographies directory you just set up (e.g., <code>~/Documents/Mendeley/bibliographies</code>)</p>
+</li>
+<li>
+<p>Switch back to your open terminal window and allow the script to be executed by typing:</p>
+<pre><code>chmod a+x script.pl
+</code></pre>
+</li>
+<li>
+<p>The script accepts a filepath for each of the masterlist and multiple bibtex files. Execute the script by typing:</p>
+<pre><code>./script.pl /path/to/masterlist.txt /path/to/bibfile1.bib [/path/to/bibfile2.bib ...]
+</code></pre>
+</li>
+<li>
+<p>Sit back and wait (it may take a while to run, especially with a large library!).</p>
+</li>
+<li>
+<p>Open Mendeley back up, go to &lsquo;<em>View</em>&rsquo; &ndash;&gt; &lsquo;<em>Citation Style</em>&rsquo; &ndash;&gt; &lsquo;<em>More Styles&hellip;</em>&rsquo; and select a citation format that uses abbreviated journal names (e.g., Vancouver). You should now be able to generate bibliographies in Word and Open(Libre)Office documents with abbrev j names!*</p>
+</li>
+</ul>
+<p>*note that the abbreviated names do NOT have periods.</p>
+<p><strong>EDIT:</strong> view the perl script at 
+<a href="http://pastebin.com/2C7X8aGZ" target="_blank" rel="noopener">http://pastebin.com/2C7X8aGZ</a> [updated 2013-02-27]. It&rsquo;s not perfect (yet) but it&rsquo;s mostly there. Suggestions welcome, especially how to deal with some of the funny cases.</p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/mendeley/">Mendeley</a>
+  
+</div>
+
+
+
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     
@@ -549,7 +987,7 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
       
       <li>
         <a href="https://www.facebook.com/sharer.php?u=https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/&amp;t=Abbreviated%20Journal%20Names%20in%20Mendeley%20[updated]" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-facebook"></i>
         </a>
       </li>
     
@@ -587,7 +1025,7 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Abbreviated%20Journal%20Names%20in%20Mendeley%20[updated]%20https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Abbreviated%20Journal%20Names%20in%20Mendeley%20[updated]%20https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -609,262 +1047,192 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+  
   
 
-</div>
 
+
+
+
+  
     
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/avatar_huaedd9bc4dac6dd95e96a95620d39fb31_48159_270x270_fill_q90_lanczos_center.jpg" alt="">
+      
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://alexchubaty.com/"></a></h5>
+        <h6 class="card-subtitle">Ecologist and simulation modeller</h6>
+        
+        <ul class="network-icon" aria-hidden="true">
   
-</div>
-
-
-
-  <div class="article-container">
-
-    <div class="article-style" itemprop="articleBody">
-      <p><em>UPDATE: I just posted <a href="/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/">an update</a>. This feature is coming soon to Mendeley!</em></p>
-<p>Several journals require abbreviated journal names, but as of yet Mendeley doesn&rsquo;t make this possible. Or so I thought. After coming across <a href="http://simply-p450s.blogspot.com/2012/01/journal-abbreviations-in-mendeley.html">this blog post</a> I decided to try to get this functionality working on my computers.</p>
-<p>To summarize, you can get Mendeley to read in a list of abbreviated journal names by:</p>
-<ul>
-<li>creating a folder inside the Mendeley data  directory called &lsquo;<em>journalAbbreviations</em>';</li>
-<li>placing a formatted text file named &lsquo;<em>default.txt</em>&rsquo; inside this directory. Each line of this text file needs to contain the full name of the journal, a tab character, and the abbreviated journal name.</li>
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/alexchubaty" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=MnxAoasAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-7146-8135" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/achubaty" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
 </ul>
-<p>&ldquo;Easy&rdquo;, I thought. All I needed was to find a list of full journal names and their abbreviations for my field and make sure it was formatted correctly. Turns out the few lists I did find were incomplete: they didn&rsquo;t have all the journals I cite. I don&rsquo;t want to have to maintain a text file by hand, so I looked to a more &ldquo;automated&rdquo; approach, outlined below.</p>
-<p>I use both BibTeX and Mendeley for my references, and have setup Mendeley to automagically update and maintain my bibliography (<em>.bib</em>) files. This is key to obtaining a list of the journals I use - I extracted this info from the <em>.bib</em> files and compared this list of journals against the master list to get the abbreviations.</p>
-<p>First, <!-- raw HTML omitted -->I obtained (by hand, sadly) a list of all the ISI journals indexed by Web of Science from <a href="http://images.webofknowledge.com/WOK46/help/WOS/A_abrvjt.html">this site</a> I copy/pasted all the journals into a text file named &lsquo;<em>masterlist.txt</em>'.<!-- raw HTML omitted --> I wrote a script to generate a master list of all journal names and their abbreviations from Web of Science (<a href="/post/2012-02-28-list-of-abbreviated-journal-names">see this post</a>). This file is pretty big, and not very helpful at that point. I don&rsquo;t need ALL of those journals, only the journals I cite from my Mendeley library.</p>
-<p>The Perl script I wrote (with Charlie and Filipe) does all of this and saves the list of journals used directly into the Mendeley data folder.</p>
-<p>To get this working yourself, follow the steps below:</p>
-<p><strong>NOTE:</strong> This was written for and tested on a machine running Ubuntu 11.10 64-bit with a default Mendeley installation (also tested and run on Ubuntu 12.04 and 12.10). IT WON&rsquo;T WORK ON WINDOWS OR A MAC WITHOUT SOME CHANGES TO THE PERL SCRIPT because the Mendeley directories are in different places on different operating systems. There may be some funny perl-related issues going between OSes too that I&rsquo;m not aware of.</p>
-<ul>
-<li>
-<p>Download and save <a href="/uploads/2013/04/jabbrev.zip">jabbrev.zip</a> and unzip the directory &lsquo;<em>jabbrev</em>&rsquo;</p>
-</li>
-<li>
-<p>open a terminal (and keep it open) and type:</p>
-<pre><code>cd path/to/jabbrev
-</code></pre></li>
-<li>
-<p>In Mendeley go to &lsquo;<em>Tools</em>&rsquo; &ndash;&gt; &lsquo;<em>Options</em>&rsquo; and select the &lsquo;<em>BibTeX</em>&rsquo; tab.</p>
-</li>
-<li>
-<p>Check the box &lsquo;Enable BibTeX syncing&rsquo; and select either:
-&lsquo;<em>Create one BibTeX file for my whole library</em>&rsquo; or &lsquo;<em>Create one BibTeX file per collection</em>&rsquo;</p>
-</li>
-<li>
-<p>Set the path to where these BibTeX files will be saved (e.g., <code>~/Documents/Mendeley/bibliographies</code>).</p>
-</li>
-<li>
-<p>Click &lsquo;<em>Apply</em>&rsquo; and &lsquo;<em>OK</em>', wait for Mendeley to generate the files, then exit Mendeley.</p>
-</li>
-<li>
-<p>In a nautilus window, go to the bibliographies directory you just set up (e.g., <code>~/Documents/Mendeley/bibliographies</code>)</p>
-</li>
-<li>
-<p>Switch back to your open terminal window and allow the script to be executed by typing:</p>
-<pre><code>chmod a+x script.pl
-</code></pre></li>
-<li>
-<p>The script accepts a filepath for each of the masterlist and multiple bibtex files. Execute the script by typing:</p>
-<pre><code>./script.pl /path/to/masterlist.txt /path/to/bibfile1.bib [/path/to/bibfile2.bib ...]
-</code></pre></li>
-<li>
-<p>Sit back and wait (it may take a while to run, especially with a large library!).</p>
-</li>
-<li>
-<p>Open Mendeley back up, go to &lsquo;<em>View</em>&rsquo; &ndash;&gt; &lsquo;<em>Citation Style</em>&rsquo; &ndash;&gt; &lsquo;<em>More Styles&hellip;</em>&rsquo; and select a citation format that uses abbreviated journal names (e.g., Vancouver). You should now be able to generate bibliographies in Word and Open(Libre)Office documents with abbrev j names!*</p>
-</li>
-</ul>
-<p>*note that the abbreviated names do NOT have periods.</p>
-<p><strong>EDIT:</strong> view the perl script at <a href="http://pastebin.com/2C7X8aGZ">http://pastebin.com/2C7X8aGZ</a> [updated 2013-02-27]. It&rsquo;s not perfect (yet) but it&rsquo;s mostly there. Suggestions welcome, especially how to deal with some of the funny cases.</p>
 
-    </div>
-
-    
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/mendeley/">Mendeley</a>
-  
-</div>
-
-
-
-    
-      
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-  
-  
-  
-    
-  
-  
-  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
-    
-      
-      <img class="portrait mr-3" src="/authors/achubaty/avatar_huaedd9bc4dac6dd95e96a95620d39fb31_48159_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
-    
-
-    <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="https://alexchubaty.com/">Alex M. Chubaty</a></h5>
-      <h6 class="card-subtitle">Ecologist and simulation modeller</h6>
-      
-      <ul class="network-icon" aria-hidden="true">
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="/#contact" >
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://twitter.com/alexchubaty" target="_blank" rel="noopener">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=MnxAoasAAAAJ" target="_blank" rel="noopener">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://orcid.org/0000-0001-7146-8135" target="_blank" rel="noopener">
-              <i class="ai ai-orcid"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://github.com/achubaty" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
-
-
-
-      
-      
-      <div class="article-widget">
-        <div class="hr-light"></div>
-        <h3>Related</h3>
-        <ul>
-          
-          <li><a href="/post/2012-02-01-easily-make-custom-mendeley-citation-styles/">Easily make custom Mendeley citation styles</a></li>
-          
-          <li><a href="/post/2011-11-07-custom-citation-styles-in-mendeley/">Custom Citation Styles in Mendeley</a></li>
-          
-        </ul>
       </div>
-      
-    
+    </div>
+  
 
-    
 
-    
+
+
+
+
+
 <section id="comments">
-  <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
     
     
     
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "alexmchubaty" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "alexmchubaty" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
 </section>
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/">more on journal abbreviations in Mendeley</a></li>
+      
+      <li><a href="/post/2012-04-13-enabling-libreopenoffice-plugin-for-mendeley-1-5/">enabling Libre/OpenOffice plugin for Mendeley 1.5</a></li>
+      
+      <li><a href="/post/2012-02-28-list-of-abbreviated-journal-names/">list of abbreviated journal names</a></li>
+      
+      <li><a href="/post/2012-02-01-easily-make-custom-mendeley-citation-styles/">Easily make custom Mendeley citation styles</a></li>
+      
+      <li><a href="/post/2011-11-07-custom-citation-styles-in-mendeley/">Custom Citation Styles in Mendeley</a></li>
+      
+    </ul>
+  </div>
+  
+
+
 
 
 
@@ -875,29 +1243,25 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 
     
     
-
     
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/bash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/bash.min.js"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -905,29 +1269,24 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 
     
     
-    
-    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
-    
-
-    
-    
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
     
 
+    
+    
+    
+    
     
     
     <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
         'publication' : "Publications",
-        'talk' : "Talks"
+        'talk' : "Talks",
+        'slides' : "Slides"
         };
     </script>
     
@@ -961,6 +1320,17 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 
     
     
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
+    
+
+    
+    
     
     
     
@@ -973,7 +1343,7 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
     
     
     
-    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+    <script src="/js/academic.min.3b2b658c61ebd725bd5fc606c89fe44c.js"></script>
 
     
 
@@ -982,21 +1352,33 @@ To summarize, you can get Mendeley to read in a list of abbreviated journal name
 
 
 
+  
   
   <div class="container">
     <footer class="site-footer">
   
 
   <p class="powered-by">
-    © 2020 &middot; 
+    © 2020
+  </p>
 
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy Website Builder</a>
+    
 
     
     <span class="float-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
+      <a href="#" class="back-to-top">
         <span class="button_icon">
           <i class="fas fa-chevron-up fa-2x"></i>
         </span>

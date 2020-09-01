@@ -3,48 +3,1058 @@
   <channel>
     <title>Alex M. Chubaty</title>
     <link>https://alexchubaty.com/</link>
-    <description>Recent content on Alex M. Chubaty</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-ca</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Sat, 18 Jan 2020 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://alexchubaty.com/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://alexchubaty.com/index.xml" rel="self" type="application/rss+xml" />
+    <description>Alex M. Chubaty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Sat, 18 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Alex M. Chubaty</title>
+      <link>https://alexchubaty.com/</link>
+    </image>
     
     <item>
-      <title>Publications</title>
-      <link>https://alexchubaty.com/publication/</link>
+      <title>The R toolbox grainscape for modelling and visualizing landscape connectivity using spatially explicit networks</title>
+      <link>https://alexchubaty.com/publication/chubaty2020mee/</link>
       <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexchubaty.com/publication/</guid>
+      <guid>https://alexchubaty.com/publication/chubaty2020mee/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Posts</title>
-      <link>https://alexchubaty.com/post/</link>
+      <title>Using the latest GDAL with R packages on macOS - redux</title>
+      <link>https://alexchubaty.com/post/2020-01-08-using-latest-gdal-macos-redux/</link>
       <pubDate>Wed, 08 Jan 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexchubaty.com/post/</guid>
-      <description></description>
+      <guid>https://alexchubaty.com/post/2020-01-08-using-latest-gdal-macos-redux/</guid>
+      <description>&lt;p&gt;As an update to an 
+&lt;a href=&#34;https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos&#34;&gt;earlier post&lt;/a&gt;, here&amp;rsquo;s how to use the latest versions of GDAL/PROJ with R spatial packages.&lt;/p&gt;
+&lt;h2 id=&#34;install-gdal&#34;&gt;Install GDAL&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;brew install pkg-config
+brew install gdal
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;reinstall-r-spatial-packages&#34;&gt;(Re)install R spatial packages&lt;/h2&gt;
+&lt;p&gt;Next, we need to install a few packages from source in order to use the new GDAL libraries:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;## (re)install spatial packages from source
+install.packages(c(&amp;quot;rgeos&amp;quot;, &amp;quot;sf&amp;quot;, &amp;quot;sp&amp;quot;), type = &amp;quot;source&amp;quot;)
+
+## rgdal requires some additional configuration to build correctly:
+##   based on http://stackoverflow.com/a/26836125/1380598
+install.packages(&amp;quot;rgdal&amp;quot;, type = &amp;quot;source&amp;quot;,
+                 configure.args = c(&amp;quot;--with-proj-include=/usr/local/include&amp;quot;,
+                                    &amp;quot;--with-proj-lib=/usr/local/lib&amp;quot;))
+library(rgdal) ## confirm the GDAL version being used
+&lt;/code&gt;&lt;/pre&gt;
+</description>
     </item>
     
     <item>
-      <title>Recent &amp; Upcoming Talks</title>
-      <link>https://alexchubaty.com/talk/</link>
+      <title>Cumulative effects research in SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2019glfc/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://alexchubaty.com/talk/</guid>
+      <guid>https://alexchubaty.com/talk/chubaty2019glfc/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Projects</title>
-      <link>https://alexchubaty.com/project/</link>
+      <title>Data to decisions: a multispecies approach case study for Northwest Territories</title>
+      <link>https://alexchubaty.com/talk/micheletti2019/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/micheletti2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting caribou resource selection and demography under landscape and climate change</title>
+      <link>https://alexchubaty.com/talk/stewart2019/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/stewart2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NetLogoR: A package to build and run spatially explicit agent-based models in R</title>
+      <link>https://alexchubaty.com/publication/bauduin2019ec/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/bauduin2019ec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Best Practices Working With Spatial Data in R</title>
+      <link>https://alexchubaty.com/talk/chubaty2019_r_spatial/</link>
+      <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019_r_spatial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facing the tree-slayer: forecasting Mountain Pine Beetle spatial spread in SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2019fri-mpb/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019fri-mpb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating fire disturbance with models of mountain pine beetle spread to evaluate efficacy of controlled burns as a management tool</title>
+      <link>https://alexchubaty.com/talk/chubaty2019serg/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019serg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Testimony before the House of Commons Standing Committee on Natural Resources Forest Pests</title>
+      <link>https://alexchubaty.com/talk/chubaty2018_hoc_testimony/</link>
+      <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2018_hoc_testimony/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cumulative Impacts Monitoring Program (CIMP) SpaDES Workshop</title>
+      <link>https://alexchubaty.com/talk/chubaty2018_cimp/</link>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2018_cimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LandWeb: Exploring NRV in the Western Canadian Boreal Forest</title>
+      <link>https://alexchubaty.com/talk/chubaty2019_landweb/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019_landweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building R packages - Getting started and best practices</title>
+      <link>https://alexchubaty.com/talk/chubaty2018_r_pkgs/</link>
+      <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2018_r_pkgs/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Habitat Connectivity</title>
+      <link>https://alexchubaty.com/project/habitat-connectivity/</link>
       <pubDate>Mon, 16 Apr 2018 20:41:21 -0600</pubDate>
-      
-      <guid>https://alexchubaty.com/project/</guid>
+      <guid>https://alexchubaty.com/project/habitat-connectivity/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>`SpaDES`: Spatial Discrete Event Simulation</title>
+      <link>https://alexchubaty.com/project/spades/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      <guid>https://alexchubaty.com/project/spades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boreal forest ecosystem forecasts</title>
+      <link>https://alexchubaty.com/project/boreal-ecosystems/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      <guid>https://alexchubaty.com/project/boreal-ecosystems/</guid>
+      <description>&lt;p&gt;Working with Eliot McIntire&amp;rsquo;s group at the Pacific Forestry Centre, we are integrating various simulation models dealing with forest vegetation dynamics, fire, insect disturbance, and wildlife populations, to inform decision making in these management areas.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>LandWeb: historic range of variation in western boreal forests</title>
+      <link>https://alexchubaty.com/project/landweb/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      <guid>https://alexchubaty.com/project/landweb/</guid>
+      <description>&lt;p&gt;LandWeb was initially developed with Eliot McIntire&amp;rsquo;s group at the Pacific Forestry Centre and with funding contributions through 
+&lt;a href=&#34;https://friresearch.ca/project/landweb-simulation-modelling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fRI Research&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A summary of the results is available at 
+&lt;a href=&#34;http://landweb.ca&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;landweb.ca&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Ongoing work explores model dynamics, sensitivity, and further refinements.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; &lt;a href=&#34;https://github.com/PredictiveEcology/LandWeb&#34;&gt;https://github.com/PredictiveEcology/LandWeb&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simulating mountain pine beetle eastward spread</title>
+      <link>https://alexchubaty.com/project/mpb-spread/</link>
+      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
+      <guid>https://alexchubaty.com/project/mpb-spread/</guid>
+      <description>&lt;p&gt;The continued eastward spread of mountain pine beetle (Dendroctonus ponderosae Hopk.; MPB) now threatens the boreal forests of eastern Alberta, Saskatchewan, and beyond. Predicting the outbreak and spread dynamics of this insect in jack pine, and to evaluate control measures to mitigate a potentially devastating loss of forest habitat and timber supply requires not only a complex understanding of the various inputs to this system and their interactions (e.g., MPB population dynamics, climate impacts, landscape features) but also the technical capacity to run large-scale spatial simulation models, and to update them quickly as new data are acquired and new models are developed.&lt;/p&gt;
+&lt;p&gt;Nonlinear density-dependent dynamics of mountain pine beetle (MPB) recruitment means that MPB spread to Saskatchewan and beyond is primarily a “numbers game”, and this has sharp consequences for pest management thresholds. The nonlinear dependency of survival rate on temperature means that eruptive potential is regulated secondarily by climate, and this has consequences for the efficacy of pest management through “direct control”. Through simulation we distinguish the conditions under which MPB spread can be significantly slowed. Preliminary results indicate that the prognosis for pest management in the lodgepole pine of the Rocky Mountains Foothills region is distinctly different that of boreal jack pine.&lt;/p&gt;
+&lt;p&gt;Simulations of MPB population recruitment and spread were developed using the 
+&lt;a href=&#34;http://spades.predictiveecology.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;SpaDES&lt;/code&gt;&lt;/a&gt; (Spatial Discrete Event Simulation) platform. &lt;code&gt;SpaDES&lt;/code&gt; facilitates a tight coupling of simulation and data within a modular framework that allows easy updates to model components. Furthermore, our development cycle follows current best practices for reproducible computing workflows and, where possible, we have followed an &amp;ldquo;Open-Access&amp;rdquo; model for software platform and simulation model development.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2018serg/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2018serg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State-dependent domicile leaving rates in Anopheles gambiae</title>
+      <link>https://alexchubaty.com/publication/zappia2017mj/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/zappia2017mj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive ecology in a world filled with dynamic data and models – entering continuous adaptive management</title>
+      <link>https://alexchubaty.com/talk/mcintire_uvic_es_2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_uvic_es_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incorporating changing climate in ecological models: feedbacks, trade-offs and surprises! OR How do we influence decision makers?</title>
+      <link>https://alexchubaty.com/talk/mcintire_cif_2017/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_cif_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boreal insect disturbance in SpaDES: an integrated simulation model of mountain pine beetle eastward spread</title>
+      <link>https://alexchubaty.com/talk/chubaty_esc_2017/</link>
+      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_esc_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cumulative effects simulation and modern scientific forecasts: challenges and opportunities</title>
+      <link>https://alexchubaty.com/talk/chubaty_cumlative_effects_2017/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_cumlative_effects_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Yes, The Queen is listed as an &#39;author&#39; on our R packages</title>
+      <link>https://alexchubaty.com/post/2017-09-14-queen-copyright/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2017-09-14-queen-copyright/</guid>
+      <description>&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Just noticed the Queen is listed as an author in this (and probably other) R packages &lt;a href=&#34;https://t.co/ehCb3uHjpx&#34;&gt;https://t.co/ehCb3uHjpx&lt;/a&gt; &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&#34;&gt;#rstats&lt;/a&gt; &lt;a href=&#34;https://t.co/KRKKQvlGX4&#34;&gt;pic.twitter.com/KRKKQvlGX4&lt;/a&gt;&lt;/p&gt;&amp;mdash; David Smith (`@revodavid`) &lt;a href=&#34;https://twitter.com/revodavid/status/905899118446436358&#34;&gt;September 7, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;A 
+&lt;a href=&#34;https://twitter.com/JennyBryan/status/585955759525007360&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;number&lt;/a&gt; 
+&lt;a href=&#34;http://www.pieceofk.fr/?p=431&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;of&lt;/a&gt; 
+&lt;a href=&#34;https://twitter.com/hspter/status/908263547167277056&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;people&lt;/a&gt; have been surprised to learn that Her Majesty the Queen is listed as an author on a number of our packages.
+For example, in the 
+&lt;a href=&#34;https://cran.r-project.org/package=SpaDES&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;SpaDES&lt;/code&gt;&lt;/a&gt; package:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Author:	Alex M Chubaty [aut, cre],
+        Eliot J B McIntire [aut],
+        Yong Luo [ctb],
+        Steve Cumming [ctb],
+        Her Majesty the Queen in Right of Canada, as represented by
+         the Minister of Natural Resources Canada [cph]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Note, however, that Her Majesty&amp;rsquo;s 
+&lt;a href=&#34;http://r-pkgs.had.co.nz/description.html#author&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;role&lt;/a&gt; not as a package &lt;em&gt;author&lt;/em&gt; (&lt;code&gt;aut&lt;/code&gt;) but as the &lt;em&gt;copyright holder&lt;/em&gt; (&lt;code&gt;cph&lt;/code&gt;).&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s common practice in many companies to attribute copyright to your employer, and there are several R packages that list a company as copyright holder.
+For example, take a look at the packages produced by RStudio (&lt;em&gt;e.g.&lt;/em&gt;, 
+&lt;a href=&#34;https://cran.r-project.org/package=dplyr&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;dplyr&lt;/code&gt;&lt;/a&gt;, 
+&lt;a href=&#34;https://cran.r-project.org/package=ggplot2&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;ggplot2&lt;/code&gt;&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;As a Canadian public servant, the Crown holds copyright on our work, including R packages.
+(Next time you&amp;rsquo;re reading a scientific paper produced by a federal employee note the copyright &amp;ndash; most publishers assign Crown Copyright in these cases instead of the publisher itself maintaining copyright. &lt;em&gt;E.g.&lt;/em&gt;, 
+&lt;a href=&#34;https://www.elsevier.com/about/our-business/policies/copyright#Government-employees&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Elsevier&lt;/a&gt;.)&lt;/p&gt;
+&lt;blockquote class=&#34;twitter-tweet&#34; data-lang=&#34;en&#34;&gt;&lt;p lang=&#34;en&#34; dir=&#34;ltr&#34;&gt;Queen Elizabeth II has another &lt;a href=&#34;https://twitter.com/hashtag/rstats?src=hash&#34;&gt;#rstats&lt;/a&gt; package on CRAN. This one&amp;#39;s for reproducible research. &lt;a href=&#34;https://t.co/T71aefEPTL&#34;&gt;https://t.co/T71aefEPTL&lt;/a&gt;&lt;/p&gt;&amp;mdash; Thomas Leeper (`@thosjleeper`) &lt;a href=&#34;https://twitter.com/thosjleeper/status/894176471392059392&#34;&gt;August 6, 2017&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async src=&#34;//platform.twitter.com/widgets.js&#34; charset=&#34;utf-8&#34;&gt;&lt;/script&gt;
+&lt;p&gt;So while it may be a little surprising to see The Queen listed (as copyright holder) in the authors list for several R packages, assigning copyright to one&amp;rsquo;s employer is common in general, and expected for public servants in Canada (and likely other Commonwealth countries).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Boreal insect disturbance in SpaDES: an integrated simulation model of mountain pine beetle eastward spread</title>
+      <link>https://alexchubaty.com/talk/chubaty_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a continuous adaptive management system in SpaDES: dialing down the risk for woodland caribou</title>
+      <link>https://alexchubaty.com/talk/mcintire_caribou_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_caribou_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a continuous adaptive management system in SpaDES: using historical landscape variation for the LandWeb project</title>
+      <link>https://alexchubaty.com/talk/mcintire_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Burning in SpaDES: Automated parameter estimation for landscape fire models</title>
+      <link>https://alexchubaty.com/talk/cumming_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/cumming_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vegetation dynamics in SpaDES: the recoded LANDIS-II biomass succession model</title>
+      <link>https://alexchubaty.com/talk/luo_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/luo_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty_fri_2017/</link>
+      <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_fri_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty_sergi_2017/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_sergi_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incorporating changing climate in ecological models: feedback, reversals and surprises abound!</title>
+      <link>https://alexchubaty.com/talk/mcintire_chile_2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_chile_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using the latest GDAL with R packages on macOS</title>
+      <link>https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos/</link>
+      <pubDate>Tue, 13 Dec 2016 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2016-12-13-using-latest-gdal-macos/</guid>
+      <description>&lt;p&gt;&lt;strong&gt;UPDATE:&lt;/strong&gt; see more recent version of this post 
+&lt;a href=&#34;https://alexchubaty.com/post/2020-01-08-using-latest-gdal-macos-redux&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I wanted to play around with the new 
+&lt;a href=&#34;https://cran.r-project.org/package=sf&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;code&gt;sf&lt;/code&gt;&lt;/a&gt; package, which requires the latest GDAL (&amp;gt;= 2.0.0), GEOS (&amp;gt;= 3.3.0), and PROJ.4 (&amp;gt;= 4.8.0).
+However, the version of GDAL 
+&lt;a href=&#34;https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/&#34;&gt;installed via &lt;code&gt;brew&lt;/code&gt;&lt;/a&gt; is 1.11.4, so I needed to update to the latest version and reinstall a few R packages in order to get &lt;code&gt;sf&lt;/code&gt; to work on macOS.&lt;/p&gt;
+&lt;h2 id=&#34;update-gdal&#34;&gt;Update GDAL&lt;/h2&gt;
+&lt;pre&gt;&lt;code class=&#34;language-bash&#34;&gt;## unlink the previous GDAL version
+brew unlink gdal
+
+## update GDAL to the latest version (2.1.2)
+brew tap osgeo/osgeos4mac
+brew install gdal2
+brew link --force gdal2
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&#34;reinstall-r-spatial-packages&#34;&gt;(Re)install R spatial packages&lt;/h2&gt;
+&lt;p&gt;Next, we need to install a few packages from source in order to use the new GDAL libraries:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-r&#34;&gt;## (re)install spatial packages from source
+install.packages(c(&amp;quot;rgeos&amp;quot;, &amp;quot;sf&amp;quot;, &amp;quot;sp&amp;quot;), type = &amp;quot;source&amp;quot;)
+
+## rgdal requires some additional configuration to build correctly:
+##   based on http://stackoverflow.com/a/26836125/1380598
+install.packages(&amp;quot;rgdal&amp;quot;, type = &amp;quot;source&amp;quot;,
+                 configure.args = c(&amp;quot;--with-proj-include=/usr/local/include&amp;quot;,
+                                    &amp;quot;--with-proj-lib=/usr/local/lib&amp;quot;))
+library(rgdal) ## confirm the GDAL version being used
+&lt;/code&gt;&lt;/pre&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Getting to answers, in SpaDES</title>
+      <link>https://alexchubaty.com/talk/mcintire_getting_2016/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_getting_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolution of Decision Support for Forest Ecosystem Management: Towards Open Modelling and Data</title>
+      <link>https://alexchubaty.com/talk/riel2015/</link>
+      <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/riel2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The SpaDES platform: : Modern scientific forecasts, backcasts, and decisions</title>
+      <link>https://alexchubaty.com/talk/mcintire_nofc_2015/</link>
+      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_nofc_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>meow: the most anticipated R package of 2015</title>
+      <link>https://alexchubaty.com/post/2015-02-09-meow/</link>
+      <pubDate>Mon, 09 Feb 2015 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2015-02-09-meow/</guid>
+      <description>&lt;p&gt;In preparing a presentation on developing R packages using RStudio for the Victoria R Users Meetup Group this month, organizer Kiri Whan and I put together a very simple demo R package.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;UPDATE 2015/02/09: I didn&amp;rsquo;t notice the conflict with the package name; thanks Scott Chamberlain for 
+&lt;a href=&#34;https://twitter.com/recology_/status/565037285507215362&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;pointing it out&lt;/a&gt;. I&amp;rsquo;ve renamed the package to &lt;code&gt;meow&lt;/code&gt; and updated the links below.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;From the &lt;code&gt;README&lt;/code&gt; at 
+&lt;a href=&#34;https://github.com/achubaty/meow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/achubaty/meow&lt;/a&gt;:&lt;/p&gt;
+&lt;h2 id=&#34;meow-get-random-pictures-of-cats&#34;&gt;&lt;code&gt;meow&lt;/code&gt;: Get random pictures of cats.&lt;/h2&gt;
+&lt;p&gt;This package doesn&amp;rsquo;t do much, but it&amp;rsquo;s adorable:&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;http://thecatapi.com/api/images/get?format=src&amp;amp;type=jpg&amp;amp;size=med&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;p&gt;Use &lt;code&gt;meow()&lt;/code&gt; to fetch a random cat photo from 
+&lt;a href=&#34;http://thecatapi.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://thecatapi.com&lt;/a&gt; plot it in yor R session. Meow!&lt;/p&gt;
+&lt;h3 id=&#34;installation&#34;&gt;Installation&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;devtools::install_github(&amp;quot;achubaty/meow&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;reporting-bugs&#34;&gt;Reporting Bugs&lt;/h3&gt;
+&lt;p&gt;
+&lt;a href=&#34;https://github.com/achubaty/meow/issues&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/achubaty/meow/issues&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>On the evolution of omnivory in a community context</title>
+      <link>https://alexchubaty.com/publication/chubaty2014ee/</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/chubaty2014ee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To tree or not to tree: The role of energy limitation on host tree acceptance in a bark beetle</title>
+      <link>https://alexchubaty.com/publication/chubaty2014eer/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/chubaty2014eer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpaDES: Spatial Discrete Event Simulation</title>
+      <link>https://alexchubaty.com/talk/chubaty_spades_2014/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_spades_2014/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Installing rgdal on OSX</title>
+      <link>https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/</link>
+      <pubDate>Tue, 05 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2014-08-05-installing-rgdal-osx/</guid>
+      <description>&lt;p&gt;This is actually really easy to do, but most of the google hits I came across were old (from 2010) or horribly complex (building &lt;code&gt;gdal&lt;/code&gt; and &lt;code&gt;proj4&lt;/code&gt; from source then building &lt;code&gt;rgdal&lt;/code&gt; itself).&lt;/p&gt;
+&lt;p&gt;First, this assumes you already have &lt;code&gt;homebrew&lt;/code&gt; installed &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. If not, see 
+&lt;a href=&#34;http://brew.sh/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://brew.sh/&lt;/a&gt; for the one-liner terminal install.&lt;/p&gt;
+&lt;p&gt;Next, install &lt;code&gt;gdal&lt;/code&gt;:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;brew install gdal
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Then open &lt;code&gt;RStudio&lt;/code&gt; (for some reason it didn&amp;rsquo;t work using R in the terminal&amp;hellip;) and install the package from source:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;install.packages(&amp;quot;rgdal&amp;quot;, type=&amp;quot;source&amp;quot;)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That&amp;rsquo;s it. Seriously easy.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Update: fixed typos in &lt;code&gt;brew&lt;/code&gt; commands&lt;/em&gt;&lt;/p&gt;
+&lt;section class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
+&lt;p&gt;If you use &lt;code&gt;macports&lt;/code&gt; the process is similarly simple. See 
+&lt;a href=&#34;http://www.janosgyerik.com/installing-rgdal-in-r-on-os-x-mavericks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Drosophila suzukii in a D. suzukii world: Humidity decreases density dependent competition</title>
+      <link>https://alexchubaty.com/talk/hodson2013/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/hodson2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Individual host selection decisions and population-level responses in a time- and energy-limited forager, Dendroctonus ponderosae Hopkins</title>
+      <link>https://alexchubaty.com/publication/chubaty2013th/</link>
+      <pubDate>Thu, 26 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/chubaty2013th/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the evolution of omnivory in a community context</title>
+      <link>https://alexchubaty.com/talk/chubaty2013/</link>
+      <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Essential software for biology grad students: Part III Writing Tools</title>
+      <link>https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</link>
+      <pubDate>Mon, 15 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools/</guid>
+      <description>&lt;p&gt;Whenever I used to sit down in front of the computer to write anything other than an email, I would immediately open Microsoft Word and start clacking away on the keyboard. When I switched operating systems (away from Windows) I began using Open Office Writer and even now I still use Libre Office Writer for some of my writing needs. Each of these word processors offer similar sets of tools and can effectively be used for a wide range of writing tasks, from letters to essays, yet I feel most people use Word not because it&amp;rsquo;s always the best tool for the job, but because it&amp;rsquo;s ubiquitous and familiar.&lt;/p&gt;
+&lt;p&gt;There are plenty of limitations to using Word (and Writer), especially when it comes to 1) complex formatting (especially working with equations), 2) sharing documents and collaborating with others, 3) version control, and 4) converting to different file types.&lt;/p&gt;
+&lt;p&gt;To overcome these limitations and to make writing easier, I want to share my favourite writing tools &amp;ndash; 
+&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Markdown&lt;/a&gt; and 
+&lt;a href=&#34;http://www.latex-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;LaTeX&lt;/a&gt;, which use plain-text file formats and can be easily converted to any other file type with 
+&lt;a href=&#34;http://johnmacfarlane.net/pandoc/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Pandoc&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The use of plain text format is important. 
+&lt;a href=&#34;https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync&#34;&gt;Version control software&lt;/a&gt; like 
+&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Git&lt;/a&gt; works perfectly with plain-text files, showing you which lines have changed between versions. However, this version differencing isn&amp;rsquo;t possible using &lt;em&gt;binary&lt;/em&gt; file formats like those used by Word (.doc and .docx). Additionally, you can open plain-text files on any computer without any special (proprietary!) software, so 10 years from now when you want to revisit an old document, you can do so without having to ensure you keep an old computer with old software around.&lt;/p&gt;
+&lt;h3 id=&#34;you-shouldnt-have-to-worry-about-formatting&#34;&gt;You shouldn&amp;rsquo;t have to worry about formatting&lt;/h3&gt;
+&lt;p&gt;Markdown and LaTeX files are markup languages, which means that the text in a document is annotated in a way that indicates the structure and formatting of the text, using tags. For example, bolded text in &lt;acronym title=&#34;HyperText Markup Language&#34;&gt;HTML&lt;/acronym&gt; (used for webpages) would be written like this: &lt;code&gt;&amp;lt;b&amp;gt;bold text here&amp;lt;/b&amp;gt;&lt;/code&gt;. Markdown makes this even simpler, so you spend less time formatting your document while writing, which means you can focus on actually writing rather than formatting.&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s fantastically easy to learn the markdown syntax and create documents with markdown:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;# Simple Headings
+
+## And Subheadings
+
+Here&#39;s some paragraph text with some words *emphasized* with italics.
+
+Others are **bolded** for emphasis.
+
+### Don&#39;t Forget Subsubheadings
+
+You can keep adding headings and subheadings by using more hashes!
+
+# What about lists?
+
+- lists are easy to make
+- just use 4 spaces for sub-points
+- numbered lists are also supported
+
+# Markdown is great for embedding code too
+
+You just put your code `inside the backticks` or use blocks of code.
+
+# Blockquotes are just as easy
+&amp;gt; Look at me go!
+
+Check out [Markdown basics](http://daringfireball.net/projects/markdown/basics)
+to learn more.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;The markdown text above produces this:&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexchubaty.com/uploads/2013/07/markdown.png&#34;&gt;&lt;img class=&#34;size-medium wp-image-229 aligncenter&#34; alt=&#34;markdown&#34; src=&#34;https://alexchubaty.com/uploads/2013/07/markdown-201x300.png&#34; width=&#34;201&#34; height=&#34;300&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;And it doesn&amp;rsquo;t stop there. Markdown also supports citations and references with bibtex, which means that you can easily write up that thesis chapter or manuscript, not worrying about the final format until you&amp;rsquo;re ready to convert your markdown file to whatever file format you require.&lt;/p&gt;
+&lt;h3 id=&#34;equations-and-more&#34;&gt;Equations and more!&lt;/h3&gt;
+&lt;p&gt;Markdown is incredibly easy to learn, and will cover most of your writing needs, but if you are (or will be) making heavy use of code, equations, and statistics, then you need to be using LaTeX. The syntax is more complex than Markdown, but it hands-down beats MS Word for formatting, equation typesetting, and portability between computers. I&amp;rsquo;ve done all my thesis stuff, including manuscripts, in LaTeX and output as PDF or converted to .doc format when needed.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexchubaty.com/uploads/2013/07/mpb-game-dpe.png&#34;&gt;&lt;img class=&#34;aligncenter  wp-image-232&#34; title=&#34;a LaTeX equation&#34; alt=&#34;a LaTeX equation&#34; src=&#34;https://alexchubaty.com/uploads/2013/07/mpb-game-dpe-1024x231.png&#34; width=&#34;625&#34; height=&#34;140&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;To make your introduction to LaTeX easier, I recommend starting out using an editor like 
+&lt;a href=&#34;http://www.xm1math.net/texmaker/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Texmaker&lt;/a&gt;, which is cross platform and come with a GUI to assist with inserting various document elements. If you will be using equations, you&amp;rsquo;ll want to make sure you use the &lt;code&gt;amsmath&lt;/code&gt; package. There are a lot of other great packages for latex which will help with everything from document formatting and layout, to citation formatting with bibtex, as well as 
+&lt;a href=&#34;http://texblog.org/2012/06/21/classic-coffee-stains-with-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;adding coffee stains to your pdf documents&lt;/a&gt;. I also recommend checking out the 
+&lt;a href=&#34;http://tex.stackexchange.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;TeX Stack Exchange&lt;/a&gt; site to get Q&amp;amp;A help with everything (La)TeX.&lt;/p&gt;
+&lt;p&gt;Going further and using R+LaTeX+Sweave and you&amp;rsquo;ve got yourself a full-on powerhouse of reproducible, portable document publishing. Also remember, .tex files are simply a type of text file, so they work with version control software like Git.&lt;/p&gt;
+&lt;h3 id=&#34;file-conversion-with-pandoc&#34;&gt;File conversion with Pandoc&lt;/h3&gt;
+&lt;p&gt;Lastly, I&amp;rsquo;ll quickly mention that the best way to take your Markdown and LaTeX documents and convert them to almost any type of document file including (e.g., .tex, .html, .pdf, .doc, .odt) is using Pandoc. It&amp;rsquo;s a simple command-line tool, and 
+&lt;a href=&#34;http://johnmacfarlane.net/pandoc/README.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;using it is incredibly straightforward&lt;/a&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;use-them-everyday&#34;&gt;Use them everyday&lt;/h3&gt;
+&lt;p&gt;Like any new software, there is a bit of a learning curve, so the best way to get used to it is simply to use it. Using markdown for everyday note taking or creating and maintaining your cv with markdown/LaTeX are great ways to gain familiarity with these tools. Start using them today. Start using them with your collaborators. You (and they) won&amp;rsquo;t be disappointed.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Essential software for biology grad students: Part II Backups and Version Control</title>
+      <link>https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</link>
+      <pubDate>Thu, 11 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync/</guid>
+      <description>&lt;h2 id=&#34;always-back-up-your-data&#34;&gt;Always. Back up. Your data.&lt;/h2&gt;
+&lt;p&gt;Simple, yet for various reasons many people simply don&amp;rsquo;t. Backing up data and documents is critical in the event of random computer (or, more likely, user) failure. &lt;em&gt;Losing your data sucks.&lt;/em&gt; I have seen too many frantic colleagues try to get at data on a failed hard drive: many had some (but not all) of their most important data backed up, but others were left with few options and resorted to spending hundreds of dollars on data recovery assistance.&lt;/p&gt;
+&lt;p&gt;Unfortunately, even when people do attempt to make (and regularly use) backups of their data, they either don&amp;rsquo;t backup everything or they backup so infrequently that they end up losing a day&amp;rsquo;s, or a week&amp;rsquo;s, or even a month&amp;rsquo;s worth of work. So in order for a backup regimen to actually protect your data, the key is to &lt;strong&gt;1) backup everything&lt;/strong&gt;, and &lt;strong&gt;2) back up often&lt;/strong&gt;. I&amp;rsquo;ll also add that you should &lt;strong&gt;3) keep a remote copy&lt;/strong&gt; in the event that something happens to your primary backup.&lt;/p&gt;
+&lt;p&gt;Ideally, a backup solution will deal with all three of these points, and I&amp;rsquo;ll discuss some options below.&lt;/p&gt;
+&lt;h3 id=&#34;external-hard-drives-or-usb-drives&#34;&gt;External hard drives or USB drives&lt;/h3&gt;
+&lt;p&gt;Hard drives are cheap, and the storage capacity of portable external hard drives is huge. You can buy a 2TB external drive for under $100. So, for relatively low cost, you can effectively back up all of your data (music and movies included) to and external hard drive and be done with it, right?&lt;/p&gt;
+&lt;p&gt;Not quite. The problem with using an external hard drive is that you need to remember to plug it in and backup your computer at least once a day in order to keep your backups current. Not only that, but you will also need to ensure you have a remote copy somewhere in case you lose or damage your external hard drive.&lt;/p&gt;
+&lt;h3 id=&#34;network-attached-storage&#34;&gt;Network Attached Storage&lt;/h3&gt;
+&lt;p&gt;I like NAS devices because, like external hard drive they aren&amp;rsquo;t too expensive, yet they overcome the limitation of having to remember to manually initiate backups. Basically, a NAS device plugs into your router and sits on the network, allowing you (or others on your network) to access the files stored. All you need to do is configure your computer&amp;rsquo;s operating system to backup to the NAS, and voila! If anything happens and you need to restore from backup you simply tell your computer to restore from the NAS.&lt;/p&gt;
+&lt;p&gt;The downside is that your backups will only run when you are connected to the network on which the NAS resides. So if you go away to a conference for a few days, or you have a super-productive day at school, you&amp;rsquo;d better make sure nothing happens to your data before you get home to backup the work! You&amp;rsquo;ll also need to keep a remote backup copy handy.&lt;/p&gt;
+&lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
+&lt;p&gt;One way of ensuring you have a remote copy of your work is to email it to yourself. This works fine once in a while, but if you were to email every file to yourself every time you made changes, you&amp;rsquo;d likely fill up your inbox or go crazy. Plus, something will probably slip through.&lt;/p&gt;
+&lt;h3 id=&#34;university-ftp-server&#34;&gt;University FTP Server&lt;/h3&gt;
+&lt;p&gt;I should probably mention that most Universities do provide online storage for their students - usually a couple gigabytes&amp;rsquo; worth - that is accessible over FTP or similar. It&amp;rsquo;s worth checking out, even if it doesn&amp;rsquo;t give you much storage space.&lt;/p&gt;
+&lt;h3 id=&#34;the-cloud&#34;&gt;The Cloud&lt;/h3&gt;
+&lt;p&gt;In the last several years there has been a huge increase not only in the number of online cloud storage providers but also a increase in the amount of free storage space they offer their users. These cloud storage providers offer a desktop client that runs on your computer and continuously monitors changes to files, which are then uploaded to the storage servers. Thus you can hit all three &amp;ldquo;must haves&amp;rdquo; with these services: your files all get backed up, in real time, and you maintain remote copies of your data.&lt;/p&gt;
+&lt;p&gt;I personally use &lt;a href=&#34;http://www.dropbox.com&#34;&gt;Dropbox&lt;/a&gt;, but other options include &lt;a href=&#34;https://one.ubuntu.com/&#34;&gt;UbuntuOne&lt;/a&gt;, &lt;a href=&#34;https://spideroak.com/&#34;&gt;SpiderOak&lt;/a&gt;, and others. These services give you several GB worth of online storage and allow you to keep your files synchronized across multiple computers, and can also be accessed via web interface. These cloud storage providers give you more space with a paid account, but with Dropbox at least, I get additional space for signing up with an educational email address and for every referral I make (the referee also gets bonus space). Space hasn&amp;rsquo;t been an issue for me.&lt;/p&gt;
+&lt;p&gt;The other awesome feature of Dropbox is that it provides &lt;em&gt;version control.&lt;/em&gt; Using the web interface, you can view previous versions of your files, and also roll back changes to restore previous versions or undelete things from your Dropbox. It also provides good collaboration options, allowing you to create shared folders for group projects.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;One warning:&lt;/strong&gt; BC Privacy Legislation prohibits storing personal information on non-Canadian servers. This means that, for example as a TA or instructor, you can&amp;rsquo;t store student grades etc. using cloud storage, because the servers are located in the USA.&lt;/p&gt;
+&lt;h3 id=&#34;summary&#34;&gt;Summary&lt;/h3&gt;
+&lt;p&gt;Overall, the easiest way to have automated backups is to use a cloud storage provider like Dropbox. Although the free plans have limited storage space, the limits are easily increased. Besides, you can&amp;rsquo;t beat &amp;ldquo;no fuss&amp;rdquo; when it comes to backing up your work! However, in practice I do use some combinations of the other backup methods, depending on the type of data and how much there is to move between computers.&lt;/p&gt;
+&lt;h2 id=&#34;version-control&#34;&gt;Version Control&lt;/h2&gt;
+&lt;p&gt;As mentioned above, some cloud storage/backup providers offer version control, which allows you to view and revert changes made to your files. Dropbox certainly does a good job at this, and the undelete feature has saved me on several occasions. However, the main drawback of Dropbox&amp;rsquo;s version control is that it operates on a &lt;em&gt;per file&lt;/em&gt; basis.&lt;/p&gt;
+&lt;p&gt;Often when writing papers (or code), I trash or substantially rewrite something, only later to realize that what I overwrote wasn&amp;rsquo;t that bad. Hitting ctrl-z will undo the changes, but it also means it will undo any progress you&amp;rsquo;ve made. Restoring previous version of your document using Dropbox will get you an old copy, but you still have to hunt around to find exactly which version you want to restore. And what if you actually want to incorporate changes from multiple restored files?&lt;/p&gt;
+&lt;p&gt;This is where &amp;ldquo;real&amp;rdquo; version control software (VCS) comes in handy. Now, I&amp;rsquo;m new to the VCS game, having only started using &lt;a href=&#34;https://github.com/&#34;&gt;Git&lt;/a&gt; this year, but already I can see its power and potential. If you&amp;rsquo;re working with text files - be it a paper written in Markdown (maybe LaTeX), or chunks of code - you will want to use Git.&lt;/p&gt;
+&lt;p&gt;This post has run rather long, so I won&amp;rsquo;t be providing a &amp;ldquo;how to&amp;rdquo;, but 
+&lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GitHub&lt;/a&gt; provides great help getting started. You don&amp;rsquo;t &lt;em&gt;need&lt;/em&gt; to use GitHub at all to use Git - you can keep everything local (in a Dropbox folder!) and still have access to all of your project files. Try it. Use it.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Essential software for biology grad students: Part I Overview</title>
+      <link>https://alexchubaty.com/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</link>
+      <pubDate>Wed, 10 Jul 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2013-07-10-essential-software-for-biology-grad-students-part-i-overview/</guid>
+      <description>&lt;p&gt;When I started grad school, I had no idea at the time just how much I&amp;rsquo;d learn doing a PhD. I&amp;rsquo;m not just talking about the &amp;ldquo;big picture&amp;rdquo; stuff: how to do research, design and conduct experiments, analyze data, and synthesize information. I mean all of the day-to-day skills associated with academic writing, data entry, and organization.&lt;/p&gt;
+&lt;p&gt;Over the next few weeks, I&amp;rsquo;ll explain a bit about the workflows I use and the various pieces of software that make my life quite a bit easier. After numerous discussions with colleagues over the years, providing various software and workflow recommendations to others, and attending (and running) various software workshops, it turns out I have a lot of suggestions for fellow biology grad students.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;ll try to keep my recommendations general, because I think they are applicable not just to grad students in biology, but are also likely of interest to undergrads (even post-grads) in the sciences and perhaps elsewhere. I won&amp;rsquo;t put together detailed &lt;em&gt;How-To&lt;/em&gt;&amp;rsquo;s, and I won&amp;rsquo;t be able to cover everything, but here&amp;rsquo;s an overview of what to expect:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://alexchubaty.com/post/2013-07-11-essential-software-for-biology-grad-students-part-ii-backups-and-sync&#34;&gt;Part II&lt;/a&gt; will cover some essential computing basics: automated backups, using online (cloud) storage, and version control;&lt;/li&gt;
+&lt;li&gt;
+&lt;a href=&#34;https://alexchubaty.com/post/2013-07-15-essential-software-for-biology-grad-students-part-iii-writing-tools&#34;&gt;Part III&lt;/a&gt; will deal with different writing tools including Microsoft Word, Libre Office Writer, Markdown, Pandoc, and LaTeX;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Part IV&lt;/strong&gt; will discuss reference management and citation software options;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Part V&lt;/strong&gt; will touch on using databases instead of spreadsheets;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Part VI&lt;/strong&gt; will delve into statistics software and the majestic use of R for stats, graphics, and (if I have time) get into using Sweave with R and LaTeX;&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Part VII&lt;/strong&gt; will go into a little bit about programming and shell scripting;&lt;/li&gt;
+&lt;li&gt;and finally, &lt;strong&gt;Part VIII&lt;/strong&gt; will wrap things all up.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;So stay tuned! I&amp;rsquo;m still fleshing out my ideas on some of these topics, so as we go along I look forward to comments and suggestions.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>more on journal abbreviations in Mendeley</title>
+      <link>https://alexchubaty.com/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/</guid>
+      <description>&lt;p&gt;Wow, my 
+&lt;a href=&#34;https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names&#34;&gt;other&lt;/a&gt; 
+&lt;a href=&#34;https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated&#34;&gt;posts&lt;/a&gt; on the topic are getting a lot of hits!&lt;/p&gt;
+&lt;p&gt;Some exciting info for anyone still struggling with getting abbreviated journal names working with Mendeley: 
+&lt;a href=&#34;http://feedback.mendeley.com/forums/4941-general/suggestions/83173-journal-abbreviations?tracking_code=36d3a06b5cba533f95b15ede1b570435&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this feature is coming soon&lt;/a&gt;!&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;This is currently on our roadmap for Mendeley Desktop 1.10. Expected release date is the start of August.&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;From the mockups and descriptions the good folks at Mendeley have provided it looks like they&amp;rsquo;re doing a great job of addressing this shortcoming of their current product.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Enhancing Students&#39; Understanding of Biological Concepts by Engaging Them in Research</title>
+      <link>https://alexchubaty.com/talk/mladenovic2013/</link>
+      <pubDate>Wed, 15 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mladenovic2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the evolution of omnivory in a community context</title>
+      <link>https://alexchubaty.com/talk/chubaty2013a/</link>
+      <pubDate>Sun, 12 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2013a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>website updates</title>
+      <link>https://alexchubaty.com/post/2013-04-26-website-updates/</link>
+      <pubDate>Fri, 26 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2013-04-26-website-updates/</guid>
+      <description>&lt;p&gt;I just transferred my hosting away from GoDaddy (good riddance!) and am now self-hosting this site on a 
+&lt;a href=&#34;http://www.raspberrypi.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There may be some DNS and 404 hiccups for the next 48 hours or so while all the new settings &amp;ldquo;take&amp;rdquo;. Please update your bookmarks accordingly, and thank you for you patience.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Evolution of omnivory in a community context</title>
+      <link>https://alexchubaty.com/talk/chubaty2013b/</link>
+      <pubDate>Thu, 11 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2013b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To tree or not to tree: energy and time limited habitat settlement decisions in bark beetles</title>
+      <link>https://alexchubaty.com/talk/chubaty2012/</link>
+      <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2012/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Can selfish genes help prevent pest outbreaks?</title>
+      <link>https://alexchubaty.com/talk/chubaty2012a/</link>
+      <pubDate>Fri, 06 Jul 2012 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2012a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating colony and breeding population size for nocturnal burrow-nesting seabirds</title>
+      <link>https://alexchubaty.com/publication/major2012me/</link>
+      <pubDate>Mon, 21 May 2012 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/major2012me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>enabling Libre/OpenOffice plugin for Mendeley 1.5</title>
+      <link>https://alexchubaty.com/post/2012-04-13-enabling-libreopenoffice-plugin-for-mendeley-1-5/</link>
+      <pubDate>Fri, 13 Apr 2012 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2012-04-13-enabling-libreopenoffice-plugin-for-mendeley-1-5/</guid>
+      <description>&lt;p&gt;I upgraded to using 
+&lt;a href=&#34;http://mendeley.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mendeley&lt;/a&gt; v 1.5 (because previous versions don&amp;rsquo;t work on Ubuntu 12.04 Precise) and I had problems installing the OpenOffice plugin. Normally this is easy: in Mendeley you select the &lt;em&gt;Tools&lt;/em&gt; menu and go to &lt;em&gt;Install OpenOffice Plugin&lt;/em&gt;. However, for whatever reason the software can&amp;rsquo;t find the plugin, and I get this error:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;Mendeley couldn&#39;t locate unopkg in the default location.
+It should be in the &#39;program&#39; subdirectory of the path where
+OpenOffice is installed. Please press OK to locate it.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Fortunately, it was easy to find and install. I clicked &lt;em&gt;OK&lt;/em&gt; and closed the file browser window that popped up. Then I opened a nautilus window (file browser), clicked the search button, selected my filesystem&amp;rsquo;s root partiton (see image below) and searched for &lt;code&gt;.oxt&lt;/code&gt;, which is the file extension used for OpenOffice and LibreOffice plugins. My search returned the pulgin for version 1.5 (plus some older versions I had previously installed).&lt;/p&gt;
+&lt;p&gt;After right-clicking the plugin file and selecting &lt;em&gt;Open with LibreOffice&lt;/em&gt; started the install, which I confirmed and voila!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>list of abbreviated journal names</title>
+      <link>https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names/</link>
+      <pubDate>Tue, 28 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names/</guid>
+      <description>&lt;p&gt;As a followup to my 
+&lt;a href=&#34;https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated&#34;&gt;previous post&lt;/a&gt;, I wrote a script to generate the master list of journal names and their abbreviations from Web of Science.&lt;/p&gt;
+&lt;p&gt;The script is designed to be used in conjunction with the 
+&lt;a href=&#34;https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated&#34;&gt;previous one&lt;/a&gt;, and is also written in perl (which I&amp;rsquo;m still learning) and can be downloaded 
+&lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/getJlist.txt&#34;&gt;here&lt;/a&gt; or viewed 
+&lt;a href=&#34;http://pastebin.com/6tr7hec4&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. Improvements and suggestions welcome.&lt;/p&gt;
+&lt;p&gt;At the bottom of the script is a list of my custom journal names and abbreviations. Feel free to adjust the script to suit your needs.&lt;/p&gt;
+&lt;p&gt;To run the script:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;save it to the &lt;em&gt;jabbrev&lt;/em&gt; directory;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;open a terminal and type:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd path/to/jabbrev
+mv getJlist.txt getJlist.pl
+chmod a+x getJlist.pl
+./getJlist.pl
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;The script replaces the &lt;code&gt;masterlist.txt&lt;/code&gt; file with one containing the recently downloaded list of journals. Alternatively, just 
+&lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/masterlist.txt&#34;&gt;download the masterlist.txt file directly&lt;/a&gt;. Because this master list is pretty big (~3.7 MB), you&amp;rsquo;ll want to extract only those journals that are in your Mendeley database. To do this,  run &lt;code&gt;script.pl&lt;/code&gt; (
+&lt;a href=&#34;https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated&#34;&gt;see previous post&lt;/a&gt;).&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Abbreviated Journal Names in Mendeley [updated]</title>
+      <link>https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/</link>
+      <pubDate>Thu, 09 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2012-02-09-abbreviated-journal-names-in-mendeley-updated/</guid>
+      <description>&lt;p&gt;&lt;em&gt;UPDATE: I just posted 
+&lt;a href=&#34;https://alexchubaty.com/post/2013-06-20-more-on-journal-abbreviations-in-mendeley/&#34;&gt;an update&lt;/a&gt;. This feature is coming soon to Mendeley!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Several journals require abbreviated journal names, but as of yet Mendeley doesn&amp;rsquo;t make this possible. Or so I thought. After coming across 
+&lt;a href=&#34;http://simply-p450s.blogspot.com/2012/01/journal-abbreviations-in-mendeley.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this blog post&lt;/a&gt; I decided to try to get this functionality working on my computers.&lt;/p&gt;
+&lt;p&gt;To summarize, you can get Mendeley to read in a list of abbreviated journal names by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;creating a folder inside the Mendeley data  directory called &amp;lsquo;&lt;em&gt;journalAbbreviations&lt;/em&gt;&#39;;&lt;/li&gt;
+&lt;li&gt;placing a formatted text file named &amp;lsquo;&lt;em&gt;default.txt&lt;/em&gt;&amp;rsquo; inside this directory. Each line of this text file needs to contain the full name of the journal, a tab character, and the abbreviated journal name.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&amp;ldquo;Easy&amp;rdquo;, I thought. All I needed was to find a list of full journal names and their abbreviations for my field and make sure it was formatted correctly. Turns out the few lists I did find were incomplete: they didn&amp;rsquo;t have all the journals I cite. I don&amp;rsquo;t want to have to maintain a text file by hand, so I looked to a more &amp;ldquo;automated&amp;rdquo; approach, outlined below.&lt;/p&gt;
+&lt;p&gt;I use both BibTeX and Mendeley for my references, and have setup Mendeley to automagically update and maintain my bibliography (&lt;em&gt;.bib&lt;/em&gt;) files. This is key to obtaining a list of the journals I use - I extracted this info from the &lt;em&gt;.bib&lt;/em&gt; files and compared this list of journals against the master list to get the abbreviations.&lt;/p&gt;
+&lt;p&gt;First, &lt;del&gt;I obtained (by hand, sadly) a list of all the ISI journals indexed by Web of Science from 
+&lt;a href=&#34;http://images.webofknowledge.com/WOK46/help/WOS/A_abrvjt.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this site&lt;/a&gt; I copy/pasted all the journals into a text file named &amp;lsquo;&lt;em&gt;masterlist.txt&lt;/em&gt;&amp;rsquo;.&lt;/del&gt; I wrote a script to generate a master list of all journal names and their abbreviations from Web of Science (
+&lt;a href=&#34;https://alexchubaty.com/post/2012-02-28-list-of-abbreviated-journal-names&#34;&gt;see this post&lt;/a&gt;). This file is pretty big, and not very helpful at that point. I don&amp;rsquo;t need ALL of those journals, only the journals I cite from my Mendeley library.&lt;/p&gt;
+&lt;p&gt;The Perl script I wrote (with Charlie and Filipe) does all of this and saves the list of journals used directly into the Mendeley data folder.&lt;/p&gt;
+&lt;p&gt;To get this working yourself, follow the steps below:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;NOTE:&lt;/strong&gt; This was written for and tested on a machine running Ubuntu 11.10 64-bit with a default Mendeley installation (also tested and run on Ubuntu 12.04 and 12.10). IT WON&amp;rsquo;T WORK ON WINDOWS OR A MAC WITHOUT SOME CHANGES TO THE PERL SCRIPT because the Mendeley directories are in different places on different operating systems. There may be some funny perl-related issues going between OSes too that I&amp;rsquo;m not aware of.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Download and save 
+&lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/jabbrev.zip&#34;&gt;jabbrev.zip&lt;/a&gt; and unzip the directory &amp;lsquo;&lt;em&gt;jabbrev&lt;/em&gt;&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;open a terminal (and keep it open) and type:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;cd path/to/jabbrev
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In Mendeley go to &amp;lsquo;&lt;em&gt;Tools&lt;/em&gt;&amp;rsquo; &amp;ndash;&amp;gt; &amp;lsquo;&lt;em&gt;Options&lt;/em&gt;&amp;rsquo; and select the &amp;lsquo;&lt;em&gt;BibTeX&lt;/em&gt;&amp;rsquo; tab.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Check the box &amp;lsquo;Enable BibTeX syncing&amp;rsquo; and select either:
+&amp;lsquo;&lt;em&gt;Create one BibTeX file for my whole library&lt;/em&gt;&amp;rsquo; or &amp;lsquo;&lt;em&gt;Create one BibTeX file per collection&lt;/em&gt;&amp;rsquo;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Set the path to where these BibTeX files will be saved (e.g., &lt;code&gt;~/Documents/Mendeley/bibliographies&lt;/code&gt;).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click &amp;lsquo;&lt;em&gt;Apply&lt;/em&gt;&amp;rsquo; and &amp;lsquo;&lt;em&gt;OK&lt;/em&gt;&amp;rsquo;, wait for Mendeley to generate the files, then exit Mendeley.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;In a nautilus window, go to the bibliographies directory you just set up (e.g., &lt;code&gt;~/Documents/Mendeley/bibliographies&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Switch back to your open terminal window and allow the script to be executed by typing:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;chmod a+x script.pl
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;The script accepts a filepath for each of the masterlist and multiple bibtex files. Execute the script by typing:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;./script.pl /path/to/masterlist.txt /path/to/bibfile1.bib [/path/to/bibfile2.bib ...]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Sit back and wait (it may take a while to run, especially with a large library!).&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Open Mendeley back up, go to &amp;lsquo;&lt;em&gt;View&lt;/em&gt;&amp;rsquo; &amp;ndash;&amp;gt; &amp;lsquo;&lt;em&gt;Citation Style&lt;/em&gt;&amp;rsquo; &amp;ndash;&amp;gt; &amp;lsquo;&lt;em&gt;More Styles&amp;hellip;&lt;/em&gt;&amp;rsquo; and select a citation format that uses abbreviated journal names (e.g., Vancouver). You should now be able to generate bibliographies in Word and Open(Libre)Office documents with abbrev j names!*&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*note that the abbreviated names do NOT have periods.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;EDIT:&lt;/strong&gt; view the perl script at 
+&lt;a href=&#34;http://pastebin.com/2C7X8aGZ&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://pastebin.com/2C7X8aGZ&lt;/a&gt; [updated 2013-02-27]. It&amp;rsquo;s not perfect (yet) but it&amp;rsquo;s mostly there. Suggestions welcome, especially how to deal with some of the funny cases.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Easily make custom Mendeley citation styles</title>
+      <link>https://alexchubaty.com/post/2012-02-01-easily-make-custom-mendeley-citation-styles/</link>
+      <pubDate>Wed, 01 Feb 2012 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2012-02-01-easily-make-custom-mendeley-citation-styles/</guid>
+      <description>&lt;p&gt;I came across this incredibly useful site today:&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://csleditor.quist.de/csleditor/show/1/example-citation-style&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://csleditor.quist.de/csleditor/show/1/example-citation-style&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;No longer need to manually edit custom citation style (CSL) files for Mendeley (and Zotero) within a text file!!!&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Finding Symbol Commands for LaTeX</title>
+      <link>https://alexchubaty.com/post/2012-01-28-finding-symbol-commands-for-latex/</link>
+      <pubDate>Sat, 28 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2012-01-28-finding-symbol-commands-for-latex/</guid>
+      <description>&lt;p&gt;Ever been writing a document in [latex]\LaTeX[/latex] and had to look up the code for a particular symbol? Google usually directs me to the 
+&lt;a href=&#34;http://www.ctan.org/tex-archive/info/symbols/comprehensive/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Comprehesive LaTeX Symbol List&lt;/a&gt; but scrolling through and finding the symbol I&amp;rsquo;m looking for is time consuming. However, today I came across this site (
+&lt;a href=&#34;http://detexify.kirelabs.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Detexify&lt;/a&gt;) which lets you draw the symbol you are looking for and it tries to match it, providing symbol suggestions and letting you know the [latex]\LaTeX[/latex] code and the package to use!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;http://detexify.kirelabs.org/&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-162&#34; alt=&#34;detexify&#34; src=&#34;https://alexchubaty.com/uploads/2012/01/detexify-300x236.png&#34; width=&#34;300&#34; height=&#34;236&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Constructing Pedigrees in R</title>
+      <link>https://alexchubaty.com/post/2011-11-14-constructing-pedigrees-in-r/</link>
+      <pubDate>Mon, 14 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2011-11-14-constructing-pedigrees-in-r/</guid>
+      <description>&lt;p&gt;I was looking for a good way to draw pedigrees using software, without having to fuss drawing them &amp;ldquo;by hand&amp;rdquo; using a drawing program. Lo and behold, I came across a few different packages in R that allow me to do just that!&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/pedigree.png&#34;&gt;&lt;img class=&#34;alignnone size-medium wp-image-60&#34; alt=&#34;pedigree&#34; src=&#34;https://alexchubaty.com/uploads/2013/04/pedigree-300x200.png&#34; width=&#34;300&#34; height=&#34;200&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Using the &lt;code&gt;kinship2&lt;/code&gt; package, I was quickly able to produce a nice pedigree for a family with two genetic conditions: factor VIII deficiency (haemophilia) and myotonic dystrophy. Factor VIII deficiency is a classic example of a sex-linked recessive trait, and myotonic dystrophy follows autosomal dominant inheritance. In this pedigree, I show the status of affected and unaffected indiviudals (not carriers), using the following bits of code in R.&lt;/p&gt;
+&lt;p&gt;First, let&amp;rsquo;s install (if needed) and load the &lt;code&gt;kinship2&lt;/code&gt; package:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;if (!require(kinship2)) {install.packages(&amp;quot;kinship2&amp;quot;); library(kinship2)}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we need to code several variables which will correspond to all of the individuals in the pedigree. First, we need individual ID numbers:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;ids &amp;lt;- 1:49
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Second, we need to identify the father and mother of each individual using the individual ID numbers above:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;dad &amp;lt;- c(41,41,41,NA,NA,41,43,43,4,6,6,NA,9,9,9,NA,11,11,NA,15,
+		 15,19,45,45,45,45,45,45,45,47,NA,29,29,29,29,NA,31,31,31,36,
+		 NA,NA,NA,NA,NA,NA,NA,NA,37)
+mom &amp;lt;- c(42,42,42,NA,NA,42,44,44,5,7,7,NA,10,10,10,NA,12,12,NA,16,
+		 16,18,46,46,46,46,46,46,46,48,NA,30,30,30,30,NA,32,32,32,35,
+		 NA,NA,NA,NA,NA,NA,NA,NA,13)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Now we code the sex and status (0=alive, 1=dead) of each individual:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;sexes &amp;lt;- c(1,1,1,1,2,1,2,2,1,2,1,2,2,1,1,2,1,2,1,1,1,1,2,2,2,1,1,1,1,
+		   2,1,2,1,1,2,1,1,1,2,2,1,2,1,2,1,2,1,2,3)
+dead &amp;lt;- c(0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,
+		  0,0,0,0,0,0,0,0,0,0,1,1,1,1,1,1,1,1,0)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Here is where we code the affected status of each individual (0=unaffected, 1=affected, NA=unknown). We need to bind these columns together in a matrix (you can have up to 4 traits; one per column):&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;F8 &amp;lt;- c(0,0,0,0,0,0,0,0,0,0,1,0,0,0,1,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,
+		0,0,0,0,0,0,0,1,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA)
+MD &amp;lt;- c(0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,1,
+		0,0,0,1,1,0,0,0,0,0,NA,NA,NA,NA,NA,NA,NA,NA,NA)
+affect &amp;lt;- as.matrix(cbind(F8, MD))
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;And now we create the pedigree object and plot it:&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{r}&#34;&gt;family &amp;lt;- pedigree(id=ids, dadid=dad, momid=mom,
+				   affected=affect, sex=sexes, status=dead)
+
+plot.pedigree(family)
+
+pedigree.legend(family, location=&amp;quot;bottomright&amp;quot;,
+				labels=list(&amp;quot;Factor VIII\nDeficiency&amp;quot;, &amp;quot;Myotonic\nDystrophy&amp;quot;),
+				cex=0.8, radius=0.3)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That&amp;rsquo;s the basics! Of course, with a large pedigree I expect this becomes a bit unruly, but for smaller examples like this one it&amp;rsquo;s relatively easy to put together.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Custom Citation Styles in Mendeley</title>
+      <link>https://alexchubaty.com/post/2011-11-07-custom-citation-styles-in-mendeley/</link>
+      <pubDate>Mon, 07 Nov 2011 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2011-11-07-custom-citation-styles-in-mendeley/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m an avid user of 
+&lt;a href=&#34;http://www.mendeley.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Mendeley&lt;/a&gt; citation management software (CMS), and am pleased with the capabilities of this cross-platform, open-source, and &lt;em&gt;free&lt;/em&gt; referencing tool. However, one limitation I&amp;rsquo;ve encountered is that it does not have very many citiation styles preinstalled, and although many additional formats are available to download through the Mendeley interface, it does not (yet) provide a built-in style editor to customize citiation styles.&lt;/p&gt;
+&lt;p&gt;Fortunately, Mendeley uses 
+&lt;a href=&#34;http://citationstyles.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Citation Style Language v1.0&lt;/a&gt; (CSL) which is also used by 
+&lt;a href=&#34;http://www.zotero.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zotero&lt;/a&gt; and other CMSs, so not only is it possible to find thousands more citiation styles (e.g., using the 
+&lt;a href=&#34;http://www.zotero.org/styles&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Zotero Style Repository&lt;/a&gt;), but it&amp;rsquo;s also easy to create custom CSL files!&lt;/p&gt;
+&lt;p&gt;
+&lt;a href=&#34;http://www.mendeley.com/blog/research-tutorials/howto-edit-citation-styles-for-use-in-mendeley/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;This tutorial on the Mendeley blog&lt;/a&gt; shows you the basics, although note that for Windows 7, the custom style directory is actually located at&lt;/p&gt;
+&lt;pre&gt;&lt;code class=&#34;language-{bash}&#34;&gt;C:\Users\&amp;lt;USERNAME&amp;gt;\AppData\Local\Mendeley Ltd\Mendeley Desktop\citationStyles-1.0
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Using the Vancouver style as a template, I easily created a custom citation style for the Open Forest Science Journal, which required modifying a copy of the &lt;em&gt;vancouver.csl&lt;/em&gt; file:&lt;/p&gt;
+&lt;p&gt;To get the numbered citations in text to be displayed using square brackets &amp;ldquo;[]&amp;rdquo; rather than round brackets &amp;ldquo;()&amp;rdquo;, I changed line 120 from:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;layout prefix=&amp;quot;(&amp;quot; suffix=&amp;quot;)&amp;quot; delimiter=&amp;quot;,&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;to&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;layout prefix=&amp;quot;[&amp;quot; suffix=&amp;quot;]&amp;quot; delimiter=&amp;quot;,&amp;quot;&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Also, to get the square brackets to show up around the numbers in the bibliography I changed line 126 from:&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;text variable=&amp;quot;citation-number&amp;quot; suffix=&amp;quot;. &amp;quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;to&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;text variable=&amp;quot;citation-number&amp;quot; prefix=&amp;quot;[&amp;quot; suffix=&amp;quot;] &amp;quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;That&amp;rsquo;s it! Pretty simple stuff. You can download the modified file here: 
+&lt;a href=&#34;https://alexchubaty.com/uploads/2011/11/open-forest-science-journal.csl&#34;&gt;open-forest-science-journal&lt;/a&gt;.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Exploring Population Dynamics Models using a GUI for R</title>
+      <link>https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</link>
+      <pubDate>Sun, 07 Aug 2011 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/</guid>
+      <description>&lt;h3 id=&#34;backstory&#34;&gt;Backstory&lt;/h3&gt;
+&lt;p&gt;I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using &lt;a href=&#34;http://www.wolfram.com/mathematica/&#34;&gt;Mathematica&lt;/a&gt; because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies. Being an avid &lt;a href=&#34;http://www.r-project.org&#34;&gt;R&lt;/a&gt; user, I had also thought about using R for the course but was concerned about the learning curve associated with it. I didn&amp;rsquo;t want students getting hung up on coding syntax, but rather, have an opportunity to explore different model parameterizations graphically.&lt;/p&gt;
+&lt;p&gt;Just before the course started, someone showed me the &lt;a href=&#34;http://cran.r-project.org/web/packages/PBSmodelling/index.html&#34;&gt;PBSmodelling package&lt;/a&gt; and I knew this could be the way to go. PBSmodelling makes it easy to construct a graphical user interface (GUI) for any function in R, in order to create a much more user-friendly interface with which to interact with computer models.&lt;/p&gt;
+&lt;p&gt;I took it upon myself to learn the basics of the PBSmodelling package, and I was able to create a fairly slick GUI to run a variety of population dynamics models in R and produce various types of plots in the process.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;https://alexchubaty.com/uploads/2013/04/screenshot.png&#34;&gt;&lt;img alt=&#34;screenshot of R gui&#34; src=&#34;https://alexchubaty.com/uploads/2013/04/screenshot-300x217.png&#34; width=&#34;300&#34; height=&#34;217&#34; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;h3 id=&#34;disclaimer&#34;&gt;Disclaimer&lt;/h3&gt;
+&lt;p&gt;This is still a work in progress, and I expect there to be minor bugs (mostly aesthetic I hope!), but I think I&amp;rsquo;m off to great start.&lt;/p&gt;
+&lt;h3 id=&#34;requirements&#34;&gt;Requirements&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;Operating Systems:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Windows: XP, Vista, 7&lt;/li&gt;
+&lt;li&gt;Mac OSX*: 10.5, 10.6&lt;/li&gt;
+&lt;li&gt;Linux**: Ubuntu 10.04, 10.10, 11.04&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;R must be installed&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;see 
+&lt;a href=&#34;http://cran.r-project.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cran.r-project.org/&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;the following packages are also required: &lt;code&gt;PBSmodelling&lt;/code&gt;, &lt;code&gt;deSolve&lt;/code&gt;, &lt;code&gt;scatterplot3d&lt;/code&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;*OSX doesn&amp;rsquo;t come with X11 and tcltk installed by default:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;install X11 (&lt;a href=&#34;http://support.apple.com/kb/DL641&#34;&gt;&lt;a href=&#34;http://support.apple.com/kb/DL641&#34;&gt;http://support.apple.com/kb/DL641&lt;/a&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;install the update (&lt;a href=&#34;http://support.apple.com/kb/DL304&#34;&gt;&lt;a href=&#34;http://support.apple.com/kb/DL304&#34;&gt;http://support.apple.com/kb/DL304&lt;/a&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;restart your computer&lt;/li&gt;
+&lt;li&gt;install tcltk for R (
+&lt;a href=&#34;http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;open R and select package installer from the menu&lt;/li&gt;
+&lt;li&gt;in the R package installer window, search &amp;ldquo;tcltk&amp;rdquo;&lt;/li&gt;
+&lt;li&gt;this returns two results: &lt;code&gt;tcktl2&lt;/code&gt; and &lt;code&gt;gWidgetstcltk&lt;/code&gt;&lt;/li&gt;
+&lt;li&gt;select both and be sure to check the &amp;ldquo;install dependencies&amp;rdquo; box.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;** Ubuntu users may need to install tcl/tk:&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;sudo apt-get install tcl tk&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;download my 
+&lt;a href=&#34;https://alexchubaty.com/uploads/2011/08/models_GUI_2011-08-07.zip&#34;&gt;population dynamics modelling gui code&lt;/a&gt;, and unzip the contents&lt;/li&gt;
+&lt;li&gt;open R from the models_GUI directory&lt;/li&gt;
+&lt;li&gt;load the default workspace (&lt;code&gt;models_GUI/.Rdata&lt;/code&gt;)&lt;/li&gt;
+&lt;li&gt;press the up arrow key to recall previous commands saved in the workspace:&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;a. &lt;code&gt;source(&amp;quot;407.SSG.models.R&amp;quot;)&lt;/code&gt; loads the single species growth models interface&lt;/p&gt;
+&lt;p&gt;b. &lt;code&gt;source(&amp;quot;407.MSG.models.R&amp;quot;)&lt;/code&gt; loads the multi-species growth models interface&lt;/p&gt;
+&lt;p&gt;c. &lt;code&gt;source(&amp;quot;407.disease.models.R&amp;quot;)&lt;/code&gt; loads the disease (SIR) models interface&lt;/p&gt;
+&lt;p&gt;d. &lt;code&gt;source(&amp;quot;407.num.approx.R&amp;quot;)&lt;/code&gt; loads the numerical approximation interface&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;use the tabs along the top of each interface to select model type&lt;/li&gt;
+&lt;li&gt;to view equations used, press &amp;lsquo;Show Equation&amp;rsquo; button&lt;/li&gt;
+&lt;li&gt;parameter values can be changed by editing the fields&lt;/li&gt;
+&lt;li&gt;solve the model using current parameter values by pressing &amp;lsquo;Solve&amp;rsquo;&lt;/li&gt;
+&lt;li&gt;after solving, plot the model results by pressing &amp;lsquo;Plot&amp;rsquo; (note you can plot to a PDF device by checking the box &amp;lsquo;plot to pdf&amp;rsquo;)&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;download&#34;&gt;Download&lt;/h3&gt;
+&lt;p&gt;Link: 
+&lt;a href=&#34;https://alexchubaty.com/uploads/2011/08/models_GUI_2011-08-07.zip&#34;&gt;models_GUI_2011-08-07&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A Theoretical Approach to Study the Evolution of Aggregation Behavior by Larval Codling Moth, Cydia pomonella (Lepidoptera: Tortricidae)</title>
+      <link>https://alexchubaty.com/publication/jumean2011ji/</link>
+      <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/jumean2011ji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State dependent problems for arthropods</title>
+      <link>https://alexchubaty.com/talk/roitberg2010b/</link>
+      <pubDate>Fri, 19 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/roitberg2010b/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Energy reserves modulate host acceptance decisions in mountain pine beetles</title>
+      <link>https://alexchubaty.com/talk/chubaty2010/</link>
+      <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2010/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mountain pine beetle condition and timing of emergence: who emerges when</title>
+      <link>https://alexchubaty.com/talk/alexmchubaty2009/</link>
+      <pubDate>Fri, 02 Oct 2009 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/alexmchubaty2009/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A dynamic host selection model for mountain pine beetle, Dendroctonus ponderosae Hopkins</title>
+      <link>https://alexchubaty.com/publication/chubaty2009em/</link>
+      <pubDate>Fri, 01 May 2009 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/chubaty2009em/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Mountain pine beetle condition and timing of emergence: who emerges when</title>
+      <link>https://alexchubaty.com/talk/chubaty2008/</link>
+      <pubDate>Sun, 11 May 2008 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2008/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An individual model of host selection for mountain pine beetle</title>
+      <link>https://alexchubaty.com/talk/alexmchubaty2007/</link>
+      <pubDate>Thu, 17 May 2007 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/alexmchubaty2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>&#39;I&#39;ll have the steak special, with a side salad&#39;: exploring the evolution of omnivory</title>
+      <link>https://alexchubaty.com/talk/chubaty2007/</link>
+      <pubDate>Thu, 15 Mar 2007 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beetles pine for lodgepole homes: mountain pine beetle&#39;s search for a host</title>
+      <link>https://alexchubaty.com/talk/chubaty2006/</link>
+      <pubDate>Fri, 13 Oct 2006 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2006/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using game theory to evaluate host acceptance decisions in mountain pine beetle</title>
+      <link>https://alexchubaty.com/talk/chubaty2006a/</link>
+      <pubDate>Sat, 04 Mar 2006 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2006a/</guid>
       <description></description>
     </item>
     

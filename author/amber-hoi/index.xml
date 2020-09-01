@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Amber Hoi | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/author/amber-hoi/</link>
+      <atom:link href="https://alexchubaty.com/author/amber-hoi/index.xml" rel="self" type="application/rss+xml" />
+    <description>Amber Hoi</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Fri, 01 Nov 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Amber Hoi</title>
+      <link>https://alexchubaty.com/author/amber-hoi/</link>
+    </image>
+    
+    <item>
+      <title>Drosophila suzukii in a D. suzukii world: Humidity decreases density dependent competition</title>
+      <link>https://alexchubaty.com/talk/hodson2013/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/hodson2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

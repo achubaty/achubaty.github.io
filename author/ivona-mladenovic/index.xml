@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ivona Mladenovic | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/author/ivona-mladenovic/</link>
+      <atom:link href="https://alexchubaty.com/author/ivona-mladenovic/index.xml" rel="self" type="application/rss+xml" />
+    <description>Ivona Mladenovic</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Wed, 15 May 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Ivona Mladenovic</title>
+      <link>https://alexchubaty.com/author/ivona-mladenovic/</link>
+    </image>
+    
+    <item>
+      <title>Enhancing Students&#39; Understanding of Biological Concepts by Engaging Them in Research</title>
+      <link>https://alexchubaty.com/talk/mladenovic2013/</link>
+      <pubDate>Wed, 15 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mladenovic2013/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

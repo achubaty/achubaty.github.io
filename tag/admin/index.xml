@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>admin | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/tag/admin/</link>
+      <atom:link href="https://alexchubaty.com/tag/admin/index.xml" rel="self" type="application/rss+xml" />
+    <description>admin</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Fri, 26 Apr 2013 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>admin</title>
+      <link>https://alexchubaty.com/tag/admin/</link>
+    </image>
+    
+    <item>
+      <title>website updates</title>
+      <link>https://alexchubaty.com/post/2013-04-26-website-updates/</link>
+      <pubDate>Fri, 26 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/post/2013-04-26-website-updates/</guid>
+      <description>&lt;p&gt;I just transferred my hosting away from GoDaddy (good riddance!) and am now self-hosting this site on a 
+&lt;a href=&#34;http://www.raspberrypi.org&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Raspberry Pi&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;There may be some DNS and 404 hiccups for the next 48 hours or so while all the new settings &amp;ldquo;take&amp;rdquo;. Please update your bookmarks accordingly, and thank you for you patience.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

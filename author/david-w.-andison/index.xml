@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>David W. Andison | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/author/david-w.-andison/</link>
+      <atom:link href="https://alexchubaty.com/author/david-w.-andison/index.xml" rel="self" type="application/rss+xml" />
+    <description>David W. Andison</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>David W. Andison</title>
+      <link>https://alexchubaty.com/author/david-w.-andison/</link>
+    </image>
+    
+    <item>
+      <title>Cumulative effects research in SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2019glfc/</link>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019glfc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LandWeb: Exploring NRV in the Western Canadian Boreal Forest</title>
+      <link>https://alexchubaty.com/talk/chubaty2019_landweb/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019_landweb/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

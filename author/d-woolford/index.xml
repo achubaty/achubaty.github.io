@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>D Woolford | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/author/d-woolford/</link>
+      <atom:link href="https://alexchubaty.com/author/d-woolford/index.xml" rel="self" type="application/rss+xml" />
+    <description>D Woolford</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Sun, 07 May 2017 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>D Woolford</title>
+      <link>https://alexchubaty.com/author/d-woolford/</link>
+    </image>
+    
+    <item>
+      <title>Burning in SpaDES: Automated parameter estimation for landscape fire models</title>
+      <link>https://alexchubaty.com/talk/cumming_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/cumming_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

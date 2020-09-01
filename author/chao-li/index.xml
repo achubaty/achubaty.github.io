@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Chao Li | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/author/chao-li/</link>
+      <atom:link href="https://alexchubaty.com/author/chao-li/index.xml" rel="self" type="application/rss+xml" />
+    <description>Chao Li</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Fri, 01 May 2009 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Chao Li</title>
+      <link>https://alexchubaty.com/author/chao-li/</link>
+    </image>
+    
+    <item>
+      <title>A dynamic host selection model for mountain pine beetle, Dendroctonus ponderosae Hopkins</title>
+      <link>https://alexchubaty.com/publication/chubaty2009em/</link>
+      <pubDate>Fri, 01 May 2009 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/chubaty2009em/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>An individual model of host selection for mountain pine beetle</title>
+      <link>https://alexchubaty.com/talk/alexmchubaty2007/</link>
+      <pubDate>Thu, 17 May 2007 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/alexmchubaty2007/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Beetles pine for lodgepole homes: mountain pine beetle&#39;s search for a host</title>
+      <link>https://alexchubaty.com/talk/chubaty2006/</link>
+      <pubDate>Fri, 13 Oct 2006 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2006/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Using game theory to evaluate host acceptance decisions in mountain pine beetle</title>
+      <link>https://alexchubaty.com/talk/chubaty2006a/</link>
+      <pubDate>Sat, 04 Mar 2006 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2006a/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

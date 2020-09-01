@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Barry J. Cooke | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/author/barry-j.-cooke/</link>
+      <atom:link href="https://alexchubaty.com/author/barry-j.-cooke/index.xml" rel="self" type="application/rss+xml" />
+    <description>Barry J. Cooke</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Fri, 22 Feb 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Barry J. Cooke</title>
+      <link>https://alexchubaty.com/author/barry-j.-cooke/</link>
+    </image>
+    
+    <item>
+      <title>Facing the tree-slayer: forecasting Mountain Pine Beetle spatial spread in SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2019fri-mpb/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019fri-mpb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating fire disturbance with models of mountain pine beetle spread to evaluate efficacy of controlled burns as a management tool</title>
+      <link>https://alexchubaty.com/talk/chubaty2019serg/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019serg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2018serg/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2018serg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boreal insect disturbance in SpaDES: an integrated simulation model of mountain pine beetle eastward spread</title>
+      <link>https://alexchubaty.com/talk/chubaty_esc_2017/</link>
+      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_esc_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boreal insect disturbance in SpaDES: an integrated simulation model of mountain pine beetle eastward spread</title>
+      <link>https://alexchubaty.com/talk/chubaty_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty_fri_2017/</link>
+      <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_fri_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty_sergi_2017/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_sergi_2017/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

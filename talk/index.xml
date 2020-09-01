@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Recent &amp; Upcoming Talks on Alex M. Chubaty</title>
+    <title>Recent &amp; Upcoming Talks | Alex M. Chubaty</title>
     <link>https://alexchubaty.com/talk/</link>
-    <description>Recent content in Recent &amp; Upcoming Talks on Alex M. Chubaty</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator>
-    <language>en-ca</language>
-    <copyright>&amp;copy; {year}</copyright>
-    <lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate>
-    
-	    <atom:link href="https://alexchubaty.com/talk/index.xml" rel="self" type="application/rss+xml" />
-    
+      <atom:link href="https://alexchubaty.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    <description>Recent &amp; Upcoming Talks</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://alexchubaty.com/talk/</link>
+    </image>
     
     <item>
       <title>Cumulative effects research in SpaDES</title>
       <link>https://alexchubaty.com/talk/chubaty2019glfc/</link>
       <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2019glfc/</guid>
       <description></description>
     </item>
@@ -25,7 +24,6 @@
       <title>Data to decisions: a multispecies approach case study for Northwest Territories</title>
       <link>https://alexchubaty.com/talk/micheletti2019/</link>
       <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/micheletti2019/</guid>
       <description></description>
     </item>
@@ -34,7 +32,6 @@
       <title>Predicting caribou resource selection and demography under landscape and climate change</title>
       <link>https://alexchubaty.com/talk/stewart2019/</link>
       <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/stewart2019/</guid>
       <description></description>
     </item>
@@ -43,7 +40,6 @@
       <title>Best Practices Working With Spatial Data in R</title>
       <link>https://alexchubaty.com/talk/chubaty2019_r_spatial/</link>
       <pubDate>Thu, 02 May 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2019_r_spatial/</guid>
       <description></description>
     </item>
@@ -52,7 +48,6 @@
       <title>Facing the tree-slayer: forecasting Mountain Pine Beetle spatial spread in SpaDES</title>
       <link>https://alexchubaty.com/talk/chubaty2019fri-mpb/</link>
       <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2019fri-mpb/</guid>
       <description></description>
     </item>
@@ -61,7 +56,6 @@
       <title>Integrating fire disturbance with models of mountain pine beetle spread to evaluate efficacy of controlled burns as a management tool</title>
       <link>https://alexchubaty.com/talk/chubaty2019serg/</link>
       <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2019serg/</guid>
       <description></description>
     </item>
@@ -70,7 +64,6 @@
       <title>Testimony before the House of Commons Standing Committee on Natural Resources Forest Pests</title>
       <link>https://alexchubaty.com/talk/chubaty2018_hoc_testimony/</link>
       <pubDate>Thu, 04 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2018_hoc_testimony/</guid>
       <description></description>
     </item>
@@ -79,7 +72,6 @@
       <title>Cumulative Impacts Monitoring Program (CIMP) SpaDES Workshop</title>
       <link>https://alexchubaty.com/talk/chubaty2018_cimp/</link>
       <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2018_cimp/</guid>
       <description></description>
     </item>
@@ -88,7 +80,6 @@
       <title>LandWeb: Exploring NRV in the Western Canadian Boreal Forest</title>
       <link>https://alexchubaty.com/talk/chubaty2019_landweb/</link>
       <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2019_landweb/</guid>
       <description></description>
     </item>
@@ -97,7 +88,6 @@
       <title>Building R packages - Getting started and best practices</title>
       <link>https://alexchubaty.com/talk/chubaty2018_r_pkgs/</link>
       <pubDate>Fri, 11 May 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2018_r_pkgs/</guid>
       <description></description>
     </item>
@@ -106,7 +96,6 @@
       <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
       <link>https://alexchubaty.com/talk/chubaty2018serg/</link>
       <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2018serg/</guid>
       <description></description>
     </item>
@@ -115,7 +104,6 @@
       <title>Predictive ecology in a world filled with dynamic data and models – entering continuous adaptive management</title>
       <link>https://alexchubaty.com/talk/mcintire_uvic_es_2018/</link>
       <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/mcintire_uvic_es_2018/</guid>
       <description></description>
     </item>
@@ -124,7 +112,6 @@
       <title>Incorporating changing climate in ecological models: feedbacks, trade-offs and surprises! OR How do we influence decision makers?</title>
       <link>https://alexchubaty.com/talk/mcintire_cif_2017/</link>
       <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/mcintire_cif_2017/</guid>
       <description></description>
     </item>
@@ -133,7 +120,6 @@
       <title>Boreal insect disturbance in SpaDES: an integrated simulation model of mountain pine beetle eastward spread</title>
       <link>https://alexchubaty.com/talk/chubaty_esc_2017/</link>
       <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty_esc_2017/</guid>
       <description></description>
     </item>
@@ -142,7 +128,6 @@
       <title>Cumulative effects simulation and modern scientific forecasts: challenges and opportunities</title>
       <link>https://alexchubaty.com/talk/chubaty_cumlative_effects_2017/</link>
       <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty_cumlative_effects_2017/</guid>
       <description></description>
     </item>
@@ -151,7 +136,6 @@
       <title>Boreal insect disturbance in SpaDES: an integrated simulation model of mountain pine beetle eastward spread</title>
       <link>https://alexchubaty.com/talk/chubaty_csee_2017/</link>
       <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty_csee_2017/</guid>
       <description></description>
     </item>
@@ -160,7 +144,6 @@
       <title>Building a continuous adaptive management system in SpaDES: dialing down the risk for woodland caribou</title>
       <link>https://alexchubaty.com/talk/mcintire_caribou_2017/</link>
       <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/mcintire_caribou_2017/</guid>
       <description></description>
     </item>
@@ -169,7 +152,6 @@
       <title>Building a continuous adaptive management system in SpaDES: using historical landscape variation for the LandWeb project</title>
       <link>https://alexchubaty.com/talk/mcintire_csee_2017/</link>
       <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/mcintire_csee_2017/</guid>
       <description></description>
     </item>
@@ -178,7 +160,6 @@
       <title>Burning in SpaDES: Automated parameter estimation for landscape fire models</title>
       <link>https://alexchubaty.com/talk/cumming_csee_2017/</link>
       <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/cumming_csee_2017/</guid>
       <description></description>
     </item>
@@ -187,7 +168,6 @@
       <title>Vegetation dynamics in SpaDES: the recoded LANDIS-II biomass succession model</title>
       <link>https://alexchubaty.com/talk/luo_csee_2017/</link>
       <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/luo_csee_2017/</guid>
       <description></description>
     </item>
@@ -196,7 +176,6 @@
       <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
       <link>https://alexchubaty.com/talk/chubaty_fri_2017/</link>
       <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty_fri_2017/</guid>
       <description></description>
     </item>
@@ -205,7 +184,6 @@
       <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
       <link>https://alexchubaty.com/talk/chubaty_sergi_2017/</link>
       <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty_sergi_2017/</guid>
       <description></description>
     </item>
@@ -214,7 +192,6 @@
       <title>Incorporating changing climate in ecological models: feedback, reversals and surprises abound!</title>
       <link>https://alexchubaty.com/talk/mcintire_chile_2017/</link>
       <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/mcintire_chile_2017/</guid>
       <description></description>
     </item>
@@ -223,7 +200,6 @@
       <title>Getting to answers, in SpaDES</title>
       <link>https://alexchubaty.com/talk/mcintire_getting_2016/</link>
       <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/mcintire_getting_2016/</guid>
       <description></description>
     </item>
@@ -232,7 +208,6 @@
       <title>Evolution of Decision Support for Forest Ecosystem Management: Towards Open Modelling and Data</title>
       <link>https://alexchubaty.com/talk/riel2015/</link>
       <pubDate>Sat, 17 Oct 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/riel2015/</guid>
       <description></description>
     </item>
@@ -241,7 +216,6 @@
       <title>The SpaDES platform: : Modern scientific forecasts, backcasts, and decisions</title>
       <link>https://alexchubaty.com/talk/mcintire_nofc_2015/</link>
       <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/mcintire_nofc_2015/</guid>
       <description></description>
     </item>
@@ -250,7 +224,6 @@
       <title>SpaDES: Spatial Discrete Event Simulation</title>
       <link>https://alexchubaty.com/talk/chubaty_spades_2014/</link>
       <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty_spades_2014/</guid>
       <description></description>
     </item>
@@ -259,7 +232,6 @@
       <title>Drosophila suzukii in a D. suzukii world: Humidity decreases density dependent competition</title>
       <link>https://alexchubaty.com/talk/hodson2013/</link>
       <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/hodson2013/</guid>
       <description></description>
     </item>
@@ -268,7 +240,6 @@
       <title>On the evolution of omnivory in a community context</title>
       <link>https://alexchubaty.com/talk/chubaty2013/</link>
       <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2013/</guid>
       <description></description>
     </item>
@@ -277,7 +248,6 @@
       <title>Enhancing Students&#39; Understanding of Biological Concepts by Engaging Them in Research</title>
       <link>https://alexchubaty.com/talk/mladenovic2013/</link>
       <pubDate>Wed, 15 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/mladenovic2013/</guid>
       <description></description>
     </item>
@@ -286,7 +256,6 @@
       <title>On the evolution of omnivory in a community context</title>
       <link>https://alexchubaty.com/talk/chubaty2013a/</link>
       <pubDate>Sun, 12 May 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2013a/</guid>
       <description></description>
     </item>
@@ -295,7 +264,6 @@
       <title>Evolution of omnivory in a community context</title>
       <link>https://alexchubaty.com/talk/chubaty2013b/</link>
       <pubDate>Thu, 11 Apr 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2013b/</guid>
       <description></description>
     </item>
@@ -304,7 +272,6 @@
       <title>To tree or not to tree: energy and time limited habitat settlement decisions in bark beetles</title>
       <link>https://alexchubaty.com/talk/chubaty2012/</link>
       <pubDate>Thu, 22 Nov 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2012/</guid>
       <description></description>
     </item>
@@ -313,7 +280,6 @@
       <title>Can selfish genes help prevent pest outbreaks?</title>
       <link>https://alexchubaty.com/talk/chubaty2012a/</link>
       <pubDate>Fri, 06 Jul 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2012a/</guid>
       <description></description>
     </item>
@@ -322,7 +288,6 @@
       <title>State dependent problems for arthropods</title>
       <link>https://alexchubaty.com/talk/roitberg2010b/</link>
       <pubDate>Fri, 19 Nov 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/roitberg2010b/</guid>
       <description></description>
     </item>
@@ -331,7 +296,6 @@
       <title>Energy reserves modulate host acceptance decisions in mountain pine beetles</title>
       <link>https://alexchubaty.com/talk/chubaty2010/</link>
       <pubDate>Mon, 01 Nov 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2010/</guid>
       <description></description>
     </item>
@@ -340,7 +304,6 @@
       <title>Mountain pine beetle condition and timing of emergence: who emerges when</title>
       <link>https://alexchubaty.com/talk/alexmchubaty2009/</link>
       <pubDate>Fri, 02 Oct 2009 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/alexmchubaty2009/</guid>
       <description></description>
     </item>
@@ -349,7 +312,6 @@
       <title>Mountain pine beetle condition and timing of emergence: who emerges when</title>
       <link>https://alexchubaty.com/talk/chubaty2008/</link>
       <pubDate>Sun, 11 May 2008 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2008/</guid>
       <description></description>
     </item>
@@ -358,7 +320,6 @@
       <title>An individual model of host selection for mountain pine beetle</title>
       <link>https://alexchubaty.com/talk/alexmchubaty2007/</link>
       <pubDate>Thu, 17 May 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/alexmchubaty2007/</guid>
       <description></description>
     </item>
@@ -367,7 +328,6 @@
       <title>&#39;I&#39;ll have the steak special, with a side salad&#39;: exploring the evolution of omnivory</title>
       <link>https://alexchubaty.com/talk/chubaty2007/</link>
       <pubDate>Thu, 15 Mar 2007 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2007/</guid>
       <description></description>
     </item>
@@ -376,7 +336,6 @@
       <title>Beetles pine for lodgepole homes: mountain pine beetle&#39;s search for a host</title>
       <link>https://alexchubaty.com/talk/chubaty2006/</link>
       <pubDate>Fri, 13 Oct 2006 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2006/</guid>
       <description></description>
     </item>
@@ -385,7 +344,6 @@
       <title>Using game theory to evaluate host acceptance decisions in mountain pine beetle</title>
       <link>https://alexchubaty.com/talk/chubaty2006a/</link>
       <pubDate>Sat, 04 Mar 2006 00:00:00 +0000</pubDate>
-      
       <guid>https://alexchubaty.com/talk/chubaty2006a/</guid>
       <description></description>
     </item>

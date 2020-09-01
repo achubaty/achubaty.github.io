@@ -1,13 +1,15 @@
-<!DOCTYPE html>
-<html lang="en-ca">
+<!DOCTYPE html><html lang="en-ca" >
 
 <head>
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="generator" content="Source Themes Academic 4.4.0">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
 
+  
+
+  
   
 
   
@@ -21,14 +23,14 @@
   
   
 
-  <meta name="author" content="Alex M. Chubaty">
+  
 
   
   
   
     
   
-  <meta name="description" content="Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using Mathematicabecause of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies.">
+  <meta name="description" content="Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class.">
 
   
   <link rel="alternate" hreflang="en-ca" href="https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/">
@@ -36,6 +38,19 @@
   
 
 
+
+
+
+
+
+  
+
+
+
+
+  
+  
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   
 
   
@@ -46,12 +61,17 @@
 
   
   
+
+  
+  
   
   
     
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+    
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css" integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
 
     
     
@@ -61,8 +81,8 @@
     
       
       
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-light">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
       
     
 
@@ -70,43 +90,204 @@
 
     
 
-  
-
-  
-  
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:400,400italic,700|Roboto+Mono&display=swap">
-  
-
-  
-  
-  
-  <link rel="stylesheet" href="/css/academic.min.f9fb2fab3fe71649e596cce2f10f8161.css">
-
-  
-
-  
-  
-    <script>
-      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
-      ga('create', 'UA-34446208-1', 'auto');
-      ga('set', 'anonymizeIp', true);
-      ga('require', 'eventTracker');
-      ga('require', 'outboundLinkTracker');
-      ga('require', 'urlChangeTracker');
-      ga('send', 'pageview');
-    </script>
-    <script async src="https://www.google-analytics.com/analytics.js"></script>
     
-    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+        
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+    
+      
+      
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
     
   
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-34446208-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-34446208-1', { 'anonymize_ip': true });
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
   
 
   
 
-  <link rel="manifest" href="/site.webmanifest">
-  <link rel="icon" type="image/png" href="/img/icon.png">
-  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/">
 
@@ -114,39 +295,93 @@
   
   
   
+  
+  
+  
     
     
+  
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="twitter:site" content="@alexchubaty">
-  <meta property="twitter:creator" content="@alexchubaty">
+  <meta property="twitter:site" content="@alex chubaty">
+  <meta property="twitter:creator" content="@alex chubaty">
   
   <meta property="og:site_name" content="Alex M. Chubaty">
   <meta property="og:url" content="https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/">
   <meta property="og:title" content="Exploring Population Dynamics Models using a GUI for R | Alex M. Chubaty">
-  <meta property="og:description" content="Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using Mathematicabecause of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies."><meta property="og:image" content="https://alexchubaty.com/img/icon-192.png">
-  <meta property="twitter:image" content="https://alexchubaty.com/img/icon-192.png"><meta property="og:locale" content="en-ca">
+  <meta property="og:description" content="Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class."><meta property="og:image" content="https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-ca">
   
-  <meta property="article:published_time" content="2011-08-07T00:00:00&#43;00:00">
-  
-  <meta property="article:modified_time" content="2011-08-07T00:00:00&#43;00:00">
+    
+      <meta property="article:published_time" content="2011-08-07T00:00:00&#43;00:00">
+    
+    <meta property="article:modified_time" content="2011-08-07T00:00:00&#43;00:00">
   
 
   
 
-<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.css">
-<script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.0.3/cookieconsent.min.js"></script>
-<script>
+
+    
+
+
+
+
+
+
+  
+
+
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BlogPosting",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/"
+  },
+  "headline": "Exploring Population Dynamics Models using a GUI for R",
+  
+  "datePublished": "2011-08-07T00:00:00Z",
+  "dateModified": "2011-08-07T00:00:00Z",
+  
+  "publisher": {
+    "@type": "Organization",
+    "name": "Alex M. Chubaty",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png"
+    }
+  },
+  "description": "Backstory I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class."
+}
+</script>
+
+  
+
+  
+
+
+  
+  
+  
+  
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js" integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css" integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin="anonymous">
+  
+  <script>
   window.addEventListener("load", function(){
     window.cookieconsent.initialise({
       "palette": {
         "popup": {
           "background": "#2962ff",
-          "text": "#fff"
+          "text": "rgb(255, 255, 255)"
         },
         "button": {
-          "background": "#fff",
+          "background": "rgb(255, 255, 255)",
           "text": "#2962ff"
         }
       },
@@ -155,10 +390,10 @@
         "message": "This website uses cookies to ensure you get the best experience on our website.",
         "dismiss": "Got it!",
         "link": "Learn more",
-        "href": "https://cookies.insites.com"
+        "href": "https://www.cookiesandyou.com"
       }
     })});
-</script>
+  </script>
 
 
 
@@ -172,7 +407,19 @@
 
 </head>
 
-<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" class=" ">
+
+  
+  
+  
+    <script>window.staDarkLightChooser = true;</script>
+  
+  
+    <script>const isSiteThemeDark = false;</script>
+  
+  
+  <script src="/js/load-theme.js"></script>
 
   <aside class="search-results" id="search">
   <div class="container">
@@ -190,7 +437,7 @@
       <div id="search-box">
         
         <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
-        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search" class="form-control">
         
       </div>
 
@@ -207,24 +454,46 @@
 
 
   
-<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0 compensate-for-scrollbar" id="navbar-main">
+
+
+
+
+
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
   <div class="container">
 
     
+    <div class="d-none d-lg-inline-flex">
       <a class="navbar-brand" href="/">Alex M. Chubaty</a>
-      
-      <button type="button" class="navbar-toggler" data-toggle="collapse"
-              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
-        <span><i class="fas fa-bars"></i></span>
-      </button>
-      
+    </div>
+    
 
     
-    <div class="collapse navbar-collapse" id="navbar">
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">Alex M. Chubaty</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-end" id="navbar-content">
 
       
-      
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav d-md-inline-flex">
         
 
         
@@ -236,16 +505,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -265,16 +542,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -294,16 +579,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -323,16 +616,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -352,16 +653,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -381,16 +690,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -410,16 +727,24 @@
         
 
         
+
         
         
         
         
+
         
           
+            
+            
           
           
             
-          
+            
+            
+              
+            
+            
           
         
 
@@ -433,29 +758,45 @@
       
 
         
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
-        </li>
-        
-
-        
-
-        
-        <li class="nav-item">
-          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
-        </li>
-        
-
       </ul>
-
     </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
   </div>
 </nav>
 
 
-  <article class="article" itemscope itemtype="http://schema.org/Article">
+
+  <article class="article">
 
   
 
@@ -476,17 +817,13 @@
   
   
 <div class="article-container pt-3">
-  <h1 itemprop="name">Exploring Population Dynamics Models using a GUI for R</h1>
+  <h1>Exploring Population Dynamics Models using a GUI for R</h1>
 
   
 
   
     
 
-
-
-<meta content="2011-08-07 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-<meta content="2011-08-07 00:00:00 &#43;0000 UTC" itemprop="dateModified">
 
 <div class="article-metadata">
 
@@ -499,7 +836,7 @@
     
       
     
-    <time>Aug 7, 2011</time>
+    Aug 7, 2011
   </span>
   
 
@@ -509,6 +846,7 @@
 
   
   
+  
   <span class="middot-divider"></span>
   <a href="/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/#disqus_thread"></a>
   
@@ -516,8 +854,105 @@
   
   
 
-  
+</div>
+
     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style">
+      <h3 id="backstory">Backstory</h3>
+<p>I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using <a href="http://www.wolfram.com/mathematica/">Mathematica</a> because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies. Being an avid <a href="http://www.r-project.org">R</a> user, I had also thought about using R for the course but was concerned about the learning curve associated with it. I didn&rsquo;t want students getting hung up on coding syntax, but rather, have an opportunity to explore different model parameterizations graphically.</p>
+<p>Just before the course started, someone showed me the <a href="http://cran.r-project.org/web/packages/PBSmodelling/index.html">PBSmodelling package</a> and I knew this could be the way to go. PBSmodelling makes it easy to construct a graphical user interface (GUI) for any function in R, in order to create a much more user-friendly interface with which to interact with computer models.</p>
+<p>I took it upon myself to learn the basics of the PBSmodelling package, and I was able to create a fairly slick GUI to run a variety of population dynamics models in R and produce various types of plots in the process.</p>
+<p><a href="/uploads/2013/04/screenshot.png"><img alt="screenshot of R gui" src="/uploads/2013/04/screenshot-300x217.png" width="300" height="217" /></a></p>
+<h3 id="disclaimer">Disclaimer</h3>
+<p>This is still a work in progress, and I expect there to be minor bugs (mostly aesthetic I hope!), but I think I&rsquo;m off to great start.</p>
+<h3 id="requirements">Requirements</h3>
+<p><strong>Operating Systems:</strong></p>
+<ul>
+<li>Windows: XP, Vista, 7</li>
+<li>Mac OSX*: 10.5, 10.6</li>
+<li>Linux**: Ubuntu 10.04, 10.10, 11.04</li>
+</ul>
+<p><strong>R must be installed</strong></p>
+<ul>
+<li>see 
+<a href="http://cran.r-project.org/" target="_blank" rel="noopener">http://cran.r-project.org/</a></li>
+<li>the following packages are also required: <code>PBSmodelling</code>, <code>deSolve</code>, <code>scatterplot3d</code></li>
+</ul>
+<p>*OSX doesn&rsquo;t come with X11 and tcltk installed by default:</p>
+<ol>
+<li>install X11 (<a href="http://support.apple.com/kb/DL641"><a href="http://support.apple.com/kb/DL641">http://support.apple.com/kb/DL641</a></a>)</li>
+<li>install the update (<a href="http://support.apple.com/kb/DL304"><a href="http://support.apple.com/kb/DL304">http://support.apple.com/kb/DL304</a></a>)</li>
+<li>restart your computer</li>
+<li>install tcltk for R (
+<a href="http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg" target="_blank" rel="noopener">http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg</a>)</li>
+<li>open R and select package installer from the menu</li>
+<li>in the R package installer window, search &ldquo;tcltk&rdquo;</li>
+<li>this returns two results: <code>tcktl2</code> and <code>gWidgetstcltk</code></li>
+<li>select both and be sure to check the &ldquo;install dependencies&rdquo; box.</li>
+</ol>
+<p>** Ubuntu users may need to install tcl/tk:</p>
+<p><code>sudo apt-get install tcl tk</code></p>
+<h3 id="getting-started">Getting Started</h3>
+<ol>
+<li>download my 
+<a href="/uploads/2011/08/models_GUI_2011-08-07.zip">population dynamics modelling gui code</a>, and unzip the contents</li>
+<li>open R from the models_GUI directory</li>
+<li>load the default workspace (<code>models_GUI/.Rdata</code>)</li>
+<li>press the up arrow key to recall previous commands saved in the workspace:</li>
+</ol>
+<p>a. <code>source(&quot;407.SSG.models.R&quot;)</code> loads the single species growth models interface</p>
+<p>b. <code>source(&quot;407.MSG.models.R&quot;)</code> loads the multi-species growth models interface</p>
+<p>c. <code>source(&quot;407.disease.models.R&quot;)</code> loads the disease (SIR) models interface</p>
+<p>d. <code>source(&quot;407.num.approx.R&quot;)</code> loads the numerical approximation interface</p>
+<ol>
+<li>use the tabs along the top of each interface to select model type</li>
+<li>to view equations used, press &lsquo;Show Equation&rsquo; button</li>
+<li>parameter values can be changed by editing the fields</li>
+<li>solve the model using current parameter values by pressing &lsquo;Solve&rsquo;</li>
+<li>after solving, plot the model results by pressing &lsquo;Plot&rsquo; (note you can plot to a PDF device by checking the box &lsquo;plot to pdf&rsquo;)</li>
+</ol>
+<h3 id="download">Download</h3>
+<p>Link: 
+<a href="/uploads/2011/08/models_GUI_2011-08-07.zip">models_GUI_2011-08-07</a></p>
+
+    </div>
+
+    
+
+
+
+
+
+
+<div class="article-tags">
+  
+  <a class="badge badge-light" href="/tag/r/">R</a>
+  
+</div>
+
+
+
 <div class="share-box" aria-hidden="true">
   <ul class="share">
     
@@ -543,7 +978,7 @@
       
       <li>
         <a href="https://www.facebook.com/sharer.php?u=https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/&amp;t=Exploring%20Population%20Dynamics%20Models%20using%20a%20GUI%20for%20R" target="_blank" rel="noopener" class="share-btn-facebook">
-          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-facebook"></i>
         </a>
       </li>
     
@@ -581,7 +1016,7 @@
       
       
       <li>
-        <a href="https://web.whatsapp.com/send?text=Exploring%20Population%20Dynamics%20Models%20using%20a%20GUI%20for%20R%20https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/" target="_blank" rel="noopener" class="share-btn-whatsapp">
+        <a href="whatsapp://send?text=Exploring%20Population%20Dynamics%20Models%20using%20a%20GUI%20for%20R%20https://alexchubaty.com/post/2011-08-07-exploring-population-dynamics-models-using-a-gui-for-r/" target="_blank" rel="noopener" class="share-btn-whatsapp">
           <i class="fab fa-whatsapp"></i>
         </a>
       </li>
@@ -603,248 +1038,192 @@
 </div>
 
 
+
+
+
+
+
+
+
+
+
+
+  
   
 
-</div>
 
+
+
+
+  
     
+    
+    
+      
+    
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/author/avatar_huaedd9bc4dac6dd95e96a95620d39fb31_48159_270x270_fill_q90_lanczos_center.jpg" alt="">
+      
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://alexchubaty.com/"></a></h5>
+        <h6 class="card-subtitle">Ecologist and simulation modeller</h6>
+        
+        <ul class="network-icon" aria-hidden="true">
   
-</div>
-
-
-
-  <div class="article-container">
-
-    <div class="article-style" itemprop="articleBody">
-      <h3 id="backstory">Backstory</h3>
-<p>I recently taught a senior-level population dynamics course, and had to decide how best to get my students to be able to play around with the various models we were exploring in class. I ruled out using Excel right away and thought about using <!-- raw HTML omitted -->Mathematica<!-- raw HTML omitted --> because of its wonderful plotting capabilities and relatively-easy to learn syntax. However, I felt that it would be more trouble that it was worth to try to get either a site license for the students to be able to use the computers at school, as I had ruled out asking the students to purchase their own student copies. Being an avid <!-- raw HTML omitted -->R<!-- raw HTML omitted --> user, I had also thought about using R for the course but was concerned about the learning curve associated with it. I didn&rsquo;t want students getting hung up on coding syntax, but rather, have an opportunity to explore different model parameterizations graphically.</p>
-<p>Just before the course started, someone showed me the <!-- raw HTML omitted -->PBSmodelling package<!-- raw HTML omitted --> and I knew this could be the way to go. PBSmodelling makes it easy to construct a graphical user interface (GUI) for any function in R, in order to create a much more user-friendly interface with which to interact with computer models.</p>
-<p>I took it upon myself to learn the basics of the PBSmodelling package, and I was able to create a fairly slick GUI to run a variety of population dynamics models in R and produce various types of plots in the process.</p>
-<p><!-- raw HTML omitted --><!-- raw HTML omitted --><!-- raw HTML omitted --></p>
-<h3 id="disclaimer">Disclaimer</h3>
-<p>This is still a work in progress, and I expect there to be minor bugs (mostly aesthetic I hope!), but I think I&rsquo;m off to great start.</p>
-<h3 id="requirements">Requirements</h3>
-<p><strong>Operating Systems:</strong></p>
-<ul>
-<li>Windows: XP, Vista, 7</li>
-<li>Mac OSX*: 10.5, 10.6</li>
-<li>Linux**: Ubuntu 10.04, 10.10, 11.04</li>
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="/#contact" >
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://twitter.com/alexchubaty" target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://scholar.google.com/citations?user=MnxAoasAAAAJ" target="_blank" rel="noopener">
+        <i class="ai ai-google-scholar"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://orcid.org/0000-0001-7146-8135" target="_blank" rel="noopener">
+        <i class="ai ai-orcid"></i>
+      </a>
+    </li>
+  
+    
+    
+    
+      
+    
+    
+    
+    
+    
+      
+    
+    <li>
+      <a href="https://github.com/achubaty" target="_blank" rel="noopener">
+        <i class="fab fa-github"></i>
+      </a>
+    </li>
+  
 </ul>
-<p><strong>R must be installed</strong></p>
-<ul>
-<li>see <a href="http://cran.r-project.org/">http://cran.r-project.org/</a></li>
-<li>the following packages are also required: <code>PBSmodelling</code>, <code>deSolve</code>, <code>scatterplot3d</code></li>
-</ul>
-<p>*OSX doesn&rsquo;t come with X11 and tcltk installed by default:</p>
-<ol>
-<li>install X11 (<!-- raw HTML omitted --><a href="http://support.apple.com/kb/DL641">http://support.apple.com/kb/DL641</a><!-- raw HTML omitted -->)</li>
-<li>install the update (<!-- raw HTML omitted --><a href="http://support.apple.com/kb/DL304">http://support.apple.com/kb/DL304</a><!-- raw HTML omitted -->)</li>
-<li>restart your computer</li>
-<li>install tcltk for R (<a href="http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg">http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg</a>)</li>
-<li>open R and select package installer from the menu</li>
-<li>in the R package installer window, search &ldquo;tcltk&rdquo;</li>
-<li>this returns two results: <code>tcktl2</code> and <code>gWidgetstcltk</code></li>
-<li>select both and be sure to check the &ldquo;install dependencies&rdquo; box.</li>
-</ol>
-<p>** Ubuntu users may need to install tcl/tk:</p>
-<p><code>sudo apt-get install tcl tk</code></p>
-<h3 id="getting-started">Getting Started</h3>
-<ol>
-<li>download my <a href="/uploads/2011/08/models_GUI_2011-08-07.zip">population dynamics modelling gui code</a>, and unzip the contents</li>
-<li>open R from the models_GUI directory</li>
-<li>load the default workspace (<code>models_GUI/.Rdata</code>)</li>
-<li>press the up arrow key to recall previous commands saved in the workspace:</li>
-</ol>
-<p>a. <code>source(&quot;407.SSG.models.R&quot;)</code> loads the single species growth models interface</p>
-<p>b. <code>source(&quot;407.MSG.models.R&quot;)</code> loads the multi-species growth models interface</p>
-<p>c. <code>source(&quot;407.disease.models.R&quot;)</code> loads the disease (SIR) models interface</p>
-<p>d. <code>source(&quot;407.num.approx.R&quot;)</code> loads the numerical approximation interface</p>
-<ol>
-<li>use the tabs along the top of each interface to select model type</li>
-<li>to view equations used, press &lsquo;Show Equation&rsquo; button</li>
-<li>parameter values can be changed by editing the fields</li>
-<li>solve the model using current parameter values by pressing &lsquo;Solve&rsquo;</li>
-<li>after solving, plot the model results by pressing &lsquo;Plot&rsquo; (note you can plot to a PDF device by checking the box &lsquo;plot to pdf&rsquo;)</li>
-</ol>
-<h3 id="download">Download</h3>
-<p>Link: <a href="/uploads/2011/08/models_GUI_2011-08-07.zip">models_GUI_2011-08-07</a></p>
 
+      </div>
     </div>
-
-    
-
-<div class="article-tags">
-  
-  <a class="badge badge-light" href="/tags/r/">R</a>
-  
-</div>
-
-
-
-    
-      
-
-
-
-
-
-
-
-
   
 
 
 
 
 
-  
-  
-  
-    
-  
-  
-  <div class="media author-card" itemscope itemtype="http://schema.org/Person">
-    
-      
-      <img class="portrait mr-3" src="/authors/achubaty/avatar_huaedd9bc4dac6dd95e96a95620d39fb31_48159_250x250_fill_q90_lanczos_center.jpg" itemprop="image" alt="Avatar">
-    
-
-    <div class="media-body">
-      <h5 class="card-title" itemprop="name"><a href="https://alexchubaty.com/">Alex M. Chubaty</a></h5>
-      <h6 class="card-subtitle">Ecologist and simulation modeller</h6>
-      
-      <ul class="network-icon" aria-hidden="true">
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="/#contact" >
-              <i class="fas fa-envelope"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://twitter.com/alexchubaty" target="_blank" rel="noopener">
-              <i class="fab fa-twitter"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://scholar.google.com/citations?user=MnxAoasAAAAJ" target="_blank" rel="noopener">
-              <i class="ai ai-google-scholar"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://orcid.org/0000-0001-7146-8135" target="_blank" rel="noopener">
-              <i class="ai ai-orcid"></i>
-            </a>
-          </li>
-        
-          
-          
-          
-            
-          
-          
-          
-          
-          
-            
-          
-          <li>
-            <a itemprop="sameAs" href="https://github.com/achubaty" target="_blank" rel="noopener">
-              <i class="fab fa-github"></i>
-            </a>
-          </li>
-        
-      </ul>
-    </div>
-  </div>
 
 
-
-      
-      
-    
-
-    
-
-    
 <section id="comments">
-  <div id="disqus_thread"></div>
-<script type="application/javascript">
-    var disqus_config = function () {
+  
+    
+<div id="disqus_thread"></div>
+<script>
+  let disqus_config = function () {
     
     
     
-    };
-    (function() {
-        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
-            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
-            return;
-        }
-        var d = document, s = d.createElement('script'); s.async = true;
-        s.src = '//' + "alexmchubaty" + '.disqus.com/embed.js';
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
+  };
+  (function() {
+    if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+      document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+      return;
+    }
+    var d = document, s = d.createElement('script'); s.async = true;
+    s.src = 'https://' + "alexmchubaty" + '.disqus.com/embed.js';
+    s.setAttribute('data-timestamp', +new Date());
+    (d.head || d.body).appendChild(s);
+  })();
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 <a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+
+
+  
 </section>
+
+
+
+
+
+
+
+
+  
+  
+  <div class="article-widget content-widget-hr">
+    <h3>Related</h3>
+    <ul>
+      
+      <li><a href="/post/2020-01-08-using-latest-gdal-macos-redux/">Using the latest GDAL with R packages on macOS - redux</a></li>
+      
+      <li><a href="/post/2017-09-14-queen-copyright/">Yes, The Queen is listed as an &#39;author&#39; on our R packages</a></li>
+      
+      <li><a href="/post/2016-12-13-using-latest-gdal-macos/">Using the latest GDAL with R packages on macOS</a></li>
+      
+      <li><a href="/post/2015-02-09-meow/">meow: the most anticipated R package of 2015</a></li>
+      
+      <li><a href="/post/2014-08-05-installing-rgdal-osx/">Installing rgdal on OSX</a></li>
+      
+    </ul>
+  </div>
+  
+
+
 
 
 
@@ -855,29 +1234,25 @@
 
     
     
-
     
-    
-    
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js" integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin="anonymous"></script>
 
       
 
       
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js" integrity="sha256-aYTdUrn6Ow1DDgh5JTc3aDGnnju48y/1c8s1dgkYPQ8=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/highlight.min.js" integrity="sha512-7t8APmYpzEsZP7CYoA7RfMPV9Bb+PJHa9x2WiUnDXZx3XHveuyWUtvNOexhkierl5flZ3tr92dP1mMS+SGlD+A==" crossorigin="anonymous"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/bash.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/bash.min.js"></script>
         
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/r.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.2/languages/r.min.js"></script>
         
       
 
-      
-      
     
 
     
@@ -885,29 +1260,24 @@
 
     
     
-    
-    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
-    
-
-    
-    
-    <script>hljs.initHighlightingOnLoad();</script>
+    <script>const code_highlighting = true;</script>
     
 
+    
+    
+    
+    
     
     
     <script>
-      const search_index_filename = "/index.json";
-      const i18n = {
-        'placeholder': "Search...",
-        'results': "results found",
-        'no_results': "No results found"
-      };
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
       const content_type = {
         'post': "Posts",
         'project': "Projects",
         'publication' : "Publications",
-        'talk' : "Talks"
+        'talk' : "Talks",
+        'slides' : "Slides"
         };
     </script>
     
@@ -941,6 +1311,17 @@
 
     
     
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://alexmchubaty.disqus.com/count.js" async></script>
+    
+
+    
+    
     
     
     
@@ -953,7 +1334,7 @@
     
     
     
-    <script src="/js/academic.min.16bbb3750feb7244c9bc409a5a4fe678.js"></script>
+    <script src="/js/academic.min.3b2b658c61ebd725bd5fc606c89fe44c.js"></script>
 
     
 
@@ -962,21 +1343,33 @@
 
 
 
+  
   
   <div class="container">
     <footer class="site-footer">
   
 
   <p class="powered-by">
-    © 2020 &middot; 
+    © 2020
+  </p>
 
-    Powered by the
-    <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
-    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+  
+  
+
+
+
+
+
+
+  <p class="powered-by">
+    
+    Published with
+    <a href="https://wowchemy.com" target="_blank" rel="noopener">Wowchemy Website Builder</a>
+    
 
     
     <span class="float-right" aria-hidden="true">
-      <a href="#" id="back_to_top">
+      <a href="#" class="back-to-top">
         <span class="button_icon">
           <i class="fas fa-chevron-up fa-2x"></i>
         </span>
