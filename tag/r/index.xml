@@ -5,9 +5,9 @@
     <link>https://alexchubaty.com/tag/r/</link>
       <atom:link href="https://alexchubaty.com/tag/r/index.xml" rel="self" type="application/rss+xml" />
     <description>R</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2021</copyright><lastBuildDate>Wed, 08 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>R</title>
       <link>https://alexchubaty.com/tag/r/</link>
     </image>
@@ -153,7 +153,7 @@ library(rgdal) ## confirm the GDAL version being used
 &lt;ol&gt;
 &lt;li id=&#34;fn:1&#34; role=&#34;doc-endnote&#34;&gt;
 &lt;p&gt;If you use &lt;code&gt;macports&lt;/code&gt; the process is similarly simple. See 
-&lt;a href=&#34;http://www.janosgyerik.com/installing-rgdal-in-r-on-os-x-mavericks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;. &lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;a href=&#34;http://www.janosgyerik.com/installing-rgdal-in-r-on-os-x-mavericks/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;here&lt;/a&gt;.&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
 &lt;/li&gt;
 &lt;/ol&gt;
 &lt;/section&gt;
@@ -236,8 +236,10 @@ pedigree.legend(family, location=&amp;quot;bottomright&amp;quot;,
 &lt;/ul&gt;
 &lt;p&gt;*OSX doesn&amp;rsquo;t come with X11 and tcltk installed by default:&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;install X11 (&lt;a href=&#34;http://support.apple.com/kb/DL641&#34;&gt;&lt;a href=&#34;http://support.apple.com/kb/DL641&#34;&gt;http://support.apple.com/kb/DL641&lt;/a&gt;&lt;/a&gt;)&lt;/li&gt;
-&lt;li&gt;install the update (&lt;a href=&#34;http://support.apple.com/kb/DL304&#34;&gt;&lt;a href=&#34;http://support.apple.com/kb/DL304&#34;&gt;http://support.apple.com/kb/DL304&lt;/a&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;install X11 (&lt;a href=&#34;http://support.apple.com/kb/DL641&#34;&gt;
+&lt;a href=&#34;http://support.apple.com/kb/DL641&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://support.apple.com/kb/DL641&lt;/a&gt;&lt;/a&gt;)&lt;/li&gt;
+&lt;li&gt;install the update (&lt;a href=&#34;http://support.apple.com/kb/DL304&#34;&gt;
+&lt;a href=&#34;http://support.apple.com/kb/DL304&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://support.apple.com/kb/DL304&lt;/a&gt;&lt;/a&gt;)&lt;/li&gt;
 &lt;li&gt;restart your computer&lt;/li&gt;
 &lt;li&gt;install tcltk for R (
 &lt;a href=&#34;http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;http://cran.stat.sfu.ca/bin/macosx/tools/tcltk-8.5.5-x11.dmg&lt;/a&gt;)&lt;/li&gt;

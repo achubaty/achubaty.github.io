@@ -5,9 +5,9 @@
     <link>https://alexchubaty.com/tag/guides/</link>
       <atom:link href="https://alexchubaty.com/tag/guides/index.xml" rel="self" type="application/rss+xml" />
     <description>guides</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2020</copyright><lastBuildDate>Mon, 15 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2021</copyright><lastBuildDate>Mon, 15 Jul 2013 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png</url>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>guides</title>
       <link>https://alexchubaty.com/tag/guides/</link>
     </image>
@@ -94,7 +94,7 @@ to learn more.
 &lt;h3 id=&#34;email&#34;&gt;Email&lt;/h3&gt;
 &lt;p&gt;One way of ensuring you have a remote copy of your work is to email it to yourself. This works fine once in a while, but if you were to email every file to yourself every time you made changes, you&amp;rsquo;d likely fill up your inbox or go crazy. Plus, something will probably slip through.&lt;/p&gt;
 &lt;h3 id=&#34;university-ftp-server&#34;&gt;University FTP Server&lt;/h3&gt;
-&lt;p&gt;I should probably mention that most Universities do provide online storage for their students - usually a couple gigabytes&amp;rsquo; worth - that is accessible over FTP or similar. It&amp;rsquo;s worth checking out, even if it doesn&amp;rsquo;t give you much storage space.&lt;/p&gt;
+&lt;p&gt;I should probably mention that most Universities do provide online storage for their students - usually a couple gigabytes&#39; worth - that is accessible over FTP or similar. It&amp;rsquo;s worth checking out, even if it doesn&amp;rsquo;t give you much storage space.&lt;/p&gt;
 &lt;h3 id=&#34;the-cloud&#34;&gt;The Cloud&lt;/h3&gt;
 &lt;p&gt;In the last several years there has been a huge increase not only in the number of online cloud storage providers but also a increase in the amount of free storage space they offer their users. These cloud storage providers offer a desktop client that runs on your computer and continuously monitors changes to files, which are then uploaded to the storage servers. Thus you can hit all three &amp;ldquo;must haves&amp;rdquo; with these services: your files all get backed up, in real time, and you maintain remote copies of your data.&lt;/p&gt;
 &lt;p&gt;I personally use &lt;a href=&#34;http://www.dropbox.com&#34;&gt;Dropbox&lt;/a&gt;, but other options include &lt;a href=&#34;https://one.ubuntu.com/&#34;&gt;UbuntuOne&lt;/a&gt;, &lt;a href=&#34;https://spideroak.com/&#34;&gt;SpiderOak&lt;/a&gt;, and others. These services give you several GB worth of online storage and allow you to keep your files synchronized across multiple computers, and can also be accessed via web interface. These cloud storage providers give you more space with a paid account, but with Dropbox at least, I get additional space for signing up with an educational email address and for every referral I make (the referee also gets bonus space). Space hasn&amp;rsquo;t been an issue for me.&lt;/p&gt;
