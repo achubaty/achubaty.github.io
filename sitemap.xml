@@ -3,36 +3,63 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://alexchubaty.com/author/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/publication-type/2/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/authors/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/ceres-barros/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/celine-boisvenue/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/david-andison/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/eliot-mcintire/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/francis-ec-stewart/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/publication/mcintire2022el/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/publication_types/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/publication/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/samuel-hache/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/steve-cumming/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/tati-micheletti/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/yong-luo/</loc>
+    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/publication/micheletti2021/</loc>
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alexchubaty.com/authors/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/ceres-barros/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://alexchubaty.com/author/diana-stralberg/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/eliot-mcintire/</loc>
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/erin-bayne/</loc>
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/fiona-schmiegelow/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/francis-ec-stewart/</loc>
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/ian-eddy/</loc>
@@ -50,22 +77,7 @@
     <loc>https://alexchubaty.com/author/mathieu-leblond/</loc>
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alexchubaty.com/publication_types/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/publication/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/samuel-hache/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/steve-cumming/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://alexchubaty.com/author/steven-van-wilgenburg/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/tati-micheletti/</loc>
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/paul-galpern/</loc>
@@ -120,9 +132,6 @@
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/rhiannon-pankratz/</loc>
-    <lastmod>2019-10-25T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/yong-luo/</loc>
     <lastmod>2019-10-25T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/talk/micheletti2019/</loc>
@@ -237,9 +246,6 @@
     <lastmod>2017-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/d-woolford/</loc>
-    <lastmod>2017-05-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/david-andison/</loc>
     <lastmod>2017-05-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/elizabeth-m-campbell/</loc>

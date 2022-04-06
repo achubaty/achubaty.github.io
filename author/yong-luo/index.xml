@@ -5,12 +5,20 @@
     <link>https://alexchubaty.com/author/yong-luo/</link>
       <atom:link href="https://alexchubaty.com/author/yong-luo/index.xml" rel="self" type="application/rss+xml" />
     <description>Yong Luo</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2021</copyright><lastBuildDate>Fri, 25 Oct 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2022</copyright><lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Yong Luo</title>
       <link>https://alexchubaty.com/author/yong-luo/</link>
     </image>
+    
+    <item>
+      <title>Predictive Ecology: a re-imagined foundation and the tools for ecological models</title>
+      <link>https://alexchubaty.com/publication/mcintire2022el/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/mcintire2022el/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Cumulative effects research in SpaDES</title>
