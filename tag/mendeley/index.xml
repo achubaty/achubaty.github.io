@@ -88,7 +88,7 @@ chmod a+x getJlist.pl
 &lt;a href=&#34;http://simply-p450s.blogspot.com/2012/01/journal-abbreviations-in-mendeley.html&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this blog post&lt;/a&gt; I decided to try to get this functionality working on my computers.&lt;/p&gt;
 &lt;p&gt;To summarize, you can get Mendeley to read in a list of abbreviated journal names by:&lt;/p&gt;
 &lt;ul&gt;
-&lt;li&gt;creating a folder inside the Mendeley data  directory called &amp;lsquo;&lt;em&gt;journalAbbreviations&lt;/em&gt;&#39;;&lt;/li&gt;
+&lt;li&gt;creating a folder inside the Mendeley data  directory called &amp;lsquo;&lt;em&gt;journalAbbreviations&lt;/em&gt;&amp;rsquo;;&lt;/li&gt;
 &lt;li&gt;placing a formatted text file named &amp;lsquo;&lt;em&gt;default.txt&lt;/em&gt;&amp;rsquo; inside this directory. Each line of this text file needs to contain the full name of the journal, a tab character, and the abbreviated journal name.&lt;/li&gt;
 &lt;/ul&gt;
 &lt;p&gt;&amp;ldquo;Easy&amp;rdquo;, I thought. All I needed was to find a list of full journal names and their abbreviations for my field and make sure it was formatted correctly. Turns out the few lists I did find were incomplete: they didn&amp;rsquo;t have all the journals I cite. I don&amp;rsquo;t want to have to maintain a text file by hand, so I looked to a more &amp;ldquo;automated&amp;rdquo; approach, outlined below.&lt;/p&gt;
