@@ -3,19 +3,49 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://alexchubaty.com/author/</loc>
-    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/publication-type/2/</loc>
-    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/</loc>
-    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/authors/</loc>
-    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/celine-boisvenue/</loc>
-    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/ceres-barros/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/david-andison/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/eliot-mcintire/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/publication/barros2023mee/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/ian-eddy/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/publication_types/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/publication/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/steve-cumming/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/tatiane-micheletti/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://alexchubaty.com/author/yong-luo/</loc>
+    <lastmod>2022-12-20T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/eliot-j-b-mcintire/</loc>
     <lastmod>2022-10-21T00:00:00+00:00</lastmod>
@@ -29,21 +59,6 @@
     <loc>https://alexchubaty.com/publication/boisvenue2022erl/</loc>
     <lastmod>2022-10-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alexchubaty.com/publication_types/</loc>
-    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/publication/</loc>
-    <lastmod>2022-10-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/ceres-barros/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/david-andison/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/eliot-mcintire/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://alexchubaty.com/author/francis-ec-stewart/</loc>
     <lastmod>2022-03-22T00:00:00+00:00</lastmod>
   </url><url>
@@ -53,13 +68,7 @@
     <loc>https://alexchubaty.com/author/samuel-hache/</loc>
     <lastmod>2022-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://alexchubaty.com/author/steve-cumming/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://alexchubaty.com/author/tati-micheletti/</loc>
-    <lastmod>2022-03-22T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/yong-luo/</loc>
     <lastmod>2022-03-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/publication/micheletti2021fee/</loc>
@@ -72,9 +81,6 @@
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/fiona-schmiegelow/</loc>
-    <lastmod>2021-09-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://alexchubaty.com/author/ian-eddy/</loc>
     <lastmod>2021-09-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://alexchubaty.com/author/junior-tremblay/</loc>
