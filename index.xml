@@ -5,12 +5,28 @@
     <link>https://alexchubaty.com/</link>
       <atom:link href="https://alexchubaty.com/index.xml" rel="self" type="application/rss+xml" />
     <description>Alex M. Chubaty</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2023</copyright><lastBuildDate>Tue, 20 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2023</copyright><lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Alex M. Chubaty</title>
       <link>https://alexchubaty.com/</link>
     </image>
+    
+    <item>
+      <title>Will this umbrella leak? A caribou umbrella index for boreal landbird conservation</title>
+      <link>https://alexchubaty.com/publication/micheletti2023csp/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/micheletti2023csp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate-informed forecasts reveal dramatic local habitat shifts and population uncertainty for northern boreal caribou</title>
+      <link>https://alexchubaty.com/publication/stewart2023ea/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/stewart2023ea/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Empowering ecological modellers with a PERFICT workflow: Seamlessly linking data, parameterisation, prediction, validation and visualisation</title>
