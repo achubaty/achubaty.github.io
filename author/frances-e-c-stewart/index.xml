@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Frances E C Stewart | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/author/frances-e-c-stewart/</link>
+      <atom:link href="https://alexchubaty.com/author/frances-e-c-stewart/index.xml" rel="self" type="application/rss+xml" />
+    <description>Frances E C Stewart</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2024</copyright><lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Frances E C Stewart</title>
+      <link>https://alexchubaty.com/author/frances-e-c-stewart/</link>
+    </image>
+    
+    <item>
+      <title>Will this umbrella leak? A caribou umbrella index for boreal landbird conservation</title>
+      <link>https://alexchubaty.com/publication/micheletti2023csp/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/micheletti2023csp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate-informed forecasts reveal dramatic local habitat shifts and population uncertainty for northern boreal caribou</title>
+      <link>https://alexchubaty.com/publication/stewart2023ea/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/stewart2023ea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data to decisions: a multispecies approach case study for Northwest Territories</title>
+      <link>https://alexchubaty.com/talk/micheletti2019/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/micheletti2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting caribou resource selection and demography under landscape and climate change</title>
+      <link>https://alexchubaty.com/talk/stewart2019/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/stewart2019/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

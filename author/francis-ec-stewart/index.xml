@@ -2,29 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Francis EC Stewart | Alex M. Chubaty</title>
-    <link>https://alexchubaty.com/author/francis-ec-stewart/</link>
-      <atom:link href="https://alexchubaty.com/author/francis-ec-stewart/index.xml" rel="self" type="application/rss+xml" />
+    <link>http://localhost:1313/author/francis-ec-stewart/</link>
+      <atom:link href="http://localhost:1313/author/francis-ec-stewart/index.xml" rel="self" type="application/rss+xml" />
     <description>Francis EC Stewart</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2023</copyright><lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2024</copyright><lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <url>http://localhost:1313/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Francis EC Stewart</title>
-      <link>https://alexchubaty.com/author/francis-ec-stewart/</link>
+      <link>http://localhost:1313/author/francis-ec-stewart/</link>
     </image>
     
     <item>
       <title>Predictive Ecology: a re-imagined foundation and the tools for ecological models</title>
-      <link>https://alexchubaty.com/publication/mcintire2022el/</link>
+      <link>http://localhost:1313/publication/mcintire2022el/</link>
       <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
-      <guid>https://alexchubaty.com/publication/mcintire2022el/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Assessing the pathways of climate change effects in SpaDES: an application with boreal landbirds in Northwestern Canada</title>
-      <link>https://alexchubaty.com/publication/micheletti2021fee/</link>
-      <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
-      <guid>https://alexchubaty.com/publication/micheletti2021fee/</guid>
+      <guid>http://localhost:1313/publication/mcintire2022el/</guid>
       <description></description>
     </item>
     

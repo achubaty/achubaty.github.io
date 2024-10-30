@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Achubaty | Alex M. Chubaty</title>
+    <link>http://localhost:1313/author/achubaty/</link>
+      <atom:link href="http://localhost:1313/author/achubaty/index.xml" rel="self" type="application/rss+xml" />
+    <description>Achubaty</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2024</copyright><lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>http://localhost:1313/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Achubaty</title>
+      <link>http://localhost:1313/author/achubaty/</link>
+    </image>
+    
+    <item>
+      <title>Will this umbrella leak? A caribou umbrella index for boreal landbird conservation</title>
+      <link>http://localhost:1313/publication/micheletti2023csp/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/micheletti2023csp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate-informed forecasts reveal dramatic local habitat shifts and population uncertainty for northern boreal caribou</title>
+      <link>http://localhost:1313/publication/stewart2023ea/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/stewart2023ea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empowering ecological modellers with a PERFICT workflow: Seamlessly linking data, parameterisation, prediction, validation and visualisation</title>
+      <link>http://localhost:1313/publication/barros2023mee/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/barros2023mee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Managing forest carbon and landscape capacities</title>
+      <link>http://localhost:1313/publication/boisvenue2022erl/</link>
+      <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/boisvenue2022erl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive Ecology: a re-imagined foundation and the tools for ecological models</title>
+      <link>http://localhost:1313/publication/mcintire2022el/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/mcintire2022el/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing the pathways of climate change effects in SpaDES: an application with boreal landbirds in Northwestern Canada</title>
+      <link>http://localhost:1313/publication/micheletti2021fee/</link>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/micheletti2021fee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The R toolbox grainscape for modelling and visualizing landscape connectivity using spatially explicit networks</title>
+      <link>http://localhost:1313/publication/chubaty2020mee/</link>
+      <pubDate>Sat, 18 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chubaty2020mee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NetLogoR: A package to build and run spatially explicit agent-based models in R</title>
+      <link>http://localhost:1313/publication/bauduin2019ec/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/bauduin2019ec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State-dependent domicile leaving rates in Anopheles gambiae</title>
+      <link>http://localhost:1313/publication/zappia2017mj/</link>
+      <pubDate>Fri, 12 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/zappia2017mj/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the evolution of omnivory in a community context</title>
+      <link>http://localhost:1313/publication/chubaty2014ee/</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chubaty2014ee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>To tree or not to tree: The role of energy limitation on host tree acceptance in a bark beetle</title>
+      <link>http://localhost:1313/publication/chubaty2014eer/</link>
+      <pubDate>Mon, 01 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chubaty2014eer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Individual host selection decisions and population-level responses in a time- and energy-limited forager, Dendroctonus ponderosae Hopkins</title>
+      <link>http://localhost:1313/publication/chubaty2013th/</link>
+      <pubDate>Thu, 26 Sep 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chubaty2013th/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Estimating colony and breeding population size for nocturnal burrow-nesting seabirds</title>
+      <link>http://localhost:1313/publication/major2012me/</link>
+      <pubDate>Mon, 21 May 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/major2012me/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A Theoretical Approach to Study the Evolution of Aggregation Behavior by Larval Codling Moth, Cydia pomonella (Lepidoptera: Tortricidae)</title>
+      <link>http://localhost:1313/publication/jumean2011ji/</link>
+      <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/jumean2011ji/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>A dynamic host selection model for mountain pine beetle, Dendroctonus ponderosae Hopkins</title>
+      <link>http://localhost:1313/publication/chubaty2009em/</link>
+      <pubDate>Fri, 01 May 2009 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/publication/chubaty2009em/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>http://localhost:1313/author/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/author/</guid>
+      <description>&lt;p&gt;Dr. Chubaty is an ecologist, simulation modeller, and co-developer of the open source &lt;code&gt;SpaDES&lt;/code&gt; simulation platform.
+He completed his PhD at Simon Fraser University modelling host selection in mountain pine beetle (MPB), and postdoctoral research at Université Laval and Natural Resources Canada developing forecasting models of MPB spread.&lt;/p&gt;
+&lt;p&gt;He currently operates FOR-CAST Research &amp;amp; Analytics in Calgary, Canada, which supports the development and integration of models simulating forest vegetation dynamics, wildfire, insect disturbance, and wildlife populations to inform decision making for land management and species at risk.
+He is an advocate for open source, open data, and reproducible workflows.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

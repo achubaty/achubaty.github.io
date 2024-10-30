@@ -5,7 +5,7 @@
     <link>https://alexchubaty.com/author/eliot-j-b-mcintire/</link>
       <atom:link href="https://alexchubaty.com/author/eliot-j-b-mcintire/index.xml" rel="self" type="application/rss+xml" />
     <description>Eliot J B McIntire</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2023</copyright><lastBuildDate>Fri, 21 Oct 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2024</copyright><lastBuildDate>Fri, 10 Mar 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
       <title>Eliot J B McIntire</title>
@@ -13,10 +13,242 @@
     </image>
     
     <item>
+      <title>Will this umbrella leak? A caribou umbrella index for boreal landbird conservation</title>
+      <link>https://alexchubaty.com/publication/micheletti2023csp/</link>
+      <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/micheletti2023csp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Climate-informed forecasts reveal dramatic local habitat shifts and population uncertainty for northern boreal caribou</title>
+      <link>https://alexchubaty.com/publication/stewart2023ea/</link>
+      <pubDate>Wed, 08 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/stewart2023ea/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Empowering ecological modellers with a PERFICT workflow: Seamlessly linking data, parameterisation, prediction, validation and visualisation</title>
+      <link>https://alexchubaty.com/publication/barros2023mee/</link>
+      <pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/barros2023mee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Managing forest carbon and landscape capacities</title>
       <link>https://alexchubaty.com/publication/boisvenue2022erl/</link>
       <pubDate>Fri, 21 Oct 2022 00:00:00 +0000</pubDate>
       <guid>https://alexchubaty.com/publication/boisvenue2022erl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive Ecology: a re-imagined foundation and the tools for ecological models</title>
+      <link>https://alexchubaty.com/publication/mcintire2022el/</link>
+      <pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/mcintire2022el/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Assessing the pathways of climate change effects in SpaDES: an application with boreal landbirds in Northwestern Canada</title>
+      <link>https://alexchubaty.com/publication/micheletti2021fee/</link>
+      <pubDate>Wed, 29 Sep 2021 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/micheletti2021fee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cumulative effects research in SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2019glfc/</link>
+      <pubDate>Fri, 25 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019glfc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Data to decisions: a multispecies approach case study for Northwest Territories</title>
+      <link>https://alexchubaty.com/talk/micheletti2019/</link>
+      <pubDate>Fri, 30 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/micheletti2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predicting caribou resource selection and demography under landscape and climate change</title>
+      <link>https://alexchubaty.com/talk/stewart2019/</link>
+      <pubDate>Tue, 20 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/stewart2019/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>NetLogoR: A package to build and run spatially explicit agent-based models in R</title>
+      <link>https://alexchubaty.com/publication/bauduin2019ec/</link>
+      <pubDate>Mon, 05 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/bauduin2019ec/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Facing the tree-slayer: forecasting Mountain Pine Beetle spatial spread in SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2019fri-mpb/</link>
+      <pubDate>Fri, 22 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019fri-mpb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Integrating fire disturbance with models of mountain pine beetle spread to evaluate efficacy of controlled burns as a management tool</title>
+      <link>https://alexchubaty.com/talk/chubaty2019serg/</link>
+      <pubDate>Tue, 05 Feb 2019 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019serg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cumulative Impacts Monitoring Program (CIMP) SpaDES Workshop</title>
+      <link>https://alexchubaty.com/talk/chubaty2018_cimp/</link>
+      <pubDate>Wed, 03 Oct 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2018_cimp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>LandWeb: Exploring NRV in the Western Canadian Boreal Forest</title>
+      <link>https://alexchubaty.com/talk/chubaty2019_landweb/</link>
+      <pubDate>Fri, 27 Jul 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2019_landweb/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty2018serg/</link>
+      <pubDate>Tue, 06 Feb 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2018serg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Predictive ecology in a world filled with dynamic data and models – entering continuous adaptive management</title>
+      <link>https://alexchubaty.com/talk/mcintire_uvic_es_2018/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_uvic_es_2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incorporating changing climate in ecological models: feedbacks, trade-offs and surprises! OR How do we influence decision makers?</title>
+      <link>https://alexchubaty.com/talk/mcintire_cif_2017/</link>
+      <pubDate>Wed, 01 Nov 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_cif_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boreal insect disturbance in SpaDES: an integrated simulation model of mountain pine beetle eastward spread</title>
+      <link>https://alexchubaty.com/talk/chubaty_esc_2017/</link>
+      <pubDate>Sun, 22 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_esc_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cumulative effects simulation and modern scientific forecasts: challenges and opportunities</title>
+      <link>https://alexchubaty.com/talk/chubaty_cumlative_effects_2017/</link>
+      <pubDate>Fri, 20 Oct 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_cumlative_effects_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Boreal insect disturbance in SpaDES: an integrated simulation model of mountain pine beetle eastward spread</title>
+      <link>https://alexchubaty.com/talk/chubaty_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a continuous adaptive management system in SpaDES: dialing down the risk for woodland caribou</title>
+      <link>https://alexchubaty.com/talk/mcintire_caribou_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_caribou_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Building a continuous adaptive management system in SpaDES: using historical landscape variation for the LandWeb project</title>
+      <link>https://alexchubaty.com/talk/mcintire_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Burning in SpaDES: Automated parameter estimation for landscape fire models</title>
+      <link>https://alexchubaty.com/talk/cumming_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/cumming_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Vegetation dynamics in SpaDES: the recoded LANDIS-II biomass succession model</title>
+      <link>https://alexchubaty.com/talk/luo_csee_2017/</link>
+      <pubDate>Sun, 07 May 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/luo_csee_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty_fri_2017/</link>
+      <pubDate>Tue, 25 Apr 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_fri_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Simulating MPB invasive spread control in Saskatchewan using SpaDES</title>
+      <link>https://alexchubaty.com/talk/chubaty_sergi_2017/</link>
+      <pubDate>Mon, 06 Feb 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_sergi_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Incorporating changing climate in ecological models: feedback, reversals and surprises abound!</title>
+      <link>https://alexchubaty.com/talk/mcintire_chile_2017/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_chile_2017/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Getting to answers, in SpaDES</title>
+      <link>https://alexchubaty.com/talk/mcintire_getting_2016/</link>
+      <pubDate>Mon, 01 Feb 2016 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_getting_2016/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The SpaDES platform: : Modern scientific forecasts, backcasts, and decisions</title>
+      <link>https://alexchubaty.com/talk/mcintire_nofc_2015/</link>
+      <pubDate>Wed, 22 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/mcintire_nofc_2015/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SpaDES: Spatial Discrete Event Simulation</title>
+      <link>https://alexchubaty.com/talk/chubaty_spades_2014/</link>
+      <pubDate>Tue, 25 Nov 2014 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty_spades_2014/</guid>
       <description></description>
     </item>
     

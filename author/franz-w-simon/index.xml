@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Franz W Simon | Alex M. Chubaty</title>
+    <link>https://alexchubaty.com/author/franz-w-simon/</link>
+      <atom:link href="https://alexchubaty.com/author/franz-w-simon/index.xml" rel="self" type="application/rss+xml" />
+    <description>Franz W Simon</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2024</copyright><lastBuildDate>Mon, 29 Dec 2014 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
+      <title>Franz W Simon</title>
+      <link>https://alexchubaty.com/author/franz-w-simon/</link>
+    </image>
+    
+    <item>
+      <title>On the evolution of omnivory in a community context</title>
+      <link>https://alexchubaty.com/publication/chubaty2014ee/</link>
+      <pubDate>Mon, 29 Dec 2014 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/publication/chubaty2014ee/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Drosophila suzukii in a D. suzukii world: Humidity decreases density dependent competition</title>
+      <link>https://alexchubaty.com/talk/hodson2013/</link>
+      <pubDate>Fri, 01 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/hodson2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the evolution of omnivory in a community context</title>
+      <link>https://alexchubaty.com/talk/chubaty2013/</link>
+      <pubDate>Sun, 04 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2013/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>On the evolution of omnivory in a community context</title>
+      <link>https://alexchubaty.com/talk/chubaty2013a/</link>
+      <pubDate>Sun, 12 May 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2013a/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Evolution of omnivory in a community context</title>
+      <link>https://alexchubaty.com/talk/chubaty2013b/</link>
+      <pubDate>Thu, 11 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>https://alexchubaty.com/talk/chubaty2013b/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
