@@ -1,31 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>Boreal Ecosystems | Alex M. Chubaty</title>
-    <link>https://alexchubaty.com/tag/boreal-ecosystems/</link>
-      <atom:link href="https://alexchubaty.com/tag/boreal-ecosystems/index.xml" rel="self" type="application/rss+xml" />
-    <description>Boreal Ecosystems</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-ca</language><copyright>© 2024</copyright><lastBuildDate>Fri, 13 Apr 2018 20:37:16 -0600</lastBuildDate>
-    <image>
-      <url>https://alexchubaty.com/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_3.png</url>
-      <title>Boreal Ecosystems</title>
-      <link>https://alexchubaty.com/tag/boreal-ecosystems/</link>
-    </image>
-    
-    <item>
-      <title>LandWeb: historic range of variation in western boreal forests</title>
-      <link>https://alexchubaty.com/project/landweb/</link>
-      <pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate>
-      <guid>https://alexchubaty.com/project/landweb/</guid>
-      <description>&lt;p&gt;LandWeb was initially developed with Eliot McIntire&amp;rsquo;s group at the Pacific Forestry Centre and with funding contributions through 
-&lt;a href=&#34;https://friresearch.ca/project/landweb-simulation-modelling&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;fRI Research&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;A summary of the results is available at 
-&lt;a href=&#34;http://landweb.ca&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;landweb.ca&lt;/a&gt;.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Boreal Ecosystems | Alex M. Chubaty</title><link>https://alexchubaty.com/tag/boreal-ecosystems/</link><atom:link href="https://alexchubaty.com/tag/boreal-ecosystems/index.xml" rel="self" type="application/rss+xml"/><description>Boreal Ecosystems</description><generator>HugoBlox Kit (https://hugoblox.com)</generator><language>en-ca</language><lastBuildDate>Fri, 13 Apr 2018 20:37:16 -0600</lastBuildDate><image><url>https://alexchubaty.com/media/icon.svg</url><title>Boreal Ecosystems</title><link>https://alexchubaty.com/tag/boreal-ecosystems/</link></image><item><title>Eruptive Insect Dynamics</title><link>https://alexchubaty.com/projects/eruptive-insect-dynamics/</link><pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate><guid>https://alexchubaty.com/projects/eruptive-insect-dynamics/</guid><description>&lt;p&gt;Several of Canada&amp;rsquo;s most economically and ecologically important forest pests &amp;ndash; forest tent caterpillar (&lt;em&gt;Malacosoma disstria&lt;/em&gt;), spruce budworm (&lt;em&gt;Choristoneura fumiferana&lt;/em&gt;), and mountain pine beetle (&lt;em&gt;Dendroctonus ponderosae&lt;/em&gt;) &amp;ndash; share a defining trait: their populations are governed by &lt;em&gt;eruptive&lt;/em&gt;, nonlinear density-dependent processes that periodically push local densities from endemic to outbreak levels.
+Understanding how these dynamics unfold across space and time is central to anticipating where and when outbreaks will occur, how long they will persist, and under what conditions they will collapse.&lt;/p&gt;
+&lt;p&gt;Working with Barry Cooke and collaborators, we use long-term defoliation and aerial-survey records to characterize the periodicity, synchrony, and triggers of insect outbreaks across Canada.
+Time-series analyses reveal that broad-scale regional cycles often emerge from asynchronous local eruptions rather than from coherent climatic forcing, and that outbreak timing is inherently difficult to predict from environmental drivers alone.
+Recent work extends these methods to mountain pine beetle, where intensive monitoring data have allowed us to diagnose the density-dependent feedbacks underlying outbreak expansion &amp;ndash; and, in Alberta, the engineered collapse of an ongoing outbreak through sustained green-tree removal.&lt;/p&gt;
+&lt;p&gt;This research complements the
+and the broader
+work, providing the population-dynamic foundation on which spatially explicit forecasts of insect disturbance are built.&lt;/p&gt;</description></item><item><title>LandWeb: historic range of variation in western boreal forests</title><link>https://alexchubaty.com/projects/landweb/</link><pubDate>Fri, 13 Apr 2018 20:37:16 -0600</pubDate><guid>https://alexchubaty.com/projects/landweb/</guid><description>&lt;p&gt;LandWeb was initially developed with Eliot McIntire&amp;rsquo;s group at the Pacific Forestry Centre and with funding contributions through
+.&lt;/p&gt;
+&lt;p&gt;A summary of the results is available at
+.&lt;/p&gt;
 &lt;p&gt;Ongoing work explores model dynamics, sensitivity, and further refinements.&lt;/p&gt;
-&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt; 
-&lt;a href=&#34;https://github.com/PredictiveEcology/LandWeb&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;https://github.com/PredictiveEcology/LandWeb&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+&lt;p&gt;&lt;strong&gt;GitHub:&lt;/strong&gt;
+&lt;/p&gt;</description></item></channel></rss>
