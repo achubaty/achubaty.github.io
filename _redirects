@@ -2,7 +2,6 @@
 # Automatically generated
 # Documentation: https://docs.netlify.com/routing/redirects/
 /publication/cooke2026fem /publications/cooke2026fem/
-/publication /publications/
 /publication/raymundo2024cce /publications/raymundo2024cce/
 /publication/micheletti2023csp /publications/micheletti2023csp/
 /publication/stewart2023ea /publications/stewart2023ea/
@@ -11,10 +10,8 @@
 /publication/mcintire2022el /publications/mcintire2022el/
 /publication/micheletti2021fee /publications/micheletti2021fee/
 /publication/chubaty2020mee /publications/chubaty2020mee/
-/post /posts/
 /post/2020-01-08-using-latest-gdal-macos-redux /posts/2020-01-08-using-latest-gdal-macos-redux/
 /talk/chubaty2019glfc /talks/chubaty2019glfc/
-/talk /talks/
 /talk/micheletti2019 /talks/micheletti2019/
 /talk/stewart2019 /talks/stewart2019/
 /publication/bauduin2019ec /publications/bauduin2019ec/
@@ -26,7 +23,6 @@
 /talk/chubaty2019_landweb /talks/chubaty2019_landweb/
 /talk/chubaty2018_r_pkgs /talks/chubaty2018_r_pkgs/
 /project/habitat-connectivity /projects/habitat-connectivity/
-/project /projects/
 /project/boreal-ecosystems /projects/boreal-ecosystems/
 /project/eruptive-insect-dynamics /projects/eruptive-insect-dynamics/
 /project/landweb /projects/landweb/
@@ -51,10 +47,10 @@
 /talk/riel2015 /talks/riel2015/
 /talk/mcintire_nofc_2015 /talks/mcintire_nofc_2015/
 /post/2015-02-09-meow /posts/2015-02-09-meow/
-/publication/chubaty2014ee /publications/chubaty2014ee/
 /publication/chubaty2014eer /publications/chubaty2014eer/
 /talk/chubaty_spades_2014 /talks/chubaty_spades_2014/
 /post/2014-08-05-installing-rgdal-osx /posts/2014-08-05-installing-rgdal-osx/
+/publication/chubaty2014ee /publications/chubaty2014ee/
 /talk/hodson2013 /talks/hodson2013/
 /publication/chubaty2013th /publications/chubaty2013th/
 /talk/chubaty2013 /talks/chubaty2013/
@@ -87,3 +83,7 @@
 /talk/chubaty2007 /talks/chubaty2007/
 /talk/chubaty2006 /talks/chubaty2006/
 /talk/chubaty2006a /talks/chubaty2006a/
+/post /posts/
+/project /projects/
+/publication /publications/
+/talk /talks/
